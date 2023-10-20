@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey puits_remontant -title puits_remontant
+   input Data/puits_remontant.th
+	
+   #input Data/puits_remontant-plan.th2
+	#input puits_remontant-maps.th
+	#input Data/puits_remontant-coupe.th2
+	
+endsurvey

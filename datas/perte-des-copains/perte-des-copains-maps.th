@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP-perte-des-copains-plan-tot -title perte-des-copains
+  SP-perte_des_copains-1
+
+endmap
+
+
+map MC-perte-des-copains-coupe-tot -title perte-des-copains
+  SC-perte_des_copains-1
+
+endmap

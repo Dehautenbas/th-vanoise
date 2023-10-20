@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP-Frequence51-plan-tot -title Frequence51
+  SP-Frequence51-1
+
+endmap
+
+
+map MC-Frequence51-coupe-tot -title Frequence51
+  SC-Frequence51-1
+
+endmap

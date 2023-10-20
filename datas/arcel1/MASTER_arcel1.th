@@ -1,0 +1,34 @@
+
+survey Arcel1 -title "Gouffre de l'Arcel1"
+  
+######################  inclusion des .TH #####################################
+  input datas/arcel1/datas/arcel1.th
+  input datas/jonction/jonction-tot.th
+  input datas/amont/amont-tot.th
+  input datas/Frequence51/Frequence51-tot.th
+  input datas/puits_remontant/puits_remontant-tot.th
+
+####################### raccordement entre .TH  #############################
+centerline ## OUVERTURE 
+  equate 26@arcel1 2@jonction.jonction
+  equate PTR_0@jonction.jonction PTR_0@Frequence_51.Frequence51
+  equate 4@amont.amont 24@puits_remontant.puits_remontant
+  equate 0@amont.amont 53@Frequence_51.Frequence51
+  equate PTR_2@Frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
+  equate 43@Frequence_51.Frequence51 0@puits_remontant.puits_remontant
+endcenterline  ## FERMETURE
+
+################################  inclusion des .TH2 pour le PLAN #####################################
+###input data/scraps/term2016_P.th2
+
+
+################################# raccordement entre sraps pour le PLAN ###########################
+###join lama_l1_D:0 entree_l1_D:end
+
+######################## définition des scraps à faire apparaitre sur le plan  ################################
+map plan  -proj plan ##OUVERTURE
+
+endmap plan  ##FERMETURE
+
+endsurvey
+

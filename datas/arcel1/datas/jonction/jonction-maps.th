@@ -1,0 +1,12 @@
+encoding  utf-8
+map MP-jonction-plan-tot -title jonction
+  SP-freq51_amont-1
+  break
+  SP-freq51_amont-2
+endmap
+
+
+map MC-jonction-coupe-tot -title jonction
+  SC-freq51_amont-1
+
+endmap

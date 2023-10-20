@@ -1,0 +1,9 @@
+encoding  utf-8
+
+survey perte-des-copains -title perte-des-copains
+   	input Data/perte-des-copains.th
+	
+   	input Data/perte-des-copains-plan.th2
+	input perte-des-copains-maps.th
+	input Data/perte-des-copains-coupe.th2	
+endsurvey
