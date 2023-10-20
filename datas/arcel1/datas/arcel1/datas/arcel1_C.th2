@@ -1,11 +1,12 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 7293.358200000001 5954.7748
+##XTHERION## xth_me_area_adjust -136.0 -1180.0 8767.0884 5860.0346
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {896.6500000000001 1 1.0} {5118.11 0} exports/arcel1-coupe.xvi 0 {}
+##XTHERION## xth_me_image_insert {5896.41 1 1.0} {1310.1999999999998 2} ../../jonction/jonction_C.xvi 0 {}
+##XTHERION## xth_me_image_insert {893.0899999999997 0 1.0} {5102.110000000001 0} arcel1_C.xvi 0 {}
 
 
 
-scrap scrap1 -projection extended -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+scrap arcel1_S1_C -projection extended -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 line rock-border
   6183.5 1173.0
@@ -621,21 +622,6 @@ line border
 endline
 
 line rock-border
-  5780.0 859.0
-  5792.0 876.0
-  5846.0 869.0
-  5857.0 856.0
-endline
-
-line rock-border -close on
-  5752.0 792.0
-  5780.0 859.0
-  5857.0 856.0
-  5835.0 783.0
-  5752.0 792.0
-endline
-
-line rock-border
   5651.0 796.0
   5739.0 793.0
   5745.0 773.0
@@ -809,6 +795,7 @@ line rope
   2203.87 4252.11 2252.0 3640.0 2252.0 3640.0
   smooth off
   2252.0 3640.0 2232.0 3380.0 2416.0 3574.0
+  smooth off
 endline
 
 line rope
@@ -1297,6 +1284,7 @@ line wall -visibility off
   smooth off
   548.0 5252.0 456.0 5252.0 472.0 5180.0
   488.0 5108.0 518.0 5125.0 551.0 5118.5
+  smooth off
 endline
 
 area water
@@ -1723,6 +1711,12 @@ line rock-border
   6342.5 1230.0
 endline
 
+line wall
+endline
+
+line wall
+endline
+
 point 6005.54 1305.5099999999998 station -name 25@arcel1
 
 point 5539.72 2470.08 station -name 24@arcel1
@@ -1774,6 +1768,26 @@ point 770.02 4685.04 station -name 5@arcel1
 point 1051.1799999999998 4743.3099999999995 station -name 1@arcel1
 
 point 896.6500000000001 5118.11 station -name 0@arcel1
+
+endscrap
+
+
+
+scrap arcel1_S2_C -projection extended -station-names "" "@jonction" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+
+point 7363.13 -459.22 station -name 11
+
+point 7254.18 -142.80000000000007 station -name 10
+
+point 6541.9800000000005 189.29999999999993 station -name 7
+
+point 6413.16 624.17 station -name 6
+
+point 6291.58 654.03 station -name 5
+
+point 5961.31 732.0999999999999 station -name 4
+
+point 5804.4400000000005 866.0799999999999 station -name 3
 
 endscrap
 

@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap entree -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap arcel1_S1_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 3968.0 629.5 label -text [Puits d'entrée 12m]
 
@@ -161,7 +161,7 @@ endscrap
 
 
 
-scrap meandreentree -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap arcel1_S2_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 3244.0 1540.0 blocks -orientation 60
 
@@ -216,7 +216,7 @@ endscrap
 
 
 
-scrap puits26m -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap arcel1_S3_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 3029.92 1570.08 station -name 14@arcel1
 
@@ -410,7 +410,7 @@ endscrap
 
 
 
-scrap meandre_milieu -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap arcel1_S4_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 point 2325.0 3983.0 label -text R2 -scale m
 
@@ -722,7 +722,7 @@ endscrap
 
 
 
-scrap p17 -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
+scrap arcel1_S5_P -projection plan -scale [-128.0 -128.0 4222.490400000001 -128.0 0.0 0.0 110.50245616000001 0.0 m]
 
 line rock-border
   684.0 4635.0
