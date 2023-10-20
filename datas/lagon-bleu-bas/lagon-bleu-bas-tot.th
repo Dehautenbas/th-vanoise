@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey lagon-bleu-bas -title "lagon-bleu-bas"
+   input Data/lagon-bleu-bas.th
+	
+   input Data/lagon-bleu-bas-plan.th2
+	input lagon-bleu-bas-maps.th
+	#input Data/lagon-bleu-bas-coupe.th2
+	
+endsurvey

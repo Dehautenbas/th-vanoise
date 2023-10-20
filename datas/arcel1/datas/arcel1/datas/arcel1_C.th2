@@ -1773,7 +1773,7 @@ endscrap
 
 
 
-scrap arcel1_S2_C -projection extended -station-names "" "@jonction" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+scrap arcel1_S2_C -projection extended -station-names "" "@jonction.jonction-tot" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 point 7363.13 -459.22 station -name 11
 

@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey AR6 -title "AR6"
+   input Data/AR6.th
+	
+    input Data/AR6-plan.th2
+	input AR6-maps.th
+	input Data/AR6-coupe.th2
+	
+endsurvey

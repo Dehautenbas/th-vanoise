@@ -108,7 +108,7 @@ export map \
 
 
 ######################## LISTES ########################
-#export survey-list \
+export survey-list \
      -o Exports/arcel1_stats.html
 
 #export continuation-list \

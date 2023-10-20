@@ -1,0 +1,11 @@
+encoding  utf-8
+
+survey lagon-bleu-haut -title "lagon-bleu-haut"
+   input Data/lagon-bleu.th
+	
+    input Data/lagon_bleu_haut-plan.th2
+	#input lagon-bleu-haut-SP.th
+	#input Data/lagon-bleu-haut-coupe.th2
+	#input lagon-bleu-haut-SC.th
+	
+endsurvey

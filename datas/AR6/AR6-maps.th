@@ -1,0 +1,11 @@
+encoding  utf-8
+#map MP-AR6-plan-tot -title "AR6"
+#  SP-AR6-1
+
+#endmap
+
+
+map MC-AR6-coupe-tot -title "AR6"
+  SC-AR6-1
+
+endmap

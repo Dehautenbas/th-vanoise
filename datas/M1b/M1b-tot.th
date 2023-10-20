@@ -1,0 +1,11 @@
+encoding  utf-8
+
+survey M1b -title "M1b"
+   input Data/M1b.th
+	
+    input Data/M1b-plan.th2
+	input M1b-maps.th
+	input Data/M1b-coupe.th2
+	
+	
+endsurvey
