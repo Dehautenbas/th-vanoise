@@ -43,6 +43,7 @@ map plan  -proj plan ##OUVERTURE
   break
   arcel1_S5_P
   break
+  
 
 endmap plan  ##FERMETURE
 
@@ -57,15 +58,30 @@ endmap plan  ##FERMETURE
 
 ################################  inclusion des .TH2 pour la COUPE #####################################
 input datas/arcel1/datas/arcel1_C.th2
-
+input datas/puits_remontant/Data/puits_remontant_C.th2
 
 ################################# raccordement entre sraps pour la COUPE ###########################
 ###join lama_l1_D:0 entree_l1_D:end
+join arcel1_up:end pr_l1_up:0
+join arcel1_down:end pr_l1_down:end
 
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
 map coupe  -proj extended ##OUVERTURE
   arcel1_S1_C
   break
+  arcel1_S2_C
+  break
+  arcel1_S3_C
+  break
+  arcel1_S4_C
+  break
+  arcel1_S5_C
+  break
+  arcel1_S6_C
+  break
+  arcel1_S7_C
+  break
+  pr_S1_C
 
 
 endmap coupe  ##FERMETURE
