@@ -1,0 +1,96 @@
+encoding  utf-8
+
+
+################################# Layout général #############################
+layout layout_general
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    #copy headerl            ### Header plan Xavier
+    #copy header-modif1      ### Header plan modif for A4
+    #copy separeted-header  ### Header separeted 
+    #copy header_coupe      ### Header for the extended view, with horizontal scale bar
+    transparency on         ### vue en transparence des galeries qui se superposent...
+    opacity 80              ### ... avec une opacité de 80%
+    rotate 0                ### rotation du nord géographique (en degré)
+
+
+	legend on      ###présence de la légende des symboles ? => on/off
+
+    #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
+                                 ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
+
+
+
+endlayout
+
+###################### plan #############################
+layout plan
+  copy layout_general
+  scale 1 1050                     ### echelle  (ordi: 1 100)
+  #base-scale 1 1000
+  #grid bottom                    ### positionnement de la grille
+  #grid-size 20 20 20 m           ### dimensions de la grille
+  #grid-coords off                ### border = sur les bords. off = pas de coordonnées. all = partout (horrible en plan)
+  #colour map-bg [70 90 70]       ### VERT Background
+  color map-bg 96                 ### couleur du FOND (80% blanc / 20% gris => 80)
+  #colour map-fg [80 80 80]       ### couleur des GALERIES
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+  debug station-names             ### Afficher noms stations topo
+
+
+  
+ 
+  map-header 130 33 nw              ### positionnement du cartouche 
+  scale-bar 50 m
+  copy scalebar_horiz
+  #copy scalebar_vert
+  #copy northarrowMG
+  #legend-columns 3
+  code tex-map
+      \legendwidth=8cm
+      \legendtextsize={\size[8]}
+      \legendtextheadersize={\size[18]} %%% Taille du titre
+      \legendtextsectionsize={\size[12]} %%% Taille du titre
+      %\legendtextcolor={\color[0 0 100]}      # RGB values 0--100
+   endcode
+ map-comment "<br>\
+Localisation : Glacier de l'Arcelin, Massif de la Vanoise<br>\
+Coordonnées : 45.37593N 6.77794E 2562m (WGS84)<br>\
+Dessin et synthèse : Collectif Vanoise 2022<br>\ 
+"
+### To scale NorthArrow, find in Master : "% scale your north arrow here"
+endlayout
+
+
+######
+######
+# Lire https://therion.speleo.sk/wiki/tex to change some characteristics 
+######
+######
+
+
+################################# AUTRES #############################
+
+    layout xvi-export
+    scale 1 65
+    # scale 1 100
+    grid-size 10 10 10 m
+    endlayout
+
+    ### Pour morphing
+    layout morphing
+          sketches on
+    endlayout
+
+    layout debug
+      debug all  #or debug all
+    endlayout
+
+    layout hide_centreline
+        symbol-hide group centerline
+    endlayout
+
+    layout centerline
+        symbol-hide group all
+        symbol-show group centerline
+    endlayout

@@ -1,0 +1,127 @@
+encoding  utf-8
+
+input config2.th3
+input config3.th3
+
+
+source LagonBleu.th
+
+
+##########################Selection de la map à exporter #############################
+######################################################################################
+#select PlanDecoupe@Sardines      #uncomment ONLY one
+#select Plan@Sardines             #uncomment ONLY one
+#select PlanWORK@Sardines         #uncomment ONLY one
+#select  CoupeExtend@Sardines     #uncomment ONLY one
+
+
+##########################LES EXPORTS ###############################
+#####################################################################
+
+
+############ PLAN ############
+export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/Lagon-Bleu_plan.pdf \
+     -layout hide_centreline   ###Si activé, cache le fil de ferE
+
+
+############ PLAN TRAVAIL ############
+export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/Lagon-Bleu_plan-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+
+
+############# DEBUG ############
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout debug \
+     -output Exports/caviteeDEBUG_plan.pdf
+
+
+############ WALLS ############       ## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output Exports/cavitee_walls.pdf \
+     -layout hide_centreline \  ###Si activé, cache le fil de fer
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+############# ATLAS ############
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output Exports/cavitee_Atlas.pdf 
+
+
+
+############ MODELE 3D ############
+#export model \
+     -format loch \
+     -o Exports/cavitee-3d.lox \
+     #-wall-source maps
+
+
+
+############ KML ###########
+#export map \
+     -projection plan \
+     -output Exports/cavitee.kml  ###-> Pour murs
+
+#export model \
+     -output Exports/Model.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+
+############ QGIS ############
+#export model \
+     -output Exports/cavitee_3DModel.shp
+
+
+
+############ LISTES ############
+#export survey-list \
+     -o Exports/cavitee_stats.html
+
+#export continuation-list \
+     -o Exports/cavitee_continuations.html
+
+
+
+############ XVI ############ 
+#export map \
+     -proj plan \
+     -format xvi \
+     -layout xvi-export \
+     -layout-sketches on \
+     -o Exports/plantravail.xvi \
+
+#export map \
+     -proj extended \
+     -format xvi \
+     -layout xvi-export \
+     -layout-sketches off \
+     -o ressources/coupe/coupe-extend-travail.xvi
+      
+
+
+############ Pour morphing ############
+#export map \
+     -format xvi \
+     -layout xvi-export \
+     -layout morphing \
+     -o Exports/cavitee_coupetravail-morphing.xvi
+      
+#export map \
+     -format xvi \
+     -projection [elevation 0] \
+     -layout xvi-export \
+     -o Exports/caviteecoupetravailVueNord.xvi

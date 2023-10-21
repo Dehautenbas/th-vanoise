@@ -1,0 +1,309 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -356.0 -997.7939999999999 2600 3400
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {479.30999999999995 1 1.0} {361.1060000000002 1} Exports/G4_C6.xvi 0 {}
+
+
+
+scrap s1_c -projection extended -scale [-356.0 -997.7939999999999 1868.504 -997.7939999999999 0.0 0.0 56.50240159999999 0.0 m]
+
+line rope
+  1298.0 2296.0
+  1298.0 2296.0 1322.0 2240.0 1334.0 2294.0
+  smooth off
+endline
+
+line border -clip off
+  1940.0 2916.0
+  1852.0 2872.0
+endline
+
+line border -clip off
+  1846.0 2912.0
+  1852.0 2872.0
+endline
+
+line border -clip off
+  1860.0 2964.0
+  1846.0 2912.0
+  1782.0 2950.0
+endline
+
+line wall -clip off -outline none -subtype sand
+endline
+
+line u -subtype deviation
+  1564.0 2746.0
+  1658.0 2716.0
+endline
+
+line border -clip off
+  1860.0 2964.0
+  1880.0 2940.0
+  1900.0 2952.0
+  1940.0 2916.0
+  1936.0 2872.0
+endline
+
+line border -clip off
+  1796.0 2832.0
+  1764.0 2876.0
+  1792.0 2884.0
+  1784.0 2924.0
+  1752.0 2936.0
+  1808.0 2964.0
+  1860.0 2964.0
+endline
+
+line rope -clip off
+  1788.0 2934.0
+  1788.0 2934.0 1702.0 2848.0 1806.0 2900.0
+  smooth off
+endline
+
+point 1806.0 2900.0 anchor -orientation 268.1 -attr type fixed
+
+point 1788.0 2934.0 anchor -orientation 268.1 -attr type fixed
+
+point 1590.0 2310.0 anchor -orientation 268.1 -attr type fixed
+
+point 1096.0 2068.0 label -text P15
+
+point 1332.0 2776.0 label -text P10
+
+line rope -clip off
+  1322.0 2268.0
+  1418.89 2221.61 1586.0 2292.0 1590.0 2310.0
+  1616.48 2429.15 1586.98 2661.64 1752.0 2884.0
+  smooth off
+endline
+
+point 1334.0 2294.0 anchor -orientation 0.7 -attr type fixed
+
+line u -subtype strata -clip off
+  1256.0 1868.0
+  1038.0 1842.0
+endline
+
+line u -subtype strata -clip off
+  1712.0 1946.0
+  1468.0 1902.0
+endline
+
+point 1298.0 2296.0 anchor -orientation 5.2 -attr type fixed
+
+line rope -close off
+  1358.0 1312.0
+endline
+
+line rope
+  1322.0 2268.0
+  1322.0 2268.0 1380.0 1322.0 1358.0 1312.0
+  smooth off
+endline
+
+line wall -reverse on
+  1832.0 2860.0
+  1832.0 2860.0 1720.0 2772.0 1716.0 2728.0
+  1681.84 2352.19 1824.0 2186.0 1640.0 2182.0
+  smooth off
+endline
+
+line wall -reverse on
+  1640.0 2182.0
+  1543.94 2179.91 1373.48 2253.31 1396.0 2164.0
+  smooth off
+endline
+
+point 1520.0 1290.0 blocks -scale l
+
+point 1366.0 1274.0 blocks
+
+line rope -id lm1
+  1358.0 1312.0
+  1358.0 1312.0 1098.0 1250.0 1086.0 1246.0
+  smooth off
+endline
+
+line wall -reverse on
+  1396.0 2164.0
+  1633.0 1224.12 1660.0 1292.0 1464.0 1272.0
+  smooth off
+  altitude .
+endline
+
+line wall -id lh1
+  1620.0 2872.0
+  1620.0 2872.0 1615.36 2737.06 1456.0 2668.0
+  1096.0 2512.0 1136.0 2496.0 1112.0 2380.0
+  1088.0 2264.0 1224.0 2268.0 1272.0 2264.0
+  1320.0 2260.0 1296.0 2180.0 1292.0 2156.0
+  1288.0 2132.0 1264.0 1908.0 1256.0 1868.0
+  1225.37 1714.83 1276.0 1592.0 1080.0 1620.0
+  smooth off
+endline
+
+point 1740.5099999999998 2804.746 station -name 12@G4
+
+point 1664.53 2743.2160000000003 station -name 11@G4
+
+point 1580.17 2204.5060000000003 station -name 9@G4
+
+point 1360.08 2290.3160000000003 station -name 8@G4
+
+point 1324.33 1855.4360000000001 station -name 7@G4
+
+point 1185.3899999999999 1285.506 station -name 6@G4
+
+line wall -id lb1 -reverse on
+  1464.0 1272.0
+  1268.0 1252.0 1172.0 1264.0 1100.0 1220.0
+  smooth off
+endline
+
+line wall -reverse on -clip off -outline none -subtype sand
+  2488.0 2944.0
+  2488.0 2944.0 2424.0 2904.0 2364.0 2900.0
+  2286.5 2894.83 2149.28 2919.24 2088.0 2892.0
+  2016.0 2860.0 1844.0 2880.0 1832.0 2860.0
+  smooth off
+endline
+
+line wall -reverse on -clip off -outline none -subtype sand
+  1620.0 2872.0
+  1631.18 2939.06 1068.0 2952.0 1008.0 2920.0
+  smooth off
+endline
+
+endscrap
+
+
+
+scrap s2_c -projection extended -scale [-356.0 -997.7939999999999 1868.504 -997.7939999999999 0.0 0.0 56.50240159999999 0.0 m]
+
+line wall -reverse on -subtype unsurveyed
+  284.0 -152.0
+  284.0 -152.0 188.0 -452.0 172.0 -468.0
+  smooth off
+endline
+
+line wall -id lb2 -reverse on -subtype debris
+  1100.0 1220.0
+  1073.34 1203.71 950.0 1164.0 940.0 1080.0
+  920.94 919.86 916.0 606.0 868.0 606.0
+  smooth off
+endline
+
+line rope -id lm2
+  914.0 1168.0
+  914.0 1168.0 994.0 1226.0 1112.0 1256.0
+  smooth off
+endline
+
+line wall -reverse on
+  868.0 606.0
+  694.0 600.0 722.34 638.29 716.0 372.0
+  708.48 55.99 816.0 84.0 364.0 80.0
+  306.73 79.49 288.0 -104.0 284.0 -152.0
+  smooth off
+  altitude .
+endline
+
+line wall -subtype unsurveyed
+  96.0 -156.0
+  96.0 -156.0 76.0 -316.0 68.0 -332.0
+  60.0 -348.0 40.0 -460.0 40.0 -460.0
+  smooth off
+endline
+
+line rope
+  914.0 1168.0
+  914.0 1168.0 852.0 734.0 834.0 714.0
+  816.97 695.08 772.0 650.0 668.0 670.0
+  smooth off
+endline
+
+line rope
+  884.0 1206.0
+  884.0 1206.0 908.0 1118.0 944.0 1216.0
+  smooth off
+endline
+
+line border
+  760.0 440.0
+  760.0 440.0 715.65 348.58 660.0 356.0
+  540.0 372.0 508.0 332.0 516.0 268.0
+endline
+
+line rope
+  496.0 460.0
+  496.0 460.0 492.0 144.0 484.0 132.0
+endline
+
+line rope
+  472.0 492.0
+  472.0 492.0 496.0 420.0 532.0 496.0
+endline
+
+line rope
+  668.0 670.0
+  668.0 670.0 680.0 272.0 496.0 460.0
+endline
+
+line rope
+  646.0 708.0
+  652.0 662.0 680.0 654.0 698.0 722.0
+  smooth off
+endline
+
+point 698.0 722.0 anchor -orientation 268.1 -attr type fixed
+
+point 646.0 708.0 anchor -orientation 268.1 -attr type fixed
+
+point 532.0 496.0 anchor -attr type fixed
+
+point 472.0 492.0 anchor -attr type fixed
+
+point 944.0 1216.0 anchor -orientation 268.1 -attr type fixed
+
+point 884.0 1206.0 anchor -orientation 268.1 -attr type fixed
+
+line wall -id lh2
+  1080.0 1620.0
+  1000.0 1616.0 811.76 1652.1 776.0 1572.0
+  576.0 1124.0 720.0 1116.0 876.0 1132.0
+  925.87 1137.11 866.91 1020.98 696.0 976.0
+  544.0 936.0 596.0 748.0 592.0 728.0
+  588.0 708.0 544.0 624.0 488.0 604.0
+  432.0 584.0 224.0 464.0 200.0 444.0
+  176.0 424.0 140.0 300.0 140.0 272.0
+  140.0 244.0 108.0 -140.0 96.0 -156.0
+  smooth off
+endline
+
+point 926.2599999999999 1167.4160000000002 station -name 5@G4
+
+point 856.6399999999999 690.1860000000001 station -name 4@G4
+
+point 668.9799999999999 691.1660000000002 station -name 3@G4
+
+point 617.0999999999999 359.8960000000002 station -name 2@G4
+
+point 479.30999999999995 361.1060000000002 station -name 1@G4
+
+point 291.1199999999999 70.20600000000013 station -name 0@G4
+
+line wall
+endline
+
+point 60.0 -552.0 label -text imp.
+
+point 348.0 696.0 label -text R5
+
+point 76.0 376.0 label -text R4
+
+point 628.0 1096.0 label -text P8
+
+endscrap
+
+
