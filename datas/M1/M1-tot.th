@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey M1 -title "M1"
+   input Data/m1.th
+	
+    input Data/M1-plan.th2
+	input M1-maps.th
+	input Data/M1-coupe.th2
+	
+endsurvey

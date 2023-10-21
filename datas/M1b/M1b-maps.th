@@ -1,0 +1,11 @@
+encoding  utf-8
+map MP-M1b-plan-tot -title "M1b"
+  SP-M1b-1
+
+endmap
+
+
+map MC-M1b-coupe-tot -title "M1b"
+  SC-M1b-1
+
+endmap

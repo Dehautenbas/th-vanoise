@@ -1,0 +1,10 @@
+encoding  utf-8
+map MP-lagon-bleu-bas-plan-tot -title "lagon-bleu-bas"
+  SP-lagon-bleu-bas-1
+
+endmap
+
+
+#map MC-lagon-bleu-bas-coupe-tot -title "lagon-bleu-bas"
+#  SC-lagon-bleu-bas-1
+#endmap
