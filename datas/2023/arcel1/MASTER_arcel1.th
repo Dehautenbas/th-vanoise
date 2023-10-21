@@ -82,6 +82,9 @@ map coupe  -proj extended ##OUVERTURE
   arcel1_S7_C
   break
   pr_S1_C
+  break
+  pr_S2_C
+  break
 
 
 endmap coupe  ##FERMETURE

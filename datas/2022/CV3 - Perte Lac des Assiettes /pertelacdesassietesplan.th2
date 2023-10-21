@@ -1,0 +1,321 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -451.75 -206.74899999999997 915.402 1616.75
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {629.923 1 1.0} {236.216 0} exports/Perte_lac_des_assiettes-plan.xvi 0 {}
+
+
+
+scrap scrap1 -projection plan -scale [-328.0 -206.74899999999997 1000.402 -206.74899999999997 0.0 0.0 33.7414108 0.0 m]
+
+line wall
+  467.5 271.5
+  467.5 271.5 413.5 460.5 392.5 492.0
+  371.5 523.5 283.0 609.5 283.0 609.5
+  smooth off
+  283.0 609.5 268.15 617.11 273.75 629.0
+  281.75 646.0 250.0 651.0 248.0 650.0
+  246.0 649.0 225.0 650.5 225.0 650.5
+  smooth off
+  202.0 660.0
+  192.5 666.5
+  192.5 666.5 187.5 683.0 200.5 686.0
+  213.5 689.0 211.0 697.0 209.0 702.0
+  207.0 707.0 162.0 789.25 162.0 789.25
+  smooth off
+  155.75 806.5
+  155.75 806.5 142.0 827.5 190.0 853.75
+endline
+
+point 307.75 704.25 label -text R2 -scale xl
+
+line wall -place bottom
+  713.75 160.25
+  713.75 160.25 710.25 148.0 713.5 144.0
+  715.82 141.14 721.0 137.25 721.0 137.25
+  smooth off
+  721.0 137.25 730.31 123.62 728.0 118.5
+  723.5 108.5 786.5 64.0 717.5 100.5
+  648.5 137.0 596.0 171.5 596.0 171.5
+  smooth off
+  596.0 171.5 516.5 233.0 473.0 256.0
+  464.28 260.61 467.92 270.83 467.5 271.5
+endline
+
+line wall -visibility off
+endline
+
+line wall -reverse on -visibility off
+  598.0 249.5
+  598.0 249.5 589.27 264.06 585.5 265.5
+  547.5 280.0 545.0 288.0 545.0 288.0
+  smooth off
+  531.0 315.5
+  531.0 315.5 523.2 333.7 525.0 335.5
+  527.75 338.25 576.0 358.5 576.0 358.5
+  smooth off
+  650.75 338.75
+  631.5 270.25
+  646.5 249.75
+  688.75 266.5
+  699.25 244.5
+  727.0 188.0
+  713.75 160.25
+endline
+
+line rock-border
+  595.5 280.0
+  628.0 280.5
+  634.5 313.5
+endline
+
+line rock-border
+  545.5 337.0
+  577.0 356.0
+  641.0 337.5
+  634.5 313.5
+endline
+
+line rock-border -close on
+  545.5 337.0
+  549.0 292.5
+  595.5 280.0
+  634.5 313.5
+  545.5 337.0
+endline
+
+line rock-border
+  698.5 195.25
+  708.0 210.25
+  721.5 195.75
+  720.25 180.75
+endline
+
+line rock-border -place top
+  678.5 187.25
+  694.75 204.0
+  708.0 210.25
+endline
+
+line rock-border -close on -place top
+  698.5 195.25
+  678.5 187.25
+  711.0 151.75
+  720.25 180.75
+  698.5 195.25
+endline
+
+line rock-border
+  658.0 207.0
+  677.0 196.0
+  705.5 215.0
+endline
+
+line rock-border
+  671.5 257.5
+  688.5 263.5
+  705.5 215.0
+  682.0 220.5
+endline
+
+line rock-border -close on
+  640.0 236.5
+  658.0 207.0
+  682.0 220.5
+  671.5 257.5
+  640.0 236.5
+endline
+
+line rock-border
+  597.5 269.5
+  599.5 228.5
+  610.0 225.0
+endline
+
+line rock-border
+  606.0 264.0
+  597.5 269.5
+  621.5 277.0
+  635.5 257.0
+endline
+
+line rock-border -close on
+  606.0 264.0
+  610.0 225.0
+  638.5 217.0
+  635.5 257.0
+  606.0 264.0
+endline
+
+point 432.25 443.5 blocks -orientation 120.0 -scale s
+
+point 448.5 392.75 blocks -orientation 300.0 -scale s
+
+point 490.25 323.5 blocks -orientation 270.0 -scale m
+
+point 476.0 295.25 blocks -orientation 90.0 -scale m
+
+point 172.75 824.5 blocks -orientation 90.0 -scale m
+
+point 221.25 710.25 blocks -scale xl
+
+line rock-border
+  248.75 663.75
+  249.5 671.5
+  240.0 691.5
+endline
+
+line rock-border
+  240.5 685.0
+  240.0 691.5
+endline
+
+line rock-border
+  240.0 691.5
+  230.25 691.25
+endline
+
+line rock-border
+  215.75 676.25
+  213.25 684.75
+  230.25 691.25
+  232.0 686.25
+endline
+
+line rock-border -close on
+  232.0 686.25
+  215.75 676.25
+  225.0 662.25
+  248.75 663.75
+  240.5 685.0
+  232.0 686.25
+endline
+
+line rock-border
+  299.5 1079.0
+  303.25 1084.25
+  321.5 1082.75
+  323.0 1078.0
+endline
+
+line rock-border -close on
+  299.5 1079.0
+  305.0 1068.5
+  326.75 1065.5
+  323.0 1078.0
+  299.5 1079.0
+endline
+
+line rock-border
+  398.0 1004.25
+  411.25 1009.5
+  410.5 1029.25
+endline
+
+line rock-border
+  383.0 1034.5
+  397.25 1043.0
+  410.0 1030.75
+  403.75 1020.5
+endline
+
+line rock-border -close on
+  383.0 1034.5
+  380.75 1016.75
+  398.0 1004.25
+  403.75 1020.5
+  383.0 1034.5
+endline
+
+point -322.5 1319.0 label -scale xl -align top-left -text [Léger courant d'air soufflant le 09/10/22 à 10h]
+
+point -253.5 1462.25 label -text [Arret sur méandre imp, vu sur 2m suite possible après désob] -scale xl -align top-left
+
+point 358.25 1292.5 label -text [étroiture dans les blocs désob le 09/10/22] -scale xl
+
+point 105.25 978.5 label -text [Boyau étroit] -scale xl
+
+point -159.25 1487.5 continuation -scale xl
+
+point -175.75 1481.25 dig -scale xl
+
+point 177.5 1247.25 dig -scale xl
+
+point 124.5 1228.5 blocks -orientation 300.0 -scale s
+
+point 134.5 1216.5 blocks -orientation 240.0 -scale s
+
+point 150.5 1206.0 blocks -orientation 120.0 -scale s
+
+point 166.0 1198.75 blocks -orientation 120.0 -scale s
+
+line wall
+  190.0 853.75
+  208.5 872.5
+  322.0 1029.5
+  322.0 1029.5 331.5 1041.5 324.5 1049.0
+  317.5 1056.5 279.5 1085.0 279.5 1085.0
+  smooth off
+  204.5 1149.5
+  204.5 1149.5 200.5 1159.5 179.5 1172.5
+  158.5 1185.5 3.5 1280.0 3.5 1280.0
+  smooth off
+  -31.0 1318.0
+  -145.5 1427.5
+  -145.5 1427.5 -165.5 1447.5 -162.5 1459.5
+endline
+
+line wall
+  598.0 249.5
+  598.0 249.5 595.0 237.0 583.5 240.0
+  572.0 243.0 557.0 260.0 557.0 260.0
+  smooth off
+  543.0 276.0
+  529.0 295.5
+  413.0 512.5
+  413.0 512.5 311.0 623.5 308.5 626.5
+  306.0 629.5 259.25 717.0 258.25 718.5
+  257.25 720.0 189.5 770.0 193.5 785.5
+  197.5 801.0 195.0 805.5 195.0 805.5
+  smooth off
+  211.02300000000002 859.046
+  342.5 1028.0
+  342.5 1028.0 349.5 1047.5 377.5 1015.5
+  405.5 983.5 422.5 1009.0 419.5 1021.0
+  416.5 1033.0 361.0 1069.5 361.0 1069.5
+  smooth off
+  361.0 1069.5 238.5 1151.5 233.0 1159.0
+  227.5 1166.5 171.5 1204.5 152.0 1224.5
+  132.5 1244.5 49.0 1294.5 49.0 1294.5
+  smooth off
+  49.0 1294.5 10.0 1317.0 -0.5 1327.5
+  -11.0 1338.0 -69.5 1387.0 -69.5 1387.0
+  smooth off
+  -123.0 1440.0
+  -155.0 1468.0
+endline
+
+point 203.15300000000002 1162.196 station -name 10@Perte_lac_des_assiettes
+
+point 341.733 1045.656 station -name 9@Perte_lac_des_assiettes
+
+point 211.02300000000002 859.046 station -name 8@Perte_lac_des_assiettes
+
+point 162.993 789.7560000000001 station -name 7@Perte_lac_des_assiettes
+
+point 223.62300000000002 685.0260000000001 station -name 5@Perte_lac_des_assiettes
+
+point 232.28300000000002 676.3660000000001 station -name 6@Perte_lac_des_assiettes
+
+point 302.363 625.9760000000001 station -name 4@Perte_lac_des_assiettes
+
+point 396.063 496.84600000000006 station -name 3@Perte_lac_des_assiettes
+
+point 512.6030000000001 246.44600000000008 station -name 2@Perte_lac_des_assiettes
+
+point 610.233 185.02600000000007 station -name 1@Perte_lac_des_assiettes
+
+point 629.923 236.21600000000007 station -name 0@Perte_lac_des_assiettes
+
+endscrap
+
+

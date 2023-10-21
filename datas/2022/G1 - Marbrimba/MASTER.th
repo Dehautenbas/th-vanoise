@@ -1,0 +1,10 @@
+encoding  utf-8
+survey Master -title "G1 - Marbrimba"
+
+    input CV1.th
+
+    input CV2_C.th2
+
+
+endsurvey
+

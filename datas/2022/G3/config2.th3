@@ -12,7 +12,7 @@ layout layout_general
     transparency on         ### vue en transparence des galeries qui se superposent...
     opacity 80              ### ... avec une opacité de 80%
     rotate 0                ### rotation du nord géographique (en degré)
-
+    
 
 
     #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
@@ -22,28 +22,18 @@ layout layout_general
 
 endlayout
 
-
-##########!!!!!!!!!!
- text fr "line wall:sand" ""
-
-
 ###################### plan #############################
 layout plan
   copy layout_general
-  scale 1  100                    ### scale  (ordi: 1 100)
+  scale 1  300                    ### scale  (ordi: 1 100)
   #base-scale 1 150                ### scale the map by a (scale/base-scale) factor
   #grid bottom                    ### positionnement de la grille
   #grid-size 20 20 20 m           ### dimensions de la grille
   #grid-coords off                ### border = sur les bords. off = pas de coordonnées. all = partout (horrible en plan)
   color map-bg 96                 ### couleur du FOND (80% blanc / 20% gris => 80)
-  colour map-fg [100 100 85]        ### couleur des GALERIES (jaune : [100 100 85])
+  colour map-fg [100 100 85]       ### couleur des GALERIES
   #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
-  
-  
-  ###    Cheminement topo    ####
   debug station-names             ### Afficher noms stations topo
-  symbol-hide line survey
-  #debug scrap-names
 
 
   
@@ -55,8 +45,7 @@ layout plan
   copy northarrowMG
   legend on      ###présence de la légende des symboles ? => on/off
   legend-columns 3
-  colour-legend off
- 
+  #colour-legend off
 
   code tex-map
       \legendwidth=12cm
@@ -65,14 +54,12 @@ layout plan
       \legendtextsectionsize={\size[12]} %%% Taille du titre
       #\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
    endcode
-   
-  map-comment "<br>\
- Coordonnées : 46.79624450N 8.75652854E (WGS84)<br>\
-                     1182787N 2701008 E (CH1903+)<br>\
-                     Alt : 1895m<br>\
-                    <br>\
- Topographie : AERE 2022<br>\ 
- "
+ 
+ map-comment "<br>\
+Localisation : Rochers du Génépy, Massif de la Vanoise<br>\
+Coordonnées : 45.378208100N 6.7801455E  (WGS84)<br>\
+Topographie : Collectif Vanoise 2022<br>\ 
+"
 ### To scale NorthArrow, find in Master : "% scale your north arrow here"
 endlayout
 
@@ -93,7 +80,7 @@ endlayout
     endlayout
 
 
-    layout hide_centreline
+    layout symbol-hide
         symbol-hide group centerline
     endlayout
 
@@ -101,3 +88,4 @@ endlayout
         symbol-hide group all
         symbol-show group centerline
     endlayout
+

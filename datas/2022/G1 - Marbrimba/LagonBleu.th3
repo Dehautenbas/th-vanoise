@@ -1,0 +1,128 @@
+encoding  utf-8
+
+input configMaster_xr10-2022.thc
+input config-MARTIN.th3
+
+
+source CV1.th
+source CV2_C.th2
+
+
+##########################Selection de la map à exporter #############################
+######################################################################################
+#select PlanDecoupe@Sardines      #uncomment ONLY one
+#select Plan@Sardines             #uncomment ONLY one
+#select PlanWORK@Sardines         #uncomment ONLY one
+#select  CoupeExtend@Sardines     #uncomment ONLY one
+
+
+##########################LES EXPORTS ###############################
+#####################################################################
+
+
+############ PLAN ############
+#export map \
+     -projection plan \
+     -layout plan   \
+     -output exports/marbrimba.pdf \
+     -layout hide_centreline   ###Si activé, cache le fil de fer
+
+
+############ PLAN TRAVAIL ############
+#export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/Lagon-Bleu_plan-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+
+
+############# DEBUG ############
+#export map \
+     -projection plan \
+     -layout plan   \
+     -layout debug \
+     -output Exports/&&&DEBUG_plan.pdf
+
+
+############ WALLS ############       ## Exporte uniquement les murs
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output Exports/&&&_walls.pdf \
+     -layout hide_centreline \  ###Si activé, cache le fil de fer
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+     #-layout centreline \
+
+
+############# ATLAS ############
+#export atlas \
+     -projection plan \
+     -layout plan   \
+     -output Exports/&&&_Atlas.pdf 
+
+
+
+############ MODELE 3D ############
+#export model \
+     -format loch \
+     -o Exports/&&&-3d.lox \
+     #-wall-source maps
+
+
+
+############ KML ###########
+#export map \
+     -projection plan \
+     -output Exports/&&&.kml  ###-> Pour murs
+
+#export model \
+     -output Exports/Model.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+
+############ QGIS ############
+#export model \
+     -output Exports/&&&_3DModel.shp
+
+
+
+############ LISTES ############
+#export survey-list \
+     -o Exports/&&&_stats.html
+
+#export continuation-list \
+     -o Exports/&&&_continuations.html
+
+
+
+############ XVI ############ 
+#export map \
+     -proj plan \
+     -format xvi \
+     -layout xvi-export \
+     -layout-sketches on \
+     -o Exports/plantravail.xvi \
+
+#export map \
+     -proj extended \
+     -format xvi \
+     -layout xvi-export \
+     -layout-sketches off \
+     -o ressources/coupe/coupe-extend-travail.xvi
+      
+
+
+############ Pour morphing ############
+#export map \
+     -format xvi \
+     -layout xvi-export \
+     -layout morphing \
+     -o Exports/&&&_coupetravail-morphing.xvi
+      
+#export map \
+     -format xvi \
+     -projection [elevation 0] \
+     -layout xvi-export \
+     -o Exports/&&&coupetravailVueNord.xvi
