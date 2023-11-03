@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey jonction-tot -title jonction
+survey jonction -title jonction
    input datas/jonction.th
 	
     input datas/jonction-plan.th2

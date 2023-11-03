@@ -4,7 +4,7 @@ encoding utf-8
 
 # 2023.10.08 created by TopoDroid v. 6.2.13
 
-scrap puits_remontant-1p -projection plan -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP-puits_remontant-1 -projection plan -station-names "" "@puits_remontant" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 line wall
   -242.58 -55.89

@@ -5,7 +5,6 @@ map MP-puits_remontant-plan-tot -title puits_remontant
 endmap
 
 
-map MC-puits_remontant-coupe-tot -title puits_remontant
-  SC-puits_remontant-1
-
-endmap
+#map MC-puits_remontant-coupe-tot -title puits_remontant
+#  SC-puits_remontant-1
+#endmap

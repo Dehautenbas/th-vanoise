@@ -2,52 +2,44 @@
 survey Arcel1 -title "Gouffre de l'Arcel1"
   
 ######################  inclusion des .TH #####################################
-  input datas/arcel1/datas/arcel1.th
+  input datas/arcel1/arcel1-tot.th
   input datas/jonction/jonction-tot.th
   input datas/amont/amont-tot.th
   input datas/frequence51/Frequence51-tot.th
   input datas/puits_remontant/puits_remontant-tot.th
 
 ####################### raccordement entre .TH  #############################
-centerline ## OUVERTURE 
-  equate 26@arcel1 2@jonction.jonction-tot
-  equate PTR_0@jonction.jonction-tot PTR_0@Frequence_51.Frequence51
+  equate 26@arcel1.arcel1 2@jonction.jonction
+  equate PTR_0@jonction.jonction PTR_0@Frequence_51.Frequence51
   equate 4@amont.amont 24@puits_remontant.puits_remontant
   equate 0@amont.amont 53@Frequence_51.Frequence51
   equate PTR_2@Frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
   equate 43@Frequence_51.Frequence51 0@puits_remontant.puits_remontant
-endcenterline  ## FERMETURE
 
+#  input Arcel1-Maps.th
 
 ################################################################################################################
 ################################     PLAN      ################################################################
 ################################################################################################################
 
 
-################################  inclusion des .TH2 pour le PLAN #####################################
-input datas/arcel1/datas/arcel1_P.th2
-
-
 ################################# raccordement entre sraps pour le PLAN ###########################
 ###join lama_l1_D:0 entree_l1_D:end
 
-######################## définition des scraps à faire apparaitre sur le plan  ################################
-map Arcel1-plan  -proj plan ##OUVERTURE
-  arcel1_S1_P
-  break
-  arcel1_S2_P
-  break
-  arcel1_S3_P
-  break
-  arcel1_S4_P
-  break
-  arcel1_S5_P
-  break
-  #MP-Frequence51-plan-tot
-  
+######################## définition des maps à faire apparaitre sur le plan  ################################
 
-endmap plan  ##FERMETURE
+map Arcel1-plan -title "Gouffre de l'Arcel1" 
+  MP-amont-plan-tot@amont
+  break
+  MP-arcel1-tot@arcel1
+  break
+  MP-Frequence51-plan-tot@Frequence51
+  break
+  MP-jonction-plan-tot@jonction
+  break
+  MP-puits_remontant-plan-tot@puits_remontant
 
+endmap 
 
 
 
@@ -63,11 +55,11 @@ input datas/puits_remontant/Data/puits_remontant_C.th2
 
 ################################# raccordement entre sraps pour la COUPE ###########################
 ###join lama_l1_D:0 entree_l1_D:end
-join arcel1_up:end pr_l1_up:0
-join arcel1_down:end pr_l1_down:end
+#join arcel1_up:end pr_l1_up:0
+#join arcel1_down:end pr_l1_down:end
 
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
-map coupe  -proj extended ##OUVERTURE
+map MC-arcel1-tot -title arcel1 ##OUVERTURE
   arcel1_S1_C
   break
   arcel1_S2_C
@@ -88,7 +80,7 @@ map coupe  -proj extended ##OUVERTURE
   break
 
 
-endmap coupe  ##FERMETURE
+endmap 
 
 
 endsurvey

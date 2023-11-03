@@ -1508,7 +1508,7 @@ line border
   smooth off
 endline
 
-point 931.0 5442.0 label -text "Entrée Arcel1" -scale l
+point 931.0 5442.0 label -text "Entrée arcel1" -scale l
 
 point 923.0 5364.0 entrance -orientation 178.0
 
@@ -1649,13 +1649,13 @@ line wall
   smooth off
 endline
 
-point 5512.2 887.3999999999999 station -name 29@arcel1
+point 5512.2 887.3999999999999 station -name 29@arcel1.arcel1
 
-point 5667.18 855.9099999999999 station -name 28@arcel1
+point 5667.18 855.9099999999999 station -name 28@arcel1.arcel1
 
-point 5820.34 911.02 station -name 27@arcel1
+point 5820.34 911.02 station -name 27@arcel1.arcel1
 
-point 5891.99 1318.11 station -name 26@arcel1
+point 5891.99 1318.11 station -name 26@arcel1.arcel1
 
 line rock-border
 endline
@@ -1731,57 +1731,57 @@ endline
 line wall
 endline
 
-point 6005.54 1305.5099999999998 station -name 25@arcel1
+point 6005.54 1305.5099999999998 station -name 25@arcel1.arcel1
 
-point 5539.72 2470.08 station -name 24@arcel1
+point 5539.72 2470.08 station -name 24@arcel1.arcel1
 
-point 5258.82 2446.46 station -name 23@arcel1
+point 5258.82 2446.46 station -name 23@arcel1.arcel1
 
-point 4712.72 2559.06 station -name 22@arcel1
+point 4712.72 2559.06 station -name 22@arcel1.arcel1
 
-point 4369.6 2653.54 station -name 21@arcel1
+point 4369.6 2653.54 station -name 21@arcel1.arcel1
 
-point 4133.14 2637.0099999999998 station -name 20@arcel1
+point 4133.14 2637.0099999999998 station -name 20@arcel1.arcel1
 
-point 3836.67 2651.97 station -name 19@arcel1
+point 3836.67 2651.97 station -name 19@arcel1.arcel1
 
-point 3628.36 2685.83 station -name 18@arcel1
+point 3628.36 2685.83 station -name 18@arcel1.arcel1
 
-point 3173.14 2731.5 station -name 17@arcel1
+point 3173.14 2731.5 station -name 17@arcel1.arcel1
 
-point 2570.2 2660.63 station -name 16@arcel1
+point 2570.2 2660.63 station -name 16@arcel1.arcel1
 
-point 2570.2 3403.1499999999996 station -name 15@arcel1
+point 2570.2 3403.1499999999996 station -name 15@arcel1.arcel1
 
-point 2303.41 2035.4299999999998 station -name 12@arcel1
+point 2303.41 2035.4299999999998 station -name 12@arcel1.arcel1
 
-point 1991.56 2233.0699999999997 station -name 14@arcel1
+point 1991.56 2233.0699999999997 station -name 14@arcel1.arcel1
 
-point 2179.9700000000003 2823.62 station -name 13@arcel1
+point 2179.9700000000003 2823.62 station -name 13@arcel1.arcel1
 
-point 2303.41 3133.8599999999997 station -name 11@arcel1
+point 2303.41 3133.8599999999997 station -name 11@arcel1.arcel1
 
-point 2161.0699999999997 3571.6499999999996 station -name 10@arcel1
+point 2161.0699999999997 3571.6499999999996 station -name 10@arcel1.arcel1
 
-point 2248.77 4125.2 station -name 9@arcel1
+point 2248.77 4125.2 station -name 9@arcel1.arcel1
 
-point 2097.87 4143.3099999999995 station -name 8@arcel1
+point 2097.87 4143.3099999999995 station -name 8@arcel1.arcel1
 
-point 1696.22 4408.66 station -name 7@arcel1
+point 1696.22 4408.66 station -name 7@arcel1.arcel1
 
-point 1497.33 4492.13 station -name 6@arcel1
+point 1497.33 4492.13 station -name 6@arcel1.arcel1
 
-point 832.0 4352.0 station -name 4@arcel1
+point 832.0 4352.0 station -name 4@arcel1.arcel1
 
-point 960.71 4389.76 station -name 3@arcel1
+point 960.71 4389.76 station -name 3@arcel1.arcel1
 
-point 1162.9299999999998 4314.17 station -name 2@arcel1
+point 1162.9299999999998 4314.17 station -name 2@arcel1.arcel1
 
-point 770.02 4685.04 station -name 5@arcel1
+point 770.02 4685.04 station -name 5@arcel1.arcel1
 
-point 1051.1799999999998 4743.3099999999995 station -name 1@arcel1
+point 1051.1799999999998 4743.3099999999995 station -name 1@arcel1.arcel1
 
-point 896.6500000000001 5118.11 station -name 0@arcel1
+point 896.6500000000001 5118.11 station -name 0@arcel1.arcel1
 
 area u:galerie
   l299-5748-882
@@ -1796,8 +1796,7 @@ endline
 endscrap
 
 
-
-scrap arcel1_S2_C -projection extended -station-names "" "@jonction.jonction-tot" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+scrap arcel1_S2_C -projection extended -station-names "" "@jonction.jonction" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 line wall
   7086.0 154.0
@@ -1994,7 +1993,7 @@ endscrap
 
 
 
-scrap arcel1_S3_C -projection extended -station-names "" "@jonction.jonction-tot" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
+scrap arcel1_S3_C -projection extended -station-names "" "@jonction.jonction" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 point 5719.0 -1383.0 label -text "?"
 

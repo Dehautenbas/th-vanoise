@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SP-amont-1 -projection plan -station-names  @amont -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP-amont-1 -projection plan -station-names "" "@amont" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 line wall
   312.33 -422.16
