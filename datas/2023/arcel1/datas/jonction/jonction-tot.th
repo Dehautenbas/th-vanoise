@@ -3,8 +3,8 @@ encoding  utf-8
 survey jonction-tot -title jonction
    input datas/jonction.th
 	
-    #input Data/jonction-plan.th2
-	#input jonction-maps.th
-	#input Data/jonction-coupe.th2
+    input datas/jonction-plan.th2
+	input jonction-maps.th
+	#input datas/jonction-coupe.th2
 	
 endsurvey

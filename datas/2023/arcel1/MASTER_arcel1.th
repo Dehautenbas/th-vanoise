@@ -5,7 +5,7 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
   input datas/arcel1/datas/arcel1.th
   input datas/jonction/jonction-tot.th
   input datas/amont/amont-tot.th
-  input datas/Frequence51/Frequence51-tot.th
+  input datas/frequence51/Frequence51-tot.th
   input datas/puits_remontant/puits_remontant-tot.th
 
 ####################### raccordement entre .TH  #############################
@@ -32,7 +32,7 @@ input datas/arcel1/datas/arcel1_P.th2
 ###join lama_l1_D:0 entree_l1_D:end
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
-map plan  -proj plan ##OUVERTURE
+map Arcel1-plan  -proj plan ##OUVERTURE
   arcel1_S1_P
   break
   arcel1_S2_P
@@ -43,6 +43,7 @@ map plan  -proj plan ##OUVERTURE
   break
   arcel1_S5_P
   break
+  #MP-Frequence51-plan-tot
   
 
 endmap plan  ##FERMETURE
