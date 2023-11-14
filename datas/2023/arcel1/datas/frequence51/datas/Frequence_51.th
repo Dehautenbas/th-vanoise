@@ -8,11 +8,9 @@ survey Frequence_51 -title "Frequence 51"
     team "Martin Kern"
     team "Pauline Georges" 
     team "Florent Maurin"
-
-
     cs UTM32
 
-    #fix 0 325515.037 5027518.664 ## alt = 2534m
+    #fix F51 325515.037 5027518.664 2534.0
 
     units length meters
     units compass clino degrees
@@ -261,7 +259,7 @@ survey Frequence_51 -title "Frequence 51"
       28 . 1.33 51.0 -80.9
       28 . 1.20 104.2 75.4
 
-    28 PTR_2 3.82 265.1 1.8
+    28 F51 3.82 265.1 1.8
 
 
     extend right

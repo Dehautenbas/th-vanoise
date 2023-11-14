@@ -1,0 +1,12 @@
+map Arcel1-plan -title "Gouffre de l'Arcel1" 
+  MP-amont-plan-tot@amont
+  break
+  MP-arcel1-tot@arcel1
+  break
+  MP-Frequence51-plan-tot@Frequence51
+  break
+  MP-jonction-plan-tot@jonction
+  break
+  MP-puits_remontant-plan-tot@puits_remontant
+
+endmap   

@@ -1,0 +1,10 @@
+encoding  utf-8
+
+survey arcel1 -title arcel1
+   input datas/arcel1.th
+	
+    input datas/arcel1_P.th2
+	input arcel1-maps.th
+	#input datas/arcel1_C.th2
+	
+endsurvey
