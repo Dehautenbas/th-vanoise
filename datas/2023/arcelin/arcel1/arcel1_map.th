@@ -1,0 +1,59 @@
+
+######################## définition des scraps à faire apparaitre sur le plan  ################################
+map plan  -proj plan
+  SP-amont-1
+  break
+  arcel1_S1_P
+  break
+  arcel1_S2_P
+  break
+  arcel1_S3_P
+  break
+  arcel1_S4_P
+  break
+  arcel1_S5_P
+  break
+  SP-Frequence_51-2
+  break
+  SP-Frequence_51-1
+  break
+  SP-Frequence_51-3
+  break
+  SP-jonction-1
+  break
+  SP-jonction-2
+  break
+  SP-jonction-3
+  break
+  SP-puits_remontant-1
+  break
+
+
+
+  
+
+endmap plan  
+
+######################## définition des scraps à faire apparaitre sur la COUPE  ################################
+map coupe  -proj extended 
+  arcel1_S1_C
+  break
+  arcel1_S2_C
+  break
+  arcel1_S3_C
+  break
+  arcel1_S4_C
+  break
+  arcel1_S5_C
+  break
+  arcel1_S6_C
+  break
+  arcel1_S7_C
+  break
+  pr_S1_C
+  break
+  pr_S2_C
+  break
+
+
+endmap coupe  

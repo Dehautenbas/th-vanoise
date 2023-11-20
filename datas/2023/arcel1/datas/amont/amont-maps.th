@@ -1,9 +1,0 @@
-encoding  utf-8
-map MP-amont-plan-tot -title amont
-  SP-amont-1
-endmap
-
-
-#map MC-amont-coupe-tot -title amont
-#  SC-amont-1
-#endmap

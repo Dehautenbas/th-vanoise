@@ -3,7 +3,7 @@
 .DS_Store
 
 # Therion outputs (avec un/ ou non ?).
-**.pdf
+#**.pdf
 **.kml
 **.kmz
 **.lox
