@@ -8,10 +8,10 @@ source M1b-tot.th
 #input legendes/entrances_coordinates.th
 
 # Add config file
-input ../config.thc 
+input config.thc 
 
 #DEM
-source ../DEM_glacier_1m.th
+#source ../DEM_glacier_1m.th
 
 
 # 2-LAYOUT   
@@ -79,7 +79,7 @@ layout my_layout
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
@@ -123,10 +123,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -163,7 +163,7 @@ layout my_layout
    endcode  
 
    # add extended-elev on the same pdf
-   #map-image 105 0 s Outputs/P50-coupe.pdf
+   map-image 105 0 w Outputs/M1b-coupe.pdf
 
 endlayout
 
@@ -215,7 +215,7 @@ layout my_layout-coupe
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
@@ -258,10 +258,10 @@ layout my_layout-coupe
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -302,13 +302,11 @@ endlayout
 
 export map -fmt xvi -layout xviexport -o Data/M1b-map.xvi
 export map -proj extended -layout xviexport -fmt xvi -o Data/M1b-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/M1b-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-M1b-plan-tot@M1b
-#  select MC-M1b-coupe-tot@M1b
+   select MP-M1b-plan-tot@M1b
+   select MC-M1b-coupe-tot@M1b
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/M1b-coupe_elevation.pdf 
 export map -projection extended -layout my_layout-coupe -o Outputs/M1b-coupe.pdf 
 export map -o Outputs/M1b-plan.pdf -layout my_layout
  
