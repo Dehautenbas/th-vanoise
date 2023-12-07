@@ -8,7 +8,7 @@ source lagon-bleu-haut-tot.th
 #input legendes/entrances_coordinates.th
 
 # Add config file
-input ../config.thc 
+input ./config.thc 
 
 #DEM
 #source ../GIS/DEM.th
@@ -79,7 +79,7 @@ layout my_layout
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
@@ -123,10 +123,10 @@ layout my_layout
 
    # Options pour afficher le squelette topo,
    # les points et le nom des stations topos
-   #symbol-hide line survey
-   #symbol-hide point cave-station
+   symbol-hide line survey
+   symbol-hide point cave-station
 
-   debug station-names
+   #debug station-names
 
    # Specifier qu il faut imprimer une grille
    # au dessous de la topo  
@@ -215,7 +215,7 @@ layout my_layout-coupe
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
@@ -302,13 +302,11 @@ endlayout
 
 export map -fmt xvi -layout xviexport -o Data/lagon-bleu-haut-map.xvi
 export map -proj extended -layout xviexport -fmt xvi -o Data/lagon-bleu-haut-coupe.xvi
-export map -proj [elevation 17] -layout xviexport -o Data/lagon-bleu-haut-coupe_elevation.xvi 
 
 # Select maps
-#	select MP-lagon-bleu-haut-plan-tot@lagon-bleu-haut
-#  select MC-lagon-bleu-haut-coupe-tot@lagon-bleu-haut
+	select MP-lagon-bleu-haut-plan-tot@lagon-bleu-haut
+  select MC-lagon-bleu-haut-coupe-tot@lagon-bleu-haut
 	 
-export map -projection [elevation 17] -layout my_layout-coupe -o Outputs/lagon-bleu-haut-coupe_elevation.pdf 
 export map -projection extended -layout my_layout-coupe -o Outputs/lagon-bleu-haut-coupe.pdf 
 export map -o Outputs/lagon-bleu-haut-plan.pdf -layout my_layout
  

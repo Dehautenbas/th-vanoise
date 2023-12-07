@@ -8,7 +8,7 @@ source M1-tot.th
 #input legendes/entrances_coordinates.th
 
 # Add config file
-input ../config.thc 
+input ./config.thc 
 
 #DEM
 #source ../GIS/DEM.th
@@ -79,7 +79,7 @@ layout my_layout
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier
@@ -215,7 +215,7 @@ layout my_layout-coupe
    #color map-bg 85
 
    # Une couleur de topo (RVB)
-   color map-fg [100 100 80]
+   color map-fg [85 98 100]
 
    # la topo est transparente (on peut voir les galeries sousjacentes)
    # Par defaut, donc, pas vraiment besoin de specifier

@@ -8,7 +8,8 @@ encoding  utf-8
 
 
 
-scrap SC-M1b-1 -projection extended -station-names "" "@M1b" -scale [0 0 39.3701 0 0 0 1 0 m]
+scrap SC-M1b-1 -projection extended -station-names "" "@M1b" -scale [0 0 39.3701 0 0 0 1 0 m] -author 2023 "Benoît Urruty" -copyright 2023 "licence CCby-nc-sa : http://creativecommons.org/licenses/by-nc-sa/4.0/"
+
 
 line wall -subtype ice
   116.0 -211.0

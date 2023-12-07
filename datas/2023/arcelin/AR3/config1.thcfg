@@ -1,7 +1,7 @@
 encoding  utf-8
 input config2.thcfg
 input config3.thcfg
-source MASTER_arcel1.th
+source ar3-tot.th
 
 
 
