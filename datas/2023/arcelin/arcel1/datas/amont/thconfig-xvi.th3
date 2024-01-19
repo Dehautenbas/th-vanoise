@@ -10,7 +10,7 @@ source amont.th
 ###----EXEMPLE:----export map -o ressources/discret--term2017/discret--term2017_P.xvi -layout-sketches on
 export map -proj extended -layout xviexport -o amont_C.xvi 
 export map -proj plan -layout xviexport -o amont_P.xvi 
-
+export model -o amont.lox
 layout xviexport
 	#cs UTM32
 	# échelle à laquelle on veut dessiner la topo

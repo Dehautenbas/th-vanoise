@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 22624.54 5161.6672
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3049.04 1 1.0} {1259.8400000000001 F51} ../../frequence51/Frequence51_C.xvi 0 {}
 ##XTHERION## xth_me_image_insert {6639.34 1 1.0} {1467.0074 0} ../puits_remontant_C.xvi 0 {}
 ##XTHERION## xth_me_image_insert {8146.21 1 1.0} {1726.5751999999998 0} ../../amont/amont_C.xvi 0 {}
@@ -121,13 +121,6 @@ line wall -reverse on -subtype clay
   smooth off
 endline
 
-line wall -reverse on -subtype clay
-  9454.0 1956.0
-  9454.0 1956.0 9096.0 1778.0 9032.0 1782.0
-  8968.0 1786.0 8674.0 1864.0 8638.0 1858.0
-  smooth off
-endline
-
 point 8131.03 1691.3200000000002 station -name 52@frequence51
 
 point 7944.43 1642.3700000000003 station -name 51@frequence51
@@ -215,11 +208,7 @@ endline
 line wall -reverse on
   9050.0 2382.0
   9026.0 2362.0 8848.0 2212.0 8854.0 2176.0
-  8860.0 2140.0 8828.0 2014.0 8804.0 1990.0
-  8780.0 1966.0 8794.0 1880.0 8828.0 1878.0
-  8862.0 1876.0 9010.0 1828.0 9036.0 1844.0
-  9062.0 1860.0 9394.0 2070.0 9414.0 2076.0
-  smooth off
+  8860.0 2140.0 8732.0 2012.0 8804.0 1990.0
 endline
 
 point 10003.0 3180.0 label -text "imp."

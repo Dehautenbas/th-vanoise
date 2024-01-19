@@ -57,6 +57,7 @@ input datas/amont/amont_C.th2
 ###join lama_l1_D:0 entree_l1_D:end
 join arcel1_up:end pr_l1_up:0
 join arcel1_down:end pr_l1_down:end
+join SC-amont-1 pr_S1_C
 
 
 
