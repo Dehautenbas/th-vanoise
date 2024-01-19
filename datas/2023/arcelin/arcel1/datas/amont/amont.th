@@ -12,8 +12,8 @@ survey amont -title amont
     data normal from to length compass clino
 
 #############    Extend hide : pour plus de lisibilité sur la coupe  #############
-    extend hide 2 
-    extend hide 3 
+    #extend hide 2 
+    #extend hide 3 
 
 
     # #extend auto
@@ -21,6 +21,7 @@ survey amont -title amont
     0 . 1.54 316.0 -33.0
     0 . 0.52 128.5 74.9
     0 . 2.19 76.5 47.9
+    #extend left
     extend right
     0 1 5.14 24.8 16.4
     # #extend auto
@@ -413,14 +414,5 @@ survey amont -title amont
     39 40 9.54 93.8 -10.8
   endcenterline
 
-  # input amontetroit++-1p.th2
-  # input amontetroit++-1s.th2
-
-  # map m1p -projection plan
-  #   amontetroit++-1p
-  # endmap
-  # map m1s -projection #extended
-  #   amontetroit++-1s
-  # endmap
 
 endsurvey

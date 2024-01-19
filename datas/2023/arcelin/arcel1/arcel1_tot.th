@@ -52,7 +52,7 @@ input datas/puits_remontant/puits_remontant_P.th2
 ################################  inclusion des .TH2 pour la COUPE #####################################
 input datas/arcel1/arcel1_C.th2
 input datas/puits_remontant/puits_remontant_C.th2
-
+input datas/amont/amont_C.th2
 ################################# raccordement entre sraps pour la COUPE ###########################
 ###join lama_l1_D:0 entree_l1_D:end
 join arcel1_up:end pr_l1_up:0
