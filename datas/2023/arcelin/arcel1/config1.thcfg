@@ -24,7 +24,7 @@ export map \
      -output Exports/arcel1_plan.pdf \
      #-layout hide_centreline   ###Si activé, cache le fil de fer
 
- #export map \
+ export map \
      -projection extended \
      -layout plan   \
      -output Exports/arcel1_coupe.pdf \
@@ -134,3 +134,5 @@ export map \
      -projection [elevation 0] \
      -layout xvi-export \
      -o Exports/arcel1coupetravailVueNord.xvi
+
+export map -proj extended -layout xvi-export -fmt xvi -o Exports/arcel1coupe.xvi
