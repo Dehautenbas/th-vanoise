@@ -7,7 +7,7 @@ source arcel1_tot.th
 ##########################Selection de la map à exporter #############################
 ######################################################################################
 
-select plan@arcel1_map       #uncomment ONLY one
+#select plan@arcel1_map       #uncomment ONLY one
 #select coupe@arcel1_map         #uncomment ONLY one
 
 
@@ -22,13 +22,13 @@ export map \
      -projection plan \
      -layout plan   \
      -output Exports/arcel1_plan.pdf \
-     #-layout hide_centreline   ###Si activé, cache le fil de fer
+     -layout hide_centreline   ###Si activé, cache le fil de fer
 
  export map \
      -projection extended \
-     -layout plan   \
+     -layout coupe   \
      -output Exports/arcel1_coupe.pdf \
-     #-layout hide_centreline  ###Si activé, cache le fil de fer
+     -layout hide_centreline  ###Si activé, cache le fil de fer
 
 
 
@@ -41,7 +41,7 @@ export map \
 
 #export map \
      -projection extended \
-     -layout plan   \
+     -layout coupe   \
      -output Exports/CAVTEE_coupe-extended-travail.pdf \
      # -layout hide_centreline                  ###Si activé, cache le fil de fer
 

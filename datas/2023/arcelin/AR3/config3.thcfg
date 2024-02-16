@@ -264,9 +264,7 @@ layout drawingconfig
 	#Auteur du pdf
 	doc-author "Martin Kern"
 
-	# Choix des symbols: UIS, ASF (Australie) CCNP (Etats Unis),SKB (tchecoslovakia)
-	#symbol-set UIS        
-
+	# Choix des symbols: UIS, ASF (Australie) CCNP (Etats Unis),SKB (tchecoslovakia)  
 
 	### Choix des types de symbols
     symbol-assign point station:temporary SKBB

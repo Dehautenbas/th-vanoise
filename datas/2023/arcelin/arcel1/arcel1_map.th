@@ -1,8 +1,6 @@
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
 map plan  -proj plan
-  SP-amont-1
-  break
   arcel1_S1_P
   break
   arcel1_S2_P
@@ -12,6 +10,12 @@ map plan  -proj plan
   arcel1_S4_P
   break
   arcel1_S5_P
+  break
+  PR-amont
+  break
+  SP-amont-1
+  break
+  SP-puits_remontant-1
   break
   SP-Frequence_51-2
   break
@@ -25,8 +29,7 @@ map plan  -proj plan
   break
   SP-jonction-3
   break
-  SP-puits_remontant-1
-  break
+
 
 
 

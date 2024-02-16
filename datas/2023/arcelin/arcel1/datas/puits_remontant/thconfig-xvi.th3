@@ -1,0 +1,23 @@
+encoding  utf-8
+
+###Pour morphing du XVI
+#1) .TH
+###----EXEMPLE:----source data/discret-term17.th
+source puits_remontant.th
+
+
+#3) EXPORT   ## IL FAUT CREER LE DOSSIER AVANT DANS LE FINDER
+###----EXEMPLE:----export map -o ressources/discret--term2017/discret--term2017_P.xvi -layout-sketches on
+export map -proj extended -layout xviexport -o puits_remontant_C.xvi 
+export map -proj plan -layout xviexport -o puits_remontant_P.xvi 
+export model -o puits_remontant.lox
+layout xviexport
+	#cs UTM32
+	# échelle à laquelle on veut dessiner la topo
+	#scale 1 50 # pour le plan
+	scale 1 50 # pour la coupe
+	# taille de la grille
+	grid-size 1 1 1 m
+	# mettre la grille en arrière plan
+	grid bottom
+endlayout

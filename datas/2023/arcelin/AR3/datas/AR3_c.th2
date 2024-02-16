@@ -1,0 +1,118 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -660.931 -1090.6019999999999 910.6589999999999 999.2280000000001
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {-24.468000000000075 1 1.0} {268.37 0} xvi/AR3_c.xvi 0 {}
+##XTHERION## xth_me_image_insert {545.942 1 1.0} {-765.2479999999999 1} xvi/AR3_aval_c.xvi 0 {}
+##XTHERION## xth_me_image_insert {-156.372 1 1.0} {-347.32499999999993 0} xvi/AR3_amont_c.xvi 0 {}
+
+
+
+scrap AR3_sc1 -projection extended -station-names "" "@AR3" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+point 245.15199999999993 -635.5899999999999 station -name 13
+
+point 291.89199999999994 -411.88 station -name 12
+
+point 341.6619999999999 -400.84000000000003 station -name 11
+
+point 311.4619999999999 -236.27 station -name 10
+
+point 292.1719999999999 -171.15 station -name 9
+
+point 235.85199999999992 -120.44 station -name 8
+
+point 205.66199999999992 -86.44 station -name 7
+
+point 181.47199999999992 -74.06 station -name 6
+
+point 126.86199999999991 -29.52000000000001 station -name 5
+
+point 58.57199999999992 112.38 station -name 4
+
+point 19.66199999999992 155.75 station -name 3
+
+point -4.86800000000008 193.81 station -name 2
+
+point -375.4480000000001 343.89 station -name 1g
+
+point -310.1180000000001 294.84 station -name 1f
+
+point -284.8980000000001 276.31 station -name 1e
+
+point -249.89800000000008 255.45 station -name 1d
+
+point -169.59800000000007 256.85 station -name 1c
+
+point -121.34800000000007 239.76 station -name 1b
+
+point -77.10800000000009 237.68 station -name 1a
+
+point -63.94800000000009 236.73000000000002 station -name 1
+
+point -24.46800000000009 268.37 station -name 0
+
+line wall -subtype presumed
+  -461.5 403.5
+  -461.5 403.5 -388.0 330.5 -384.5 328.0
+endline
+
+line wall
+  -384.5 328.0
+  -381.0 325.5 -315.0 276.5 -310.0 274.0
+  -305.0 271.5 -260.5 252.5 -248.0 251.0
+  -235.5 249.5 -179.5 240.5 -173.0 238.0
+  -166.5 235.5 -124.0 226.5 -109.5 224.0
+  -95.0 221.5 -68.0 216.5 -62.5 216.0
+  -57.0 215.5 -14.75 189.1 -12.5 185.5
+  -5.0 173.5 -4.0 165.5 -1.5 162.0
+  1.0 158.5 15.0 113.5 18.0 111.0
+endline
+
+line wall -reverse on
+  -18.5 261.0
+  -18.5 261.0 -23.0 230.5 -19.5 219.5
+  -16.0 208.5 -9.0 210.0 -6.0 206.0
+  -3.0 202.0 40.0 189.5 44.5 182.0
+  49.0 174.5 86.5 118.5 89.0 109.5
+endline
+
+line wall -reverse on -clip off -outline none -subtype sand
+  96.0 211.5
+  96.0 211.5 37.5 236.0 30.0 241.5
+  22.5 247.0 -9.0 264.5 -12.0 264.0
+  -15.0 263.5 -18.5 263.0 -18.5 261.0
+endline
+
+line wall -clip off -outline none -subtype sand
+  -128.5 356.0
+  -128.5 356.0 -76.0 331.0 -74.5 328.0
+  -73.0 325.0 -35.0 290.0 -32.0 289.0
+  -29.0 288.0 -27.0 278.5 -27.0 278.5
+  smooth off
+endline
+
+line wall
+  -27.0 278.5
+  -27.0 278.5 -46.0 261.0 -51.0 262.5
+  -56.0 264.0 -56.5 263.5 -62.5 267.5
+  -68.5 271.5 -74.0 279.0 -85.5 278.5
+  -97.0 278.0 -147.5 274.0 -157.0 275.5
+  -166.5 277.0 -258.0 298.5 -264.0 305.0
+  -270.0 311.5 -304.0 335.5 -311.0 341.0
+  -318.0 346.5 -364.5 375.0 -370.5 382.0
+endline
+
+line wall -subtype presumed
+  -370.5 382.0
+  -376.5 389.0 -435.0 427.0 -437.5 428.5
+endline
+
+endscrap
+
+
+
+scrap AR3_sc2 -projection extended -station-names "" "@AR3" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+endscrap
+
+

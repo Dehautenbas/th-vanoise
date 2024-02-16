@@ -13,7 +13,7 @@ survey arcel1 -title Arcel1
     units compass clino degrees
     data normal from to length compass clino
 
-    fix 0 325572 5027449 0
+    fix 0 325572 5027449 0 #2603
     
     extend right
     0 1 5.15 306.8 -67.6

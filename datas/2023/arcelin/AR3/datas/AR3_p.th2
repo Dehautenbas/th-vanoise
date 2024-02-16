@@ -1,0 +1,48 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -541.393 -305.16499999999996 738.2269999999999 383.905
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {216.53199999999998 1 1.0} {39.370000000000005 0} xvi/AR3_p.xvi 0 {}
+
+
+
+scrap AR3_sp1 -projection plan -station-names "" "@AR3" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+point 10.832000000000008 117.58000000000001 station -name 7
+
+point 25.522000000000006 98.37 station -name 6
+
+point 73.462 72.23 station -name 5
+
+point 137.092 47.42000000000001 station -name 4
+
+point 175.582 53.17000000000001 station -name 3
+
+point 193.462 36.38000000000001 station -name 2
+
+point 527.392 -70.77999999999999 station -name 1g
+
+point 467.482 -44.72999999999999 station -name 1f
+
+point 448.222 -28.44999999999999 station -name 1e
+
+point 414.502 -19.029999999999987 station -name 1d
+
+point 340.592 12.34000000000001 station -name 1c
+
+point 294.052 25.070000000000007 station -name 1b
+
+point 250.18200000000002 30.77000000000001 station -name 1a
+
+point 249.492 17.640000000000008 station -name 1
+
+point 216.53199999999998 39.37000000000001 station -name 0
+
+endscrap
+
+
+
+scrap AR3_sp2 -projection plan -station-names "" "@AR3" -scale [0 0 78.7402 0 0 0 1 0 m]
+
+endscrap
+
+

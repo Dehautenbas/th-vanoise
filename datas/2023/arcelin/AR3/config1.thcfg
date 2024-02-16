@@ -1,7 +1,14 @@
 encoding  utf-8
 input config2.thcfg
 input config3.thcfg
-source ar3-tot.th
+source AR3-tot.th
+
+
+##########################Selection de la map à exporter #############################
+######################################################################################
+select AR3_mc
+#select plan@AR3_map       #uncomment ONLY one
+#select coupe@AR3_map         #uncomment ONLY one
 
 
 
@@ -14,13 +21,13 @@ source ar3-tot.th
 export map \
      -projection plan \
      -layout plan   \
-     -output Exports/arcel1_plan.pdf \
+     -output Exports/AR3_plan.pdf \
      #-layout hide_centreline   ###Si activé, cache le fil de fer
 
  export map \
      -projection extended \
      -layout plan   \
-     -output Exports/arcel1_coupe.pdf \
+     -output Exports/AR3_coupe.pdf \
      #-layout hide_centreline  ###Si activé, cache le fil de fer
 
 
@@ -29,7 +36,7 @@ export map \
 #export map \
      -projection plan \
      -layout plan   \
-     -output Exports/arcel1_plan-travail.pdf \
+     -output Exports/AR3_plan-travail.pdf \
      # -layout hide_centreline                  ###Si activé, cache le fil de fer
 
 #export map \
@@ -48,24 +55,24 @@ export map \
      -projection plan \
      -fmt svg   \
      -layout plan   \
-     -output Exports/arcel1_plan.svg \
+     -output Exports/AR3_plan.svg \
      -layout hide_centreline   ###Si activé, cache le fil de fer
 
 #export map \
      -projection extended \
      -layout plan   \
-     -output Exports/arcel1_coupe.svg \
+     -output Exports/AR3_coupe.svg \
      -layout hide_centreline  ###Si activé, cache le fil de fer
 
 #export model \
-     -output Exports/arcel1_coupe.dxf \
+     -output Exports/AR3_coupe.dxf \
      
 ######################### DEBUG ########################
 #export map \
      -projection plan \
      -layout plan   \
      -layout-debug all \
-     -output Exports/arcel1_DEBUG_plan.pdf
+     -output Exports/AR3_DEBUG_plan.pdf
 
 
 
@@ -74,7 +81,7 @@ export map \
 #export map \
      -projection plan \
      -layout walls   \
-     -output Exports/arcel1_walls.pdf \
+     -output Exports/AR3_walls.pdf \
      -layout hide_centreline \  ###Si activé, cache le fil de fer
      #-layout hide_point \
      #-layout-debug station-names \
@@ -86,14 +93,14 @@ export map \
 #export atlas \
      -projection plan \
      -layout plan   \
-     -output Exports/arcel1_Atlas.pdf 
+     -output Exports/AR3_Atlas.pdf 
 
 
 
 ######################## MODELE 3D ########################
     export model \
      -format loch \
-     -o Exports/arcel1-3d.lox \
+     -o Exports/AR3-3d.lox \
      #-wall-source maps
 
 
@@ -101,18 +108,18 @@ export map \
 ######################## KML #######################
 #export map \
      -projection plan \
-     -output Exports/arcel1.kml  ###-> Pour murs
+     -output Exports/AR3.kml  ###-> Pour murs
 
 #export model \
-     -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
+     -output Exports/AR3-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
 
 ######################## LISTES ########################
-export survey-list \
-     -o Exports/arcel1_stats.html
+#export survey-list \
+     -o Exports/AR3_stats.html
 
 #export continuation-list \
-     -o Exports/arcel1_continuations.html
+     -o Exports/AR3_continuations.html
 
 
 ######################## Pour morphing ########################
@@ -120,10 +127,10 @@ export survey-list \
      -format xvi \
      -layout xvi-export \
      -layout-sketches on \
-     -o Exports/arcel1_coupetravail-morphing.xvi
+     -o Exports/AR3_coupetravail-morphing.xvi
       
 #export map \
      -format xvi \
      -projection [elevation 0] \
      -layout xvi-export \
-     -o Exports/arcel1coupetravailVueNord.xvi
+     -o Exports/AR3coupetravailVueNord.xvi

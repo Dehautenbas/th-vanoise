@@ -50,7 +50,7 @@ survey AR3_amont -title "AR3 amont"
     5 . 1.43 284.1 -18.1
     extend right
     5 6 4.41 316.3 -43.6
-    extend left
+    extend right
     6 7 1.56 190.2 19.2
   endcenterline
 

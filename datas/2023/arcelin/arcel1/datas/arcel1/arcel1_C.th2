@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -2271.9654 10228.3828 5860.034600000001
+##XTHERION## xth_me_area_adjust -144.0 -1812.0 8512.0 5860.034600000001
 ##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {893.0899999999997 0 1.0} {5102.110000000001 0} arcel1_C.xvi 0 {}
 ##XTHERION## xth_me_image_insert {5897.37 0 1.0} {1305.1145999999999 2} ../../jonction/jonction_C.xvi 0 {}
@@ -591,17 +591,11 @@ line border
   smooth off
 endline
 
-point 2044.0 1864.0 altitude -align left
-
-point 1180.0 5119.0 altitude -align right
-
-point 2966.0 2548.0 altitude -align right
-
 point 5050.0 1788.0 label -text P17
 
 point 3162.0 3148.0 label -text P8
 
-point 1882.0 1626.0 label -text [Puits parrallèles bouchés]
+point 2122.0 1634.0 label -text [Puits borgnes]
 
 point 1797.0 3670.0 label -text P26
 
@@ -958,7 +952,7 @@ line rock-border -close on
   5949.0 1135.0
 endline
 
-point 5976.0 872.0 label -text "Arrêt 2022"
+point 6192.0 888.0 label -text "Terminus 2022"
 
 line wall
   6128.0 1070.0
@@ -974,6 +968,7 @@ line wall -reverse on -subtype blocks
   5790.0 768.0 5736.0 762.0 5652.0 760.0
   5568.0 758.0 5542.0 710.0 5510.0 724.0
   5478.0 738.0 5288.0 726.0 5270.0 740.0
+  altitude .
   5252.0 754.0 5328.28 917.97 5297.0 946.0
   smooth off
 endline
@@ -1002,7 +997,7 @@ endline
 
 point 4776.0 2804.0 air-draught -orientation 101.8
 
-line wall
+line wall -reverse on
   3268.0 2820.0
   3270.5 2824.0 3586.0 2823.0 3652.0 2817.0
   3718.0 2811.0 3730.0 2792.0 3864.0 2787.0
@@ -1028,6 +1023,7 @@ line wall
   6488.0 1422.0
   6468.0 1322.0
   6446.0 1226.0
+  altitude .
   6446.0 1226.0 6455.81 1187.5 6300.0 1204.0
   6130.0 1222.0 6290.0 1126.0 6290.0 1126.0
   smooth off
@@ -1243,6 +1239,7 @@ line wall
   1945.0 4197.5
   1945.0 4197.5 1975.0 4199.0 2007.0 4156.0
   2039.0 4113.0 2048.0 4065.0 2086.0 4038.0
+  altitude .
   2124.0 4011.0 2113.0 3935.0 2108.0 3870.0
   2103.0 3805.0 2084.0 3669.0 2065.0 3609.0
   2046.0 3549.0 2104.0 3389.0 2108.0 3332.0
@@ -1264,6 +1261,7 @@ line wall
   2182.0 2178.0 2175.0 1948.0 2194.0 1883.0
   2202.86 1852.69 2421.0 1848.0 2476.0 1857.0
   2525.34 1865.07 2488.0 1867.0 2499.0 1920.0
+  altitude .
   2508.96 1967.97 2524.94 2090.8 2522.0 2179.0
   2519.0 2269.0 2447.0 2546.0 2444.0 2626.0
   2441.0 2706.0 2356.0 3382.97 2355.0 3416.0
@@ -1272,6 +1270,7 @@ line wall
   2656.2 2661.63 2824.0 2575.0 2848.0 2569.0
   2872.0 2563.0 2918.0 2598.0 2918.0 2598.0
   smooth off
+  altitude .
   2918.0 2598.0 2997.0 2619.0 3177.0 2609.0
   3357.0 2599.0 3569.0 2599.0 3623.0 2583.0
   3677.0 2567.0 3920.0 2562.0 3920.0 2562.0
@@ -1289,6 +1288,7 @@ endline
 line wall -visibility off
   1180.0 5119.0
   1180.0 5119.0 1330.0 5090.0 1334.0 5118.0
+  altitude .
   1338.0 5146.0 1338.0 5230.0 1338.0 5230.0
   smooth off
   1338.0 5230.0 1352.0 5262.0 1294.0 5264.0
@@ -1302,11 +1302,12 @@ endline
 area water
 endarea
 
-line wall
+line wall -reverse on
   1180.0 5119.0
   1180.0 5119.0 1116.0 5122.0 1101.0 5119.0
   1086.0 5116.0 1024.0 5129.0 1015.0 5082.0
   1006.0 5035.0 1013.0 5006.0 1019.0 4988.0
+  altitude .
   1025.0 4970.0 1057.16 4836.0 1065.0 4808.0
   1072.0 4783.0 1087.0 4743.0 1130.0 4728.0
   1173.0 4713.0 1324.59 4725.34 1374.0 4720.0
@@ -1838,7 +1839,7 @@ endline
 
 point 7988.0 18.0 label -text "?  imp."
 
-point 8037.0 -37.0 air-draught -orientation 194.6
+point 8117.0 -33.0 air-draught -orientation 194.6
 
 point 8275.0 -469.0 ice -scale l
 
@@ -1846,6 +1847,7 @@ point 8176.0 -467.0 ice
 
 line wall
   7613.0 -466.0
+  altitude .
   7613.0 -466.0 7775.0 -461.0 7802.0 -458.0
   subtype clay
   7829.0 -455.0 8153.0 -486.0 8163.0 -487.0
@@ -2026,6 +2028,7 @@ endline
 
 line wall -reverse on
   5670.0 -696.0
+  altitude .
   5670.0 -696.0 5680.0 -260.0 5686.0 -232.0
   5692.0 -204.0 5746.0 -162.0 5760.0 -134.0
   5774.0 -106.0 5846.0 -2.0 5834.0 4.0
@@ -2175,6 +2178,7 @@ line wall -reverse on
   7202.0 -1136.0 7242.0 -1336.0 7244.0 -1372.0
   7246.0 -1408.0 7238.0 -1444.0 7234.0 -1452.0
   smooth off
+  altitude .
 endline
 
 line wall
@@ -2210,14 +2214,24 @@ point 6546.97 -42.55000000000007 station -name 16
 
 point 7065.030000000001 -385.45000000000005 station -name 15
 
-point 6307.0 -212.0 label -text "Glace fossile"
+point 6131.0 -232.0 label -text "Glace fossile"
 
-point 5919.0 -681.0 label -text "Ca passe presque !"
+line arrow
+  5460.0 -936.0
+  5692.0 -908.0
+endline
+
+line arrow
+  6292.0 -252.0
+  6608.0 -128.0
+endline
+
+point 5063.0 -1025.0 label -text "Ca passe presque !"
 
 line label
 endline
 
-point 6802.0 -1586.0 label -text "Ca passe pas !"
+point 6910.0 -1662.0 label -text "Ca passe pas !"
 
 endscrap
 
@@ -2226,6 +2240,8 @@ endscrap
 scrap arcel1_S4_C -projection extended -station-names "" "@frequence51" -scale [-128.0 -128.0 7293.358200000001 -128.0 0.0 0.0 188.50249828 0.0 m]
 
 point 1989.0 621.0 entrance -orientation 91.7
+
+point 1472.0 640.0 label -text "Entrée sup"
 
 point 1860.0 515.0 entrance -orientation 103.0
 
@@ -2262,6 +2278,7 @@ line wall -reverse on -clip off -outline none -subtype sand
   4090.0 2.0
   4090.0 2.0 4017.0 35.0 4011.0 44.0
   smooth off
+  altitude .
 endline
 
 line wall -clip off -outline none -subtype sand
@@ -2462,6 +2479,7 @@ endline
 line wall -reverse on
   2041.0 640.0
   2041.0 640.0 2175.0 665.0 2185.0 649.0
+  altitude .
   2195.0 633.0 2193.0 596.0 2202.0 591.0
   2211.0 586.0 2282.0 666.0 2282.0 666.0
   smooth off
@@ -2717,6 +2735,7 @@ endline
 line wall
   4851.0 768.0
   4846.0 758.0 4826.0 792.0 4795.0 785.0
+  altitude .
   4764.0 778.0 4779.0 716.0 4760.0 702.0
   4741.0 688.0 4465.0 552.0 4455.0 547.0
   4445.0 542.0 4308.0 439.0 4283.0 446.0
