@@ -29,8 +29,6 @@ input datas/AR3_p.th2
 
 map AR3_mp -title AR3_mp
   AR3_sp1
-  break
-  AR3_sp2
 endmap
 
 
@@ -53,8 +51,6 @@ input datas/AR3_c.th2
 
 map AR3_mc -title AR3_mc
   AR3_sc1
-  break
-  AR3_sc2
 endmap
 
 endsurvey

@@ -22,13 +22,13 @@ export map \
      -projection plan \
      -layout plan   \
      -output Exports/AR3_plan.pdf \
-     #-layout hide_centreline   ###Si activé, cache le fil de fer
+     -layout hide_centreline   ###Si activé, cache le fil de fer
 
  export map \
      -projection extended \
      -layout plan   \
      -output Exports/AR3_coupe.pdf \
-     #-layout hide_centreline  ###Si activé, cache le fil de fer
+     -layout hide_centreline  ###Si activé, cache le fil de fer
 
 
 
