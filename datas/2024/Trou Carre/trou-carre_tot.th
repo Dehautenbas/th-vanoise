@@ -1,0 +1,38 @@
+encoding  utf-8
+survey CAVE-tot -title "CAVE"
+
+
+### Import maps
+#input mdf-map.th
+
+
+### Import .th
+        input
+
+
+### Equate .th
+    
+        equate 
+
+
+
+
+#####   PLAN    #####
+    ### Input .th2
+        
+
+    ### Join .th2
+
+ 
+
+##### COUPE EXTENTED #####   
+    ### Input .th2
+
+
+    ### Join .th2
+        
+
+
+
+
+endsurvey

@@ -1,0 +1,107 @@
+encoding  utf-8
+
+
+################################# Layout général #############################
+layout general
+    copy langue-fr          ### Change the language
+    copy drawingconfig      ### Set colors/size of symbols, define new symbols
+    copy header
+
+    doc-title "Gouffre de l'Arcel1"
+    doc-author "Continent8"
+
+    transparency on         ### vue en transparence des galeries qui se superposent...
+    opacity 80              ### ... avec une opacité de 80%
+    rotate 0                ### rotation du nord géographique (en degré)
+    colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
+    color map-bg 96                         ### couleur du fond (80% blanc / 20% gris => 80)
+
+    #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
+                                 ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
+        
+    symbol-hide group centerline
+
+
+endlayout
+
+
+layout header
+    scale-bar 25 m
+    legend on      
+    legend-columns 3
+    #colour-legend off
+    statistics copyright all
+    statistics topo all
+
+    ### To scale NorthArrow, find in config3 with cmd+f : "% scale your north arrow here"
+
+
+  code tex-map
+      \legendwidth=20cm
+      \legendtextsize={\size[12]}
+      \legendtextheadersize={\size[32]} %%% Taille du titre
+      \legendtextsectionsize={\size[16]} %%% Taille du titre
+      #\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
+   endcode
+
+    map-comment "<br>\
+Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73) <br>\
+Coordonnées : (WGS84) 45.378813N  6.772146E  2603m <br>\
+<br>\
+Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol, Benoît Urruty <br>\ 
+"
+
+endlayout
+
+
+
+
+layout plan
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 300                
+
+
+  cs UTM32
+ 
+  map-header 0 40 nw              ### positionnement du cartouche 
+  scale-bar 25 m
+  copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+endlayout
+
+
+layout coupe
+  copy general
+
+  #color map-fg scrap             ### couleur des galeries selon altitude, map ou scrap
+
+  scale 1  200                    
+  #base-scale 1 150                
+
+
+  cs UTM32
+ 
+  map-header 0 20 nw              ### positionnement du cartouche 
+  scale-bar 25 m
+  copy scalebar_horiz
+  #copy scalebar_vert
+  legend on     
+  legend-columns 3
+  #colour-legend off
+
+endlayout
+
+layout centerline
+    #debug scrap-names
+    debug station-names
+    symbol-show group centerline
+endlayout
+
