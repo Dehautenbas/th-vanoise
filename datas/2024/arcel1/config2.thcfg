@@ -69,7 +69,7 @@ layout plan
  
   map-header 0 40 nw              ### positionnement du cartouche 
   scale-bar 25 m
-  copy scalebar_horiz
+ # copy scalebar_horiz
   #copy scalebar_vert
   legend on     
   legend-columns 3
@@ -91,7 +91,7 @@ layout coupe
  
   map-header 0 20 nw              ### positionnement du cartouche 
   scale-bar 25 m
-  copy scalebar_horiz
+  #copy scalebar_horiz
   #copy scalebar_vert
   legend on     
   legend-columns 3

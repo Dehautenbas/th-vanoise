@@ -1,3 +1,4 @@
+encoding  utf-8
 
 survey Arcel1 -title "Gouffre de l'Arcel1"
   
@@ -59,19 +60,21 @@ input datas/escalier/escalier_P.th2
 input datas/tube-de-prechauffage/tube-de-prechauffage_P.th2
 
 
-################################# raccordement entre sraps pour le PLAN ###########################
+################################# raccordement entre scraps pour le PLAN ###########################
 join jonction_D:0 arcel1_D:end
 join jonction_G:end arcel1_G:0
 join jonctionGG:0 F51-GG:end
 join jonctionGD:end F51-GD:0
 join jonctionDG:0 F51-GD:end
 join jonctionDD:end F51-DD:0
-join F51-2G:0 amontG:0
-join F51-2D:end amontD:0
+#join F51-2G:0 amontG:0
+#join F51-2D:end amontD:0
 join F51-3G:0 PR1G:end
 join F51-3D:end PR1D:0
 join amontG2:0 PR1G:0
 join amontG:end PR2D:end
+
+#join SP-amont-1 SP-Frequence_51-3
 
 
 
