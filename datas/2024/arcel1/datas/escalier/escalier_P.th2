@@ -12,6 +12,7 @@ line pit
   559.5 715.0 553.0 697.5 564.0 692.5
   575.0 687.5 578.5 681.0 583.5 682.0
   588.5 683.0 594.0 686.0 596.5 688.0
+  smooth off
 endline
 
 point 1978.6799999999998 242.112 station -name 00
@@ -106,16 +107,19 @@ endline
 line pit
   309.0 625.0
   309.0 625.0 313.0 648.0 306.0 649.0
+  smooth off
 endline
 
 line pit
   352.5 627.5
   352.5 627.5 355.0 648.5 347.0 650.0
+  smooth off
 endline
 
 line pit -reverse on
   392.5 651.5
   392.5 651.5 403.5 636.0 396.0 629.0
+  smooth off
 endline
 
 line rock-border
@@ -144,6 +148,7 @@ endline
 line pit
   1082.5 407.5
   1082.5 407.5 1100.5 397.0 1101.0 386.0
+  smooth off
 endline
 
 point 1465.0 579.0 label -text "imp."
@@ -151,12 +156,14 @@ point 1465.0 579.0 label -text "imp."
 line slope
   1509.0 504.0
   1509.0 504.0 1536.0 469.0 1526.0 449.5
+  smooth off
   l-size 12.0
 endline
 
 line slope
   1469.5 530.0
   1469.5 530.0 1504.0 466.0 1492.5 429.5
+  smooth off
   l-size 12.0
 endline
 
@@ -175,6 +182,7 @@ line border
   1430.0 440.5 1438.5 440.0 1452.5 441.0
   1466.5 442.0 1497.0 441.5 1503.5 446.0
   1510.0 450.5 1507.5 451.0 1512.5 443.5
+  smooth off
 endline
 
 line border
@@ -183,11 +191,13 @@ line border
   1412.5 489.5 1420.5 488.0 1430.0 492.0
   1439.5 496.0 1446.5 499.0 1454.5 496.5
   1462.5 494.0 1504.5 492.0 1506.0 502.5
+  smooth off
 endline
 
 line slope
   1458.0 421.5
   1412.0 443.0 1404.5 489.5 1420.0 514.5
+  smooth off
   l-size 12.0
 endline
 
@@ -195,28 +205,31 @@ line slope -reverse on
   1388.5 496.5
   l-size 12.0
   1388.5 496.5 1377.5 465.5 1391.5 442.0
+  smooth off
 endline
-
-point 1016.5 508.0 label -text "section" -scale XL
 
 line pit -reverse on
   1173.5 404.0
   1173.5 404.0 1157.0 425.0 1152.0 424.0
+  smooth off
 endline
 
 line pit
   966.5 367.5
   966.5 367.5 958.5 392.5 969.0 396.5
+  smooth off
 endline
 
 line pit
   899.0 383.5
   899.0 383.5 883.5 409.5 904.5 410.5
+  smooth off
 endline
 
 line pit -reverse on
   855.0 433.5
   855.0 433.5 832.5 429.5 836.0 417.5
+  smooth off
 endline
 
 area clay
@@ -236,18 +249,21 @@ endline
 line slope
   1537.0 558.5
   1537.0 558.5 1537.5 545.0 1531.5 537.5
+  smooth off
   l-size 8.0
 endline
 
 line slope
   1511.5 569.5
   1510.5 566.5 1509.5 553.5 1503.5 551.5
+  smooth off
   l-size 8.0
 endline
 
 line wall -reverse on -subtype presumed
   1494.0 573.0
   1503.5 570.5 1527.5 554.0 1534.5 553.5
+  smooth off
 endline
 
 point 2008.5 351.5 blocks
@@ -277,6 +293,7 @@ endline
 line water-flow
   1949.0 269.0
   1949.0 269.0 1972.5 264.0 1974.5 262.0
+  smooth off
 endline
 
 line pit -close on -reverse on
@@ -294,6 +311,7 @@ line pit
   2041.0 342.0 2028.0 345.0 2019.0 342.0
   2010.0 339.0 2001.0 335.5 2006.5 326.0
   2012.0 316.5 2009.5 297.5 2008.5 294.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -308,6 +326,7 @@ line wall -reverse on
   1986.0 384.5 2000.0 375.0 2010.5 373.0
   2021.0 371.0 2057.5 364.5 2040.0 339.0
   2029.99 324.42 2044.0 279.0 2034.5 281.0
+  smooth off
 endline
 
 line wall -reverse on
@@ -343,6 +362,7 @@ line wall -reverse on
   1407.5 437.5 1388.0 457.5 1362.5 456.5
   1337.0 455.5 1287.5 428.5 1258.0 429.5
   1228.5 430.5 1178.0 411.5 1154.0 406.5
+  smooth off
 endline
 
 line wall -reverse on
@@ -378,6 +398,7 @@ line border
   473.0 548.5 459.0 555.0 461.0 544.0
   463.0 533.0 471.0 527.0 477.5 516.5
   484.0 506.0 500.5 477.5 508.5 476.5
+  smooth off
 endline
 
 point 995.5 460.5 label -text "marmites" -scale s
@@ -388,6 +409,7 @@ line slope -reverse on
   1846.5 351.0 1856.5 343.0 1853.5 336.5
   1850.5 330.0 1844.0 313.0 1839.5 313.5
   1835.0 314.0 1824.0 318.5 1819.5 321.0
+  smooth off
   l-size 6.0
 endline
 
@@ -489,6 +511,7 @@ line border
   452.0 503.5 456.5 476.0 464.0 473.0
   471.5 470.0 477.0 468.0 482.0 460.5
   487.0 453.0 498.5 453.5 505.0 456.5
+  smooth off
 endline
 
 line wall -close on -reverse on
@@ -497,6 +520,13 @@ line wall -close on -reverse on
   567.5 605.0 582.0 615.5 585.5 621.0
   589.0 626.5 573.0 639.0 564.5 631.5
 endline
+
+line section -reverse on -direction end
+  1103.0 426.5
+  1102.5 513.0
+endline
+
+point 1101.0 545.5 section -scrap section1
 
 line wall -reverse on
   283.5 636.0
@@ -518,6 +548,7 @@ line wall -reverse on
   1496.77 511.14 1494.5 498.5 1508.0 497.0
   1521.5 495.5 1554.0 518.0 1561.0 525.0
   1568.0 532.0 1533.5 540.0 1526.5 542.5
+  smooth off
 endline
 
 line wall -reverse on -subtype presumed
@@ -533,6 +564,18 @@ point 438.99 511.25199999999995 station -name 21
 point 513.02 529.302 station -name 22
 
 point 454.86 503.892 station -name 23
+
+endscrap
+
+
+
+scrap section1 -projection none -scale [706.0 491.0 806.49 491.0 0.0 0.0 5 0.0 m]
+
+line wall -close on -reverse on
+  826.75 591.25
+  824.68 590.85 827.75 612.25 847.5 615.0
+  848.52 615.14 848.5 595.5 826.75 591.25
+endline
 
 endscrap
 
