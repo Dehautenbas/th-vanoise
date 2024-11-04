@@ -7,41 +7,42 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
 
 ### import.th 
   input datas/arcel1/arcel1.th
-  input datas/jonction/jonction.th
+  input datas/jonction23/jonction.th
         equate PTR_0@jonction PTR_0@frequence51
         equate 26@arcel1 2@jonction
   input datas/amont2023/amont.th
-  input datas/frequence51/frequence51.th
+  input datas/frequence5123/frequence51.th
         equate 0@amont 53@frequence51
         #???? equate PTR_2@frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
-  input datas/puits_remontant/puits_remontant.th
+  input datas/puits_remontant23/puits_remontant.th
         equate 43@frequence51 0@puits_remontant
         equate 4@amont 24@puits_remontant
           #### 7 pts remontant = 3 amont --> a faire
-  input datas/tube-de-prechauffage/tube-de-prechauffage.th
+  input datas/tube-de-prechauffage24/tube-de-prechauffage.th
         equate 10@tube-de-prechauffage 27@amont
   input datas/amont2024/amont2024-1.th
         equate 0@amont2024-1 40@amont
-  input datas/escalier/escalier.th
+  input datas/escalier24/escalier.th
         equate 3c@escalier 15@amont2024-1
         equate 236@escalier 19@amont
-  input datas/pieuvre_PG-FM/pieuvre_PG-FM.th
+  input datas/pieuvre_PG-FM24/pieuvre_PG-FM.th
         equate 21.3@pieuvre_PG-FM 7@puits_remontant
         equate 0@pieuvre_PG-FM 19@amont
-  input datas/diaclase_MK-SP/diaclase_MK-SP.th
+  input datas/diaclase_MK-SP24/diaclase_MK-SP.th
         equate 2@diaclase_MK-SP 73@amont2024-1
   input datas/amont2024/amont2024-2.th
         equate 73@amont2024-1 0@amont2024-2
-  input datas/pts-actif/pts-actif-1.th
+  input datas/pts-actif24/pts-actif-1.th
         equate 54@pts-actif-1 54@amont2024-1
-  input datas/pts-actif/pts-actif-2.th
+  input datas/pts-actif24/pts-actif-2.th
         equate 16@pts-actif-2 64@pts-actif-1
-  input datas/diaclase-boucle/diaclase-boucle.th
+  input datas/diaclase-boucle24/diaclase-boucle.th
         equate 0@diaclase-boucle 30@amont2024-1
-  input datas/pts_oublie/pts_oublie.th
+  input datas/pts_oublie24/pts_oublie.th
         equate 11@pts_oublie 19@amont
   input datas/amont2024/amont2024-3_TC-BU.th
         equate 36@amont2024-3_TC-BU 46@amont2024-2
+
 
 
 
@@ -52,12 +53,12 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
 
 ################################  inclusion des .TH2 pour le PLAN #####################################
 input datas/arcel1/arcel1_P.th2
-input datas/jonction/jonction_P.th2
+input datas/jonction23/jonction_P.th2
 input datas/amont2023/amont_P.th2
-input datas/frequence51/frequence51_P.th2
-input datas/puits_remontant/puits_remontant_P.th2
-input datas/escalier/escalier_P.th2
-input datas/tube-de-prechauffage/tube-de-prechauffage_P.th2
+input datas/frequence5123/frequence51_P.th2
+input datas/puits_remontant23/puits_remontant_P.th2
+input datas/escalier24/escalier_P.th2
+input datas/tube-de-prechauffage24/tube-de-prechauffage_P.th2
 
 
 ################################# raccordement entre scraps pour le PLAN ###########################
@@ -88,7 +89,7 @@ join amontG:end PR2D:end
 
 ################################  inclusion des .TH2 pour la COUPE #####################################
 input datas/arcel1/arcel1_C.th2
-input datas/puits_remontant/puits_remontant_C.th2
+input datas/puits_remontant23/puits_remontant_C.th2
 input datas/amont2023/amont_C.th2
 ################################# raccordement entre sraps pour la COUPE ###########################
 ###join lama_l1_D:0 entree_l1_D:end

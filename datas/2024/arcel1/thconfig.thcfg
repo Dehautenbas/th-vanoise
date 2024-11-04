@@ -1,0 +1,109 @@
+encoding  utf-8
+
+encoding  utf-8
+
+source arcel1_tot.th
+
+input config2.thcfg
+#input config3.thcfg
+input ../../../config3.thcfg
+
+
+
+
+##########################Selection de la map à exporter #############################
+######################################################################################
+
+#select plan@arcel1_map       #uncomment ONLY one
+#select plan@arcel1_map       #uncomment ONLY one
+#select coupe@arcel1_map         #uncomment ONLY one
+
+
+#export map \
+     -projection plan \
+     -layout plan   \
+     -output Exports/arcel1_plan.pdf \
+     -layout hide_centreline   ###Si activé, cache le fil de fer
+
+ #export map \
+     -projection extended \
+     -layout coupe   \
+     -output Exports/arcel1_coupe.pdf \
+     -layout hide_centreline  ###Si activé, cache le fil de fer
+
+
+
+######################## STATIONS ########################
+
+# l'ordre des layouts est importants !
+
+#export map \
+     -projection plan \
+     -layout centerline \
+     -layout plan   \
+     -output Exports/arcel1_plan-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+
+
+#export map \
+     -projection extended \
+     -layout centerline \
+     -layout coupe   \
+     -output Exports/CAVTEE_coupe-extended-travail.pdf \
+     # -layout hide_centreline                  ###Si activé, cache le fil de fer
+   #  -output Exports/arcel1_coupe-travail.pdf \
+
+
+
+#export map \
+     -fmt svg   \
+     -layout plan   \
+     -output Exports/arcel1_plan.svg \
+     -layout hide_centreline   ###Si activé, cache le fil de fer
+
+#export map \
+     -projection extended \
+     -layout plan   \
+     -output Exports/arcel1_coupe.svg \
+     -layout hide_centreline  ###Si activé, cache le fil de fer
+
+#export model \
+     -output Exports/arcel1_coupe.dxf \
+
+#export map \
+     -projection plan \
+     -layout walls   \
+     -output Exports/arcel1_walls.pdf \
+     -layout hide_centreline \  ###Si activé, cache le fil de fer
+     #-layout hide_point \
+     #-layout-debug station-names \
+     #-layout debug \
+
+
+
+######################## KML #######################
+
+#export map \
+     -projection plan \
+     -output Exports/arcel1.kml  ###-> Pour murs
+
+
+#export model \
+     -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
+
+
+######################## LISTES ########################
+
+#export survey-list \
+     -o Exports/arcel1_stats.html
+
+#export continuation-list \
+      
+#export map \
+     -format xvi \
+     -projection [elevation 0] \
+     -projection extended \
+     -layout xvi-export \
+     -o Exports/arcel1coupetravailVueNord.xvi
+
+export map -proj plan -layout xvi-export -fmt xvi -o Exports/arcel1plan.xvi

@@ -1,7 +1,7 @@
 encoding  utf-8
 input config2.thcfg
-input config3.thcfg
-source MASTER.th
+input ../../../config3.thcfg
+source arcel1/arcel1_tot.th
 
 ###################################################################################################
 ################################## Selection de la map à exporter #################################
@@ -130,10 +130,10 @@ source MASTER.th
                sketches on
           endlayout
 
-#export map \
+export map \
      -proj plan \
      -layout xvi-export \
-     -o Exports/CAVITEE_P.xvi \
+     -o Exports/arcel124_P.xvi \
 
 #export map \
      -proj extended \
