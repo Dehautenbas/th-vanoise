@@ -1,0 +1,116 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 364.21999999999997 639.81
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {137.793 1 1.0} {177.168 0} pts_oublie_P.xvi 0 {}
+
+
+
+scrap pts_oublie_SP1 -projection plan -station-names "" "@pts_oublie" -scale [0 0 1600 0 0.0 0.0 40.64 0.0 m]
+
+point 76.25 277.5 continuation -attr Code "P" -attr cavite "Arcel1" -attr Reseau "amont23" -attr CA "?" -text "Pts non descendu par manque de temps"
+
+line wall -reverse on
+  86.25 322.75
+  86.0 320.5 87.25 316.5 88.75 311.0
+endline
+
+line wall -reverse on -subtype pit
+  88.75 311.0
+  90.25 305.5 96.83 271.24 98.5 265.0
+endline
+
+line wall -reverse on
+  98.5 265.0
+  103.25 247.25 96.0 220.75 101.5 213.75
+  107.0 206.75 118.5 208.75 120.0 198.75
+  121.5 188.75 122.25 189.5 122.5 175.5
+  122.75 161.5 134.75 140.75 137.25 134.25
+  139.75 127.75 137.5 111.25 144.0 120.25
+  150.5 129.25 152.5 163.0 148.0 165.0
+  143.5 167.0 130.25 168.0 129.25 176.0
+  128.25 184.0 126.25 191.0 134.25 191.75
+  altitude .
+endline
+
+line wall -reverse on
+  134.25 191.75
+  142.25 192.0 161.75 196.0 163.5 179.75
+  165.25 163.5 164.5 128.0 163.75 118.0
+  163.0 108.0 163.25 42.25 153.25 47.75
+  143.25 53.25 135.75 70.25 131.25 85.0
+  126.75 99.75 120.5 148.5 118.0 156.5
+  115.5 164.5 111.25 168.0 106.0 175.75
+  100.75 183.5 97.5 197.25 90.25 200.5
+  62.65 212.87 65.75 248.25 64.5 259.5
+endline
+
+point 142.25 181.0 label -text "imp." -scale xs
+
+line pit -reverse on
+  146.25 148.75
+  151.75 147.25 161.0 140.25 169.5 145.75
+endline
+
+line pit -reverse on
+  142.75 121.5
+  142.75 121.5 146.75 77.5 164.0 85.0
+endline
+
+line floor-meander
+  90.75 217.25
+  90.75 217.25 110.5 193.5 114.0 183.0
+  117.5 172.5 134.0 121.25 134.5 118.0
+endline
+
+line pit
+  61.5 260.5
+  61.5 260.5 90.25 243.0 99.75 267.75
+endline
+
+line arrow
+  130.5 278.0
+  84.5 270.75
+endline
+
+point 148.5 279.75 label -text "Puits oublié<br>P7" -scale s
+
+point 187.0 119.0 label -text "R11" -scale s
+
+line pit -reverse on
+  55.75 298.0
+  55.75 298.0 75.25 321.75 97.0 301.75
+endline
+
+line wall -reverse on -subtype pit
+  64.5 259.5
+  63.25 270.75 56.5 290.96 57.25 300.5
+endline
+
+line wall -reverse on
+  57.25 300.5
+  58.35 314.47 57.5 314.5 56.25 320.0
+endline
+
+point 77.533 301.208 station -name 7
+
+point 80.65299999999999 211.76800000000003 station -name 66
+
+point 83.113 210.81800000000004 station -name 6
+
+point 116.96300000000001 199.55800000000002 station -name 55
+
+point 118.783 179.96800000000002 station -name 5
+
+point 122.313 118.60800000000003 station -name 4
+
+point 142.893 110.74800000000002 station -name 3
+
+point 155.023 119.52800000000002 station -name 2
+
+point 155.823 176.24800000000002 station -name 1
+
+point 137.793 177.168 station -name 0
+
+endscrap
+
+

@@ -50,35 +50,31 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
 ################################     PLAN      ################################################################
 ################################################################################################################
 
-
-################################  inclusion des .TH2 pour le PLAN #####################################
 input datas/arcel1/arcel1_P.th2
 input datas/jonction23/jonction_P.th2
+      join jonction_D:0 arcel1_D:end
+      join jonction_G:end arcel1_G:0
 input datas/amont2023/amont_P.th2
+      join amontG2:0 PR1G:0
+      join amontG:end PR2D:end
 input datas/frequence5123/frequence51_P.th2
+      join jonctionGG:0 F51-GG:end
+      join jonctionGD:end F51-GD:0
+      join jonctionDG:0 F51-GD:end
+      join jonctionDD:end F51-DD:0
+      join fda:0 F51-2D:end
+      join amontG:0 F51-2G:0
 input datas/puits_remontant23/puits_remontant_P.th2
+      join F51-3G:0 PR1G:end
+      join F51-3D:end PR1D:0
 input datas/escalier24/escalier_P.th2
 input datas/tube-de-prechauffage24/tube-de-prechauffage_P.th2
-
-
-################################# raccordement entre scraps pour le PLAN ###########################
-join jonction_D:0 arcel1_D:end
-join jonction_G:end arcel1_G:0
-join jonctionGG:0 F51-GG:end
-join jonctionGD:end F51-GD:0
-join jonctionDG:0 F51-GD:end
-join jonctionDD:end F51-DD:0
-#join F51-2G:0 amontG:0
-#join F51-2D:end amontD:0
-join F51-3G:0 PR1G:end
-join F51-3D:end PR1D:0
-join amontG2:0 PR1G:0
-join amontG:end PR2D:end
-
-#join SP-amont-1 SP-Frequence_51-3
+input datas/pts_oublie24/pts_oublie_P.th2
+      join pts_oublie_SP1 SP-amont-1
 
 
 
+###  !!  AJouter le scrap sur la MAP !!  ###
 
 
 
@@ -87,15 +83,18 @@ join amontG:end PR2D:end
 ################################################################################################################
 
 
-################################  inclusion des .TH2 pour la COUPE #####################################
 input datas/arcel1/arcel1_C.th2
-input datas/puits_remontant23/puits_remontant_C.th2
-input datas/amont2023/amont_C.th2
-################################# raccordement entre sraps pour la COUPE ###########################
-###join lama_l1_D:0 entree_l1_D:end
-join arcel1_up:end pr_l1_up:0
+      join arcel1_up:end pr_l1_up:0
 join arcel1_down:end pr_l1_down:end
-join SC-amont-1 pr_S1_C
+input datas/puits_remontant23/puits_remontant_C.th2
+      join SC-amont-1 pr_S1_C
+input datas/amont2023/amont_C.th2
+input datas/pts_oublie24/pts_oublie_C.th2
+      #join pts-oublie_b:end l111-1040-2139:end
+
+
+###  !!  AJouter le scrap sur la MAP !!  ###
+
 
 
 

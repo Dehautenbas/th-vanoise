@@ -19,8 +19,9 @@ layout general
     #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
                                  ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
         
-    symbol-hide group centerline
 
+  symbol-hide point station        
+  symbol-hide line survey
 
 endlayout
 
@@ -100,7 +101,8 @@ layout coupe
 endlayout
 
 layout centerline
+    symbol-show point station        
     #debug scrap-names
     debug station-names
-    symbol-show group centerline
+    symbol-show line survey
 endlayout
