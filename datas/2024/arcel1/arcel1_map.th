@@ -34,6 +34,10 @@ map MP  -proj plan
   tube-de-prechauffage_SP1
   break
   pts_oublie_SP1
+
+
+
+
   
 
 endmap   
@@ -64,7 +68,7 @@ map MC  -proj extended
   break
   pr_S2_C
   break
-  tube-de-prechauffage_SC1
+  pts-oublie_SC1
 
 endmap   
 
