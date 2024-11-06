@@ -11,7 +11,8 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
-    # extend auto
+     
+    extend left
     0 . 1.47 327.1 52.8
     0 . 1.45 343.8 5.1
     0 . 3.25 328.9 -79.4
@@ -26,7 +27,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     0 . 8.64 85.1 -18.7
     0 . 5.58 83.4 -45.6
     0 . 2.71 83.8 -45.4
-    extend right
+    
     0 1 3.13 71.4 -0.4
     # extend auto
     1 . 0.75 183.6 -10.5
@@ -34,7 +35,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     1 . 0.41 16.3 11.2
     1 . 1.45 212.3 49.9
     1 . 7.28 104.7 -50.4
-    extend right
+    
     1 2 1.94 296.2 75.2
     # extend auto
     2 . 1.93 290.9 77.1
@@ -45,7 +46,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     2 . 6.74 77.9 -13.0
     2 . 2.12 62.6 -4.1
     2 . 0.55 77.1 -0.5
-    extend right
+    
     2 3 2.09 54.3 15.7
     # extend auto
     3 . 2.10 50.0 18.2
@@ -59,7 +60,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     3 . 2.50 243.6 -6.9
     3 . 1.09 328.1 59.7
     3 . 1.33 318.1 67.4
-    extend right
+    
     3 4 4.27 311.4 55.6
     # extend auto
     4 . 0.28 184.2 -6.9
@@ -69,7 +70,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     4 . 1.91 137.8 -51.8
     4 . 1.12 271.2 -1.6
     4 . 2.13 255.8 16.5
-    extend right
+    
     4 5 2.06 280.9 31.2
     # extend auto
     5 . 1.11 321.9 33.0
@@ -77,7 +78,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     5 . 0.39 320.2 -65.1
     5 . 0.58 73.3 11.8
     5 . 1.57 261.5 4.7
-    extend right
+    
     5 6 3.47 308.2 29.3
     # extend auto
     6 . 0.49 212.3 31.4
@@ -89,7 +90,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     6 . 1.81 5.5 51.4
     6 . 1.88 304.8 54.6
     6 . 2.21 320.0 42.6
-    extend right
+    
     6 7 3.84 316.6 44.5
     # extend auto
     7 . 1.75 332.1 -2.3
@@ -101,9 +102,9 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     7 . 0.88 196.1 88.0
     7 . 2.97 302.9 -8.7
     7 . 2.79 292.3 -12.9
-    extend left
+    
     7 8 7.38 247.7 -4.1
-    extend right
+    
     7 9 3.50 300.0 -10.8
     # extend auto
     9 . 0.68 230.3 82.2
@@ -113,7 +114,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     9 . 2.62 272.0 5.4
     9 . 2.15 294.0 5.6
     9 . 2.52 295.7 11.1
-    extend right
+    
     9 10 5.57 295.4 11.2
     # extend auto
     10 . 0.57 64.3 -1.6
@@ -124,7 +125,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     10 . 1.27 173.4 -82.1
     10 . 4.22 282.3 -73.9
     10 . 3.67 330.3 -39.1
-    extend right
+    
     10 11 3.44 326.1 -58.7
     # extend auto
     11 . 1.79 266.1 2.8
@@ -135,14 +136,14 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     11 . 1.91 234.3 -1.3
     11 . 2.36 182.8 14.9
     11 . 1.58 319.5 81.6
-    extend right
+    
     11 12 4.69 294.8 -26.6
     # extend auto
     12 . 8.95 267.6 -66.7
     12 . 2.98 339.9 -17.3
     12 . 3.07 167.4 -13.0
     12 . 1.29 74.4 -24.3
-    extend vertical
+    
     12 13 8.66 273.8 -58.4
     # extend auto
     13 . 1.56 46.7 -11.7
@@ -152,7 +153,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     13 . 1.13 66.2 64.3
     13 . 5.15 344.9 -27.5
     13 . 2.06 7.7 -25.6
-    extend right
+    
     13 14 5.99 345.8 -19.0
     # extend auto
     14 . 0.82 142.1 -1.9
@@ -163,7 +164,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     14 . 0.99 338.7 79.6
     14 . 0.95 318.6 3.4
     14 . 0.93 345.1 0.1
-    extend right
+    
     14 15 2.69 336.8 6.3
     # extend auto
     15 . 0.37 234.9 -7.6
@@ -176,7 +177,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     15 . 2.95 282.4 -47.0
     15 . 5.46 301.4 -47.0
     15 . 3.92 304.4 -74.2
-    extend right
+    
     15 16 15.85 289.8 -62.4
     # extend auto
     16 . 1.41 42.1 -11.3
@@ -189,7 +190,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     16 . 1.32 41.1 -16.2
     16 . 1.99 93.1 9.8
     16 . 1.20 143.6 29.7
-    extend right
+    
     16 17 3.05 356.8 -1.6
     # extend auto
     17 . 1.99 278.5 -86.3
@@ -197,7 +198,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     17 . 0.97 260.1 -7.0
     17 . 2.68 345.2 -11.0
     17 . 4.11 335.0 -6.5
-    extend right
+    
     17 18 6.27 340.9 -10.7
     18 19 0.79 72.1 6.6
     # extend auto
@@ -207,7 +208,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     19 . 1.80 320.2 35.7
     19 . 2.97 339.5 -22.3
     19 . 2.31 344.6 -24.4
-    extend right
+    
     19 20 4.59 341.0 -28.8
     # extend auto
     20 . 0.39 69.5 -10.7
@@ -217,7 +218,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     20 . 2.17 313.7 -76.4
     20 . 2.34 359.4 -17.8
     20 . 1.50 347.6 -12.3
-    extend right
+    
     20 21 6.14 349.7 -10.4
     # extend auto
     21 . 1.04 207.2 6.0
@@ -226,7 +227,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     21 . 1.00 134.4 6.3
     21 . 1.42 148.6 13.7
     21 . 1.67 135.3 -64.5
-    extend vertical
+    
     21 22 2.48 98.6 -38.8
     # extend auto
     22 . 2.48 95.3 -36.7
@@ -238,7 +239,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     22 . 1.36 205.5 3.3
     22 . 2.78 336.1 -33.5
     22 . 2.96 353.3 -30.6
-    extend right
+    
     22 23 4.36 345.3 -24.2
     # extend auto
     23 . 0.31 260.9 50.3
@@ -248,14 +249,14 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     23 . 0.56 254.7 -38.8
     23 . 1.89 340.6 11.4
     23 . 2.44 359.9 5.2
-    extend right
+    
     23 24 8.37 345.5 -7.3
     # extend auto
     24 . 0.65 173.0 4.3
     24 . 1.63 154.5 -4.4
     24 . 1.00 208.5 10.3
     24 . 1.44 255.5 14.3
-    extend left
+    
     24 25 1.41 258.1 11.3
     # extend auto
     25 . 0.45 169.2 1.1
@@ -264,14 +265,14 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     25 . 1.96 353.9 1.2
     25 . 1.46 87.2 60.8
     25 . 1.36 179.5 -59.2
-    extend right
+    
     25 26 4.10 4.0 12.6
     # extend auto
     26 . 0.72 259.1 0.5
     26 . 1.26 270.5 -50.1
     26 . 0.24 85.9 42.5
     26 . 1.00 329.0 86.6
-    extend right
+    
     26 27 1.87 336.6 5.7
     # extend auto
     27 . 0.97 159.0 3.2
@@ -280,7 +281,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     27 . 0.62 60.1 0.2
     27 . 1.89 230.8 -0.3
     27 . 0.94 255.0 -1.1
-    extend left
+    
     27 28 2.36 241.6 13.4
     # extend auto
     28 . 0.58 354.1 -19.7
@@ -291,7 +292,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     28 . 1.10 55.4 -6.7
     28 . 1.92 292.0 -7.4
     28 . 2.25 283.4 -7.6
-    extend vertical
+    
     28 29 10.65 278.8 -51.5
     # extend auto
     29 . 1.09 180.1 8.6
@@ -303,7 +304,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     29 . 3.31 111.8 53.0
     29 . 1.38 221.2 -17.4
     29 . 3.98 267.8 -2.5
-    extend ignore
+    
     29 30 3.99 268.5 -1.2
     # extend auto
     29 . 0.65 178.1 1.2
@@ -313,7 +314,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     29 . 0.48 329.6 55.3
     29 . 3.23 271.3 -29.9
     29 . 2.90 257.0 -24.4
-    extend left
+    
     30 31 3.20 252.8 -36.9
     # extend auto
     30 . 0.94 353.5 -3.9
@@ -323,7 +324,7 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     30 . 3.01 289.6 2.1
     30 . 3.40 281.7 -11.5
     30 . 1.81 285.0 -22.9
-    extend right
+    
     31 32 8.22 279.9 0.5
     # extend auto
     32 . 0.77 170.2 -2.3
@@ -331,21 +332,21 @@ survey amont2024-3_TC-BU -title "amont2024-3_TC-BU"
     32 . 1.03 199.8 81.8
     32 . 1.10 152.6 75.3
     32 . 2.03 256.0 11.1
-    extend vertical
+    
     32 33 2.62 268.8 23.1
     # extend auto
     33 . 0.35 353.8 -0.9
     33 . 0.34 322.4 57.9
     33 . 0.26 326.7 -69.3
-    extend vertical
+    
     33 34 4.03 268.0 -5.2
     # extend auto
     34 . 0.80 357.8 -5.7
     34 . 0.66 335.1 -71.1
     34 . 0.41 160.7 16.5
-    extend vertical
+    
     34 35 5.32 279.1 0.4
-    extend left
+    
     35 36 1.06 121.8 17.7
   endcenterline
 

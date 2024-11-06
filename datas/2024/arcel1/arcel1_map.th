@@ -1,6 +1,6 @@
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
-map plan  -proj plan
+map MP  -proj plan
   arcel1_S1_P
   break
   arcel1_S2_P
@@ -39,7 +39,7 @@ map plan  -proj plan
 endmap   
 
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
-map coupe  -proj extended 
+map MC  -proj extended 
   pts-oublie_SC1
   break
   SC-amont-2
@@ -64,5 +64,31 @@ map coupe  -proj extended
   break
   pr_S2_C
   break
+  tube-de-prechauffage_SC1
 
 endmap   
+
+
+
+# Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
+map MC_murs-et-centerline -proj extended 
+  MC
+  MC_pas-encore-dessine
+endmap
+        map MC_pas-encore-dessine -proj extended
+          amont2024-1
+          amont2024-2
+          amont2024-3_TC-BU
+          diaclase-boucle
+          pts-actif-2
+          pts-actif-1
+          diaclase_MK-SP
+          #escalier
+
+        endmap
+
+map MC_juste-une-survey -proj extended
+    amont
+endmap
+
+

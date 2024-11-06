@@ -47,7 +47,6 @@ survey pts_oublie -title "pts_oublie"
     5 . 0.37 255.5 78.8
     5 . 0.33 262.5 -20.4
     5 . 0.68 206.5 -78.8
-    extend ignore
     5 55 1.24 354.7 -36.3
     # extend auto
     5 . 0.68 250.4 -13.9
@@ -62,7 +61,6 @@ survey pts_oublie -title "pts_oublie"
     6 . 0.94 74.2 8.0
     6 . 1.63 302.8 77.1
     6 . 1.10 48.3 -83.5
-    extend ignore
     6 66 0.42 291.2 71.4
     extend right
     66 7 4.82 358.0 -19.4

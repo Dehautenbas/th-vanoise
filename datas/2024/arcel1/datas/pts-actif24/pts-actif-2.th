@@ -27,7 +27,6 @@ survey pts-actif-2 -title "pts-actif-2"
     1 . 0.59 121.8 -73.4
     1 . 0.71 45.2 -1.2
     1 . 2.33 125.3 84.9
-    extend left
     1 2 4.25 151.5 5.6
     # extend auto
     2 . 0.50 229.4 58.1
@@ -44,7 +43,6 @@ survey pts-actif-2 -title "pts-actif-2"
     3 . 0.17 295.2 61.7
     3 . 1.84 89.8 54.5
     3 . 5.26 284.5 -52.4
-    extend left
     3 4 2.88 159.7 10.3
     # extend auto
     4 . 0.51 82.7 -25.8

@@ -26,4 +26,3 @@ Convention de nommage des fichiers
 
 
 
--attr Code "P" -attr cavite "Arcel1" -attr Reseau "amont23" -attr CA "?" -text "Pts non descendu par manque de temps"

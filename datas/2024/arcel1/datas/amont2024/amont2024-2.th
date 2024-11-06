@@ -10,7 +10,12 @@ survey amont2024-2 -title "amont2024-2"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
-    # extend auto
+
+
+    
+    
+
+    
     0 . 0.83 1.1 -8.5
     0 . 1.35 351.3 -87.9
     0 . 3.01 25.9 80.3
@@ -21,14 +26,12 @@ survey amont2024-2 -title "amont2024-2"
     1 . 0.75 188.0 1.4
     1 . 1.28 81.0 86.9
     1 . 1.39 208.2 -85.2
-    extend left
     1 2 2.27 108.2 8.3
     # extend auto
     2 . 0.66 6.8 -5.0
     2 . 0.61 256.4 -0.2
     2 . 1.30 175.2 79.9
     2 . 1.53 351.8 -86.3
-    extend left
     2 3 4.93 168.4 -1.4
     # extend auto
     3 . 0.81 305.8 4.7
@@ -46,7 +49,7 @@ survey amont2024-2 -title "amont2024-2"
     4 . 0.95 236.7 4.2
     4 . 0.89 62.7 -24.4
     4 . 1.22 112.5 -12.0
-    extend vertical
+    
     4 5 3.85 87.8 -17.7
     # extend auto
     5 . 0.35 307.7 -52.0
@@ -71,8 +74,9 @@ survey amont2024-2 -title "amont2024-2"
     8 . 0.89 207.6 -81.4
     8 . 0.87 131.9 18.1
     8 . 4.62 97.8 68.2
-    extend left
+    
     8 9 7.07 100.9 -3.5
+    # 9 jonctionne avec 17
     extend right
     8 10 2.93 26.9 45.3
     # extend auto
@@ -87,7 +91,7 @@ survey amont2024-2 -title "amont2024-2"
     10 . 0.55 340.8 56.5
     10 . 0.98 171.0 -28.3
     11 . 3.76 100.7 6.1
-    extend left
+    
     11 12 6.50 100.6 6.3
     # extend auto
     12 . 0.31 9.6 -41.8
@@ -100,24 +104,24 @@ survey amont2024-2 -title "amont2024-2"
     13 . 0.73 298.4 -1.7
     13 . 0.46 38.8 -81.8
     13 . 0.72 68.7 12.9
-    extend left
+    
     13 14 3.80 108.3 -2.1
     # extend auto
     14 . 0.52 18.1 -4.0
     14 . 0.76 211.0 -70.2
-    extend left
+    
     14 15 2.56 106.1 -0.5
     # extend auto
     15 . 0.39 35.8 -79.9
     15 . 0.47 8.8 -3.8
     15 . 1.05 20.2 41.5
-    extend vertical
+    
     15 16 3.07 88.2 -2.6
     # extend auto
     16 . 0.95 186.1 -45.0
     16 . 2.16 8.0 43.1
     16 . 0.30 358.4 -38.8
-    extend left
+    
     16 17 5.02 128.7 -31.5
     # extend auto
     17 . 0.61 319.6 -78.3
@@ -289,7 +293,7 @@ survey amont2024-2 -title "amont2024-2"
     42 43 3.88 83.5 -15.7
     # extend auto
     43 . 0.80 349.8 -17.2
-    extend left
+    
   # actif au fond
     43 43a 9.88 334.7 -3.0
     # extend auto
