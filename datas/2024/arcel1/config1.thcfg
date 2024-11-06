@@ -37,14 +37,14 @@ export map \
 
 export map \
      -projection plan \
-     -layout centerline \
-     -layout plan   \
+     -layout plan \
+     -layout centerline   \
      -output Exports/arcel1_plan-travail.pdf \
 
 export map \
      -projection extended \
-     -layout centerline \
-     -layout coupe   \
+     -layout coupe \
+     -layout centerline   \
      -output Exports/arcel1_coupe-travail.pdf \
 
 
@@ -117,7 +117,7 @@ export model \
 export survey-list \
      -o Exports/arcel1_stats.html
 
-#export continuation-list \
+export continuation-list \
      -o Exports/arcel1_continuations.html
 
 

@@ -32,6 +32,8 @@ map plan  -proj plan
   SP-jonction-3
   break
   tube-de-prechauffage_SP1
+  break
+  pts_oublie_SP1
 
 
 
@@ -63,6 +65,6 @@ map coupe  -proj extended
   break
   pr_S2_C
   break
-
+  pts-oublie_SC1
 
 endmap   

@@ -59,7 +59,12 @@ input datas/frequence5123/frequence51_P.th2
 input datas/puits_remontant23/puits_remontant_P.th2
 input datas/escalier24/escalier_P.th2
 input datas/tube-de-prechauffage24/tube-de-prechauffage_P.th2
+input datas/pts_oublie24/pts_oublie_P.th2
+      join pts_oublie_SP1 SP-amont-1
 
+
+
+###  !!  AJouter le scrap sur la MAP !!  ###
 
 ################################# raccordement entre scraps pour le PLAN ###########################
 join jonction_D:0 arcel1_D:end
@@ -68,14 +73,12 @@ join jonctionGG:0 F51-GG:end
 join jonctionGD:end F51-GD:0
 join jonctionDG:0 F51-GD:end
 join jonctionDD:end F51-DD:0
-#join F51-2G:0 amontG:0
-#join F51-2D:end amontD:0
 join F51-3G:0 PR1G:end
 join F51-3D:end PR1D:0
 join amontG2:0 PR1G:0
 join amontG:end PR2D:end
-
-#join SP-amont-1 SP-Frequence_51-3
+join fda:0 F51-2D:end
+join amontG:0 F51-2G:0
 
 
 
@@ -91,6 +94,9 @@ join amontG:end PR2D:end
 input datas/arcel1/arcel1_C.th2
 input datas/puits_remontant23/puits_remontant_C.th2
 input datas/amont2023/amont_C.th2
+input datas/pts_oublie24/pts_oublie_C.th2
+      #join pts-oublie_h:0 
+      #join pts-oublie_b:end l111-1040-2139:end
 ################################# raccordement entre sraps pour la COUPE ###########################
 ###join lama_l1_D:0 entree_l1_D:end
 join arcel1_up:end pr_l1_up:0
