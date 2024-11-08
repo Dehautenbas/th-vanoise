@@ -1,0 +1,27 @@
+encoding  utf-8
+survey escalier_24-tot -title "Escalier en colimaçon, réseau sup, Gouffre de l'Arcelin"
+
+    input Data/escalier.th
+    
+    # equate
+   
+
+    ## Plan
+   input Data/escalier_P.th2
+    
+    
+   #join 
+    
+    
+    ## Coupe
+  # input Data/escalier_C.th2
+   #input Data/.th2
+   #input Data/.th2
+ 
+   # join  
+   
+    ## Maps
+    input escalier_24-maps.th
+
+endsurvey
+

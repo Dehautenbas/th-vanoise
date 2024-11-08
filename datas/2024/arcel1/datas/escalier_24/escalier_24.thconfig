@@ -1,0 +1,122 @@
+encoding  utf-8
+
+source escalier_24-tot.th
+
+input ../../../../../config3.thcfg
+
+layout xviexport
+	scale 1 50
+	grid-size 10 10 10 m
+	grid bottom
+endlayout
+
+#select MP-escalier_24@escalier_24-tot
+
+
+layout my_layout
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy header
+	copy langue-fr 
+	  
+	doc-title "Gouffre de l'Arcelin"
+	doc-author "Xavier Robert" 
+	cs UTM32
+	#base-scale 1 500
+	scale 1 500
+	scale-bar 50 m
+	color map-bg 85
+	color map-fg [100 100 80]
+	#color map-fg altitude
+	transparency on
+	opacity 75
+	map-comment "<it>Plan<ss> - "
+	statistics explo-length off
+	statistics topo-length off
+	statistics copyright all
+	legend off
+	legend-width 16 cm
+	#map-header 70 60 nw
+	map-header 0 0 nw
+	map-header-bg off
+	layers on
+	symbol-hide line survey
+	#debug station-names
+	#grid bottom
+	#grid-size 100 100 100 m
+	grid off
+  
+	# To change the Title          
+	code tex-map
+  
+		\edef\temp{\the\cavename}   % cavename from Therion
+		\edef\nostring{}            % empty string
+		\ifx\temp\nostring          % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={entree frequence 51} 		
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		%\newtoks\club \club={FJS}
+	endcode  
+
+	# add general view
+	#map-image 45 20 nw xxxxxxxxxxxxx.pdf
+ 
+ endlayout
+ 
+ layout my_layout-coupe
+	# Call the config settings (Layout config inside the config.thc file)
+	copy drawingconfig
+	copy header_coupe
+	copy langue-fr 
+  
+	doc-title "2024-05-25"
+	doc-author "Xavier Robert"
+	cs UTM32
+	base-scale 1 500
+	scale 1 500
+	scale-bar 50 m
+	#color map-bg 85
+	color map-fg [100 100 80]
+	transparency on
+	opacity 75
+	language fr
+	map-comment "<it>Coupe<ss> -"
+	statistics explo-length off
+	statistics topo-length off
+	statistics copyright all
+	legend off
+	legend-width 15 cm
+	map-header 0 0 nw
+	map-header-bg off
+	layers on
+	symbol-hide line survey
+	#debug station-names
+	#grid bottom
+	#grid-size 100 100 100 m
+	grid off  
+  
+	# To change the Title          
+	code tex-map
+  
+		\edef\temp{\the\cavename}   % cavename from Therion
+		\edef\nostring{}            % empty string
+		\ifx\temp\nostring          % test if cavename is empty
+			% if empty reassign cavename to describe selected maps as a group
+			\cavename={Grotte du Guiers Vif entre S1 et S4} 		
+		\else % if not empty keep the value set by therion, or assign an override cavename here
+		\fi
+		%\newtoks\club \club={FJS}
+	endcode  
+
+	# add general view
+	#map-image 45 20 nw xxxxxxxxxxxxx.pdf
+
+ endlayout
+
+  
+#export map -proj extended -layout xviexport -o Exports/escalier_24_C.xvi 
+export map -proj plan -layout xviexport -o Exports/escalier_24_P.xvi 
+  
+#export map -projection plan -o Exports/escalier_24_P.pdf -layout my_layout
+#export map -projection extended -layout my_layout-coupe -o Exports/escalier_24_C.pdf

@@ -1,0 +1,47 @@
+encoding  utf-8
+survey Arcelin_22-23-tot -title "Gouffre de l'Arcelin"
+
+    input Data/amont_23.th
+    input Data/puits_remontant_23.th
+    input Data/frequence51_23.th
+    input Data/arcel1.th
+    input Data/jonction.th
+    input Data/tube-de-prechauffage.th
+    
+    equate PTR_0@jonction PTR_0@frequence51
+    equate 26@arcel1 2@jonction
+    equate 0@amont 53@frequence51
+    equate 4@amont 24@puits_remontant
+    equate 43@frequence51 0@puits_remontant
+    equate 10@tube-de-prechauffage 27@amont
+    
+   
+
+    ## Plan
+    input Data/amont_23_P.th2
+    input Data/puits_remontant_23_P.th2
+    input Data/frequence51_23_P.th2
+    input Data/arcel1_P.th2
+    input Data/jonction_P.th2
+    input Data/tube-de-prechauffage_P.th2
+    
+   join SP-amont-1 SP-puits_remontant-1
+   join SP-jonction-2 SP-Frequence_51-1
+   join SP-jonction-1 arcel1_S5_P
+   join SP-puits_remontant-1 SP-Frequence_51-1
+    
+    
+    
+    ## Coupe
+   input Data/amont_23_C.th2
+   input Data/puits_remontant_23_C.th2
+   input Data/arcel1_C.th2
+    input Data/tube-de-prechauffage_C.th2
+ 
+ #   join  SC-amont-1 pr_S1_C
+
+    ## Maps
+    input Arcelin_22-23-maps.th
+
+endsurvey
+

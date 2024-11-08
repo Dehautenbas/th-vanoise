@@ -9,10 +9,11 @@ source datas/mnt.th
 ##########################Selection de la map à exporter #############################
 ######################################################################################
 
-#select MP@Arcel1      #uncomment ONLY one
-#select MC@Arcel1        #uncomment ONLY one
+select MP@Arcel1      #uncomment ONLY one
+#select MC@Arcel1      #uncomment ONLY one
 
-select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
+
+#select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
 
 #select MC_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
 #select MC_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
@@ -30,7 +31,7 @@ export map \
      -layout plan   \
      -output Exports/arcel1_plan.pdf \
 
- export map \
+  #export map \
      -projection extended \
      -layout coupe   \
      -output Exports/arcel1_coupe.pdf \
@@ -46,7 +47,7 @@ export map \
      -layout centerline   \
      -output Exports/arcel1_plan-travail.pdf \
 
-export map \
+#export map \
      -projection extended \
      -layout coupe \
      -layout centerline   \
@@ -114,7 +115,7 @@ export map \
      -projection plan \
      -output Exports/arcel1.kml  ###-> Pour murs
 
-export model \
+#export model \
      -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
 
 
@@ -122,13 +123,14 @@ export model \
 #export survey-list \
      -o Exports/arcel1_stats.html
 
-export continuation-list \
+#export continuation-list \
      -o Exports/arcel1_continuations.html
 
 
 ######################## Pour morphing ########################
 #export map \
      -format xvi \
+     -projection plan \
      -layout xvi-export \
      -layout-sketches on \
      -o Exports/arcel1_coupetravail-morphing.xvi
@@ -138,3 +140,9 @@ export continuation-list \
      -projection extended \
      -layout xvi-export \
      -o Exports/arcel1coupetravailVueNord.xvi
+     
+ #export map \
+     -format xvi \
+     -projection [elevation 10] \
+     -layout xvi-export \
+     -o Exports/arcel1coupeprojetée10.xvi

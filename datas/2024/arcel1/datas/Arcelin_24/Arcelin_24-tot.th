@@ -1,0 +1,32 @@
+encoding  utf-8
+survey Arcelin_24-tot -title "Gouffre de l'Arcelin"
+
+    input Data/amont2024-1.th
+    input Data/amont2024-2.th
+    input Data/amont2024-3_TC-BU.th
+    
+     
+    
+    # equate
+   
+
+    ## Plan
+   input Data/amont2024-1_P.th2
+   input Data/amont2024-2_P.th2
+    
+    
+   #join 
+    
+    
+    ## Coupe
+   input Data/amont2024-1_C.th2
+   #input Data/.th2
+   #input Data/.th2
+ 
+   # join  
+   
+    ## Maps
+    input Arcelin_24-maps.th
+
+endsurvey
+

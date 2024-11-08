@@ -1,99 +1,60 @@
+encoding  utf-8
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
-map MP  -proj plan
-  arcel1_S1_P
-  break
-  arcel1_S2_P
-  break
-  arcel1_S3_P
-  break
-  arcel1_S4_P
-  break
-  arcel1_S5_P
-  break
-  PR-amont
-  break
+map MP-scrap -proj plan
   escalier-SP1
-  break
-  SP-amont-1
-  break
-  SP-puits_remontant-1
-  break
-  SP-Frequence_51-2
-  break
-  SP-Frequence_51-1
-  break
-  SP-Frequence_51-3
-  break
-  SP-jonction-1
-  break
-  SP-jonction-2
-  break
-  SP-jonction-3
-  break
-  tube-de-prechauffage_SP1
   break
   pts_oublie_SP1
 
+endmap
 
-
-
-  
+map MP  -proj plan
+  MP-scrap
+    break
+  MP-Arcelin_22-23@Arcelin_22-23-tot
+  break
+  MP-Arcelin_24@Arcelin_24-tot
 
 endmap   
 
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
-map MC  -proj extended 
-  pts-oublie_SC1
-  break
-  SC-amont-2
-  break
-  SC-amont-1
-  break
-  arcel1_S1_C
-  break
-  arcel1_S2_C
-  break
-  arcel1_S3_C
-  break
-  arcel1_S4_C
-  break
-  arcel1_S5_C
-  break
-  arcel1_S6_C
-  break
-  arcel1_S7_C
-  break
-  pr_S1_C
-  break
-  pr_S2_C
-  break
-  tube-de-prechauffage_SC1
-  
+#map MC-scrap  -proj extended 
+ # pts-oublie_SC1
+#endmap   
 
-endmap   
+map MC -proj extended
+  #MC-scrap
+  #break
+  MC-Arcelin_22-23@Arcelin_22-23-tot
+  break
+  MC-Arcelin_24@Arcelin_24-tot
+endmap
+  
 
 
 
 # Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
+
 map MC_murs-et-centerline -proj extended 
   MC
   MC_pas-encore-dessine
 endmap
+
         map MC_pas-encore-dessine -proj extended
-          amont2024-1
-          amont2024-2
-          amont2024-3_TC-BU
+          #amont2024-1
+         # amont2024-2
+          #amont2024-3_TC-BU
           diaclase-boucle
           pts-actif-2
           pts-actif-1
           diaclase_MK-SP
-          #escalier
+          escalier
 
         endmap
 
-map MC_juste-une-survey -proj extended
-    amont
-endmap
+#map MC_juste-une-survey -proj extended
+ #   amont
+#endmap
+
 
 
