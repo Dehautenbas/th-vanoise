@@ -94,7 +94,9 @@ input datas/amont2023/amont_C.th2
 input datas/tube-de-prechauffage24/tube-de-prechauffage_C.th2
 input datas/pts_oublie24/pts_oublie_C.th2
       #join pts-oublie_b:end l111-1040-2139:end
+input datas/diaclase_MK-SP24/diaclase_MK-SP_C.th2
 
+#
 
 ###  !!  AJouter le scrap sur la MAP !!  ###
 

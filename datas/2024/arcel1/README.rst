@@ -26,3 +26,7 @@ Convention de nommage des fichiers
 
 
 
+-attr Code "A" -attr cavite "Arcel1" -attr Reseau "Diaclase remontante" -attr CA "Fort et descendant" -text "Rétrécissement ponctuel dans la faille mais ça passe et ça continue plus large derrière."
+
+
+
