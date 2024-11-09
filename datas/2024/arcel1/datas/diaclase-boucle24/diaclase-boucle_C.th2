@@ -1,0 +1,12 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 1840.51 147.59199999999998 2628.005 1269.732
+##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_image_insert {2263.437 1 1.0} {696.0050000000001 0} diaclase-boucle_C.xvi 0 {}
+
+
+
+scrap diaclase-boucle_SC1 -projection extended -station-names "" "@diaclase-boucle" -scale [706.0 491.0 1190.99 -128.0 0.0 0.0 33.502345999999996 0.0 m]
+
+
+
+endscrap

@@ -73,6 +73,8 @@ input datas/escalier24/escalier_P.th2
 input datas/tube-de-prechauffage24/tube-de-prechauffage_P.th2
 input datas/pts_oublie24/pts_oublie_P.th2
       join pts_oublie_SP1 SP-amont-1
+input datas/diaclase_MK-SP24/diaclase_MK-SP_P.th2
+input datas/diaclase-boucle24/diaclase-boucle_P.th2
 
 
 
@@ -95,6 +97,8 @@ input datas/tube-de-prechauffage24/tube-de-prechauffage_C.th2
 input datas/pts_oublie24/pts_oublie_C.th2
       #join pts-oublie_b:end l111-1040-2139:end
 input datas/diaclase_MK-SP24/diaclase_MK-SP_C.th2
+input datas/diaclase-boucle24/diaclase-boucle_C.th2
+
 
 #
 

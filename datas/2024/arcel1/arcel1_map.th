@@ -34,14 +34,35 @@ map MP  -proj plan
   tube-de-prechauffage_SP1
   break
   pts_oublie_SP1
+  break
+  diaclase_MK-SP_SP1
+  break
+  diaclase-boucle_SP1
 
-
-
-
-  
 
 endmap   
 
+
+# Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
+map MP_murs-et-centerline -proj plan 
+       MP
+       MP_pas-encore-dessine
+endmap
+        map MP_pas-encore-dessine -proj plan
+          amont2024-1
+          amont2024-2
+          amont2024-3_TC-BU
+          pts-actif-2
+          pts-actif-1
+
+        endmap
+
+map MP_juste-une-survey -proj plan
+    amont
+endmap
+
+
+################################################################################################################
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
 map MC  -proj extended 
   SC-amont-2
@@ -72,7 +93,7 @@ map MC  -proj extended
   break
   pts-oublie_SC1
   break
-  
+  diaclase-boucle_SC1
 
 endmap   
 
@@ -87,10 +108,8 @@ endmap
           amont2024-1
           amont2024-2
           amont2024-3_TC-BU
-          diaclase-boucle
           pts-actif-2
           pts-actif-1
-          diaclase_MK-SP
           escalier
 
         endmap
