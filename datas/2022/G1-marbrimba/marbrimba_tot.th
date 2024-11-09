@@ -1,0 +1,10 @@
+encoding  utf-8
+survey marbrimba_tot -title "G1 - Marbrimba"
+
+    input marbrimba.th
+
+    input marbrimba_C.th2
+
+
+endsurvey
+

@@ -1,0 +1,17 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 128.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 61.84m (from 1g@AR3.AR3 at 3.84m to 6@AR3_aval.AR3 at -58.01m)\nnorth-south range: 25.96m (from 6@AR3_aval.AR3 at 5027461.40m to 0@AR3_amont.AR3 at 5027435.44m)\neast-west range: 50.76m (from 1g@AR3.AR3 at 325587.79m to 6@AR3_aval.AR3 at 325537.03m)\nnumber of shots: 182\nnumber of stations: 185"
+xth_cp_data_tree_insert 44 1 1 AR3 AR3 "AR3" "AR3" "length: 128.97m (surface 0.00m, duplicated 0.00m)\nvertical range: 61.84m (from 1g@AR3.AR3 at 3.84m to 6@AR3_aval.AR3 at -58.01m)\nnorth-south range: 25.96m (from 6@AR3_aval.AR3 at 5027461.40m to 0@AR3_amont.AR3 at 5027435.44m)\neast-west range: 50.76m (from 1g@AR3.AR3 at 325587.79m to 6@AR3_aval.AR3 at 325537.03m)\nnumber of shots: 182\nnumber of stations: 185"
+xth_cp_data_tree_insert 46 44 2 AR3 AR3.AR3 "AR3" "AR3" "length: 96.53m (surface 0.00m, duplicated 0.00m)\nvertical range: 56.36m (from 1g@AR3.AR3 at 3.84m to 20@AR3.AR3 at -52.53m)\nnorth-south range: 12.70m (from 20@AR3.AR3 at 5027456.11m to 1g@AR3.AR3 at 5027443.40m)\neast-west range: 42.87m (from 1g@AR3.AR3 at 325587.79m to 20@AR3.AR3 at 325544.92m)\nnumber of shots: 126\nnumber of stations: 127"
+xth_cp_data_tree_insert 50 44 2 AR3_amont AR3_amont.AR3 "AR3 amont" "AR3 amont" "length: 20.55m (surface 0.00m, duplicated 0.00m)\nvertical range: 12.03m (from 0@AR3_amont.AR3 at -31.28m to 6@AR3_amont.AR3 at -43.31m)\nnorth-south range: 10.50m (from 6@AR3_amont.AR3 at 5027445.94m to 0@AR3_amont.AR3 at 5027435.44m)\neast-west range: 9.22m (from 0@AR3_amont.AR3 at 325568.60m to 7@AR3_amont.AR3 at 325559.39m)\nnumber of shots: 32\nnumber of stations: 33"
+xth_cp_data_tree_insert 54 44 2 AR3_aval AR3_aval.AR3 "AR3 aval" "AR3 aval" "length: 11.89m (surface 0.00m, duplicated 0.00m)\nvertical range: 5.48m (from 1@AR3_aval.AR3 at -52.53m to 6@AR3_aval.AR3 at -58.01m)\nnorth-south range: 5.29m (from 6@AR3_aval.AR3 at 5027461.40m to 1@AR3_aval.AR3 at 5027456.11m)\neast-west range: 7.89m (from 1@AR3_aval.AR3 at 325544.92m to 6@AR3_aval.AR3 at 325537.03m)\nnumber of shots: 24\nnumber of stations: 25"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 136X1 p1 1 AR3_mp AR3_mp@AR3 "AR3\_mp" "AR3\_mp"
+xth_cp_map_tree_insert map 1 226X1 p2 1 AR3_mc AR3_mc@AR3 "AR3\_mc" "AR3\_mc"
+xth_cp_map_tree_create
+xth_cp_comp_stat 129 3
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1709757742
+

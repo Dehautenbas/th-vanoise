@@ -1,0 +1,173 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.3.0, compiled against 9.3.0
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: config1.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- config1.thcfg [9] -- object not found -- "AR3_mc"
+done
+processing projection plan ... done
+average distortion: 0.25%
+
+
+############### export maps & scraps selection #################
+M   -27.91 AR3_mp@AR3 (AR3_mp)
+S   -27.91 AR3_sp1@AR3 ()
+########## end of export maps & scraps selection ###############
+writing Exports/AR3_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.02 (TeX Live 2023) (kpathsea version 6.3.5)  6 MAR 2024 21:42
+**data.mp
+(/usr/local/texlive/2023/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2023/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[6] [7] [8] [9] [10] [11] [12] [13] [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5040 strings using 134037 characters
+ 3767464 bytes of node memory
+ 1758 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+29 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdftex 2023.9.18)  6 MAR 2024 21:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 63 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 308 strings out of 494595
+ 4181 string characters out of 6146450
+ 51773 words of memory out of 5000000
+ 1966 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 10i,5n,8p,1612b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 57810 bytes).
+PDF statistics:
+ 72 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection extended ... done
+average distortion: 0.04%
+
+
+############### export maps & scraps selection #################
+M     0.00 AR3_mc@AR3 (AR3_mc)
+S     0.00 AR3_sc1@AR3 ()
+########## end of export maps & scraps selection ###############
+writing Exports/AR3_coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.02 (TeX Live 2023) (kpathsea version 6.3.5)  6 MAR 2024 21:42
+**data.mp
+(/usr/local/texlive/2023/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2023/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp)
+[6] [7] [8] [9] [10] [11] [12] [13] )
+ 
+Here is how much of MetaPost's memory you used:
+ 5079 strings using 140470 characters
+ 3803400 bytes of node memory
+ 1764 symbolic tokens
+ 9i,82n,16p,326b,5f stack positions out of 16i,98n,20p,390b,6f
+28 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdftex 2023.9.18)  6 MAR 2024 21:42
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdf
+tex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 62 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 307 strings out of 494595
+ 4174 string characters out of 6146450
+ 39364 words of memory out of 5000000
+ 1965 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1416 hyphenation exceptions out of 8191
+ 10i,5n,8p,1612b,75s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cs/csss10.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/cs/csssi10.pfb>
+Output written on data.pdf (1 page, 55595 bytes).
+PDF statistics:
+ 70 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Exports/AR3-3d.lox .... done
+writing xtherion file ... done
+compilation time: 5 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.25%    5.20%  AR3_sp1@AR3
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    1.05%  AR3_sc1@AR3
+   0.00%    0.00%  AR3_sc2@AR3
+################### end of scrap distortions ###################

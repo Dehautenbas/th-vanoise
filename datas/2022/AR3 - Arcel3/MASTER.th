@@ -1,8 +1,0 @@
-encoding  utf-8
-survey Master -title "ARCEL3 Croquis"
-
-    input croquis.th
-    input arcel3coupe.th2
-        
-endsurvey
-

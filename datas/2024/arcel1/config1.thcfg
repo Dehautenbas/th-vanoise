@@ -4,7 +4,7 @@ input ../../../config3.thcfg
 
 source arcel1_tot.th
 
-source datas/mnt.th
+source ../../mnt.th
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################
@@ -34,7 +34,6 @@ export map \
      -projection extended \
      -layout coupe   \
      -output Exports/arcel1_coupe.pdf \
-
 
 
 ######################## STATIONS ########################

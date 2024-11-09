@@ -14,8 +14,12 @@ input AR1_C.th2
      #explo-team "Bruno Ducluzaux"
 
     station AR1 "AR1" entrance
-    cs lat-long
-    fix AR1 45.37727 6.77215 2556
+
+    # cs lat-long
+    # fix AR1 45.37727 6.77215 2556
+
+    cs UTM32
+    fix AR1 325567 5027276 2556
 
     units length meters
     units compass clino degrees

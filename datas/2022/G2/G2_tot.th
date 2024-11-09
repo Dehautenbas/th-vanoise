@@ -1,0 +1,8 @@
+encoding  utf-8
+survey G2_tot -title "G2 Croquis"
+
+    input G2.th
+    input croquisG2coupe.th2
+        
+endsurvey
+

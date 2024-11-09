@@ -13,9 +13,7 @@ survey escalier -title "escalier"
     data normal from to length compass clino
 
 
-    #extend ignore 3b  ### C'est ce qui fonctionne le mieux
-
-    #extend ignore 3b 3c
+    #extend ignore 236
 
     extend left
     0 . 3.83 165.3 15.8

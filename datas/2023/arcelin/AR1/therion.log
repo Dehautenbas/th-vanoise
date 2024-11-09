@@ -1,0 +1,21 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 9.3.0, compiled against 9.3.0
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: config1.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.5861
+geomag declinations (deg):
+  2023.1.1  2.7837
+  2024.1.1  2.9440
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: error -- AR1_P.th2 [10] -- station does not exist -- 7@AR1
+writing xtherion file ... done

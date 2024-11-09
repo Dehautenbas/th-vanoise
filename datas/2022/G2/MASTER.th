@@ -1,8 +1,0 @@
-encoding  utf-8
-survey Master -title "G2 Croquis"
-
-    input croquis.th
-    input croquisG2coupe.th2
-        
-endsurvey
-

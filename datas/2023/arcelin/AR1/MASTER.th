@@ -1,5 +1,5 @@
 encoding  utf-8
-survey MASTER -title "AR1"
+survey AR1_tot -title "AR1"
 
 #################################  inclusion des .TH ##############################################
     # #   input data/th1/seance1

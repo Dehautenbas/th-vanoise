@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SC-perte_des_copains-1 -projection extended -station-names  @perte_des_copains -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SC-perte_des_copains-1 -projection extended -station-names  "" "@perte_des_copains"
 
 line wall
   401.1 -432.67

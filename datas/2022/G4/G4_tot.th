@@ -1,0 +1,17 @@
+survey G4_tot -title "Gouffre G4"
+
+    input G4
+
+    input G4_coupe.th2
+
+    join lb1:end lb2:0
+    join lh1:end lh2:0
+    join lm1:end lm2:end
+
+    map coupe  -proj extended
+        s1_c
+        break
+        s2_c
+    endmap
+
+endsurvey

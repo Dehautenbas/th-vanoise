@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>vanoise-tot_stats.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Title</th><th align="right">Length</th><th align="right">Depth</th><th align="right">Explored</th><th align="right">Approx.</th><th align="right">Duplicate</th><th align="right">Surface</th><th align="right">Shots</th><th align="right">Stations</th></tr>
+<tr id="vanoise"><td align="left" style="padding-left: 0px"><a href="javascript:xTree('vanoise')">Gouffres de la Vanoise</a></td><td align="right">2552</td><td align="right">443</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3466</td><td align="right">3492</td></tr>
+<tr id="vanoise.Arcel1"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.Arcel1')">Gouffre de l'Arcel1</a></td><td align="right">2022</td><td align="right">135</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">2690</td><td align="right">2705</td></tr>
+<tr id="vanoise.Arcel1.arcel1"><td align="left" style="padding-left: 24px">Arcel1</td><td align="right">156</td><td align="right">54</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">178</td><td align="right">179</td></tr>
+<tr id="vanoise.Arcel1.jonction"><td align="left" style="padding-left: 24px">jonction</td><td align="right">110</td><td align="right">36</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">165</td><td align="right">166</td></tr>
+<tr id="vanoise.Arcel1.frequence51"><td align="left" style="padding-left: 24px">Frequence 51</td><td align="right">174</td><td align="right">17</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">349</td><td align="right">349</td></tr>
+<tr id="vanoise.Arcel1.amont"><td align="left" style="padding-left: 24px">amont</td><td align="right">180</td><td align="right">23</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">320</td><td align="right">321</td></tr>
+<tr id="vanoise.Arcel1.puits_remontant"><td align="left" style="padding-left: 24px">puits remontant</td><td align="right">86</td><td align="right">21</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">212</td><td align="right">213</td></tr>
+<tr id="vanoise.Arcel1.tube-de-prechauffage"><td align="left" style="padding-left: 24px">Arcel 1 j1</td><td align="right">32</td><td align="right">11</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">25</td><td align="right">26</td></tr>
+<tr id="vanoise.Arcel1.amont2024-1"><td align="left" style="padding-left: 24px">amont2024-1</td><td align="right">302</td><td align="right">47</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">344</td><td align="right">346</td></tr>
+<tr id="vanoise.Arcel1.escalier"><td align="left" style="padding-left: 24px">escalier</td><td align="right">221</td><td align="right">29</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">164</td><td align="right">164</td></tr>
+<tr id="vanoise.Arcel1.pieuvre_PG-FM"><td align="left" style="padding-left: 24px">pieuvre_PG-FM</td><td align="right">117</td><td align="right">26</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">182</td><td align="right">183</td></tr>
+<tr id="vanoise.Arcel1.diaclase_MK-SP"><td align="left" style="padding-left: 24px">diaclase_MK-SP</td><td align="right">59</td><td align="right">33</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">71</td><td align="right">72</td></tr>
+<tr id="vanoise.Arcel1.amont2024-2"><td align="left" style="padding-left: 24px">amont2024-2</td><td align="right">213</td><td align="right">24</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">195</td><td align="right">196</td></tr>
+<tr id="vanoise.Arcel1.pts-actif-1"><td align="left" style="padding-left: 24px">pts-actif-1</td><td align="right">44</td><td align="right">13</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">49</td><td align="right">50</td></tr>
+<tr id="vanoise.Arcel1.pts-actif-2"><td align="left" style="padding-left: 24px">pts-actif-2</td><td align="right">83</td><td align="right">38</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">81</td><td align="right">82</td></tr>
+<tr id="vanoise.Arcel1.diaclase-boucle"><td align="left" style="padding-left: 24px">diaclase-boucle</td><td align="right">44</td><td align="right">28</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">39</td><td align="right">40</td></tr>
+<tr id="vanoise.Arcel1.pts_oublie"><td align="left" style="padding-left: 24px">pts_oublie</td><td align="right">39</td><td align="right">20</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">48</td><td align="right">49</td></tr>
+<tr id="vanoise.Arcel1.amont2024-3_TC-BU"><td align="left" style="padding-left: 24px">amont2024-3_TC-BU</td><td align="right">163</td><td align="right">45</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">268</td><td align="right">269</td></tr>
+<tr id="vanoise.AR6"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.AR6')">AR6</a></td><td align="right">21</td><td align="right">12</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">128</td><td align="right">129</td></tr>
+<tr id="vanoise.AR6.AR6"><td align="left" style="padding-left: 24px">AR6</td><td align="right">21</td><td align="right">12</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">128</td><td align="right">129</td></tr>
+<tr id="vanoise.AR1"><td align="left" style="padding-left: 12px">AR1</td><td align="right">41</td><td align="right">26</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">54</td><td align="right">55</td></tr>
+<tr id="vanoise.AR3"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.AR3')">AR3</a></td><td align="right">129</td><td align="right">62</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">182</td><td align="right">185</td></tr>
+<tr id="vanoise.AR3.AR3"><td align="left" style="padding-left: 24px">AR3</td><td align="right">97</td><td align="right">56</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">126</td><td align="right">127</td></tr>
+<tr id="vanoise.AR3.AR3_amont"><td align="left" style="padding-left: 24px">AR3 amont</td><td align="right">21</td><td align="right">12</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">32</td><td align="right">33</td></tr>
+<tr id="vanoise.AR3.AR3_aval"><td align="left" style="padding-left: 24px">AR3 aval</td><td align="right">12</td><td align="right">5</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">24</td><td align="right">25</td></tr>
+<tr id="vanoise.perte-des-copains"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.perte-des-copains')">perte-des-copains</a></td><td align="right">69</td><td align="right">43</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">133</td><td align="right">134</td></tr>
+<tr id="vanoise.perte-des-copains.perte_des_copains"><td align="left" style="padding-left: 24px">perte des copains</td><td align="right">69</td><td align="right">43</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">133</td><td align="right">134</td></tr>
+<tr id="vanoise.perte-lac-des-assiettes"><td align="left" style="padding-left: 12px">Perte du lac des assiettes - CV3</td><td align="right">26</td><td align="right">15</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">38</td><td align="right">38</td></tr>
+<tr id="vanoise.arcel_tot"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.arcel_tot')">ARCEL3 Croquis</a></td><td align="right">14</td><td align="right">13</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.arcel_tot.arcel3"><td align="left" style="padding-left: 24px">ARCEL3 Croquis</td><td align="right">14</td><td align="right">13</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.marbrimba_tot"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.marbrimba_tot')">G1 - Marbrimba</a></td><td align="right">131</td><td align="right">117</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">114</td><td align="right">115</td></tr>
+<tr id="vanoise.marbrimba_tot.marbrimba"><td align="left" style="padding-left: 24px">Marbrimba</td><td align="right">131</td><td align="right">117</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">114</td><td align="right">115</td></tr>
+<tr id="vanoise.G2_tot"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.G2_tot')">G2 Croquis</a></td><td align="right">19</td><td align="right">18</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.G2_tot.croquis"><td align="left" style="padding-left: 24px">G2 Croquis</td><td align="right">19</td><td align="right">18</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.Master"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.Master')">G3 Croquis</a></td><td align="right">23</td><td align="right">22</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.Master.G3"><td align="left" style="padding-left: 24px">G3 Croquis</td><td align="right">23</td><td align="right">22</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">3</td><td align="right">4</td></tr>
+<tr id="vanoise.G4_tot"><td align="left" style="padding-left: 12px"><a href="javascript:xTree('vanoise.G4_tot')">Gouffre G4</a></td><td align="right">56</td><td align="right">42</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">118</td><td align="right">119</td></tr>
+<tr id="vanoise.G4_tot.G4"><td align="left" style="padding-left: 24px">G4</td><td align="right">56</td><td align="right">42</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">0</td><td align="right">118</td><td align="right">119</td></tr>
+</table>
+</body>
+</html>

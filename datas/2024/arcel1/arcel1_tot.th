@@ -24,7 +24,7 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
         equate 0@amont2024-1 40@amont
   input datas/escalier24/escalier.th
 
-        equate 3c@escalier 15@amont2024-1       #### CELLE CI
+        equate 3c@escalier 15@amont2024-1      
 
         equate 236@escalier 19@amont
   input datas/pieuvre_PG-FM24/pieuvre_PG-FM.th

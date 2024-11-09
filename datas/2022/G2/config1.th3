@@ -4,9 +4,8 @@ encoding  utf-8
 input config2.th3
 input config3.th3
 
-source MASTER.th
-source croquis.th
-source croquisG2coupe.th2
+source G2_tot.th
+
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################

@@ -1,0 +1,21 @@
+survey vanoise -title "Gouffres de la Vanoise"
+  
+### import map
+  #input vanoise_map.th
+
+### import.th 
+    input datas/2024/arcel1/arcel1_tot.th 
+    input datas/2023/AR6/AR6-tot.th 
+    input datas/2023/arcelin/AR1/AR1.th 
+    input datas/2023/arcelin/AR3/ar3-tot.th 
+    input datas/2023/PerteDesCopains/perte-des-copains-tot.th 
+    input datas/2022/CV3-perte-lac-des-assiettes/perte-lac-des-assiettes.th  
+
+     input datas/2022/arcel3/arcel3_tot.th 
+     input datas/2022/G1-marbrimba/marbrimba_tot.th 
+     input datas/2022/G2/G2_tot.th 
+     input datas/2022/G3/G3_tot.th 
+     input datas/2022/G4/G4_tot.th  # C'est lui qui beug
+
+
+    endsurvey

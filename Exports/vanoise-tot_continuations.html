@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>vanoise-tot_continuations.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript">
+function xTree(node)
+{
+  var fsub = true;
+  var show = false;
+  var last = node.length;
+  var all = document.getElementsByTagName("tr");
+  for(i = 1; i < all.length; i++) {
+    if ((all[i].id.length > node.length) && (all[i].id.substr(0, node.length) == node)) {
+      if (fsub) {
+        fsub = false;
+        show = (all[i].style.display == "none");
+        last = all[i].id.lastIndexOf(".");
+      }
+      if (show) {
+        if (all[i].id.lastIndexOf(".") == last)
+        all[i].style.display = "";
+      } else {
+        all[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+<style type="text/css">
+body {font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.5;}
+table {font-size:80%; border-spacing: 0px;}
+th {border-bottom:2px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:1px;}
+td {border-bottom:1px solid #a7a9aa; padding-left:8px; padding-right:8px; padding-top:0px; padding-bottom:0px;}
+</style>
+</head>
+<body>
+<table>
+<tr><th align="left">Comment</th><th align="right">Explored</th><th align="left">Survey</th><th align="right">Station</th><th align="left">Code</th><th align="left">cavite</th><th align="left">Reseau</th><th align="left">CA</th></tr>
+<tr id=""><td align="left">Pts non descendu par manque de temps</td><td align="right">&nbsp;</td><td align="left">pts_oublie</td><td align="right">7</td><td align="left">P</td><td align="left">Arcel1</td><td align="left">amont23</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Pts non descendu par manque de temps</td><td align="right">&nbsp;</td><td align="left">pts_oublie</td><td align="right">8</td><td align="left">P</td><td align="left">Arcel1</td><td align="left">amont23</td><td align="left">?</td></tr>
+<tr id=""><td align="left">Rétrécissement ponctuel dans la faille mais ça passe et ça continue plus large derrière.</td><td align="right">&nbsp;</td><td align="left">diaclase_MK-SP</td><td align="right">15</td><td align="left">A</td><td align="left">Arcel1</td><td align="left">Diaclase remontante</td><td align="left">Fort et descendant</td></tr>
+</table>
+</body>
+</html>

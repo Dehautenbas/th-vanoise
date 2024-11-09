@@ -1,0 +1,83 @@
+therion 6.1.2 (2022-07-11)
+  - using Proj 9.1.0, compiled against 9.1.0
+initialization file: /usr/local/etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: config1.th3
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: ETRS30
+meridian convergence (deg): -6.9942
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.00%
+
+
+############### export maps & scraps selection #################
+S     0.00 s0P@G4 ()
+S    -0.94 s1P@G4 ()
+S    -8.49 s2P@G4 ()
+S   -20.86 s3P@G4 ()
+S   -36.12 s4P@G4 ()
+########## end of export maps & scraps selection ###############
+writing Exports/G4_plan.svg ...
+####################### metapost log file ########################
+This is MetaPost, version 2.02 (TeX Live 2022) (kpathsea version 6.3.4)  24 OCT 2022 22:11
+**data.mp
+(/usr/local/texlive/2022/texmf-dist/metapost/base/mpost.mp
+(/usr/local/texlive/2022/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1]
+[Warning: scrap outline intersects itself in scrap s4P@G4] [2] [3] [4] [5]
+[6] [7]
+[Warning: scrap outline intersects itself in scrap s2P@G4] [8] [9] [10] [11]
+[12] [13] [14] (./mptextmp.mp) [15] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [16] [17] [18]
+[19] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2816 strings using 69209 characters
+ 3609872 bytes of node memory
+ 1759 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+34 output files written: data-patt.1 .. data.19
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making svg map ... done
+done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.01%    0.03%  s4P@G4
+   0.00%    0.01%  s3P@G4
+   0.00%    0.01%  s1P@G4
+   0.00%    0.00%  s2P@G4
+   0.00%    0.00%  s0P@G4
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.779, 45.378) (6.779, 45.378)
+  [LAT-LONG → LAT-LONG] AoU: [no] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → LAT-LONG] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [LAT-LONG → ETRS30] AoU: [yes] transformation: [axis order change (2D) + Inverse of ETRS89 to WGS 84 (1) + UTM zone 30N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=30 ellps=GRS80] accuracy: [1.000 m]
+  [LAT-LONG → EPSG:4326] AoU: [yes] transformation: [axis order change (2D) + Null geographic offset from WGS 84 to WGS 84 + axis order change (2D)] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [ETRS30 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 30N + ETRS89 to WGS 84 (1) + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=30 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
+  [ETRS30 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 30N + ETRS89 to WGS 84 (1) + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=30 ellps=GRS80 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [1.000 m]
+  [EPSG:4326 → ETRS30] AoU: [yes] transformation: [axis order change (2D) + Inverse of ETRS89 to WGS 84 (1) + UTM zone 30N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=30 ellps=GRS80] accuracy: [1.000 m]
+########## end of CRS transformations chosen by PROJ ###########

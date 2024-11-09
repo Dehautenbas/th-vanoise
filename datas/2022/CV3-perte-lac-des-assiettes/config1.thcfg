@@ -1,0 +1,72 @@
+encoding  utf-8
+encoding  utf-8
+source perte-lac-des-assiettes.th
+source pertelacdesassietesplan.th2
+
+layout local
+  language fr
+endlayout
+  
+layout xviexport
+  language fr
+  scale 1 50
+endlayout
+
+layout MonPlan
+  language fr
+  legend on
+  base-scale 1 50
+  scale 1 250
+  color map-bg [75 75 75]
+  color map-fg [80 70 10]
+  
+endlayout
+
+layout MaCoupe
+  language fr
+  legend on
+  base-scale 1 50
+  scale 1 250
+  color map-bg [75 75 75]
+  color map-fg [80 70 10]
+endlayout
+
+layout area
+ 
+  code metapost
+   def a_snow (expr p) =
+    T:=identity;
+    thfill p withcolor (1.0, 1.0, 1.0);
+  enddef;
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.5, 1.0);
+  enddef;
+  def a_ice (expr p) =
+    T:=identity;
+    thfill p withcolor (0.7, 0.7, 0.9);
+  enddef;
+  def a_bedrock (expr p) =
+    T:=identity;
+  #  thfill p withcolor (0.3, 0.3, 0.3);
+  thfill p withcolor (0.90, 0.90, 0.90);
+  enddef;
+  def a_pebbles (expr p) =
+    T:=identity;
+    thfill p withcolor (0.6, 0.3, 0.0);
+  enddef;
+  def a_clay (expr p) =
+     T:=identity;
+     thfill p withcolor (0.6, 0.4, 0.0);
+  enddef;
+  endcode
+
+endlayout
+
+export map -proj plan -fmt xvi -layout xviexport -output exports/Perte_lac_des_assiettes-plan.xvi  
+export map -proj extended -fmt xvi -layout xviexport -output exports/Perte_lac_des_assiettes-coupe.xvi  
+
+export map -proj plan -fmt pdf -layout MonPlan -layout area -output exports/Perte_lac_des_assiettes-plan.pdf 
+export map -proj extended -fmt pdf -layout MaCoupe -layout area -output exports/Perte_lac_des_assiettes-coupe.pdf 
+
+# export model -o Perte_lac_des_assiettes.lox

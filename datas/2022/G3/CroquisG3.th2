@@ -166,13 +166,13 @@ line wall
   1196.41 -742.19 1034.0 20.0 1030.0 46.0
 endline
 
-point 744.026 -788.7130000000002 station -name 3@croquis
+point 744.026 -788.7130000000002 station -name 3@G3
 
-point 744.026 458.00699999999983 station -name 2@croquis
+point 744.026 458.00699999999983 station -name 2@G3
 
-point 744.026 659.4469999999999 station -name 1@croquis
+point 744.026 659.4469999999999 station -name 1@G3
 
-point 656.166 656.1669999999998 station -name 0@croquis
+point 656.166 656.1669999999998 station -name 0@G3
 
 endscrap
 

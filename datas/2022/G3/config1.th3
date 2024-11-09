@@ -4,7 +4,7 @@ encoding  utf-8
 input config2.th3
 input config3.th3
 
-source MASTER.th
+source G3_tot.th
 source croquis.th
 source CroquisG3.th2
 

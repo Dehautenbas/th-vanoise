@@ -12,7 +12,9 @@ survey AR3 -title "AR3"
     units compass clino degrees
     data normal from to length compass clino
    
-    fix 0 325572 5027449 0  # Coordonnées fausses ! (c'est celles d'AR1)
+    cs UTM32
+    fix 0 325444 5027344 2565
+
 
     # extend auto
     0 . 0.29 15.6 -5.2

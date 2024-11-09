@@ -1,0 +1,310 @@
+therion 6.1.8 (2023-06-14)
+  - using Proj 7.2.1, compiled against 7.2.1
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
+configuration file: perte-des-copains.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.5818
+geomag declinations (deg):
+  2023.1.1  2.7852
+  2024.1.1  2.9455
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.45
+ 2> Copyright © 1990-2021 Olly Betts
+ 3> 
+ 4> La topographie contient 134 stations, connectées par 133 visées.
+ 5> Il y a 0 bouclages.
+ 6> Longueur totale de la topographie =   69.46m (  69.46m ajusté)
+ 7> Longueur totale en projection horizontale =   50.94m
+ 8> Longueur totale verticale =   42.83m
+ 9> Intervalle vertical = 43.42m (de 133 à 2665.56m jusqu’à 3 à 2622.14m)
+10> Intervalle Nord-Sud = 19.03m (de 12 à 5027693.08m jusqu’à 121 à 5027674.05m)
+11> Intervalle Est-Ouest = 33.63m (de 132 à 326055.73m jusqu’à 5 à 326022.10m)
+12>  113 1-nœuds.
+13>    6 5-nœuds.
+14>    7 6-nœuds.
+15>    2 7-nœuds.
+16>    1 8-nœud.
+17>    1 9-nœud.
+18>    1 10-nœud.
+19>    1 12-nœud.
+20>    1 13-nœud.
+21>    1 15-nœud.
+22> 
+######################### transcription ########################
+ 4> 134 : 21@perte_des_copains.perte-des-copains -- 133 : .@perte_des_copains.perte-des-copains
+ 9> 133 : .@perte_des_copains.perte-des-copains -- 3 : .@perte_des_copains.perte-des-copains
+10> 12 : .@perte_des_copains.perte-des-copains -- 121 : .@perte_des_copains.perte-des-copains
+11> 132 : .@perte_des_copains.perte-des-copains -- 5 : .@perte_des_copains.perte-des-copains
+12> 113 : .@perte_des_copains.perte-des-copains
+13> 6 : 1@perte_des_copains.perte-des-copains
+14> 7 : .@perte_des_copains.perte-des-copains
+15> 2 : .@perte_des_copains.perte-des-copains
+16> 1 : 0@perte_des_copains.perte-des-copains
+17> 1 : 0@perte_des_copains.perte-des-copains
+18> 1 : 0@perte_des_copains.perte-des-copains
+19> 1 : 0@perte_des_copains.perte-des-copains
+20> 1 : 0@perte_des_copains.perte-des-copains
+21> 1 : 0@perte_des_copains.perte-des-copains
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.55%
+writing Data/perte-des-copains-map.xvi ... done
+processing projection extended ... done
+average distortion: 0.19%
+writing Data/perte-des-copains-coupe.xvi ... done
+processing projection elevation ... done
+writing Data/perte-des-copains-coupe_elevation.xvi ... done
+
+
+############### export maps & scraps selection #################
+S     -.-- @ ()
+########## end of export maps & scraps selection ###############
+writing Outputs/perte-des-copains-coupe_elevation.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/Debian) (kpathsea version 6.3.2)  18 OCT 2023 19:04
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] (./mptextmp.mp) [3] (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp
+) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [4] [5] [6] [7] [8] [9] [10]
+[11] [12] [13] [14] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3893 strings using 110716 characters
+ 3653504 bytes of node memory
+ 1745 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+29 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdftex 2023.5.23)  18 OCT 2023 19:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 300 strings out of 496948
+ 4110 string characters out of 6202882
+ 40804 words of memory out of 5000000
+ 1556 multiletter control sequences out of 15000+600000
+ 16411 words of font info for 55 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 12i,5n,8p,530b,69s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on data.pdf (1 page, 58406 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M     0.00 MC-perte-des-copains-coupe-tot@perte-des-copains (perte-des-copains)
+S     0.00 SC-perte_des_copains-1@perte-des-copains ()
+########## end of export maps & scraps selection ###############
+writing Outputs/perte-des-copains-coupe.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/Debian) (kpathsea version 6.3.2)  18 OCT 2023 19:04
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
+[9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] )
+ 
+Here is how much of MetaPost's memory you used:
+ 13154 strings using 349414 characters
+ 3865936 bytes of node memory
+ 1745 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+34 output files written: data-patt.1 .. data.19
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdftex 2023.5.23)  18 OCT 2023 19:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 68 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 307 strings out of 496948
+ 4181 string characters out of 6202882
+ 43940 words of memory out of 5000000
+ 1563 multiletter control sequences out of 15000+600000
+ 16411 words of font info for 55 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 12i,5n,8p,530b,69s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on data.pdf (1 page, 86461 bytes).
+PDF statistics:
+ 82 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+
+
+############### export maps & scraps selection #################
+M  2649.82 MP-perte-des-copains-plan-tot@perte-des-copains (perte-des-copains)
+S  2649.82 SP-perte_des_copains-1@perte-des-copains ()
+########## end of export maps & scraps selection ###############
+writing Outputs/perte-des-copains-plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/Debian) (kpathsea version 6.3.2)  18 OCT 2023 19:04
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [1]
+[Warning: scrap outline intersects itself in scrap SP-perte_des_copains-1@perte
+-des-copains] [2] [3] [4] (./mptextmp.mp) [5] (./mptextmp.mp) (./mptextmp.mp)
+(./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) (./mptextmp.mp) [6] [7] [8]
+[9] [10] [11] [12] )
+ 
+Here is how much of MetaPost's memory you used:
+ 11725 strings using 306086 characters
+ 3816512 bytes of node memory
+ 1745 symbolic tokens
+ 9i,82n,16p,312b,5f stack positions out of 16i,98n,20p,312b,6f
+27 output files written: data-patt.1 .. data-patt.15
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdftex 2023.5.23)  18 OCT 2023 19:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex (./th_legend.tex)) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+
+[1] ) 
+Here is how much of TeX's memory you used:
+ 300 strings out of 496948
+ 4123 string characters out of 6202882
+ 42377 words of memory out of 5000000
+ 1556 multiletter control sequences out of 15000+600000
+ 16411 words of font info for 55 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 12i,5n,8p,408b,71s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on data.pdf (1 page, 72012 bytes).
+PDF statistics:
+ 63 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing Outputs/perte-des-copains.lox ....
+therion: warning -- SP-perte_des_copains-1@perte-des-copains -- multiple scrap outer outlines not supported yet
+ done
+writing Outputs/questions.html ... done
+writing Outputs/perte-des-copains.html ... done
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2020/Debian) (kpathsea version 6.3.2)  18 OCT 2023 19:04
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [1] )
+1 output file written: data.1
+
+
+#################### end of metapost log file ####################
+writing Outputs/perte-des-copains ... done
+writing Outputs/perte-des-copains.kml ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.55%   10.43%  SP-perte_des_copains-1@perte-des-copains
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   0.19%    2.20%  SC-perte_des_copains-1@perte-des-copains
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.778, 45.381) (6.778, 45.381)
+  [UTM32 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 → UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

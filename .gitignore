@@ -4,30 +4,30 @@
 
 # Therion outputs (avec un/ ou non ?).
 #**.pdf
-**.kml
-**.kmz
-**.lox
-**.log
-**.xml
-**.html
-**.xhtml
-**.sql
-**.3d
-**.3dmf
-**.vrml
-**.vtk
-**.db
-**.sql
-**.xvi
-**.log
-**.dat
-**.svg
+# **.kml
+# **.kmz
+# **.lox
+# **.log
+# **.xml
+# **.html
+# **.xhtml
+# **.sql
+# **.3d
+# **.3dmf
+# **.vrml
+# **.vtk
+# **.db
+# **.sql
+# **.xvi
+ **.log
+ **.dat
+# **.svg
 
 # Therion shp outputs
-**.dbf
-**.prj
-**.shp
-**.shx
-**.sbx
-**.sbn
-**.cpg
+# **.dbf
+# **.prj
+# **.shp
+# **.shx
+# **.sbx
+# **.sbn
+# **.cpg
