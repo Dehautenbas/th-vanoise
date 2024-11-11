@@ -1,3 +1,4 @@
+encoding  utf-8
 survey vanoise -title "Gouffres de la Vanoise"
   
 ### import map
@@ -5,7 +6,7 @@ survey vanoise -title "Gouffres de la Vanoise"
 
 ### import.th 
     input datas/2024/arcel1/arcel1_tot.th 
-    input datas/2023/AR6/AR6-tot.th 
+    input datas/2023/AR6/AR6-tot.th #vraiment interressant sur le 3D? 
     input datas/2023/arcelin/AR1/AR1.th 
     input datas/2023/arcelin/AR3/ar3-tot.th 
     input datas/2023/PerteDesCopains/perte-des-copains-tot.th 
@@ -19,3 +20,4 @@ survey vanoise -title "Gouffres de la Vanoise"
 
 
     endsurvey
+

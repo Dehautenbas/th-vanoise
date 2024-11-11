@@ -1,0 +1,131 @@
+therion 5.4.4 (2019-05-01)
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
+configuration file: config1.thcfg
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.5861
+geomag declinations (deg):
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 4.29%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.42
+ 2> Copyright © 1990-2018 Olly Betts
+ 3> 
+ 4> La topographie contient 1228 stations, connectées par 1229 visées.
+ 5> Il y a 2 bouclages.
+ 6> Longueur totale de la topographie = 2959.92m (2960.48m ajusté)
+ 7> Longueur totale en projection horizontale = 2180.81m
+ 8> Longueur totale verticale = 1450.02m
+ 9> Intervalle vertical = 84.00m (de 1 à 2603.00m jusqu’à 328 à 2519.00m)
+10> Intervalle Nord-Sud = 70.80m (de 679 à 5027518.12m jusqu’à 15 à 5027447.32m)
+11> Intervalle Est-Ouest = 158.05m (de 596 à 325663.94m jusqu’à 758 à 325505.90m)
+12> 1054 1-nœuds.
+13>   14 2-nœuds.
+14>    4 3-nœuds.
+15>    2 4-nœuds.
+16>   22 5-nœuds.
+17>   21 6-nœuds.
+18>   17 7-nœuds.
+19>   16 8-nœuds.
+20>   25 9-nœuds.
+21>   14 10-nœuds.
+22>   12 11-nœuds.
+23>    7 12-nœuds.
+24>    6 13-nœuds.
+25>    7 14-nœuds.
+26>    4 15-nœuds.
+27>    1 17-nœud.
+28>    1 19-nœud.
+29>    1 20-nœud.
+30> 
+######################### transcription ########################
+ 4> 1228 : 24@puits_remontant.Arcel1
+ 5> 2 : 1@arcel1.Arcel1
+ 9> 1 : 0@arcel1.Arcel1 -- 328 : .@jonction.Arcel1
+10> 679 : .@frequence51.Arcel1 -- 15 : .@arcel1.Arcel1
+11> 596 : .@amont.Arcel1 -- 758 : .@frequence51.Arcel1
+12> 1054 : .@puits_remontant.Arcel1
+13> 14 : .@arcel1.Arcel1
+14> 4 : .@arcel1.Arcel1
+15> 2 : 1@arcel1.Arcel1
+16> 22 : .@arcel1.Arcel1
+17> 21 : .@arcel1.Arcel1
+18> 17 : 4@arcel1.Arcel1
+19> 16 : .@arcel1.Arcel1
+20> 25 : .@arcel1.Arcel1
+21> 14 : .@arcel1.Arcel1
+22> 12 : 3@arcel1.Arcel1
+23> 7 : .@arcel1.Arcel1
+24> 6 : .@arcel1.Arcel1
+25> 7 : .@arcel1.Arcel1
+26> 4 : .@arcel1.Arcel1
+27> 1 : 0@arcel1.Arcel1
+28> 1 : 0@arcel1.Arcel1
+29> 1 : 0@arcel1.Arcel1
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 0.94%
+writing Exports/arcel1.kml ... done
+writing Exports/arcel1-shots.kml ... done
+processing projection extended ... done
+average distortion: 0.70%
+writing Exports/arcel1coupe.xvi ... done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  7.66%    3.4m   45.0m  15    3.4m    0.3m    0.5m [27@frequence51.Arcel1 - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
+  1.99%    1.7m   87.1m  22    0.7m   -1.5m    0.5m [0@puits_remontant.Arcel1 - 1 - 2 - 3 - 4 - 5 - 6 - 7 - 21 - 22 - 24 = 4@amont.Arcel1 - 3 - 2 - 1 - 0 = 53@frequence51.Arcel1 - 52 - 51 - 50 - 49 - 48 - 47 - 44 - 43 = 0@puits_remontant.Arcel1]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   2.81%   85.24%  SP-Frequence_51-1@Arcel1
+   0.59%   78.05%  SP-jonction-2@Arcel1
+   8.12%   61.79%  SP-puits_remontant-1@Arcel1
+   4.07%   54.54%  SP-jonction-1@Arcel1
+   0.21%   53.71%  SP-amont-1@Arcel1
+   1.59%   43.03%  arcel1_S5_P@Arcel1
+   2.03%   41.08%  SP-Frequence_51-3@Arcel1
+   0.52%   24.47%  PR-amont@Arcel1
+   0.18%    3.00%  arcel1_S1_P@Arcel1
+   0.24%    2.98%  SP-jonction-3@Arcel1
+   0.13%    1.71%  arcel1_S2_P@Arcel1
+   0.22%    1.41%  arcel1_S3_P@Arcel1
+   0.04%    0.82%  arcel1_S4_P@Arcel1
+   0.00%    0.00%  SP-Frequence_51-2@Arcel1
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   3.22%  100.00%  arcel1_S3_C@Arcel1
+   3.70%  100.00%  pr_S1_C@Arcel1
+   0.24%   61.49%  SC-amont-1@Arcel1
+   0.46%   21.39%  arcel1_S4_C@Arcel1
+   0.13%   15.38%  arcel1_S1_C@Arcel1
+   0.03%    5.62%  arcel1_S2_C@Arcel1
+   0.10%    4.10%  arcel1_S5_C@Arcel1
+   0.24%    3.95%  arcel1_S7_C@Arcel1
+   0.18%    0.81%  arcel1_S6_C@Arcel1
+   0.01%    0.73%  SC-amont-2@Arcel1
+   0.00%    0.21%  pr_S2_C@Arcel1
+################### end of scrap distortions ###################

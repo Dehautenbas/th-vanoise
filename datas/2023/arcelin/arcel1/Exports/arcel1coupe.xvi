@@ -1,0 +1,2634 @@
+set XVIgrids {10.0 m}
+set XVIstations {
+  {    -5334.16      1653.54 0@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5256.90      1466.14 1@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5302.13      1289.37 3@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5357.52      1271.26 4@arcel1.Arcel1}
+  {    -5334.16      1653.54 0@arcel1.Arcel1}
+  {    -5397.48      1437.01 5@arcel1.Arcel1}
+  {    -5201.02      1251.57 2@arcel1.Arcel1}
+  {    -5033.82      1340.55 6@arcel1.Arcel1}
+  {    -5033.82      1340.55 6@arcel1.Arcel1}
+  {    -5033.82      1340.55 6@arcel1.Arcel1}
+  {    -5033.82      1340.55 6@arcel1.Arcel1}
+  {    -5033.82      1340.55 6@arcel1.Arcel1}
+  {    -4934.37      1298.82 7@arcel1.Arcel1}
+  {    -4934.37      1298.82 7@arcel1.Arcel1}
+  {    -4934.37      1298.82 7@arcel1.Arcel1}
+  {    -4934.37      1298.82 7@arcel1.Arcel1}
+  {    -4934.37      1298.82 7@arcel1.Arcel1}
+  {    -4733.55      1166.14 8@arcel1.Arcel1}
+  {    -4733.55      1166.14 8@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4733.55      1166.14 8@arcel1.Arcel1}
+  {    -4733.55      1166.14 8@arcel1.Arcel1}
+  {    -4733.55      1166.14 8@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4658.10      1157.09 9@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       112.20 12@arcel1.Arcel1}
+  {    -4630.78       661.42 11@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4786.70       211.02 14@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4692.50       506.30 13@arcel1.Arcel1}
+  {    -4701.95       880.31 10@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       796.06 15@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4195.92       460.24 17@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4497.39       424.80 16@arcel1.Arcel1}
+  {    -4195.92       460.24 17@arcel1.Arcel1}
+  {    -4195.92       460.24 17@arcel1.Arcel1}
+  {    -4195.92       460.24 17@arcel1.Arcel1}
+  {    -4195.92       460.24 17@arcel1.Arcel1}
+  {    -3968.31       437.40 18@arcel1.Arcel1}
+  {    -3968.31       437.40 18@arcel1.Arcel1}
+  {    -3968.31       437.40 18@arcel1.Arcel1}
+  {    -3968.31       437.40 18@arcel1.Arcel1}
+  {    -3968.31       437.40 18@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3864.15       420.47 19@arcel1.Arcel1}
+  {    -3715.92       412.99 20@arcel1.Arcel1}
+  {    -3715.92       412.99 20@arcel1.Arcel1}
+  {    -3715.92       412.99 20@arcel1.Arcel1}
+  {    -3715.92       412.99 20@arcel1.Arcel1}
+  {    -3715.92       412.99 20@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3597.69       421.26 21@arcel1.Arcel1}
+  {    -3426.13       374.02 22@arcel1.Arcel1}
+  {    -3426.13       374.02 22@arcel1.Arcel1}
+  {    -3426.13       374.02 22@arcel1.Arcel1}
+  {    -3426.13       374.02 22@arcel1.Arcel1}
+  {    -3426.13       374.02 22@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3153.08       317.72 23@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -3012.63       329.53 24@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2779.72      -252.76 25@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2836.49      -246.46 26@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2872.32      -450.00 27@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -2948.90      -477.56 28@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -3026.39      -461.81 29@arcel1.Arcel1}
+  {    -2836.49      -246.46 2@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2882.48      -468.50 3@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2804.04      -535.83 4@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2638.91      -574.80 5@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2578.12      -589.76 6@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2513.71      -807.09 7@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2157.61      -973.23 10@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -2002.75     -1133.07 12@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1898.17     -1122.44 13@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -1669.84     -1120.47 14@jonction.Arcel1}
+  {    -2103.14     -1131.50 11@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2252.18     -1094.49 15@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2749.52      -870.08 17@jonction.Arcel1}
+  {    -2749.52      -870.08 17@jonction.Arcel1}
+  {    -2783.54      -883.86 PTR_0@jonction.Arcel1}
+  {    -2749.52      -870.08 17@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2837.72      -855.91 19@jonction.Arcel1}
+  {    -2903.32      -894.09 20@jonction.Arcel1}
+  {    -2903.32      -894.09 20@jonction.Arcel1}
+  {    -3059.50      -917.32 21@jonction.Arcel1}
+  {    -2903.32      -894.09 20@jonction.Arcel1}
+  {    -2903.32      -894.09 20@jonction.Arcel1}
+  {    -2903.32      -894.09 20@jonction.Arcel1}
+  {    -2511.21      -922.83 16@jonction.Arcel1}
+  {    -2563.73     -1033.46 22@jonction.Arcel1}
+  {    -2563.73     -1033.46 22@jonction.Arcel1}
+  {    -2563.73     -1033.46 22@jonction.Arcel1}
+  {    -2563.73     -1033.46 22@jonction.Arcel1}
+  {    -2563.73     -1033.46 22@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2512.63     -1132.68 23@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2468.26     -1168.11 24@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2346.51     -1344.88 25@jonction.Arcel1}
+  {    -2284.31     -1345.67 26@jonction.Arcel1}
+  {    -2284.31     -1345.67 26@jonction.Arcel1}
+  {    -2284.31     -1345.67 26@jonction.Arcel1}
+  {    -2284.31     -1345.67 26@jonction.Arcel1}
+  {    -2284.31     -1345.67 26@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2223.82     -1452.76 27@jonction.Arcel1}
+  {    -2179.44     -1577.17 28@jonction.Arcel1}
+  {    -2179.44     -1577.17 28@jonction.Arcel1}
+  {    -2179.44     -1577.17 28@jonction.Arcel1}
+  {    -2179.44     -1577.17 28@jonction.Arcel1}
+  {    -2179.44     -1577.17 28@jonction.Arcel1}
+  {    -2296.17     -1644.49 29@jonction.Arcel1}
+  {    -2296.17     -1644.49 29@jonction.Arcel1}
+  {    -2296.17     -1644.49 29@jonction.Arcel1}
+  {    -2365.05     -1651.97 30@jonction.Arcel1}
+  {    -2783.54      -883.86 PTR_0@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2896.71      -971.26 311@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2843.08      -898.82 31@jonction.Arcel1}
+  {    -2896.71      -971.26 311@jonction.Arcel1}
+  {    -2922.98     -1010.24 32@jonction.Arcel1}
+  {    -2922.98     -1010.24 32@jonction.Arcel1}
+  {    -2936.48     -1244.49 33@jonction.Arcel1}
+  {    -1149.89      -671.26 0@amont.Arcel1}
+  {    -1149.89      -671.26 0@amont.Arcel1}
+  {    -1149.89      -671.26 0@amont.Arcel1}
+  {    -1149.89      -671.26 0@amont.Arcel1}
+  {    -1149.89      -671.26 0@amont.Arcel1}
+  {     -955.76      -614.96 1@amont.Arcel1}
+  {     -955.76      -614.96 1@amont.Arcel1}
+  {     -955.76      -614.96 1@amont.Arcel1}
+  {     -955.76      -614.96 1@amont.Arcel1}
+  {     -955.76      -614.96 1@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -892.60      -585.83 2@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -732.07      -598.82 3@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -481.78      -516.93 4@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {     -239.02      -395.67 5@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      -67.70      -299.61 6@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      185.81      -120.87 7@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      250.64       -24.02 8@amont.Arcel1}
+  {      332.80         0.79 9@amont.Arcel1}
+  {      332.80         0.79 9@amont.Arcel1}
+  {      332.80         0.79 9@amont.Arcel1}
+  {      332.80         0.79 9@amont.Arcel1}
+  {      332.80         0.79 9@amont.Arcel1}
+  {      360.70        10.63 10@amont.Arcel1}
+  {      360.70        10.63 10@amont.Arcel1}
+  {      411.29        61.81 11@amont.Arcel1}
+  {      411.29        61.81 11@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      629.93       124.80 12@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      765.68       205.51 13@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {      959.30       219.29 14@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1118.35       218.11 15@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1316.19       198.43 16@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1766.81       250.00 17@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     1939.98       212.60 18@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2186.55       171.26 19@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2336.10       229.92 20@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2495.35       256.30 21@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2619.46       212.60 22@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2781.06       259.06 23@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2863.70       256.30 24@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     2960.80       251.18 25@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3202.47       214.17 26@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3426.85       218.11 27@amont.Arcel1}
+  {     3470.63       190.94 28@amont.Arcel1}
+  {     3470.63       190.94 28@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3679.84       160.24 29@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     3858.23       193.70 30@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4192.62        64.17 31@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4274.02        13.78 32@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4425.33        68.90 33@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4470.38       118.90 34@amont.Arcel1}
+  {     4563.21       190.55 35@amont.Arcel1}
+  {     4563.21       190.55 35@amont.Arcel1}
+  {     4563.21       190.55 35@amont.Arcel1}
+  {     4563.21       190.55 35@amont.Arcel1}
+  {     4563.21       190.55 35@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4630.51       229.13 36@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4725.07       203.15 37@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     4931.38       237.01 38@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5028.54        40.55 39@amont.Arcel1}
+  {     5397.48       -29.92 40@amont.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3699.28      -918.90 F51@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3822.98      -810.63 3EL@frequence51.Arcel1}
+  {    -3822.98      -810.63 3EL@frequence51.Arcel1}
+  {    -3822.98      -810.63 3EL@frequence51.Arcel1}
+  {    -3822.98      -810.63 3EL@frequence51.Arcel1}
+  {    -3734.72      -794.49 2@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3776.25      -778.74 4@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -3923.58      -720.87 5@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4118.25      -560.63 7@frequence51.Arcel1}
+  {    -4212.61      -555.51 8@frequence51.Arcel1}
+  {    -4212.61      -555.51 8@frequence51.Arcel1}
+  {    -4212.61      -555.51 8@frequence51.Arcel1}
+  {    -4212.61      -555.51 8@frequence51.Arcel1}
+  {    -4212.61      -555.51 8@frequence51.Arcel1}
+  {    -4364.70      -483.07 9@frequence51.Arcel1}
+  {    -4364.70      -483.07 9@frequence51.Arcel1}
+  {    -4364.70      -483.07 9@frequence51.Arcel1}
+  {    -4364.70      -483.07 9@frequence51.Arcel1}
+  {    -4364.70      -483.07 9@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4426.26      -464.96 10@frequence51.Arcel1}
+  {    -4524.24      -518.90 11@frequence51.Arcel1}
+  {    -4524.24      -518.90 11@frequence51.Arcel1}
+  {    -4524.24      -518.90 11@frequence51.Arcel1}
+  {    -4524.24      -518.90 11@frequence51.Arcel1}
+  {    -4524.24      -518.90 11@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4699.47      -593.70 13@frequence51.Arcel1}
+  {    -4768.03      -603.94 14E@frequence51.Arcel1}
+  {    -4671.72      -627.95 12@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4735.83      -663.39 15@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4806.06      -653.94 16E@frequence51.Arcel1}
+  {    -4033.14      -642.52 6@frequence51.Arcel1}
+  {    -3990.59      -674.02 16b@frequence51.Arcel1}
+  {    -3990.59      -674.02 16b@frequence51.Arcel1}
+  {    -3990.59      -674.02 16b@frequence51.Arcel1}
+  {    -3990.59      -674.02 16b@frequence51.Arcel1}
+  {    -3990.59      -674.02 16b@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3904.65      -658.27 17@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3823.33      -690.16 18@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3720.43      -681.50 19@frequence51.Arcel1}
+  {    -3652.27      -696.06 20@frequence51.Arcel1}
+  {    -3652.27      -696.06 20@frequence51.Arcel1}
+  {    -3652.27      -696.06 20@frequence51.Arcel1}
+  {    -3652.27      -696.06 20@frequence51.Arcel1}
+  {    -3652.27      -696.06 20@frequence51.Arcel1}
+  {    -3559.41      -652.36 21@frequence51.Arcel1}
+  {    -3559.41      -652.36 21@frequence51.Arcel1}
+  {    -3559.41      -652.36 21@frequence51.Arcel1}
+  {    -3559.41      -652.36 21@frequence51.Arcel1}
+  {    -3559.41      -652.36 21@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3531.79      -638.58 P@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3393.56      -559.06 22@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3356.71      -535.04 23@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -3265.98      -504.72 24T@frequence51.Arcel1}
+  {    -5231.31   -100826.77 24T@frequence51.Arcel1}
+  {    -5231.31   -100826.77 25T@frequence51.Arcel1}
+  {    -3630.67      -638.58 P@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3476.63      -775.59 26@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3468.76      -903.54 28@frequence51.Arcel1}
+  {    -3619.07      -897.24 PTR_2@frequence51.Arcel1}
+  {    -3294.42      -892.91 27@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -3037.83      -938.98 30@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2930.80      -889.76 31@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2817.22      -854.72 32@frequence51.Arcel1}
+  {    -2783.54      -883.86 PTR_0@frequence51.Arcel1}
+  {    -2783.54      -883.86 PTR_0@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2632.18      -826.38 34@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2432.58      -851.57 35@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2328.18      -829.92 36@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -5231.31   -100826.77 37@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 38@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 39@frequence51.Arcel1}
+  {    -5231.31   -100826.77 40@frequence51.Arcel1}
+  {    -5231.31   -100826.77 40@frequence51.Arcel1}
+  {    -5231.31   -100826.77 41@frequence51.Arcel1}
+  {    -2163.28      -809.45 37@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1981.42      -806.30 42@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1903.39      -813.39 43@frequence51.Arcel1}
+  {    -1966.40      -813.39 43@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -5231.31   -100826.77 44@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 45@frequence51.Arcel1}
+  {    -5231.31   -100826.77 46@frequence51.Arcel1}
+  {    -5231.31   -100826.77 46@frequence51.Arcel1}
+  {    -1892.01     -1040.55 44@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1684.16     -1038.19 47@frequence51.Arcel1}
+  {    -1416.32      -830.71 48@frequence51.Arcel1}
+  {    -1416.32      -830.71 48@frequence51.Arcel1}
+  {    -1416.32      -830.71 48@frequence51.Arcel1}
+  {    -1416.32      -830.71 48@frequence51.Arcel1}
+  {    -1416.32      -830.71 48@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1387.55      -781.50 49@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1339.65      -785.04 50@frequence51.Arcel1}
+  {    -1314.59      -732.68 51@frequence51.Arcel1}
+  {    -1314.59      -732.68 51@frequence51.Arcel1}
+  {    -1314.59      -732.68 51@frequence51.Arcel1}
+  {    -1314.59      -732.68 51@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1221.30      -709.06 52@frequence51.Arcel1}
+  {    -1149.89      -671.26 53@frequence51.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1903.39      -813.39 0@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1831.18      -803.54 1@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1785.72      -658.27 2@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1672.92      -580.71 3@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1618.15      -570.87 4@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1547.75      -534.25 5@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {    -1335.31      -506.30 6@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -879.28      -491.73 8@puits_remontant.Arcel1}
+  {     -978.19      -439.76 9@puits_remontant.Arcel1}
+  {     -978.19      -439.76 9@puits_remontant.Arcel1}
+  {     -978.19      -439.76 9@puits_remontant.Arcel1}
+  {     -978.19      -439.76 9@puits_remontant.Arcel1}
+  {     -978.19      -439.76 9@puits_remontant.Arcel1}
+  {     -965.31      -426.77 91@puits_remontant.Arcel1}
+  {     -965.31      -426.77 91@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -820.67      -304.72 10@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -716.55      -253.94 11@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -627.72       -79.92 12@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -850.42      -566.54 13@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -812.79      -429.92 14@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -681.06      -306.30 15@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -603.97      -230.31 16@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -547.15      -194.88 17@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -414.75       -83.46 181@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -535.73      -149.61 18@puits_remontant.Arcel1}
+  {     -414.75       -83.46 181@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -370.97       -69.29 19@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -301.67        18.50 20@puits_remontant.Arcel1}
+  {     -937.11      -580.31 7@puits_remontant.Arcel1}
+  {     -872.72      -595.67 21@puits_remontant.Arcel1}
+  {     -872.72      -595.67 21@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {    -5231.31   -100826.77 22@puits_remontant.Arcel1}
+  {    -5231.31   -100826.77 23@puits_remontant.Arcel1}
+  {     -707.31      -635.83 22@puits_remontant.Arcel1}
+  {     -481.78      -516.93 24@puits_remontant.Arcel1}
+}
+set XVIshots {
+  {    -5334.16      1653.54     -5256.90      1466.14}
+  {    -5256.90      1466.14     -5201.02      1251.57}
+  {    -5256.90      1466.14     -5231.31      1466.54}
+  {    -5256.90      1466.14     -5091.24      1427.56}
+  {    -5256.90      1466.14     -5153.87      1135.43}
+  {    -5256.90      1466.14     -5223.46      1460.63}
+  {    -5201.02      1251.57     -5188.03      1251.57}
+  {    -5201.02      1251.57     -5178.19      1251.18}
+  {    -5201.02      1251.57     -5138.03      1250.79}
+  {    -5201.02      1251.57     -5155.52      1268.11}
+  {    -5201.02      1251.57     -5302.13      1289.37}
+  {    -5302.13      1289.37     -5317.87      1288.58}
+  {    -5302.13      1289.37     -5307.15      1357.48}
+  {    -5302.13      1289.37     -5379.29      1268.50}
+  {    -5302.13      1289.37     -5309.33      1220.87}
+  {    -5302.13      1289.37     -5357.52      1271.26}
+  {    -5357.52      1271.26     -5393.32      1269.69}
+  {    -5357.52      1271.26     -5370.11      1328.35}
+  {    -5357.52      1271.26     -5371.62      1156.30}
+  {    -5357.52      1271.26     -5376.40      1270.47}
+  {    -5357.52      1271.26     -5386.53      1268.50}
+  {    -5334.16      1653.54     -5397.48      1437.01}
+  {    -5201.02      1251.57     -5033.82      1340.55}
+  {    -5033.82      1340.55     -5013.42      1338.58}
+  {    -5033.82      1340.55     -5002.26      1445.67}
+  {    -5033.82      1340.55     -5031.01      1288.58}
+  {    -5033.82      1340.55     -4934.37      1298.82}
+  {    -4934.37      1298.82     -4922.21      1299.61}
+  {    -4934.37      1298.82     -4925.17      1400.00}
+  {    -4934.37      1298.82     -4924.43      1268.90}
+  {    -4934.37      1298.82     -4733.55      1166.14}
+  {    -4733.55      1166.14     -4658.10      1157.09}
+  {    -4733.55      1166.14     -4699.64      1171.26}
+  {    -4733.55      1166.14     -4728.23      1264.57}
+  {    -4733.55      1166.14     -4727.56      1111.02}
+  {    -4658.10      1157.09     -4540.00       120.87}
+  {    -4658.10      1157.09     -4701.95       880.31}
+  {    -4658.10      1157.09     -4712.33      1153.94}
+  {    -4658.10      1157.09     -4689.95      1155.51}
+  {    -4658.10      1157.09     -4724.21      1159.06}
+  {    -4658.10      1157.09     -4731.33      1157.48}
+  {    -4658.10      1157.09     -4714.93      1235.04}
+  {    -4658.10      1157.09     -4692.20      1153.94}
+  {    -4701.95       880.31     -4775.69       874.02}
+  {    -4701.95       880.31     -4743.43       896.46}
+  {    -4701.95       880.31     -4800.04      1295.28}
+  {    -4701.95       880.31     -4778.52        99.61}
+  {    -4701.95       880.31     -5069.13       822.83}
+  {    -4701.95       880.31     -4630.78       661.42}
+  {    -4630.78       661.42     -4615.44       661.81}
+  {    -4630.78       661.42     -4485.94       646.06}
+  {    -4630.78       661.42     -4594.74       657.87}
+  {    -4630.78       661.42     -4549.34      1169.69}
+  {    -4630.78       661.42     -4511.34      1293.31}
+  {    -4630.78       661.42     -4574.32       124.02}
+  {    -4630.78       661.42     -4630.78       112.20}
+  {    -4630.78       112.20     -4630.78       112.20}
+  {    -4630.78       112.20     -4630.78       111.81}
+  {    -4630.78       112.20     -4630.78       120.08}
+  {    -4630.78       112.20     -4630.78        25.98}
+  {    -4630.78       112.20     -4630.78      1169.29}
+  {    -4630.78       661.42     -4692.50       506.30}
+  {    -4692.50       506.30     -4786.70       211.02}
+  {    -4692.50       506.30     -4712.96       505.51}
+  {    -4692.50       506.30     -4840.18       482.28}
+  {    -4692.50       506.30     -4803.48       503.15}
+  {    -4692.50       506.30     -4775.57       505.12}
+  {    -4701.95       880.31     -4497.39       796.06}
+  {    -4497.39       796.06     -4487.09       886.61}
+  {    -4497.39       796.06     -4356.74       378.35}
+  {    -4497.39       796.06     -4477.08       800.79}
+  {    -4497.39       796.06     -4349.02       792.13}
+  {    -4497.39       796.06     -4497.39       424.80}
+  {    -4497.39       424.80     -4195.92       460.24}
+  {    -4497.39       424.80     -4464.45       434.25}
+  {    -4497.39       424.80     -4474.48       431.89}
+  {    -4497.39       424.80     -4453.31       425.98}
+  {    -4497.39       424.80     -4345.50       452.36}
+  {    -4195.92       460.24     -4179.63       457.48}
+  {    -4195.92       460.24     -4174.61       507.09}
+  {    -4195.92       460.24     -4186.88       406.30}
+  {    -4195.92       460.24     -3968.31       437.40}
+  {    -3968.31       437.40     -3947.76       433.86}
+  {    -3968.31       437.40     -3955.61       502.76}
+  {    -3968.31       437.40     -3967.42       398.43}
+  {    -3968.31       437.40     -3864.15       420.47}
+  {    -3864.15       420.47     -3737.97       413.78}
+  {    -3864.15       420.47     -3845.65       420.47}
+  {    -3864.15       420.47     -3854.43       486.61}
+  {    -3864.15       420.47     -3860.69       389.76}
+  {    -3864.15       420.47     -3715.92       412.99}
+  {    -3715.92       412.99     -3691.93       414.57}
+  {    -3715.92       412.99     -3694.85       546.06}
+  {    -3715.92       412.99     -3713.45       390.55}
+  {    -3715.92       412.99     -3597.69       421.26}
+  {    -3597.69       421.26     -3560.70       420.08}
+  {    -3597.69       421.26     -3591.28       468.11}
+  {    -3597.69       421.26     -3589.41       308.66}
+  {    -3597.69       421.26     -3533.13       403.54}
+  {    -3597.69       421.26     -3426.13       374.02}
+  {    -3426.13       374.02     -3408.44       372.83}
+  {    -3426.13       374.02     -3419.06       437.01}
+  {    -3426.13       374.02     -3411.64       303.54}
+  {    -3426.13       374.02     -3153.08       317.72}
+  {    -3153.08       317.72     -3012.98       329.13}
+  {    -3153.08       317.72     -3130.93       323.62}
+  {    -3153.08       317.72     -3150.91       353.15}
+  {    -3153.08       317.72     -3142.99       295.67}
+  {    -3153.08       317.72     -3012.63       329.53}
+  {    -3012.63       329.53     -2982.98       325.59}
+  {    -3012.63       329.53     -3007.76       368.90}
+  {    -3012.63       329.53     -2963.63        33.86}
+  {    -3012.63       329.53     -2982.07       326.77}
+  {    -3012.63       329.53     -2994.52       329.53}
+  {    -3012.63       329.53     -2987.67       326.38}
+  {    -3012.63       329.53     -2779.58      -321.26}
+  {    -3012.63       329.53     -2779.72      -252.76}
+  {    -2779.72      -252.76     -2668.02      -207.48}
+  {    -2779.72      -252.76     -2558.47       -15.35}
+  {    -2779.72      -252.76     -2553.72       131.10}
+  {    -2779.72      -252.76     -2659.16      -141.73}
+  {    -2779.72      -252.76     -2632.80       179.13}
+  {    -2779.72      -252.76     -2608.03       229.53}
+  {    -2779.72      -252.76     -2654.29      -240.94}
+  {    -2779.72      -252.76     -2723.16      -256.30}
+  {    -2779.72      -252.76     -2535.48      -194.09}
+  {    -2779.72      -252.76     -2650.16      -277.17}
+  {    -2779.72      -252.76     -2712.06      -309.06}
+  {    -2779.72      -252.76     -2660.42      -235.83}
+  {    -2779.72      -252.76     -2724.36      -248.43}
+  {    -2779.72      -252.76     -2637.63      -108.66}
+  {    -2779.72      -252.76     -2722.25      -253.54}
+  {    -2779.72      -252.76     -2697.51      -236.22}
+  {    -2779.72      -252.76     -2711.61       -79.53}
+  {    -2779.72      -252.76     -2657.34      -156.69}
+  {    -2779.72      -252.76     -2836.49      -246.46}
+  {    -2836.49      -246.46     -2924.08      -257.09}
+  {    -2836.49      -246.46     -2948.80        -7.87}
+  {    -2836.49      -246.46     -2967.95      -243.70}
+  {    -2836.49      -246.46     -3010.14      -226.38}
+  {    -2836.49      -246.46     -2921.33      -524.02}
+  {    -2836.49      -246.46     -2874.49      -500.79}
+  {    -2836.49      -246.46     -2852.80      -306.69}
+  {    -2836.49      -246.46     -2861.20      -388.19}
+  {    -2836.49      -246.46     -2872.32      -450.00}
+  {    -2872.32      -450.00     -2951.17      -432.68}
+  {    -2872.32      -450.00     -2952.53       -75.59}
+  {    -2872.32      -450.00     -2932.83      -389.37}
+  {    -2872.32      -450.00     -2979.22      -486.22}
+  {    -2872.32      -450.00     -2901.61      -435.43}
+  {    -2872.32      -450.00     -3001.68      -277.95}
+  {    -2872.32      -450.00     -2907.20      -443.70}
+  {    -2872.32      -450.00     -2994.79      -477.56}
+  {    -2872.32      -450.00     -2984.39      -422.44}
+  {    -2872.32      -450.00     -2948.90      -477.56}
+  {    -2948.90      -477.56     -3027.42      -442.13}
+  {    -2948.90      -477.56     -3099.94      -390.55}
+  {    -2948.90      -477.56     -3098.28      -350.00}
+  {    -2948.90      -477.56     -2992.43      -463.78}
+  {    -2948.90      -477.56     -2955.04      -460.24}
+  {    -2948.90      -477.56     -2977.43      -521.26}
+  {    -2948.90      -477.56     -2980.98      -532.68}
+  {    -2948.90      -477.56     -2964.94      -475.98}
+  {    -2948.90      -477.56     -3065.59      -496.06}
+  {    -2948.90      -477.56     -2997.25      -435.04}
+  {    -2948.90      -477.56     -3026.39      -461.81}
+  {    -3026.39      -461.81     -3162.73      -351.57}
+  {    -3026.39      -461.81     -3039.10      -253.94}
+  {    -3026.39      -461.81     -3089.98      -208.66}
+  {    -3026.39      -461.81     -3087.11      -287.40}
+  {    -3026.39      -461.81     -3106.27      -365.75}
+  {    -3026.39      -461.81     -3050.30      -463.78}
+  {    -3026.39      -461.81     -3057.64      -498.43}
+  {    -3026.39      -461.81     -3030.03      -495.67}
+  {    -3026.39      -461.81     -3144.75      -532.28}
+  {    -3026.39      -461.81     -3070.89      -445.67}
+  {    -3026.39      -461.81     -3050.76      -394.49}
+  {    -3026.39      -461.81     -3034.31      -497.24}
+  {    -2836.49      -246.46     -2882.48      -468.50}
+  {    -2882.48      -468.50     -2911.55      -466.93}
+  {    -2882.48      -468.50     -2937.23      -475.20}
+  {    -2882.48      -468.50     -3048.98      -472.05}
+  {    -2882.48      -468.50     -2904.52      -468.11}
+  {    -2882.48      -468.50     -3025.56      -451.57}
+  {    -2882.48      -468.50     -2926.00      -138.19}
+  {    -2882.48      -468.50     -2804.04      -535.83}
+  {    -2804.04      -535.83     -2789.81      -531.10}
+  {    -2804.04      -535.83     -2774.53      -536.61}
+  {    -2804.04      -535.83     -2719.40      -547.24}
+  {    -2804.04      -535.83     -2801.19      -528.74}
+  {    -2804.04      -535.83     -2800.69      -554.72}
+  {    -2804.04      -535.83     -2638.91      -574.80}
+  {    -2638.91      -574.80     -2613.48      -572.05}
+  {    -2638.91      -574.80     -2564.17      -571.65}
+  {    -2638.91      -574.80     -2600.23      -563.78}
+  {    -2638.91      -574.80     -2562.23      -555.12}
+  {    -2638.91      -574.80     -2632.14      -613.78}
+  {    -2638.91      -574.80     -2627.40      -548.43}
+  {    -2638.91      -574.80     -2578.12      -589.76}
+  {    -2578.12      -589.76     -2559.23      -588.98}
+  {    -2578.12      -589.76     -2558.68      -586.61}
+  {    -2578.12      -589.76     -2546.73      -587.01}
+  {    -2578.12      -589.76     -2565.13      -589.76}
+  {    -2578.12      -589.76     -2568.46      -555.91}
+  {    -2578.12      -589.76     -2561.00      -817.32}
+  {    -2578.12      -589.76     -2522.62      -815.75}
+  {    -2578.12      -589.76     -2513.71      -807.09}
+  {    -2513.71      -807.09     -2467.60      -812.60}
+  {    -2513.71      -807.09     -2432.75      -821.65}
+  {    -2513.71      -807.09     -2415.48      -825.98}
+  {    -2513.71      -807.09     -2467.72      -785.43}
+  {    -2513.71      -807.09     -2451.33      -781.89}
+  {    -2513.71      -807.09     -2440.90      -791.73}
+  {    -2513.71      -807.09     -2420.83      -809.84}
+  {    -2513.71      -807.09     -2486.18      -860.63}
+  {    -2513.71      -807.09     -2157.61      -973.23}
+  {    -2157.61      -973.23     -2126.18      -975.20}
+  {    -2157.61      -973.23     -2078.49      -988.98}
+  {    -2157.61      -973.23     -1937.20      -977.95}
+  {    -2157.61      -973.23     -2091.62      -953.15}
+  {    -2157.61      -973.23     -2136.55      -904.33}
+  {    -2157.61      -973.23     -2126.27     -1149.21}
+  {    -2157.61      -973.23     -2103.14     -1131.50}
+  {    -2103.14     -1131.50     -1959.82     -1112.99}
+  {    -2103.14     -1131.50     -2011.03     -1116.54}
+  {    -2103.14     -1131.50     -2051.28     -1121.65}
+  {    -2103.14     -1131.50     -2035.82     -1130.71}
+  {    -2103.14     -1131.50     -2002.38     -1133.86}
+  {    -2103.14     -1131.50     -2011.85     -1134.25}
+  {    -2103.14     -1131.50     -2018.77     -1138.19}
+  {    -2103.14     -1131.50     -2055.36      -919.29}
+  {    -2103.14     -1131.50     -2002.75     -1133.07}
+  {    -2002.75     -1133.07     -1898.04     -1131.50}
+  {    -2002.75     -1133.07     -1964.25     -1135.43}
+  {    -2002.75     -1133.07     -1942.14     -1134.25}
+  {    -2002.75     -1133.07     -1906.40     -1137.40}
+  {    -2002.75     -1133.07     -1999.60     -1151.57}
+  {    -2002.75     -1133.07     -1947.17     -1031.50}
+  {    -2002.75     -1133.07     -1898.17     -1122.44}
+  {    -1898.17     -1122.44     -1880.97     -1124.41}
+  {    -1898.17     -1122.44     -1809.36     -1116.93}
+  {    -1898.17     -1122.44     -1616.02     -1130.71}
+  {    -1898.17     -1122.44     -1786.85      -990.16}
+  {    -1898.17     -1122.44     -1824.55     -1121.65}
+  {    -1898.17     -1122.44     -1695.16     -1075.98}
+  {    -1898.17     -1122.44     -1777.93     -1129.53}
+  {    -1898.17     -1122.44     -1669.84     -1120.47}
+  {    -1669.84     -1120.47     -1609.75     -1152.36}
+  {    -1669.84     -1120.47     -1604.31     -1146.06}
+  {    -1669.84     -1120.47     -1606.92     -1152.76}
+  {    -1669.84     -1120.47     -1621.45     -1135.83}
+  {    -1669.84     -1120.47     -1646.08     -1124.02}
+  {    -1669.84     -1120.47     -1664.91     -1146.46}
+  {    -1669.84     -1120.47     -1633.41     -1040.16}
+  {    -1669.84     -1120.47     -1626.88     -1125.98}
+  {    -1669.84     -1120.47     -1577.32     -1121.26}
+  {    -2103.14     -1131.50     -2252.18     -1094.49}
+  {    -2252.18     -1094.49     -2275.40     -1094.88}
+  {    -2252.18     -1094.49     -2289.20      -918.90}
+  {    -2252.18     -1094.49     -2441.16      -904.72}
+  {    -2252.18     -1094.49     -2428.00      -916.14}
+  {    -2252.18     -1094.49     -2330.36     -1057.09}
+  {    -2252.18     -1094.49     -2304.13     -1096.06}
+  {    -2252.18     -1094.49     -2511.21      -922.83}
+  {    -2511.21      -922.83     -2554.66      -927.56}
+  {    -2511.21      -922.83     -2559.91      -930.31}
+  {    -2511.21      -922.83     -2567.14      -929.53}
+  {    -2511.21      -922.83     -2670.66      -922.05}
+  {    -2511.21      -922.83     -2734.51      -911.02}
+  {    -2511.21      -922.83     -2613.92      -919.69}
+  {    -2511.21      -922.83     -2637.97      -924.80}
+  {    -2511.21      -922.83     -2721.04      -925.20}
+  {    -2511.21      -922.83     -2610.44      -964.17}
+  {    -2511.21      -922.83     -2521.80      -885.04}
+  {    -2511.21      -922.83     -2543.83     -1040.55}
+  {    -2511.21      -922.83     -2749.52      -870.08}
+  {    -2749.52      -870.08     -2783.54      -883.86}
+  {    -2749.52      -870.08     -2837.72      -855.91}
+  {    -2837.72      -855.91     -2883.40      -870.47}
+  {    -2837.72      -855.91     -2881.34      -866.14}
+  {    -2837.72      -855.91     -2874.13      -796.46}
+  {    -2837.72      -855.91     -2903.05      -893.70}
+  {    -2837.72      -855.91     -2903.32      -894.09}
+  {    -2903.32      -894.09     -3059.50      -917.32}
+  {    -2903.32      -894.09     -2930.36      -896.85}
+  {    -2903.32      -894.09     -2912.44      -968.50}
+  {    -2903.32      -894.09     -2913.65      -858.66}
+  {    -2511.21      -922.83     -2563.73     -1033.46}
+  {    -2563.73     -1033.46     -2591.29     -1033.07}
+  {    -2563.73     -1033.46     -2595.04     -1030.31}
+  {    -2563.73     -1033.46     -2604.78     -1038.58}
+  {    -2563.73     -1033.46     -2512.63     -1132.68}
+  {    -2512.63     -1132.68     -2491.29     -1129.13}
+  {    -2512.63     -1132.68     -2447.52     -1146.46}
+  {    -2512.63     -1132.68     -2416.36     -1156.69}
+  {    -2512.63     -1132.68     -2477.72     -1126.38}
+  {    -2512.63     -1132.68     -2481.99     -1008.66}
+  {    -2512.63     -1132.68     -2504.52     -1155.51}
+  {    -2512.63     -1132.68     -2468.26     -1168.11}
+  {    -2468.26     -1168.11     -2455.12     -1165.35}
+  {    -2468.26     -1168.11     -2427.49     -1116.93}
+  {    -2468.26     -1168.11     -2445.48     -1003.94}
+  {    -2468.26     -1168.11     -2443.51     -1058.27}
+  {    -2468.26     -1168.11     -2391.17     -1156.30}
+  {    -2468.26     -1168.11     -2346.51     -1344.88}
+  {    -2346.51     -1344.88     -2319.85     -1255.51}
+  {    -2346.51     -1344.88     -2307.26     -1336.61}
+  {    -2346.51     -1344.88     -2282.97     -1353.94}
+  {    -2346.51     -1344.88     -2334.30     -1383.46}
+  {    -2346.51     -1344.88     -2284.31     -1345.67}
+  {    -2284.31     -1345.67     -2221.71     -1345.28}
+  {    -2284.31     -1345.67     -2262.06     -1417.32}
+  {    -2284.31     -1345.67     -2267.73     -1279.13}
+  {    -2284.31     -1345.67     -2223.82     -1452.76}
+  {    -2223.82     -1452.76     -2185.32     -1455.12}
+  {    -2223.82     -1452.76     -2208.11     -1448.82}
+  {    -2223.82     -1452.76     -2208.11     -1453.54}
+  {    -2223.82     -1452.76     -2126.95     -1413.78}
+  {    -2223.82     -1452.76     -2201.57     -1388.98}
+  {    -2223.82     -1452.76     -2203.23     -1611.02}
+  {    -2223.82     -1452.76     -2179.44     -1577.17}
+  {    -2179.44     -1577.17     -2069.74     -1612.99}
+  {    -2179.44     -1577.17     -2158.98     -1577.95}
+  {    -2179.44     -1577.17     -2108.41     -1357.48}
+  {    -2179.44     -1577.17     -2296.17     -1644.49}
+  {    -2296.17     -1644.49     -2364.43     -1653.54}
+  {    -2296.17     -1644.49     -2365.05     -1651.97}
+  {    -2783.54      -883.86     -2843.08      -898.82}
+  {    -2843.08      -898.82     -2967.83      -878.74}
+  {    -2843.08      -898.82     -2960.02      -912.20}
+  {    -2843.08      -898.82     -2880.19      -837.01}
+  {    -2843.08      -898.82     -2855.72      -946.06}
+  {    -2843.08      -898.82     -2896.82      -971.65}
+  {    -2843.08      -898.82     -2899.82      -976.38}
+  {    -2843.08      -898.82     -2896.69      -971.65}
+  {    -2843.08      -898.82     -2896.71      -971.26}
+  {    -2843.08      -898.82     -2920.11      -894.09}
+  {    -2843.08      -898.82     -2869.74      -896.46}
+  {    -2843.08      -898.82     -2864.65      -896.85}
+  {    -2843.08      -898.82     -2878.98      -894.09}
+  {    -2843.08      -898.82     -2888.77     -1000.00}
+  {    -2896.71      -971.26     -2922.98     -1010.24}
+  {    -2922.98     -1010.24     -2936.48     -1244.49}
+  {    -1149.89      -671.26     -1134.86      -663.39}
+  {    -1149.89      -671.26     -1099.04      -704.33}
+  {    -1149.89      -671.26     -1144.55      -651.57}
+  {    -1149.89      -671.26     -1092.08      -607.09}
+  {    -1149.89      -671.26      -955.76      -614.96}
+  {     -955.76      -614.96      -872.19      -577.95}
+  {     -955.76      -614.96      -867.61      -669.69}
+  {     -955.76      -614.96      -950.70      -624.02}
+  {     -955.76      -614.96      -892.60      -585.83}
+  {     -892.60      -585.83      -795.43      -559.06}
+  {     -892.60      -585.83      -881.18      -607.09}
+  {     -892.60      -585.83      -726.53      -670.08}
+  {     -892.60      -585.83      -778.60      -630.31}
+  {     -892.60      -585.83      -835.17      -557.09}
+  {     -892.60      -585.83      -763.90      -529.13}
+  {     -892.60      -585.83      -794.99      -603.54}
+  {     -892.60      -585.83      -732.07      -598.82}
+  {     -732.07      -598.82      -653.68      -382.28}
+  {     -732.07      -598.82      -552.73      -629.13}
+  {     -732.07      -598.82      -599.36      -469.29}
+  {     -732.07      -598.82      -401.09      -709.06}
+  {     -732.07      -598.82      -481.78      -516.93}
+  {     -481.78      -516.93      -478.52      -543.70}
+  {     -481.78      -516.93      -369.87      -571.26}
+  {     -481.78      -516.93      -422.08      -539.37}
+  {     -481.78      -516.93      -417.03      -567.72}
+  {     -481.78      -516.93      -333.02      -556.30}
+  {     -481.78      -516.93      -180.12      -537.40}
+  {     -481.78      -516.93      -164.93      -509.45}
+  {     -481.78      -516.93        32.04      -436.22}
+  {     -481.78      -516.93      -255.49      -398.82}
+  {     -481.78      -516.93      -442.46      -518.90}
+  {     -481.78      -516.93      -411.38      -488.19}
+  {     -481.78      -516.93      -239.02      -395.67}
+  {     -239.02      -395.67      -237.47      -379.53}
+  {     -239.02      -395.67       -42.03      -341.34}
+  {     -239.02      -395.67       -38.83      -375.59}
+  {     -239.02      -395.67      -193.32      -382.28}
+  {     -239.02      -395.67      -217.30      -402.76}
+  {     -239.02      -395.67       -67.70      -299.61}
+  {      -67.70      -299.61       -59.10      -285.04}
+  {      -67.70      -299.61       111.88      -243.31}
+  {      -67.70      -299.61        79.75      -292.13}
+  {      -67.70      -299.61        11.29      -281.10}
+  {      -67.70      -299.61        71.83      -256.30}
+  {      -67.70      -299.61       -39.79      -280.31}
+  {      -67.70      -299.61       -27.55      -300.39}
+  {      -67.70      -299.61       185.81      -120.87}
+  {      185.81      -120.87       290.32      -179.92}
+  {      185.81      -120.87       248.36      -135.04}
+  {      185.81      -120.87       280.14      -193.31}
+  {      185.81      -120.87       347.89      -133.86}
+  {      185.81      -120.87       333.66       -98.03}
+  {      185.81      -120.87       271.59       -79.13}
+  {      185.81      -120.87       225.36       -65.35}
+  {      185.81      -120.87       229.80       -59.84}
+  {      185.81      -120.87       255.09       -54.72}
+  {      185.81      -120.87       290.93      -121.65}
+  {      185.81      -120.87       260.36      -152.76}
+  {      185.81      -120.87       232.96      -150.79}
+  {      185.81      -120.87       194.92       -98.43}
+  {      185.81      -120.87       250.64       -24.02}
+  {      250.64       -24.02       262.05       -29.13}
+  {      250.64       -24.02       287.09        27.95}
+  {      250.64       -24.02       278.87       -97.64}
+  {      250.64       -24.02       279.64       -75.98}
+  {      250.64       -24.02       280.98       -70.08}
+  {      250.64       -24.02       268.03       -42.52}
+  {      250.64       -24.02       254.49       -48.82}
+  {      250.64       -24.02       321.98       -44.88}
+  {      250.64       -24.02       297.01      -100.79}
+  {      250.64       -24.02       332.80         0.79}
+  {      332.80         0.79       361.55       -51.97}
+  {      332.80         0.79       342.04       -38.19}
+  {      332.80         0.79       346.68       -18.50}
+  {      332.80         0.79       360.70        10.63}
+  {      360.70        10.63       411.29        61.81}
+  {      411.29        61.81       629.93       124.80}
+  {      629.93       124.80       842.61       -89.76}
+  {      629.93       124.80       825.96       -31.89}
+  {      629.93       124.80       913.82        75.59}
+  {      629.93       124.80       668.92        88.98}
+  {      629.93       124.80       650.75        63.39}
+  {      629.93       124.80       664.97       124.80}
+  {      629.93       124.80       669.14       151.97}
+  {      629.93       124.80       725.17       217.72}
+  {      629.93       124.80       657.07       162.20}
+  {      629.93       124.80       675.76        73.62}
+  {      629.93       124.80       765.68       205.51}
+  {      765.68       205.51       767.90       182.28}
+  {      765.68       205.51       781.13       174.41}
+  {      765.68       205.51       804.91       157.48}
+  {      765.68       205.51       808.56       167.72}
+  {      765.68       205.51       789.47       195.28}
+  {      765.68       205.51       797.17       205.51}
+  {      765.68       205.51       859.48       178.35}
+  {      765.68       205.51       830.58       228.74}
+  {      765.68       205.51       959.30       219.29}
+  {      959.30       219.29      1126.09        59.84}
+  {      959.30       219.29      1010.79       172.83}
+  {      959.30       219.29       971.85       200.39}
+  {      959.30       219.29       962.13       201.57}
+  {      959.30       219.29      1019.83       233.46}
+  {      959.30       219.29       994.50       240.16}
+  {      959.30       219.29       993.07       221.65}
+  {      959.30       219.29      1118.35       218.11}
+  {     1118.35       218.11      1132.73       238.19}
+  {     1118.35       218.11      1160.97       223.23}
+  {     1118.35       218.11      1155.60       206.69}
+  {     1118.35       218.11      1296.61       286.61}
+  {     1118.35       218.11      1316.19       198.43}
+  {     1316.19       198.43      1321.09       227.17}
+  {     1316.19       198.43      1330.75       219.69}
+  {     1316.19       198.43      1368.80       194.49}
+  {     1316.19       198.43      1370.03       181.89}
+  {     1316.19       198.43      1336.54       178.74}
+  {     1316.19       198.43      1494.31       292.13}
+  {     1316.19       198.43      2059.50       285.83}
+  {     1316.19       198.43      1766.81       250.00}
+  {     1766.81       250.00      1840.20       225.98}
+  {     1766.81       250.00      1847.67       221.26}
+  {     1766.81       250.00      1866.21       228.74}
+  {     1766.81       250.00      1905.04       229.13}
+  {     1766.81       250.00      1914.65       232.68}
+  {     1766.81       250.00      1905.92       241.34}
+  {     1766.81       250.00      1822.14       280.71}
+  {     1766.81       250.00      1919.62       304.33}
+  {     1766.81       250.00      1911.34       296.85}
+  {     1766.81       250.00      1994.11       304.72}
+  {     1766.81       250.00      1772.94       234.25}
+  {     1766.81       250.00      1769.89       275.98}
+  {     1766.81       250.00      1939.98       212.60}
+  {     1939.98       212.60      1950.44       192.52}
+  {     1939.98       212.60      1948.94       234.25}
+  {     1939.98       212.60      1985.80       217.32}
+  {     1939.98       212.60      2126.55       275.20}
+  {     1939.98       212.60      2031.14       232.28}
+  {     1939.98       212.60      2003.07       181.89}
+  {     1939.98       212.60      2025.49       186.61}
+  {     1939.98       212.60      2124.97       132.28}
+  {     1939.98       212.60      2129.23       193.70}
+  {     1939.98       212.60      2186.55       171.26}
+  {     2186.55       171.26      2212.32       250.79}
+  {     2186.55       171.26      2193.62       150.39}
+  {     2186.55       171.26      2273.49       180.31}
+  {     2186.55       171.26      2264.87       168.90}
+  {     2186.55       171.26      2344.11       156.30}
+  {     2186.55       171.26      2390.51       149.21}
+  {     2186.55       171.26      2380.12       142.52}
+  {     2186.55       171.26      2390.86       148.82}
+  {     2186.55       171.26      2270.02       285.04}
+  {     2186.55       171.26      2336.10       229.92}
+  {     2336.10       229.92      2508.28       220.08}
+  {     2336.10       229.92      2375.88       235.43}
+  {     2336.10       229.92      2393.62       223.23}
+  {     2336.10       229.92      2409.93       198.03}
+  {     2336.10       229.92      2437.64       226.77}
+  {     2336.10       229.92      2489.12       236.22}
+  {     2336.10       229.92      2337.26       245.28}
+  {     2336.10       229.92      2342.48       150.39}
+  {     2336.10       229.92      2382.86       209.06}
+  {     2336.10       229.92      2495.35       256.30}
+  {     2495.35       256.30      2590.17       279.53}
+  {     2495.35       256.30      2595.47       289.37}
+  {     2495.35       256.30      2600.01       285.43}
+  {     2495.35       256.30      2551.25       255.12}
+  {     2495.35       256.30      2537.86       257.48}
+  {     2495.35       256.30      2530.01       250.79}
+  {     2495.35       256.30      2498.71       266.54}
+  {     2495.35       256.30      2500.91       215.75}
+  {     2495.35       256.30      2621.19       237.80}
+  {     2495.35       256.30      2666.92       195.67}
+  {     2495.35       256.30      2756.86       146.85}
+  {     2495.35       256.30      2870.26        83.07}
+  {     2495.35       256.30      2619.90       211.42}
+  {     2495.35       256.30      2619.46       212.60}
+  {     2619.46       212.60      2620.91       166.54}
+  {     2619.46       212.60      2621.25       237.01}
+  {     2619.46       212.60      2686.31       216.14}
+  {     2619.46       212.60      2675.84       230.31}
+  {     2619.46       212.60      2687.96       236.22}
+  {     2619.46       212.60      2776.92       264.57}
+  {     2619.46       212.60      2824.54       275.59}
+  {     2619.46       212.60      2855.26       287.01}
+  {     2619.46       212.60      2865.15       297.24}
+  {     2619.46       212.60      2775.30       254.72}
+  {     2619.46       212.60      2810.49       242.13}
+  {     2619.46       212.60      2766.39       227.17}
+  {     2619.46       212.60      2937.49       312.99}
+  {     2619.46       212.60      2781.06       259.06}
+  {     2781.06       259.06      2924.49       300.00}
+  {     2781.06       259.06      2825.53       264.96}
+  {     2781.06       259.06      2858.26       266.54}
+  {     2781.06       259.06      2863.03       269.69}
+  {     2781.06       259.06      2845.12       279.53}
+  {     2781.06       259.06      2863.70       256.30}
+  {     2863.70       256.30      2889.04       287.01}
+  {     2863.70       256.30      2895.82       259.45}
+  {     2863.70       256.30      2926.12       261.02}
+  {     2863.70       256.30      2911.12       264.17}
+  {     2863.70       256.30      2907.69       259.45}
+  {     2863.70       256.30      2888.89       212.60}
+  {     2863.70       256.30      2965.72        96.85}
+  {     2863.70       256.30      2960.80       251.18}
+  {     2960.80       251.18      2978.26       318.11}
+  {     2960.80       251.18      2966.02       200.79}
+  {     2960.80       251.18      2981.65       251.97}
+  {     2960.80       251.18      3000.89       248.82}
+  {     2960.80       251.18      3068.46       244.49}
+  {     2960.80       251.18      3003.71       251.57}
+  {     2960.80       251.18      3202.47       214.17}
+  {     3202.47       214.17      3223.33       214.96}
+  {     3202.47       214.17      3211.23       282.68}
+  {     3202.47       214.17      3244.34       100.39}
+  {     3202.47       214.17      3310.60       208.66}
+  {     3202.47       214.17      3281.20       215.75}
+  {     3202.47       214.17      3335.24       137.80}
+  {     3202.47       214.17      3397.12       164.96}
+  {     3202.47       214.17      3426.85       218.11}
+  {     3426.85       218.11      3430.83       170.47}
+  {     3426.85       218.11      3482.48       323.62}
+  {     3426.85       218.11      3484.60       207.87}
+  {     3426.85       218.11      3478.83       211.81}
+  {     3426.85       218.11      3501.01       192.91}
+  {     3426.85       218.11      3479.46       200.39}
+  {     3426.85       218.11      3600.06       220.08}
+  {     3426.85       218.11      3470.63       190.94}
+  {     3470.63       190.94      3679.84       160.24}
+  {     3679.84       160.24      3682.23       178.35}
+  {     3679.84       160.24      3739.15       174.80}
+  {     3679.84       160.24      3743.46       176.77}
+  {     3679.84       160.24      3740.76       180.31}
+  {     3679.84       160.24      3803.94       181.89}
+  {     3679.84       160.24      3836.84       176.77}
+  {     3679.84       160.24      3786.69       175.20}
+  {     3679.84       160.24      3765.77       174.02}
+  {     3679.84       160.24      3794.01       159.45}
+  {     3679.84       160.24      3817.21       157.87}
+  {     3679.84       160.24      3858.23       193.70}
+  {     3858.23       193.70      3921.81       185.04}
+  {     3858.23       193.70      3936.35       187.80}
+  {     3858.23       193.70      3859.35       170.08}
+  {     3858.23       193.70      4000.71       174.80}
+  {     3858.23       193.70      4076.39       124.80}
+  {     3858.23       193.70      3977.23       125.20}
+  {     3858.23       193.70      3961.42       148.82}
+  {     3858.23       193.70      4192.62        64.17}
+  {     4192.62        64.17      4193.41        44.49}
+  {     4192.62        64.17      4255.11       229.53}
+  {     4192.62        64.17      4373.94       102.76}
+  {     4192.62        64.17      4219.40        77.56}
+  {     4192.62        64.17      4333.27        40.94}
+  {     4192.62        64.17      4329.04        56.69}
+  {     4192.62        64.17      4398.05        77.95}
+  {     4192.62        64.17      4290.52       101.18}
+  {     4192.62        64.17      4434.74        77.95}
+  {     4192.62        64.17      4274.02        13.78}
+  {     4274.02        13.78      4288.93        14.96}
+  {     4274.02        13.78      4302.61        23.62}
+  {     4274.02        13.78      4285.63         3.54}
+  {     4274.02        13.78      4325.20        12.99}
+  {     4274.02        13.78      4310.04         9.84}
+  {     4274.02        13.78      4322.02        31.50}
+  {     4274.02        13.78      4309.15        91.34}
+  {     4274.02        13.78      4300.30        20.47}
+  {     4274.02        13.78      4425.33        68.90}
+  {     4425.33        68.90      4442.07        71.26}
+  {     4425.33        68.90      4451.94       127.17}
+  {     4425.33        68.90      4446.44        15.75}
+  {     4425.33        68.90      4459.99        58.27}
+  {     4425.33        68.90      4512.49        53.15}
+  {     4425.33        68.90      4496.65        56.30}
+  {     4425.33        68.90      4456.22        82.68}
+  {     4425.33        68.90      4453.38        80.31}
+  {     4425.33        68.90      4470.38       118.90}
+  {     4470.38       118.90      4478.99       119.69}
+  {     4470.38       118.90      4484.02       116.93}
+  {     4470.38       118.90      4499.69        61.42}
+  {     4470.38       118.90      4486.55       231.10}
+  {     4470.38       118.90      4563.21       190.55}
+  {     4563.21       190.55      4582.47       191.73}
+  {     4563.21       190.55      4576.46       229.92}
+  {     4563.21       190.55      4584.51       150.00}
+  {     4563.21       190.55      4630.51       229.13}
+  {     4630.51       229.13      4725.02       203.15}
+  {     4630.51       229.13      4759.98       225.20}
+  {     4630.51       229.13      4789.76       255.51}
+  {     4630.51       229.13      4690.86       209.84}
+  {     4630.51       229.13      4664.21       232.28}
+  {     4630.51       229.13      4645.36       233.07}
+  {     4630.51       229.13      4671.34       244.88}
+  {     4630.51       229.13      4725.07       203.15}
+  {     4725.07       203.15      4746.81       208.66}
+  {     4725.07       203.15      4757.15       206.69}
+  {     4725.07       203.15      4772.71       203.15}
+  {     4725.07       203.15      4812.90       217.32}
+  {     4725.07       203.15      4779.93       217.72}
+  {     4725.07       203.15      4808.65       224.41}
+  {     4725.07       203.15      4731.90       243.31}
+  {     4725.07       203.15      4726.82       182.68}
+  {     4725.07       203.15      4931.38       237.01}
+  {     4931.38       237.01      5004.01       231.50}
+  {     4931.38       237.01      4975.96       231.89}
+  {     4931.38       237.01      4975.71       233.46}
+  {     4931.38       237.01      4984.08       239.37}
+  {     4931.38       237.01      4970.04       232.28}
+  {     4931.38       237.01      5027.32       232.28}
+  {     4931.38       237.01      4978.00       232.68}
+  {     4931.38       237.01      4992.00       236.61}
+  {     4931.38       237.01      4944.95       297.64}
+  {     4931.38       237.01      5028.54        40.55}
+  {     5028.54        40.55      5050.08        38.19}
+  {     5028.54        40.55      5038.66        -9.45}
+  {     5028.54        40.55      5086.99       -39.76}
+  {     5028.54        40.55      5084.84       -26.38}
+  {     5028.54        40.55      5081.49       -29.92}
+  {     5028.54        40.55      5337.53       -90.16}
+  {     5028.54        40.55      5191.38       -41.34}
+  {     5028.54        40.55      5208.70       -95.28}
+  {     5028.54        40.55      5397.48       -29.92}
+  {    -3699.28      -918.90     -3692.99      -907.09}
+  {    -3699.28      -918.90     -3686.02      -900.39}
+  {    -3699.28      -918.90     -3654.49      -882.28}
+  {    -3699.28      -918.90     -3644.16      -894.49}
+  {    -3699.28      -918.90     -3652.65      -909.06}
+  {    -3699.28      -918.90     -3616.30      -946.46}
+  {    -3699.28      -918.90     -3619.07      -897.24}
+  {    -3619.07      -897.24     -3559.37      -874.80}
+  {    -3619.07      -897.24     -3589.61      -912.99}
+  {    -3619.07      -897.24     -3583.73      -868.50}
+  {    -3619.07      -897.24     -3583.25      -897.24}
+  {    -3619.07      -897.24     -3501.60      -956.30}
+  {    -3619.07      -897.24     -3562.75      -914.96}
+  {    -3619.07      -897.24     -3734.72      -794.49}
+  {    -3734.72      -794.49     -3770.00      -805.51}
+  {    -3734.72      -794.49     -3751.76      -818.90}
+  {    -3734.72      -794.49     -3764.03      -805.91}
+  {    -3734.72      -794.49     -3823.84      -812.60}
+  {    -3734.72      -794.49     -3740.13      -795.67}
+  {    -3734.72      -794.49     -3822.98      -810.63}
+  {    -3822.98      -810.63     -3843.59      -817.32}
+  {    -3822.98      -810.63     -3827.42      -843.31}
+  {    -3822.98      -810.63     -3851.78      -833.86}
+  {    -3734.72      -794.49     -3776.25      -778.74}
+  {    -3776.25      -778.74     -3811.09      -789.76}
+  {    -3776.25      -778.74     -3862.35      -783.07}
+  {    -3776.25      -778.74     -3788.45      -772.05}
+  {    -3776.25      -778.74     -3788.10      -790.16}
+  {    -3776.25      -778.74     -3809.00      -787.01}
+  {    -3776.25      -778.74     -3923.58      -720.87}
+  {    -3923.58      -720.87     -3948.30      -718.90}
+  {    -3923.58      -720.87     -3935.46      -727.95}
+  {    -3923.58      -720.87     -3935.85      -711.02}
+  {    -3923.58      -720.87     -4011.99      -681.50}
+  {    -3923.58      -720.87     -3968.74      -694.49}
+  {    -3923.58      -720.87     -4033.14      -642.52}
+  {    -4033.14      -642.52     -4067.52      -649.21}
+  {    -4033.14      -642.52     -4053.08      -627.95}
+  {    -4033.14      -642.52     -4042.49      -656.30}
+  {    -4033.14      -642.52     -4180.36      -675.20}
+  {    -4033.14      -642.52     -4113.15      -559.84}
+  {    -4033.14      -642.52     -4110.12      -561.81}
+  {    -4033.14      -642.52     -4118.25      -560.63}
+  {    -4118.25      -560.63     -4150.44      -566.14}
+  {    -4118.25      -560.63     -4142.91      -587.01}
+  {    -4118.25      -560.63     -4152.13      -573.62}
+  {    -4118.25      -560.63     -4211.00      -555.12}
+  {    -4118.25      -560.63     -4212.61      -555.51}
+  {    -4212.61      -555.51     -4236.59      -557.09}
+  {    -4212.61      -555.51     -4243.83      -536.61}
+  {    -4212.61      -555.51     -4222.77      -569.69}
+  {    -4212.61      -555.51     -4364.70      -483.07}
+  {    -4364.70      -483.07     -4380.76      -481.50}
+  {    -4364.70      -483.07     -4388.18      -472.83}
+  {    -4364.70      -483.07     -4391.53      -501.97}
+  {    -4364.70      -483.07     -4426.26      -464.96}
+  {    -4426.26      -464.96     -4465.45      -471.65}
+  {    -4426.26      -464.96     -4445.37      -444.09}
+  {    -4426.26      -464.96     -4451.62      -435.83}
+  {    -4426.26      -464.96     -4445.91      -466.14}
+  {    -4426.26      -464.96     -4483.94      -491.34}
+  {    -4426.26      -464.96     -4524.24      -518.90}
+  {    -4524.24      -518.90     -4531.68      -518.11}
+  {    -4524.24      -518.90     -4527.40      -502.76}
+  {    -4524.24      -518.90     -4532.30      -564.96}
+  {    -4524.24      -518.90     -4671.72      -627.95}
+  {    -4671.72      -627.95     -4691.99      -630.71}
+  {    -4671.72      -627.95     -4693.08      -575.98}
+  {    -4671.72      -627.95     -4706.09      -588.98}
+  {    -4671.72      -627.95     -4674.01      -645.28}
+  {    -4671.72      -627.95     -4699.47      -593.70}
+  {    -4699.47      -593.70     -4728.33      -557.87}
+  {    -4699.47      -593.70     -4728.50      -559.45}
+  {    -4699.47      -593.70     -4710.04      -592.52}
+  {    -4699.47      -593.70     -4703.26      -581.89}
+  {    -4699.47      -593.70     -4706.81      -613.39}
+  {    -4699.47      -593.70     -4768.03      -603.94}
+  {    -4671.72      -627.95     -4735.83      -663.39}
+  {    -4735.83      -663.39     -4747.88      -659.84}
+  {    -4735.83      -663.39     -4740.22      -640.94}
+  {    -4735.83      -663.39     -4757.39      -686.22}
+  {    -4735.83      -663.39     -4750.39      -696.46}
+  {    -4735.83      -663.39     -4806.06      -653.94}
+  {    -4806.06      -653.94     -4821.41      -632.28}
+  {    -4806.06      -653.94     -4819.81      -654.72}
+  {    -4806.06      -653.94     -4816.82      -642.52}
+  {    -4806.06      -653.94     -4816.75      -646.06}
+  {    -4806.06      -653.94     -4813.50      -653.15}
+  {    -4806.06      -653.94     -4817.89      -665.35}
+  {    -4806.06      -653.94     -4808.67      -670.08}
+  {    -4806.06      -653.94     -4816.34      -656.69}
+  {    -4033.14      -642.52     -3990.59      -674.02}
+  {    -3990.59      -674.02     -3953.43      -661.02}
+  {    -3990.59      -674.02     -3969.35      -650.79}
+  {    -3990.59      -674.02     -3969.65      -677.95}
+  {    -3990.59      -674.02     -3904.65      -658.27}
+  {    -3904.65      -658.27     -3859.58      -620.87}
+  {    -3904.65      -658.27     -3896.14      -641.73}
+  {    -3904.65      -658.27     -3891.40      -648.43}
+  {    -3904.65      -658.27     -3862.11      -673.62}
+  {    -3904.65      -658.27     -3882.97      -676.38}
+  {    -3904.65      -658.27     -3823.33      -690.16}
+  {    -3823.33      -690.16     -3791.14      -692.52}
+  {    -3823.33      -690.16     -3788.42      -671.26}
+  {    -3823.33      -690.16     -3802.55      -675.20}
+  {    -3823.33      -690.16     -3798.89      -709.45}
+  {    -3823.33      -690.16     -3818.78      -712.60}
+  {    -3823.33      -690.16     -3720.43      -681.50}
+  {    -3720.43      -681.50     -3689.51      -646.06}
+  {    -3720.43      -681.50     -3714.87      -663.78}
+  {    -3720.43      -681.50     -3708.79      -671.26}
+  {    -3720.43      -681.50     -3697.21      -681.50}
+  {    -3720.43      -681.50     -3686.24      -697.24}
+  {    -3720.43      -681.50     -3698.65      -697.64}
+  {    -3720.43      -681.50     -3654.23      -721.65}
+  {    -3720.43      -681.50     -3652.27      -696.06}
+  {    -3652.27      -696.06     -3633.07      -701.97}
+  {    -3652.27      -696.06     -3635.54      -684.25}
+  {    -3652.27      -696.06     -3643.66      -710.63}
+  {    -3652.27      -696.06     -3559.41      -652.36}
+  {    -3559.41      -652.36     -3556.34      -622.44}
+  {    -3559.41      -652.36     -3514.87      -646.85}
+  {    -3559.41      -652.36     -3521.77      -682.28}
+  {    -3559.41      -652.36     -3531.79      -638.58}
+  {    -3531.79      -638.58     -3499.11      -643.70}
+  {    -3531.79      -638.58     -3479.60      -613.78}
+  {    -3531.79      -638.58     -3490.40      -655.12}
+  {    -3531.79      -638.58     -3508.78      -675.20}
+  {    -3531.79      -638.58     -3393.56      -559.06}
+  {    -3393.56      -559.06     -3356.71      -535.04}
+  {    -3393.56      -559.06     -3373.11      -560.24}
+  {    -3393.56      -559.06     -3386.90      -575.59}
+  {    -3393.56      -559.06     -3377.94      -545.28}
+  {    -3393.56      -559.06     -3382.02      -515.75}
+  {    -3393.56      -559.06     -3391.42      -503.15}
+  {    -3393.56      -559.06     -3381.36      -519.29}
+  {    -3393.56      -559.06     -3387.68      -553.54}
+  {    -3356.71      -535.04     -3265.98      -504.72}
+  {    -3356.71      -535.04     -3330.03      -537.01}
+  {    -3356.71      -535.04     -3325.00      -500.39}
+  {    -3356.71      -535.04     -3316.97      -468.90}
+  {    -3356.71      -535.04     -3345.56      -557.09}
+  {    -3356.71      -535.04     -3350.43      -565.75}
+  {    -3265.98      -504.72     -3247.59      -498.82}
+  {    -3265.98      -504.72     -3263.48      -525.20}
+  {    -3265.98      -504.72     -3255.82      -503.54}
+  {    -3265.98      -504.72     -3258.22      -477.17}
+  {    -3265.98      -504.72     -3261.27      -461.81}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -3630.67      -638.58     -3476.63      -775.59}
+  {    -3476.63      -775.59     -3451.61      -762.99}
+  {    -3476.63      -775.59     -3422.31      -774.41}
+  {    -3476.63      -775.59     -3428.08      -770.47}
+  {    -3476.63      -775.59     -3428.32      -772.05}
+  {    -3476.63      -775.59     -3430.37      -765.75}
+  {    -3476.63      -775.59     -3431.42      -773.23}
+  {    -3476.63      -775.59     -3451.22      -727.95}
+  {    -3476.63      -775.59     -3450.26      -752.36}
+  {    -3476.63      -775.59     -3421.22      -785.43}
+  {    -3476.63      -775.59     -3369.80      -829.53}
+  {    -3476.63      -775.59     -3385.21      -824.02}
+  {    -3476.63      -775.59     -3294.09      -896.46}
+  {    -3476.63      -775.59     -3294.42      -892.91}
+  {    -3294.42      -892.91     -3246.92      -889.37}
+  {    -3294.42      -892.91     -3214.89      -906.69}
+  {    -3294.42      -892.91     -3167.68      -915.75}
+  {    -3294.42      -892.91     -3178.95      -916.14}
+  {    -3294.42      -892.91     -3161.09      -950.79}
+  {    -3294.42      -892.91     -3224.66      -914.17}
+  {    -3294.42      -892.91     -3183.17      -922.05}
+  {    -3294.42      -892.91     -3244.79      -860.24}
+  {    -3294.42      -892.91     -3186.47      -834.65}
+  {    -3294.42      -892.91     -3122.78      -798.43}
+  {    -3294.42      -892.91     -3136.43      -883.86}
+  {    -3294.42      -892.91     -3110.33      -915.35}
+  {    -3294.42      -892.91     -3275.03      -924.80}
+  {    -3294.42      -892.91     -3270.88      -867.32}
+  {    -3294.42      -892.91     -3468.76      -903.54}
+  {    -3468.76      -903.54     -3515.28      -891.73}
+  {    -3468.76      -903.54     -3554.18      -904.72}
+  {    -3468.76      -903.54     -3707.12      -886.61}
+  {    -3468.76      -903.54     -3484.11      -903.54}
+  {    -3468.76      -903.54     -3541.58      -904.72}
+  {    -3468.76      -903.54     -3520.81      -925.20}
+  {    -3468.76      -903.54     -3477.04      -955.12}
+  {    -3468.76      -903.54     -3480.66      -857.87}
+  {    -3468.76      -903.54     -3619.07      -897.24}
+  {    -3294.42      -892.91     -3037.83      -938.98}
+  {    -3037.83      -938.98     -2949.64      -939.76}
+  {    -3037.83      -938.98     -2909.30      -911.02}
+  {    -3037.83      -938.98     -2966.63      -921.65}
+  {    -3037.83      -938.98     -2977.42      -918.50}
+  {    -3037.83      -938.98     -2957.63      -934.65}
+  {    -3037.83      -938.98     -3011.81      -870.08}
+  {    -3037.83      -938.98     -3025.03      -972.83}
+  {    -3037.83      -938.98     -2930.80      -889.76}
+  {    -2930.80      -889.76     -2867.06      -839.76}
+  {    -2930.80      -889.76     -2876.99      -870.87}
+  {    -2930.80      -889.76     -2869.81      -827.56}
+  {    -2930.80      -889.76     -2872.55      -844.88}
+  {    -2930.80      -889.76     -2900.54      -881.10}
+  {    -2930.80      -889.76     -2885.73      -927.56}
+  {    -2930.80      -889.76     -2916.82      -924.80}
+  {    -2930.80      -889.76     -2889.96      -887.01}
+  {    -2930.80      -889.76     -2891.81      -884.25}
+  {    -2930.80      -889.76     -2834.80      -853.15}
+  {    -2930.80      -889.76     -2818.57      -857.09}
+  {    -2930.80      -889.76     -2817.22      -854.72}
+  {    -2817.22      -854.72     -2705.20      -819.69}
+  {    -2817.22      -854.72     -2636.15      -858.27}
+  {    -2817.22      -854.72     -2729.26      -872.44}
+  {    -2817.22      -854.72     -2790.82      -866.14}
+  {    -2817.22      -854.72     -2719.26      -967.72}
+  {    -2817.22      -854.72     -2783.05      -857.09}
+  {    -2817.22      -854.72     -2763.04      -868.50}
+  {    -2817.22      -854.72     -2813.18      -922.83}
+  {    -2817.22      -854.72     -2783.54      -883.86}
+  {    -2783.54      -883.86     -2632.18      -826.38}
+  {    -2632.18      -826.38     -2579.77      -800.00}
+  {    -2632.18      -826.38     -2601.86      -781.89}
+  {    -2632.18      -826.38     -2616.72      -914.17}
+  {    -2632.18      -826.38     -2432.06      -893.31}
+  {    -2632.18      -826.38     -2453.84      -901.18}
+  {    -2632.18      -826.38     -2438.50      -983.46}
+  {    -2632.18      -826.38     -2511.08      -956.30}
+  {    -2632.18      -826.38     -2432.58      -851.57}
+  {    -2432.58      -851.57     -2395.96      -877.17}
+  {    -2432.58      -851.57     -2417.23      -843.70}
+  {    -2432.58      -851.57     -2430.66      -824.41}
+  {    -2432.58      -851.57     -2397.60      -798.82}
+  {    -2432.58      -851.57     -2393.24      -824.02}
+  {    -2432.58      -851.57     -2327.54      -847.64}
+  {    -2432.58      -851.57     -2373.60      -854.72}
+  {    -2432.58      -851.57     -2415.44      -849.21}
+  {    -2432.58      -851.57     -2316.10      -841.73}
+  {    -2432.58      -851.57     -2377.50      -849.61}
+  {    -2432.58      -851.57     -2263.29      -850.79}
+  {    -2432.58      -851.57     -2410.22      -850.00}
+  {    -2432.58      -851.57     -2328.18      -829.92}
+  {    -2328.18      -829.92     -2309.93      -866.93}
+  {    -2328.18      -829.92     -2306.55      -830.71}
+  {    -2328.18      -829.92     -2278.67      -832.68}
+  {    -2328.18      -829.92     -2215.46      -797.24}
+  {    -2328.18      -829.92     -2150.72      -824.02}
+  {    -2328.18      -829.92     -2284.50      -828.35}
+  {    -2328.18      -829.92     -2262.44      -822.44}
+  {    -2328.18      -829.92     -2320.36      -798.82}
+  {    -2328.18      -829.92     -2163.28      -809.45}
+  {    -2163.28      -809.45     -2133.01      -811.02}
+  {    -2163.28      -809.45     -2153.53      -780.31}
+  {    -2163.28      -809.45     -2017.25     -1050.79}
+  {    -2163.28      -809.45     -2116.78      -937.80}
+  {    -2163.28      -809.45     -2095.91      -888.58}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -2163.28      -809.45     -1981.42      -806.30}
+  {    -1981.42      -806.30     -1956.33      -785.83}
+  {    -1981.42      -806.30     -1915.78      -727.17}
+  {    -1981.42      -806.30     -1948.10      -725.20}
+  {    -1981.42      -806.30     -1968.86      -780.31}
+  {    -1981.42      -806.30     -1957.80      -805.91}
+  {    -1981.42      -806.30     -1977.76      -850.00}
+  {    -1981.42      -806.30     -1901.86      -790.55}
+  {    -1981.42      -806.30     -1924.18      -814.96}
+  {    -1981.42      -806.30     -1879.36      -818.50}
+  {    -1981.42      -806.30     -1769.72      -843.70}
+  {    -1981.42      -806.30     -1903.39      -813.39}
+  {    -1903.39      -813.39     -1843.62      -816.54}
+  {    -1903.39      -813.39     -1800.16      -801.18}
+  {    -1903.39      -813.39     -1885.65      -805.91}
+  {    -1903.39      -813.39     -1884.50      -813.78}
+  {    -1903.39      -813.39     -1833.40      -648.43}
+  {    -1903.39      -813.39     -1820.92     -1108.66}
+  {    -1966.40      -813.39     -1892.01     -1040.55}
+  {    -1892.01     -1040.55     -1863.71     -1042.13}
+  {    -1892.01     -1040.55     -1836.93     -1018.11}
+  {    -1892.01     -1040.55     -1862.54     -1101.57}
+  {    -1892.01     -1040.55     -1819.72     -1089.76}
+  {    -1892.01     -1040.55     -1821.36     -1078.74}
+  {    -1892.01     -1040.55     -1800.07     -1076.77}
+  {    -1892.01     -1040.55     -1717.60     -1121.26}
+  {    -1892.01     -1040.55     -1844.13     -1064.57}
+  {    -1892.01     -1040.55     -1840.96     -1067.72}
+  {    -1892.01     -1040.55     -1859.98     -1061.42}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {    -1892.01     -1040.55     -1684.16     -1038.19}
+  {    -1684.16     -1038.19     -1673.06     -1048.82}
+  {    -1684.16     -1038.19     -1681.38     -1074.41}
+  {    -1684.16     -1038.19     -1659.46     -1051.18}
+  {    -1684.16     -1038.19     -1667.98     -1044.49}
+  {    -1684.16     -1038.19     -1586.33      -968.11}
+  {    -1684.16     -1038.19     -1561.12      -977.95}
+  {    -1684.16     -1038.19     -1561.57     -1125.20}
+  {    -1684.16     -1038.19     -1548.09     -1144.09}
+  {    -1684.16     -1038.19     -1611.66     -1098.03}
+  {    -1684.16     -1038.19     -1615.80     -1114.96}
+  {    -1684.16     -1038.19     -1630.13     -1068.90}
+  {    -1684.16     -1038.19     -1416.32      -830.71}
+  {    -1416.32      -830.71     -1405.02      -819.29}
+  {    -1416.32      -830.71     -1377.79      -838.98}
+  {    -1416.32      -830.71     -1364.39      -796.46}
+  {    -1416.32      -830.71     -1387.55      -781.50}
+  {    -1387.55      -781.50     -1318.27      -742.52}
+  {    -1387.55      -781.50     -1330.16      -826.38}
+  {    -1387.55      -781.50     -1353.19      -815.75}
+  {    -1387.55      -781.50     -1360.31      -802.36}
+  {    -1387.55      -781.50     -1339.65      -785.04}
+  {    -1339.65      -785.04     -1325.93      -779.13}
+  {    -1339.65      -785.04     -1330.77      -746.46}
+  {    -1339.65      -785.04     -1302.69      -759.06}
+  {    -1339.65      -785.04     -1313.43      -782.28}
+  {    -1339.65      -785.04     -1314.59      -732.68}
+  {    -1314.59      -732.68     -1293.76      -725.59}
+  {    -1314.59      -732.68     -1287.36      -738.98}
+  {    -1314.59      -732.68     -1221.30      -709.06}
+  {    -1221.30      -709.06     -1215.83      -690.94}
+  {    -1221.30      -709.06     -1216.88      -724.80}
+  {    -1221.30      -709.06     -1186.28      -707.48}
+  {    -1221.30      -709.06     -1205.01      -692.52}
+  {    -1221.30      -709.06     -1149.89      -671.26}
+  {    -1903.39      -813.39     -1860.09      -813.78}
+  {    -1903.39      -813.39     -1834.25      -818.11}
+  {    -1903.39      -813.39     -1820.33      -821.65}
+  {    -1903.39      -813.39     -1883.74      -812.20}
+  {    -1903.39      -813.39     -1860.19      -810.24}
+  {    -1903.39      -813.39     -1870.32      -813.39}
+  {    -1903.39      -813.39     -1893.58      -812.60}
+  {    -1903.39      -813.39     -1818.36     -1098.82}
+  {    -1903.39      -813.39     -1899.69      -770.87}
+  {    -1903.39      -813.39     -1831.18      -803.54}
+  {    -1831.18      -803.54     -1809.13      -803.94}
+  {    -1831.18      -803.54     -1801.28      -804.72}
+  {    -1831.18      -803.54     -1799.36      -805.51}
+  {    -1831.18      -803.54     -1777.64      -803.15}
+  {    -1831.18      -803.54     -1799.29      -803.54}
+  {    -1831.18      -803.54     -1779.36      -807.48}
+  {    -1831.18      -803.54     -1794.98      -804.72}
+  {    -1831.18      -803.54     -1764.58      -863.78}
+  {    -1831.18      -803.54     -1827.28      -810.24}
+  {    -1831.18      -803.54     -1825.18      -715.35}
+  {    -1831.18      -803.54     -1795.63      -716.54}
+  {    -1831.18      -803.54     -1770.01      -655.91}
+  {    -1831.18      -803.54     -1780.44      -641.73}
+  {    -1831.18      -803.54     -1785.72      -658.27}
+  {    -1785.72      -658.27     -1716.58      -662.99}
+  {    -1785.72      -658.27     -1739.08      -662.99}
+  {    -1785.72      -658.27     -1762.00      -628.35}
+  {    -1785.72      -658.27     -1735.91      -662.60}
+  {    -1785.72      -658.27     -1777.44      -714.57}
+  {    -1785.72      -658.27     -1729.30      -738.19}
+  {    -1785.72      -658.27     -1735.05      -723.62}
+  {    -1785.72      -658.27     -1762.88      -662.60}
+  {    -1785.72      -658.27     -1755.27      -634.65}
+  {    -1785.72      -658.27     -1735.90      -594.49}
+  {    -1785.72      -658.27     -1672.92      -580.71}
+  {    -1672.92      -580.71     -1642.84      -595.28}
+  {    -1672.92      -580.71     -1655.53      -607.87}
+  {    -1672.92      -580.71     -1669.83      -620.08}
+  {    -1672.92      -580.71     -1647.89      -619.69}
+  {    -1672.92      -580.71     -1645.64      -588.19}
+  {    -1672.92      -580.71     -1658.40      -579.53}
+  {    -1672.92      -580.71     -1671.05      -575.59}
+  {    -1672.92      -580.71     -1615.10      -602.36}
+  {    -1672.92      -580.71     -1606.78      -595.28}
+  {    -1672.92      -580.71     -1633.81      -619.29}
+  {    -1672.92      -580.71     -1638.14      -594.49}
+  {    -1672.92      -580.71     -1633.68      -609.84}
+  {    -1672.92      -580.71     -1636.49      -587.01}
+  {    -1672.92      -580.71     -1626.06      -589.37}
+  {    -1672.92      -580.71     -1612.91      -561.42}
+  {    -1672.92      -580.71     -1596.46      -544.49}
+  {    -1672.92      -580.71     -1564.66      -536.61}
+  {    -1672.92      -580.71     -1618.15      -570.87}
+  {    -1618.15      -570.87     -1585.15      -572.83}
+  {    -1618.15      -570.87     -1607.06      -591.73}
+  {    -1618.15      -570.87     -1604.28      -648.03}
+  {    -1618.15      -570.87     -1598.21      -598.82}
+  {    -1618.15      -570.87     -1590.85      -585.83}
+  {    -1618.15      -570.87     -1610.27      -551.57}
+  {    -1618.15      -570.87     -1603.08      -558.66}
+  {    -1618.15      -570.87     -1527.93      -554.33}
+  {    -1618.15      -570.87     -1489.28      -529.13}
+  {    -1618.15      -570.87     -1499.19      -523.62}
+  {    -1618.15      -570.87     -1521.90      -545.28}
+  {    -1618.15      -570.87     -1544.71      -565.75}
+  {    -1618.15      -570.87     -1547.75      -534.25}
+  {    -1547.75      -534.25     -1498.09      -542.91}
+  {    -1547.75      -534.25     -1529.18      -612.99}
+  {    -1547.75      -534.25     -1503.68      -535.83}
+  {    -1547.75      -534.25     -1463.25      -555.12}
+  {    -1547.75      -534.25     -1492.29      -565.75}
+  {    -1547.75      -534.25     -1508.81      -559.06}
+  {    -1547.75      -534.25     -1513.27      -557.87}
+  {    -1547.75      -534.25     -1531.04      -556.69}
+  {    -1547.75      -534.25     -1499.63      -524.02}
+  {    -1547.75      -534.25     -1335.31      -506.30}
+  {    -1335.31      -506.30     -1318.03      -497.64}
+  {    -1335.31      -506.30     -1307.24      -500.00}
+  {    -1335.31      -506.30     -1257.02      -524.02}
+  {    -1335.31      -506.30     -1284.44      -495.67}
+  {    -1335.31      -506.30     -1305.42      -501.18}
+  {    -1335.31      -506.30     -1289.39      -517.32}
+  {    -1335.31      -506.30     -1189.10      -523.62}
+  {    -1335.31      -506.30     -1257.96      -515.75}
+  {    -1335.31      -506.30      -937.11      -580.31}
+  {     -937.11      -580.31      -924.09      -490.16}
+  {     -937.11      -580.31      -799.77      -544.09}
+  {     -937.11      -580.31      -894.37      -538.19}
+  {     -937.11      -580.31      -885.60      -527.95}
+  {     -937.11      -580.31      -816.51      -524.41}
+  {     -937.11      -580.31      -835.60      -562.20}
+  {     -937.11      -580.31      -874.60      -481.10}
+  {     -937.11      -580.31      -928.33      -481.89}
+  {     -937.11      -580.31      -916.03      -518.11}
+  {     -937.11      -580.31      -879.28      -491.73}
+  {     -879.28      -491.73      -661.30      -393.70}
+  {     -879.28      -491.73      -861.11      -480.71}
+  {     -879.28      -491.73      -876.69      -467.32}
+  {     -879.28      -491.73      -868.17      -524.41}
+  {     -879.28      -491.73      -862.94      -531.10}
+  {     -879.28      -491.73      -847.29      -534.25}
+  {     -879.28      -491.73      -819.45      -490.55}
+  {     -879.28      -491.73      -788.45      -454.72}
+  {     -879.28      -491.73      -831.16      -463.39}
+  {     -879.28      -491.73      -856.97      -440.94}
+  {     -879.28      -491.73      -978.19      -439.76}
+  {     -978.19      -439.76      -990.41      -409.06}
+  {     -978.19      -439.76      -986.52      -419.29}
+  {     -978.19      -439.76     -1025.91      -379.13}
+  {     -978.19      -439.76      -965.31      -426.77}
+  {     -965.31      -426.77      -820.67      -304.72}
+  {     -820.67      -304.72      -768.48      -285.83}
+  {     -820.67      -304.72      -802.60      -284.25}
+  {     -820.67      -304.72      -815.26      -295.67}
+  {     -820.67      -304.72      -754.88      -264.17}
+  {     -820.67      -304.72      -695.61      -218.90}
+  {     -820.67      -304.72      -792.76      -306.30}
+  {     -820.67      -304.72      -701.02      -359.06}
+  {     -820.67      -304.72      -716.55      -253.94}
+  {     -716.55      -253.94      -711.53      -233.07}
+  {     -716.55      -253.94      -632.52       -84.65}
+  {     -716.55      -253.94      -632.66      -209.06}
+  {     -716.55      -253.94      -597.41      -260.24}
+  {     -716.55      -253.94      -701.17      -249.21}
+  {     -716.55      -253.94      -684.85      -297.24}
+  {     -716.55      -253.94      -627.72       -79.92}
+  {     -627.72       -79.92      -541.67       -33.46}
+  {     -627.72       -79.92      -614.36       -78.74}
+  {     -627.72       -79.92      -614.92       -81.89}
+  {     -627.72       -79.92      -567.60       -90.16}
+  {     -627.72       -79.92      -605.91      -120.87}
+  {     -627.72       -79.92      -611.05       -88.58}
+  {     -627.72       -79.92      -566.38       -57.09}
+  {     -937.11      -580.31      -850.42      -566.54}
+  {     -850.42      -566.54      -833.38      -485.83}
+  {     -850.42      -566.54      -843.07      -473.23}
+  {     -850.42      -566.54      -842.31      -524.02}
+  {     -850.42      -566.54      -809.27      -540.94}
+  {     -850.42      -566.54      -804.40      -504.33}
+  {     -850.42      -566.54      -836.17      -477.56}
+  {     -850.42      -566.54      -831.71      -538.98}
+  {     -850.42      -566.54      -817.79      -594.88}
+  {     -850.42      -566.54      -806.61      -501.57}
+  {     -850.42      -566.54      -750.96      -427.56}
+  {     -850.42      -566.54      -783.50      -427.56}
+  {     -850.42      -566.54      -812.79      -429.92}
+  {     -812.79      -429.92      -691.27      -337.40}
+  {     -812.79      -429.92      -789.49      -412.60}
+  {     -812.79      -429.92      -793.46      -435.43}
+  {     -812.79      -429.92      -731.42      -494.09}
+  {     -812.79      -429.92      -785.30      -527.56}
+  {     -812.79      -429.92      -760.82      -520.08}
+  {     -812.79      -429.92      -681.06      -306.30}
+  {     -681.06      -306.30      -624.80      -308.27}
+  {     -681.06      -306.30      -606.80      -233.46}
+  {     -681.06      -306.30      -610.97      -229.13}
+  {     -681.06      -306.30      -608.63      -232.68}
+  {     -681.06      -306.30      -632.76      -250.79}
+  {     -681.06      -306.30      -646.23      -292.52}
+  {     -681.06      -306.30      -633.40      -324.80}
+  {     -681.06      -306.30      -669.24      -339.37}
+  {     -681.06      -306.30      -603.97      -230.31}
+  {     -603.97      -230.31      -600.66      -201.97}
+  {     -603.97      -230.31      -573.13      -197.64}
+  {     -603.97      -230.31      -586.55      -227.17}
+  {     -603.97      -230.31      -535.77      -254.72}
+  {     -603.97      -230.31      -581.59      -228.35}
+  {     -603.97      -230.31      -588.22      -218.50}
+  {     -603.97      -230.31      -547.15      -194.88}
+  {     -547.15      -194.88      -532.48      -183.07}
+  {     -547.15      -194.88      -539.19      -151.57}
+  {     -547.15      -194.88      -517.90      -161.42}
+  {     -547.15      -194.88      -521.57      -181.10}
+  {     -547.15      -194.88      -535.59      -150.00}
+  {     -547.15      -194.88      -535.73      -149.61}
+  {     -535.73      -149.61      -514.54      -147.64}
+  {     -535.73      -149.61      -440.74       -57.48}
+  {     -535.73      -149.61      -520.65      -206.69}
+  {     -535.73      -149.61      -503.13      -127.17}
+  {     -535.73      -149.61      -482.79      -200.00}
+  {     -535.73      -149.61      -414.75       -83.46}
+  {     -535.73      -149.61      -505.39      -144.49}
+  {     -535.73      -149.61      -501.67      -153.15}
+  {     -535.73      -149.61      -524.80      -161.81}
+  {     -535.73      -149.61      -521.19      -150.39}
+  {     -535.73      -149.61      -491.55      -141.73}
+  {     -414.75       -83.46      -370.97       -69.29}
+  {     -370.97       -69.29      -363.72       -48.43}
+  {     -370.97       -69.29      -343.97       -43.31}
+  {     -370.97       -69.29      -288.46        32.68}
+  {     -370.97       -69.29      -362.15       -51.97}
+  {     -370.97       -69.29      -339.97       -61.81}
+  {     -370.97       -69.29      -297.28      -103.15}
+  {     -370.97       -69.29      -298.74        17.32}
+  {     -370.97       -69.29      -301.67        18.50}
+  {     -301.67        18.50      -280.21        28.35}
+  {     -301.67        18.50      -238.56        54.33}
+  {     -301.67        18.50      -233.38        51.18}
+  {     -301.67        18.50      -287.95        14.96}
+  {     -301.67        18.50      -252.78         0.00}
+  {     -301.67        18.50      -279.25        17.72}
+  {     -301.67        18.50      -267.58        29.53}
+  {     -301.67        18.50      -275.99         4.72}
+  {     -937.11      -580.31      -872.72      -595.67}
+  {     -872.72      -595.67      -707.31      -635.83}
+  {     -707.31      -635.83      -665.41      -643.31}
+  {     -707.31      -635.83      -618.81      -632.28}
+  {     -707.31      -635.83      -703.71      -619.29}
+  {     -707.31      -635.83      -699.67      -647.24}
+  {     -707.31      -635.83      -358.99      -472.83}
+  {    -5231.31   -100826.77     -5231.31   -100826.77}
+  {     -707.31      -635.83      -481.78      -516.93}
+}
+set XVIgrid  {-6806.11 -2795.28 393.701 0.0 0.0 393.701 34 15}

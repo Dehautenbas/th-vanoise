@@ -1,0 +1,741 @@
+set XVIgrids {1.0 m}
+set XVIstations {
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110074.41 0@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {     -430.59   -110046.85 1@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -109996.46 3@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {       -6.59   -109829.53 5@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {     -869.45   -109775.20 6@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -1430.57   -109501.97 8@lagon_bleu.lagon-bleu-haut}
+  {    -1430.57   -109501.97 8@lagon_bleu.lagon-bleu-haut}
+  {    -1430.57   -109501.97 8@lagon_bleu.lagon-bleu-haut}
+  {    -1430.57   -109501.97 8@lagon_bleu.lagon-bleu-haut}
+  {    -1430.57   -109501.97 8@lagon_bleu.lagon-bleu-haut}
+  {    -1751.68   -109413.78 7@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2054.97   -109512.20 9@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {    -2249.20   -109559.45 10@lagon_bleu.lagon-bleu-haut}
+  {      596.27   -110087.80 4@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {      840.05   -110046.85 11@lagon_bleu.lagon-bleu-haut}
+  {     1158.21   -110068.11 12@lagon_bleu.lagon-bleu-haut}
+  {     1158.21   -110068.11 12@lagon_bleu.lagon-bleu-haut}
+  {     1158.21   -110068.11 12@lagon_bleu.lagon-bleu-haut}
+  {     1158.21   -110068.11 12@lagon_bleu.lagon-bleu-haut}
+  {     1158.21   -110068.11 12@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {     1364.13   -110124.02 13@lagon_bleu.lagon-bleu-haut}
+  {      245.00   -110048.43 2@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110277.56 14@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {      963.62   -110361.81 15@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1360.57   -110444.49 16@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1477.16   -110480.71 17@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1731.35   -110420.08 18@lagon_bleu.lagon-bleu-haut}
+  {     1862.01   -110416.14 19@lagon_bleu.lagon-bleu-haut}
+  {     1862.01   -110416.14 19@lagon_bleu.lagon-bleu-haut}
+  {     1862.01   -110416.14 19@lagon_bleu.lagon-bleu-haut}
+  {     1862.01   -110416.14 19@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2581.01   -110527.95 20@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     2868.91   -110673.62 21@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3129.25   -110697.24 22@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3651.79   -110882.28 23@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     3900.38   -111231.89 24@lagon_bleu.lagon-bleu-haut}
+  {     4158.06   -111340.55 25@lagon_bleu.lagon-bleu-haut}
+  {     4158.06   -111340.55 25@lagon_bleu.lagon-bleu-haut}
+  {     4158.06   -111340.55 25@lagon_bleu.lagon-bleu-haut}
+  {     4158.06   -111340.55 25@lagon_bleu.lagon-bleu-haut}
+  {     4158.06   -111340.55 25@lagon_bleu.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {      556.94    110485.43 0@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {     -729.25    110754.72 2@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1157.11    110633.46 3@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1157.11    110633.46 3@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1157.11    110633.46 3@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1157.11    110633.46 3@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1157.11    110633.46 3@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110658.66 1@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -369.50    110816.14 4@lagon-bleu-bas.lagon-bleu-haut}
+  {     -471.79    110907.48 5@lagon-bleu-bas.lagon-bleu-haut}
+  {     -471.79    110907.48 5@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1361.43    111061.02 7@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1071.22    111100.39 6@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1811.94    111152.36 9@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1081.87    111234.25 10@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {     -442.72    111251.57 11@lagon-bleu-bas.lagon-bleu-haut}
+  {      -95.57    111342.91 12@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -1910.61    110952.36 8@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2098.05    110903.54 13@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2098.05    110903.54 13@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -2339.38    110731.89 14@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3167.55    110829.53 15@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+  {    -3667.24    110963.39 17@lagon-bleu-bas.lagon-bleu-haut}
+}
+set XVIshots {
+  {     -430.59   -110074.41      -349.09   -110029.53}
+  {     -430.59   -110074.41      -416.59   -110001.97}
+  {     -430.59   -110074.41      -379.17   -110001.97}
+  {     -430.59   -110074.41        37.32   -110038.19}
+  {     -430.59   -110074.41       -57.96   -110016.14}
+  {     -430.59   -110074.41       -59.98   -110030.31}
+  {     -430.59   -110074.41      -408.52   -110114.57}
+  {     -430.59   -110074.41      -430.59   -110046.85}
+  {     -430.59   -110046.85      -430.59   -110012.99}
+  {     -430.59   -110046.85      -430.59   -110064.96}
+  {     -430.59   -110046.85      -430.59   -110024.80}
+  {     -430.59   -110046.85      -430.59   -110035.04}
+  {     -430.59   -110046.85      -430.59   -110047.64}
+  {     -430.59   -110046.85      -430.59   -110065.75}
+  {     -430.59   -110046.85      -430.59   -110140.55}
+  {     -430.59   -110046.85      -430.59   -110164.96}
+  {     -430.59   -110046.85      -430.59   -109985.43}
+  {     -430.59   -110046.85      -430.59   -109978.35}
+  {     -430.59   -110046.85      -430.59   -110075.20}
+  {     -430.59   -110046.85      -430.59   -110042.91}
+  {     -430.59   -110046.85      -430.59   -109998.03}
+  {     -430.59   -110046.85      -430.59   -110061.81}
+  {     -430.59   -110046.85      -430.59   -109983.07}
+  {     -430.59   -110046.85       245.00   -110048.43}
+  {      245.00   -110048.43       527.00   -110099.61}
+  {      245.00   -110048.43       537.78   -110109.84}
+  {      245.00   -110048.43       468.46   -110057.09}
+  {      245.00   -110048.43       672.82   -109944.49}
+  {      245.00   -110048.43       848.65   -110000.39}
+  {      245.00   -110048.43       695.97   -109939.76}
+  {      245.00   -110048.43       513.57   -110068.11}
+  {      245.00   -110048.43       587.40   -110082.28}
+  {      245.00   -110048.43       254.73   -110023.23}
+  {      245.00   -110048.43       256.08   -110097.24}
+  {      245.00   -110048.43       747.54   -109943.70}
+  {      245.00   -110048.43       245.00   -109996.46}
+  {      245.00   -109996.46       245.00   -109976.77}
+  {      245.00   -109996.46       245.00   -110038.98}
+  {      245.00   -109996.46       245.00   -109972.83}
+  {      245.00   -109996.46       245.00   -110044.49}
+  {      245.00   -109996.46       245.00   -110093.31}
+  {      245.00   -109996.46       245.00   -110038.98}
+  {      245.00   -109996.46       245.00   -109911.42}
+  {      245.00   -109996.46       596.27   -110087.80}
+  {      596.27   -110087.80      1182.10   -110086.22}
+  {      596.27   -110087.80       968.95   -110016.14}
+  {      596.27   -110087.80       995.53   -109953.94}
+  {      596.27   -110087.80       909.42   -110016.14}
+  {      596.27   -110087.80      1207.09   -109866.54}
+  {      596.27   -110087.80       890.33   -109907.48}
+  {      596.27   -110087.80       625.75   -109935.04}
+  {      596.27   -110087.80       715.52   -110020.08}
+  {      596.27   -110087.80       781.17   -109984.65}
+  {      596.27   -110087.80       810.82   -109997.24}
+  {      596.27   -110087.80        -6.59   -109829.53}
+  {       -6.59   -109829.53       -44.36   -109935.83}
+  {       -6.59   -109829.53      -234.09   -109941.34}
+  {       -6.59   -109829.53      -193.60   -109817.72}
+  {       -6.59   -109829.53     -1069.84   -110433.46}
+  {       -6.59   -109829.53      -341.63   -109904.33}
+  {       -6.59   -109829.53      -253.87   -109731.10}
+  {       -6.59   -109829.53      -202.69   -109812.20}
+  {       -6.59   -109829.53      -869.45   -109775.20}
+  {     -869.45   -109775.20     -1712.67   -109722.44}
+  {     -869.45   -109775.20      -890.05   -109707.48}
+  {     -869.45   -109775.20     -1116.71   -109726.38}
+  {     -869.45   -109775.20     -1560.81   -109742.91}
+  {     -869.45   -109775.20     -1488.99   -109579.92}
+  {     -869.45   -109775.20     -1078.05   -109726.38}
+  {     -869.45   -109775.20     -1751.68   -109413.78}
+  {    -1751.68   -109413.78     -2004.28   -109549.21}
+  {    -1751.68   -109413.78     -1934.51   -109503.54}
+  {    -1751.68   -109413.78     -2527.50   -109665.75}
+  {    -1751.68   -109413.78     -2480.23   -109631.89}
+  {    -1751.68   -109413.78     -2138.66   -109336.61}
+  {    -1751.68   -109413.78     -2329.26   -109553.94}
+  {    -1751.68   -109413.78     -1760.43   -109499.61}
+  {    -1751.68   -109413.78     -2195.34   -109595.67}
+  {    -1751.68   -109413.78     -1923.47   -109499.61}
+  {    -1751.68   -109413.78     -2041.87   -109553.15}
+  {    -1751.68   -109413.78     -1430.57   -109501.97}
+  {    -1430.57   -109501.97      -671.16   -109779.92}
+  {    -1430.57   -109501.97     -1139.29   -109601.97}
+  {    -1430.57   -109501.97     -1220.47   -109460.24}
+  {    -1430.57   -109501.97     -1241.84   -109405.91}
+  {    -1751.68   -109413.78     -2054.97   -109512.20}
+  {    -2054.97   -109512.20     -2061.51   -109491.73}
+  {    -2054.97   -109512.20     -2078.92   -109464.96}
+  {    -2054.97   -109512.20     -2355.76   -109390.16}
+  {    -2054.97   -109512.20     -2103.66   -109515.35}
+  {    -2054.97   -109512.20     -2346.38   -109423.23}
+  {    -2054.97   -109512.20     -2144.59   -109546.85}
+  {    -2054.97   -109512.20     -2249.20   -109559.45}
+  {    -2249.20   -109559.45     -3291.39   -109697.24}
+  {    -2249.20   -109559.45     -2554.49   -109438.98}
+  {    -2249.20   -109559.45     -2320.52   -109575.98}
+  {    -2249.20   -109559.45     -2258.43   -109541.34}
+  {    -2249.20   -109559.45     -2809.73   -109368.90}
+  {      596.27   -110087.80       840.05   -110046.85}
+  {      840.05   -110046.85       863.98   -109994.09}
+  {      840.05   -110046.85      1159.36   -109931.89}
+  {      840.05   -110046.85       877.82   -110102.76}
+  {      840.05   -110046.85      1314.64   -110138.98}
+  {      840.05   -110046.85      1226.84   -110154.72}
+  {      840.05   -110046.85      1123.27   -110111.42}
+  {      840.05   -110046.85      1158.21   -110068.11}
+  {     1158.21   -110068.11      1392.27   -110140.55}
+  {     1158.21   -110068.11      1219.07   -110141.34}
+  {     1158.21   -110068.11      1167.42   -110066.54}
+  {     1158.21   -110068.11      1364.13   -110124.02}
+  {     1364.13   -110124.02      1368.05   -110137.40}
+  {     1364.13   -110124.02      1375.65   -110079.92}
+  {     1364.13   -110124.02      1531.21   -110138.98}
+  {     1364.13   -110124.02      1794.22   -110038.19}
+  {     1364.13   -110124.02      1628.99   -110140.55}
+  {     1364.13   -110124.02      1859.38   -110084.65}
+  {     1364.13   -110124.02      1395.63   -110124.02}
+  {     1364.13   -110124.02      2012.85   -110135.83}
+  {     1364.13   -110124.02      2015.82   -109937.40}
+  {     1364.13   -110124.02      1647.95   -110216.93}
+  {      245.00   -110048.43       963.62   -110277.56}
+  {      963.62   -110277.56      1032.07   -110242.13}
+  {      963.62   -110277.56      1379.29   -110240.55}
+  {      963.62   -110277.56      1261.17   -110254.72}
+  {      963.62   -110277.56      1303.42   -110228.74}
+  {      963.62   -110277.56      1368.67   -110203.54}
+  {      963.62   -110277.56      1665.90   -110183.07}
+  {      963.62   -110277.56      1762.51   -110142.13}
+  {      963.62   -110277.56      1167.47   -110303.54}
+  {      963.62   -110277.56       963.62   -110361.81}
+  {      963.62   -110361.81       963.62   -110389.37}
+  {      963.62   -110361.81       963.62   -110370.47}
+  {      963.62   -110361.81       963.62   -110486.22}
+  {      963.62   -110361.81       963.62   -110292.52}
+  {      963.62   -110361.81       963.62   -110239.76}
+  {      963.62   -110361.81      1360.57   -110444.49}
+  {     1360.57   -110444.49      1393.37   -110624.80}
+  {     1360.57   -110444.49      1562.30   -110483.86}
+  {     1360.57   -110444.49      1433.68   -110440.55}
+  {     1360.57   -110444.49      1374.18   -110361.81}
+  {     1360.57   -110444.49      1475.50   -110425.59}
+  {     1360.57   -110444.49      1478.78   -110425.59}
+  {     1360.57   -110444.49      1472.53   -110426.38}
+  {     1360.57   -110444.49      1477.16   -110480.71}
+  {     1477.16   -110480.71      1480.24   -110400.39}
+  {     1477.16   -110480.71      1618.42   -110442.13}
+  {     1477.16   -110480.71      1581.85   -110410.63}
+  {     1477.16   -110480.71      1538.37   -110644.49}
+  {     1477.16   -110480.71      1731.35   -110420.08}
+  {     1731.35   -110420.08      1749.95   -110346.85}
+  {     1731.35   -110420.08      1880.68   -110346.85}
+  {     1731.35   -110420.08      2076.91   -110494.09}
+  {     1731.35   -110420.08      1847.77   -110541.34}
+  {     1731.35   -110420.08      1752.93   -110469.69}
+  {     1731.35   -110420.08      2150.35   -110384.65}
+  {     1731.35   -110420.08      1862.01   -110416.14}
+  {     1862.01   -110416.14      1879.50   -110310.63}
+  {     1862.01   -110416.14      2992.71   -111030.31}
+  {     1862.01   -110416.14      2581.01   -110527.95}
+  {     2581.01   -110527.95      2596.79   -110389.37}
+  {     2581.01   -110527.95      2842.14   -110515.35}
+  {     2581.01   -110527.95      2707.89   -110461.02}
+  {     2581.01   -110527.95      2600.69   -110593.31}
+  {     2581.01   -110527.95      2769.57   -110687.80}
+  {     2581.01   -110527.95      3220.00   -110587.01}
+  {     2581.01   -110527.95      2805.76   -110460.24}
+  {     2581.01   -110527.95      2629.67   -110370.47}
+  {     2581.01   -110527.95      2748.31   -110402.76}
+  {     2581.01   -110527.95      2868.91   -110673.62}
+  {     2868.91   -110673.62      2902.15   -110442.91}
+  {     2868.91   -110673.62      3344.44   -111057.09}
+  {     2868.91   -110673.62      2964.72   -110666.54}
+  {     2868.91   -110673.62      3294.31   -110639.76}
+  {     2868.91   -110673.62      3080.08   -110465.75}
+  {     2868.91   -110673.62      3113.20   -110442.91}
+  {     2868.91   -110673.62      3330.58   -110594.09}
+  {     2868.91   -110673.62      3210.78   -110410.63}
+  {     2868.91   -110673.62      3129.25   -110697.24}
+  {     3129.25   -110697.24      3657.78   -110745.28}
+  {     3129.25   -110697.24      3653.66   -110632.68}
+  {     3129.25   -110697.24      3415.08   -110500.39}
+  {     3129.25   -110697.24      3195.65   -110495.67}
+  {     3129.25   -110697.24      3345.51   -110535.83}
+  {     3129.25   -110697.24      3591.13   -110290.16}
+  {     3129.25   -110697.24      3453.13   -110364.17}
+  {     3129.25   -110697.24      3424.51   -110494.09}
+  {     3129.25   -110697.24      3500.59   -110748.43}
+  {     3129.25   -110697.24      3453.51   -110664.17}
+  {     3129.25   -110697.24      3419.41   -110838.98}
+  {     3129.25   -110697.24      3241.65   -110894.88}
+  {     3129.25   -110697.24      3488.26   -110924.80}
+  {     3129.25   -110697.24      3651.79   -110882.28}
+  {     3651.79   -110882.28      3656.11   -110994.88}
+  {     3651.79   -110882.28      3940.20   -111247.64}
+  {     3651.79   -110882.28      4124.36   -110968.11}
+  {     3651.79   -110882.28      3759.35   -110805.12}
+  {     3651.79   -110882.28      3824.88   -110875.20}
+  {     3651.79   -110882.28      3788.87   -111112.20}
+  {     3651.79   -110882.28      3900.38   -111231.89}
+  {     3900.38   -111231.89      3993.90   -111056.30}
+  {     3900.38   -111231.89      3954.09   -111018.50}
+  {     3900.38   -111231.89      3938.05   -111112.20}
+  {     3900.38   -111231.89      3938.36   -111212.99}
+  {     3900.38   -111231.89      3951.03   -111220.87}
+  {     3900.38   -111231.89      4053.07   -111227.95}
+  {     3900.38   -111231.89      3975.90   -111097.24}
+  {     3900.38   -111231.89      4158.06   -111340.55}
+  {     4158.06   -111340.55      4174.15   -111334.25}
+  {     4158.06   -111340.55      4218.24   -111286.22}
+  {     4158.06   -111340.55      4181.89   -111332.68}
+  {     4158.06   -111340.55      4170.20   -111372.05}
+  {      556.94    110485.43       701.14    110601.18}
+  {      556.94    110485.43       613.58    110683.07}
+  {      556.94    110485.43       905.89    110853.94}
+  {      556.94    110485.43       839.10    110577.56}
+  {      556.94    110485.43       779.83    110348.43}
+  {      556.94    110485.43       628.55    110360.24}
+  {      556.94    110485.43       813.26    110582.28}
+  {      556.94    110485.43       820.52    110568.11}
+  {      556.94    110485.43       916.10    110782.28}
+  {      556.94    110485.43      1931.91    111112.20}
+  {      556.94    110485.43      1189.73    110761.81}
+  {      556.94    110485.43       882.68    110472.83}
+  {      556.94    110485.43      -369.50    110658.66}
+  {     -369.50    110658.66      -405.44    110667.32}
+  {     -369.50    110658.66      -380.86    110689.37}
+  {     -369.50    110658.66      -423.65    110683.86}
+  {     -369.50    110658.66      -663.94    110929.53}
+  {     -369.50    110658.66      -536.98    110950.79}
+  {     -369.50    110658.66      -392.24    110782.28}
+  {     -369.50    110658.66      -378.80    110641.34}
+  {     -369.50    110658.66      -578.95    110684.65}
+  {     -369.50    110658.66      -607.00    110768.11}
+  {     -369.50    110658.66      -705.85    110627.17}
+  {     -369.50    110658.66      -729.25    110754.72}
+  {     -729.25    110754.72      -780.42    110756.30}
+  {     -729.25    110754.72      -811.93    110612.20}
+  {     -729.25    110754.72      -749.37    110751.57}
+  {     -729.25    110754.72      -746.91    110698.82}
+  {     -729.25    110754.72      -835.33    110712.99}
+  {     -729.25    110754.72      -897.80    110711.42}
+  {     -729.25    110754.72      -919.94    110725.59}
+  {     -729.25    110754.72      -852.59    110738.98}
+  {     -729.25    110754.72      -966.55    110617.72}
+  {     -729.25    110754.72      -882.31    110791.73}
+  {     -729.25    110754.72     -1157.11    110633.46}
+  {    -1157.11    110633.46     -1168.98    110668.11}
+  {    -1157.11    110633.46     -1183.52    110645.28}
+  {    -1157.11    110633.46     -1179.70    110620.08}
+  {    -1157.11    110633.46     -1170.76    110696.46}
+  {     -369.50    110658.66      -369.50    110816.14}
+  {     -369.50    110816.14      -369.50    110875.20}
+  {     -369.50    110816.14      -369.50    110951.57}
+  {     -369.50    110816.14      -369.50    110842.13}
+  {     -369.50    110816.14      -369.50    111083.86}
+  {     -369.50    110816.14      -369.50    111138.19}
+  {     -369.50    110816.14      -369.50    110882.28}
+  {     -369.50    110816.14      -369.50    110889.37}
+  {     -369.50    110816.14      -369.50    110704.33}
+  {     -369.50    110816.14      -471.79    110907.48}
+  {     -471.79    110907.48     -1071.22    111100.39}
+  {    -1071.22    111100.39     -1279.64    111090.94}
+  {    -1071.22    111100.39     -1279.71    111120.87}
+  {    -1071.22    111100.39     -1366.02    111127.95}
+  {    -1071.22    111100.39     -1720.84    111068.90}
+  {    -1071.22    111100.39     -1395.37    111074.41}
+  {    -1071.22    111100.39     -1355.88    111067.32}
+  {    -1071.22    111100.39     -1103.79    111167.32}
+  {    -1071.22    111100.39     -1522.65    111001.18}
+  {    -1071.22    111100.39     -1833.04    110917.72}
+  {    -1071.22    111100.39     -1681.95    110956.30}
+  {    -1071.22    111100.39     -1328.59    111108.27}
+  {    -1071.22    111100.39     -1278.01    111089.37}
+  {    -1071.22    111100.39     -1361.43    111061.02}
+  {    -1361.43    111061.02     -1434.64    111079.92}
+  {    -1361.43    111061.02     -1530.71    111061.81}
+  {    -1361.43    111061.02     -1379.66    111226.38}
+  {    -1361.43    111061.02     -1382.72    111015.35}
+  {    -1361.43    111061.02     -1910.61    110952.36}
+  {    -1071.22    111100.39     -1811.94    111152.36}
+  {    -1811.94    111152.36     -1843.24    111257.87}
+  {    -1811.94    111152.36     -1868.92    111160.24}
+  {    -1811.94    111152.36     -1857.17    111158.66}
+  {    -1811.94    111152.36     -1891.91    111276.77}
+  {    -1811.94    111152.36     -1980.42    111154.72}
+  {    -1811.94    111152.36     -2791.61    111323.23}
+  {    -1811.94    111152.36     -2140.34    111120.87}
+  {    -1811.94    111152.36     -2177.96    111117.72}
+  {    -1811.94    111152.36     -2431.98    111102.76}
+  {    -1811.94    111152.36     -2623.20    111182.28}
+  {    -1811.94    111152.36     -1081.87    111234.25}
+  {    -1081.87    111234.25      -793.80    111203.54}
+  {    -1081.87    111234.25     -1060.34    111344.49}
+  {    -1081.87    111234.25      -769.71    111299.61}
+  {    -1081.87    111234.25     -1053.59    111197.24}
+  {    -1081.87    111234.25      -686.12    111298.03}
+  {    -1081.87    111234.25      -721.15    111305.91}
+  {    -1081.87    111234.25      -780.28    111296.46}
+  {    -1081.87    111234.25      -792.28    111299.61}
+  {    -1081.87    111234.25      -752.01    111240.55}
+  {    -1081.87    111234.25      -767.97    111247.64}
+  {    -1081.87    111234.25      -816.17    111219.29}
+  {    -1081.87    111234.25      -792.74    111215.35}
+  {    -1081.87    111234.25      -442.72    111251.57}
+  {     -442.72    111251.57      -369.12    111288.58}
+  {     -442.72    111251.57      -400.33    111364.17}
+  {     -442.72    111251.57      -282.62    111295.67}
+  {     -442.72    111251.57      -253.87    111372.05}
+  {     -442.72    111251.57       -95.57    111342.91}
+  {    -1910.61    110952.36     -1867.39    110979.92}
+  {    -1910.61    110952.36     -1861.25    111140.55}
+  {    -1910.61    110952.36     -1848.30    110968.90}
+  {    -1910.61    110952.36     -1901.17    110928.74}
+  {    -1910.61    110952.36     -1701.73    110898.03}
+  {    -1910.61    110952.36     -2098.05    110903.54}
+  {    -2098.05    110903.54     -2339.38    110731.89}
+  {    -2339.38    110731.89     -2421.98    110735.83}
+  {    -2339.38    110731.89     -2389.40    110685.43}
+  {    -2339.38    110731.89     -2378.16    110820.87}
+  {    -2339.38    110731.89     -2359.33    110744.49}
+  {    -2339.38    110731.89     -2533.81    110785.43}
+  {    -2339.38    110731.89     -2507.32    110786.22}
+  {    -2339.38    110731.89     -3167.55    110829.53}
+  {    -3167.55    110829.53     -3381.55    110856.30}
+  {    -3167.55    110829.53     -3193.53    110952.36}
+  {    -3167.55    110829.53     -3219.13    110883.07}
+  {    -3167.55    110829.53     -3178.47    110814.57}
+  {    -3167.55    110829.53     -3452.48    110798.03}
+  {    -3167.55    110829.53     -3426.15    110813.78}
+  {    -3167.55    110829.53     -3483.39    110808.27}
+  {    -3167.55    110829.53     -3505.05    110962.60}
+  {    -3167.55    110829.53     -3816.97    111109.06}
+  {    -3167.55    110829.53     -3320.98    110917.72}
+  {    -3167.55    110829.53     -3238.06    110851.57}
+  {    -3167.55    110829.53     -3331.18    110846.85}
+  {    -3167.55    110829.53     -3175.05    110793.31}
+  {    -3167.55    110829.53     -3179.55    110958.66}
+  {    -3167.55    110829.53     -3667.24    110963.39}
+  {    -3667.24    110963.39     -3925.61    110990.94}
+  {    -3667.24    110963.39     -3827.09    110985.43}
+  {    -3667.24    110963.39     -3838.39    111072.83}
+  {    -3667.24    110963.39     -4218.24    110930.31}
+  {    -3667.24    110963.39     -4106.61    110961.81}
+  {    -3667.24    110963.39     -3966.67    111020.08}
+  {    -3667.24    110963.39     -4007.98    110857.87}
+  {    -3667.24    110963.39     -3890.42    111164.96}
+  {    -3667.24    110963.39     -3940.25    111167.32}
+}
+set XVIgrid  {-26553.1 -133696 78.7402 0.0 0.0 78.7402 674 3396}

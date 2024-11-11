@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 234.91m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.28m (from 7@lagon_bleu.lagon-bleu-haut at 2826.39m to 0@lagon-bleu-bas.lagon-bleu-haut at 2801.11m)\nnorth-south range: 159.11m (from 12@lagon-bleu-bas.lagon-bleu-haut at 5027115.00m to 10@lagon_bleu.lagon-bleu-haut at 5026955.89m)\neast-west range: 44.50m (from 11@lagon-bleu-bas.lagon-bleu-haut at 326018.50m to 00@lagon_bleu.lagon-bleu-haut at 325974.00m)\nnumber of shots: 347\nnumber of stations: 349"
+xth_cp_data_tree_insert 43 1 1 lagon-bleu-haut lagon-bleu-haut "lagon-bleu-haut" "lagon-bleu-haut" "length: 234.91m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.28m (from 7@lagon_bleu.lagon-bleu-haut at 2826.39m to 0@lagon-bleu-bas.lagon-bleu-haut at 2801.11m)\nnorth-south range: 159.11m (from 12@lagon-bleu-bas.lagon-bleu-haut at 5027115.00m to 10@lagon_bleu.lagon-bleu-haut at 5026955.89m)\neast-west range: 44.50m (from 11@lagon-bleu-bas.lagon-bleu-haut at 326018.50m to 00@lagon_bleu.lagon-bleu-haut at 325974.00m)\nnumber of shots: 347\nnumber of stations: 349"
+xth_cp_data_tree_insert 45 43 2 lagon_bleu lagon_bleu.lagon-bleu-haut "lagon bleu" "lagon bleu" "length: 134.45m (surface 0.00m, duplicated 0.00m)\nvertical range: 24.47m (from 7@lagon_bleu.lagon-bleu-haut at 2826.39m to 25@lagon_bleu.lagon-bleu-haut at 2801.92m)\nnorth-south range: 65.30m (from 25@lagon_bleu.lagon-bleu-haut at 5027021.19m to 10@lagon_bleu.lagon-bleu-haut at 5026955.89m)\neast-west range: 38.49m (from 8@lagon_bleu.lagon-bleu-haut at 326012.49m to 00@lagon_bleu.lagon-bleu-haut at 325974.00m)\nnumber of shots: 211\nnumber of stations: 212"
+xth_cp_data_tree_insert 49 43 2 lagon-bleu-bas lagon-bleu-bas.lagon-bleu-haut "lagon-bleu-bas" "lagon-bleu-bas" "length: 100.46m (surface 0.00m, duplicated 0.00m)\nvertical range: 10.89m (from 12@lagon-bleu-bas.lagon-bleu-haut at 2812.00m to 0@lagon-bleu-bas.lagon-bleu-haut at 2801.11m)\nnorth-south range: 48.10m (from 12@lagon-bleu-bas.lagon-bleu-haut at 5027115.00m to 17@lagon-bleu-bas.lagon-bleu-haut at 5027066.90m)\neast-west range: 27.34m (from 11@lagon-bleu-bas.lagon-bleu-haut at 326018.50m to 0@lagon-bleu-bas.lagon-bleu-haut at 325991.16m)\nnumber of shots: 136\nnumber of stations: 137"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 235 2
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1710191023
+

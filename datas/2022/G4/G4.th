@@ -1,3 +1,4 @@
+encoding  utf-8
 survey G4 -title "G4"
 
 
@@ -8,7 +9,7 @@ survey G4 -title "G4"
     # fix 12 45.378057 6.779159 0
 
     cs UTM32
-    fix 12 326119 5027348 2796
+    fix 12 326119 5027348 2791
 
     team "Charlotte Honiat"
     team "Martin Kern"
@@ -140,3 +141,4 @@ survey G4 -title "G4"
 
 
 endsurvey
+

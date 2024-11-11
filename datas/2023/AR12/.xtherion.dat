@@ -1,0 +1,15 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 20.77m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.71m (from 9@AR12.AR12 at 0.00m to 0@AR12.AR12 at -11.71m)\nnorth-south range: 9.31m (from 0@AR12.AR12 at 5026912.89m to 8@AR12.AR12 at 5026903.58m)\neast-west range: 3.60m (from 4@AR12.AR12 at 325912.59m to 0@AR12.AR12 at 325908.99m)\nnumber of shots: 128\nnumber of stations: 129"
+xth_cp_data_tree_insert 46 1 1 AR12 AR12 "AR12" "AR12" "length: 20.77m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.71m (from 9@AR12.AR12 at 0.00m to 0@AR12.AR12 at -11.71m)\nnorth-south range: 9.31m (from 0@AR12.AR12 at 5026912.89m to 8@AR12.AR12 at 5026903.58m)\neast-west range: 3.60m (from 4@AR12.AR12 at 325912.59m to 0@AR12.AR12 at 325908.99m)\nnumber of shots: 128\nnumber of stations: 129"
+xth_cp_data_tree_insert 48 46 2 AR12 AR12.AR12 "AR12" "AR12" "length: 20.77m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.71m (from 9@AR12.AR12 at 0.00m to 0@AR12.AR12 at -11.71m)\nnorth-south range: 9.31m (from 0@AR12.AR12 at 5026912.89m to 8@AR12.AR12 at 5026903.58m)\neast-west range: 3.60m (from 4@AR12.AR12 at 325912.59m to 0@AR12.AR12 at 325908.99m)\nnumber of shots: 128\nnumber of stations: 129"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[17.0\] {} {} {}
+xth_cp_map_tree_insert map 1 71X1 p2 1 MC-AR12-coupe-tot MC-AR12-coupe-tot@AR12 "AR12" "AR12"
+xth_cp_map_tree_create
+xth_cp_comp_stat 21 2
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1710151839
+

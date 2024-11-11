@@ -14,7 +14,7 @@ survey croquis -title "G2 Croquis"
     #fix 0 45.3782081 6.7801455 0
 
     cs UTM32
-    fix 0 326196 5027362 2903
+    fix 0 326528 5027262 2875
 
     extend right
     0 1 1.34 281.4 2.3

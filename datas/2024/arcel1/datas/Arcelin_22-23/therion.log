@@ -1,0 +1,124 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
+configuration file: Arcelin_22-23.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+output coordinate system: UTM32
+meridian convergence (deg): 1.5861
+geomag declinations (deg):
+  2022.1.1  2.6233
+  2023.1.1  2.7838
+  2024.1.1  2.9440
+  2025.1.1  3.1041
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 4.29%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.42
+ 2> Copyright © 1990-2018 Olly Betts
+ 3> 
+ 4> La topographie contient 1254 stations, connectées par 1255 visées.
+ 5> Il y a 2 bouclages.
+ 6> Longueur totale de la topographie =  737.19m ( 737.75m ajusté)
+ 7> Longueur totale en projection horizontale =  573.95m
+ 8> Longueur totale verticale =  341.43m
+ 9> Intervalle vertical = 84.00m (de 884 à 0.00m jusqu’à 1211 à -84.00m)
+10> Intervalle Nord-Sud = 73.30m (de 547 à 5027520.68m jusqu’à 898 à 5027447.38m)
+11> Intervalle Est-Ouest = 157.00m (de 321 à 325665.55m jusqu’à 626 à 325508.55m)
+12> 1070 1-nœuds.
+13>   19 2-nœuds.
+14>    5 3-nœuds.
+15>    3 4-nœuds.
+16>   22 5-nœuds.
+17>   24 6-nœuds.
+18>   17 7-nœuds.
+19>   16 8-nœuds.
+20>   24 9-nœuds.
+21>   15 10-nœuds.
+22>   12 11-nœuds.
+23>    7 12-nœuds.
+24>    6 13-nœuds.
+25>    7 14-nœuds.
+26>    4 15-nœuds.
+27>    1 17-nœud.
+28>    1 19-nœud.
+29>    1 20-nœud.
+30> 
+######################### transcription ########################
+ 4> 1254 : 10@tube-de-prechauffage.Arcelin_22-23-tot
+ 5> 2 : .@amont.Arcelin_22-23-tot
+ 9> 884 : 0@arcel1.Arcelin_22-23-tot -- 1211 : .@jonction.Arcelin_22-23-tot
+10> 547 : .@frequence51.Arcelin_22-23-tot -- 898 : .@arcel1.Arcelin_22-23-tot
+11> 321 : 40@amont.Arcelin_22-23-tot -- 626 : .@frequence51.Arcelin_22-23-tot
+12> 1070 : .@jonction.Arcelin_22-23-tot
+13> 19 : .@amont.Arcelin_22-23-tot
+14> 5 : .@amont.Arcelin_22-23-tot
+15> 3 : .@amont.Arcelin_22-23-tot
+16> 22 : .@amont.Arcelin_22-23-tot
+17> 24 : .@amont.Arcelin_22-23-tot
+18> 17 : .@amont.Arcelin_22-23-tot
+19> 16 : .@amont.Arcelin_22-23-tot
+20> 24 : .@amont.Arcelin_22-23-tot
+21> 15 : .@amont.Arcelin_22-23-tot
+22> 12 : .@amont.Arcelin_22-23-tot
+23> 7 : .@amont.Arcelin_22-23-tot
+24> 6 : 1@amont.Arcelin_22-23-tot
+25> 7 : .@amont.Arcelin_22-23-tot
+26> 4 : .@amont.Arcelin_22-23-tot
+27> 1 : 0@amont.Arcelin_22-23-tot
+28> 1 : 0@amont.Arcelin_22-23-tot
+29> 1 : 0@amont.Arcelin_22-23-tot
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: warning -- Arcelin_22-23.thconfig [69] -- source layout not found -- header_coupe
+done
+selecting export objects ... done
+processing projection extended ... done
+average distortion: 0.84%
+writing Arcelin_22-23_C.xvi ... done
+writing xtherion file ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  7.66%    3.4m   45.0m  15    3.4m    0.1m    0.5m [27@frequence51.Arcelin_22-23-tot - 28 - PTR_2 - 2 - 4 - 5 - 6 - 16b - 17 - 18 - 19 - 20 - 21 - P - 26 - 27]
+  1.99%    1.7m   87.1m  22   -0.6m    1.5m   -0.5m [43@frequence51.Arcelin_22-23-tot - 44 - 47 - 48 - 49 - 50 - 51 - 52 - 53 = 0@amont.Arcelin_22-23-tot - 1 - 2 - 3 - 4 = 24@puits_remontant.Arcelin_22-23-tot - 22 - 21 - 7 - 6 - 5 - 4 - 3 - 2 - 1 - 0 = 43@frequence51.Arcelin_22-23-tot]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   4.71%  100.00%  pr_S1_C@Arcelin_22-23-tot
+   3.22%  100.00%  arcel1_S3_C@Arcelin_22-23-tot
+   0.55%   61.41%  SC-amont-1@Arcelin_22-23-tot
+   0.21%   18.99%  arcel1_S4_C@Arcelin_22-23-tot
+   0.13%   15.38%  arcel1_S1_C@Arcelin_22-23-tot
+   0.03%    5.62%  arcel1_S2_C@Arcelin_22-23-tot
+   0.10%    4.10%  arcel1_S5_C@Arcelin_22-23-tot
+   0.24%    3.95%  arcel1_S7_C@Arcelin_22-23-tot
+   0.18%    0.81%  arcel1_S6_C@Arcelin_22-23-tot
+   0.04%    0.26%  tube-de-prechauffage_SC1@Arcelin_22-23-tot
+   0.01%    0.24%  SC-amont-2@Arcelin_22-23-tot
+   0.00%    0.21%  pr_S2_C@Arcelin_22-23-tot
+################### end of scrap distortions ###################
+
+############# CRS transformations chosen by PROJ ###############
+  Area of Use (AoU): (6.772, 45.379) (6.772, 45.379)
+  [UTM32 → LONG-LAT] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 → LAT-LONG] AoU: [no] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [UTM32 → UTM32] AoU: [yes] transformation: [Inverse of UTM zone 32N + UTM zone 32N] definition: [proj=noop ellps=GRS80] accuracy: [0.000 m]
+  [UTM32 → EPSG:4326] AoU: [yes] transformation: [Inverse of UTM zone 32N + axis order change (2D)] definition: [proj=pipeline step inv proj=utm zone=32 ellps=WGS84 step proj=unitconvert xy_in=rad xy_out=deg] accuracy: [0.000 m]
+  [EPSG:4326 → UTM32] AoU: [yes] transformation: [axis order change (2D) + UTM zone 32N] definition: [proj=pipeline step proj=unitconvert xy_in=deg xy_out=rad step proj=utm zone=32 ellps=WGS84] accuracy: [0.000 m]
+########## end of CRS transformations chosen by PROJ ###########

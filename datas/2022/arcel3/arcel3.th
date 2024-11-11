@@ -11,7 +11,7 @@ survey arcel3 -title "ARCEL3 Croquis"
 
     #fix 0 45.3782081 6.7801455 2791
     cs UTM32
-    fix 0 326196 5027362 2791
+    fix 0 325991 5027256 280
 
     extend right
     0 1 1.34 281.4 2.3

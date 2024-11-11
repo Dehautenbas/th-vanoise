@@ -1,3 +1,4 @@
+encoding  utf-8
 
 survey AR1 -title "AR1"
 
@@ -19,7 +20,7 @@ input AR1_C.th2
     # fix AR1 45.37727 6.77215 2556
 
     cs UTM32
-    fix AR1 325567 5027276 2556
+    fix AR1 325525 5027289 2600
 
     units length meters
     units compass clino degrees
@@ -98,3 +99,4 @@ input AR1_C.th2
 
 
 endsurvey
+

@@ -1,0 +1,19 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 705.39m (surface 0.00m, duplicated 0.00m)\nvertical range: 83.96m (from 0@arcel1.Arcel1 at 2603.00m to 30@jonction.Arcel1 at 2519.04m)\nnorth-south range: 69.77m (from 28@jonction.Arcel1 at 5027517.16m to 5@arcel1.Arcel1 at 5027447.39m)\neast-west range: 157.06m (from 40@amont.Arcel1 at 325663.04m to 16E@frequence51.Arcel1 at 325505.98m)\nnumber of shots: 1224\nnumber of stations: 1228"
+xth_cp_data_tree_insert 44 1 1 Arcel1 Arcel1 "Gouffre de l'Arcel1" "Gouffre de l'Arcel1" "length: 705.39m (surface 0.00m, duplicated 0.00m)\nvertical range: 83.96m (from 0@arcel1.Arcel1 at 2603.00m to 30@jonction.Arcel1 at 2519.04m)\nnorth-south range: 69.77m (from 28@jonction.Arcel1 at 5027517.16m to 5@arcel1.Arcel1 at 5027447.39m)\neast-west range: 157.06m (from 40@amont.Arcel1 at 325663.04m to 16E@frequence51.Arcel1 at 325505.98m)\nnumber of shots: 1224\nnumber of stations: 1228"
+xth_cp_data_tree_insert 48 44 2 arcel1 arcel1.Arcel1 "Arcel1" "Arcel1" "length: 155.71m (surface 0.00m, duplicated 0.00m)\nvertical range: 54.13m (from 0@arcel1.Arcel1 at 2603.00m to 28@arcel1.Arcel1 at 2548.87m)\nnorth-south range: 49.78m (from 25@arcel1.Arcel1 at 5027497.17m to 5@arcel1.Arcel1 at 5027447.39m)\neast-west range: 36.05m (from 5@arcel1.Arcel1 at 325572.01m to 27@arcel1.Arcel1 at 325535.96m)\nnumber of shots: 178\nnumber of stations: 179"
+xth_cp_data_tree_insert 52 44 2 jonction jonction.Arcel1 "jonction" "jonction" "length: 109.50m (surface 0.00m, duplicated 0.00m)\nvertical range: 35.70m (from 2@jonction.Arcel1 at 2554.74m to 30@jonction.Arcel1 at 2519.04m)\nnorth-south range: 26.30m (from 28@jonction.Arcel1 at 5027517.16m to 7@jonction.Arcel1 at 5027490.86m)\neast-west range: 9.15m (from 6@jonction.Arcel1 at 325542.69m to 25@jonction.Arcel1 at 325533.54m)\nnumber of shots: 165\nnumber of stations: 166"
+xth_cp_data_tree_insert 56 44 2 amont amont.Arcel1 "amont" "amont" "length: 180.12m (surface 0.00m, duplicated 0.00m)\nvertical range: 23.63m (from 23@amont.Arcel1 at 2567.58m to 0@amont.Arcel1 at 2543.95m)\nnorth-south range: 25.68m (from 39@amont.Arcel1 at 5027504.41m to 17@amont.Arcel1 at 5027478.73m)\neast-west range: 102.97m (from 40@amont.Arcel1 at 325663.04m to 0@amont.Arcel1 at 325560.07m)\nnumber of shots: 320\nnumber of stations: 321"
+xth_cp_data_tree_insert 60 44 2 frequence51 frequence51.Arcel1 "Frequence 51" "Frequence 51" "length: 174.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 17.02m (from 25T@frequence51.Arcel1 at 2550.70m to 39@frequence51.Arcel1 at 2533.68m)\nnorth-south range: 18.99m (from 30@frequence51.Arcel1 at 5027516.73m to 52@frequence51.Arcel1 at 5027497.74m)\neast-west range: 54.09m (from 53@frequence51.Arcel1 at 325560.07m to 16E@frequence51.Arcel1 at 325505.98m)\nnumber of shots: 349\nnumber of stations: 349"
+xth_cp_data_tree_insert 64 44 2 puits_remontant puits_remontant.Arcel1 "puits remontant" "puits remontant" "length: 86.06m (surface 0.00m, duplicated 0.00m)\nvertical range: 21.13m (from 20@puits_remontant.Arcel1 at 2561.47m to 0@puits_remontant.Arcel1 at 2540.34m)\nnorth-south range: 12.39m (from 23@puits_remontant.Arcel1 at 5027508.07m to 20@puits_remontant.Arcel1 at 5027495.68m)\neast-west range: 30.23m (from 20@puits_remontant.Arcel1 at 325578.35m to 0@puits_remontant.Arcel1 at 325548.12m)\nnumber of shots: 212\nnumber of stations: 213"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 46X1 p1 1 plan plan@Arcel1 "" ""
+xth_cp_map_tree_insert map 1 47X1 p2 1 coupe coupe@Arcel1 "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 705 25
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1710623838
+

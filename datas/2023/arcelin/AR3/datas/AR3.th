@@ -1,3 +1,4 @@
+encoding  utf-8
 # 2023.10.04 created by TopoDroid v 5.1.40
 
 survey AR3 -title "AR3"
@@ -13,7 +14,7 @@ survey AR3 -title "AR3"
     data normal from to length compass clino
    
     cs UTM32
-    fix 0 325444 5027344 2565
+    fix 0 325444 5027344 2535
 
 
     # extend auto
@@ -202,3 +203,4 @@ survey AR3 -title "AR3"
 
 
 endsurvey
+

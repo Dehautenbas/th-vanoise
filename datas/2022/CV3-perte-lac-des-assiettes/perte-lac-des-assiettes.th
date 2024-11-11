@@ -15,7 +15,7 @@ survey perte-lac-des-assiettes -title "Perte du lac des assiettes - CV3"
     extend left
 
     cs UTM32
-    fix 0 326432 5028768 2475
+    fix 0 326432 5028768 2470
 
     0 1 1.11 201.1 -51.0
     # extend auto

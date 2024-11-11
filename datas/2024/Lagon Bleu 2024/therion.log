@@ -1,0 +1,11 @@
+therion 6.2.1 (2024-03-20)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... NOT INSTALLED
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... NOT INSTALLED
+configuration file: config1.thcfg
+reading ... done
+reading source files ... 
+therion: error -- can't open file for input -- arcel1/arcel1_tot.th
+writing xtherion file ... done

@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 302.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 46.92m (from 73@amont2024-1.Arcelin_24-tot at 17.49m to 3@amont2024-1.Arcelin_24-tot at -29.43m)\nnorth-south range: 50.58m (from 0@amont2024-1.Arcelin_24-tot at 23.05m to 71@amont2024-1.Arcelin_24-tot at -27.53m)\neast-west range: 180.57m (from 73@amont2024-1.Arcelin_24-tot at 74.82m to 0@amont2024-1.Arcelin_24-tot at -105.75m)\nnumber of shots: 344\nnumber of stations: 346"
+xth_cp_data_tree_insert 24 1 1 Arcelin_24-tot Arcelin_24-tot "Gouffre de l'Arcelin" "Gouffre de l'Arcelin" "length: 302.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 46.92m (from 73@amont2024-1.Arcelin_24-tot at 17.49m to 3@amont2024-1.Arcelin_24-tot at -29.43m)\nnorth-south range: 50.58m (from 0@amont2024-1.Arcelin_24-tot at 23.05m to 71@amont2024-1.Arcelin_24-tot at -27.53m)\neast-west range: 180.57m (from 73@amont2024-1.Arcelin_24-tot at 74.82m to 0@amont2024-1.Arcelin_24-tot at -105.75m)\nnumber of shots: 344\nnumber of stations: 346"
+xth_cp_data_tree_insert 26 24 2 amont2024-1 amont2024-1.Arcelin_24-tot "amont2024-1" "amont2024-1" "length: 302.00m (surface 0.00m, duplicated 0.00m)\nvertical range: 46.92m (from 73@amont2024-1.Arcelin_24-tot at 17.49m to 3@amont2024-1.Arcelin_24-tot at -29.43m)\nnorth-south range: 50.58m (from 0@amont2024-1.Arcelin_24-tot at 23.05m to 71@amont2024-1.Arcelin_24-tot at -27.53m)\neast-west range: 180.57m (from 73@amont2024-1.Arcelin_24-tot at 74.82m to 0@amont2024-1.Arcelin_24-tot at -105.75m)\nnumber of shots: 344\nnumber of stations: 346"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 1 165X1 p1 1 MP-Arcelin_24 MP-Arcelin_24@Arcelin_24-tot "Gouffre de l'Arcelin, Amont 2024" "Gouffre de l'Arcelin, Amont 2024"
+xth_cp_map_tree_create
+xth_cp_comp_stat 302 4
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1731021940
+
