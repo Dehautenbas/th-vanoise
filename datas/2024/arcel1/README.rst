@@ -22,7 +22,9 @@ le champ "text" permet de rajouter une remarque, un commentaire. Il est facultat
 
 
 
-Convention de nommage des fichiers
+Convention de nommage des fichiers 
+
+Peut être pas besoin du champ "code" ? juste un commentaire ca suffit, c'est la decription qui est importante  
 
 
 
