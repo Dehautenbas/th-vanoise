@@ -1,6 +1,6 @@
 encoding  utf-8
 
-survey Arcel1 -title "Gouffre de l'Arcel1"
+survey Arcel1 -title "Gouffre de l'Arcelin"
   
 ### import map
   input arcel1_map.th
@@ -52,6 +52,8 @@ survey Arcel1 -title "Gouffre de l'Arcel1"
       
 input datas/escalier_24/Data/escalier_P.th2
 
+      join escalier-SP1 SP_amont2024-1_1@Arcelin_24-tot
+
 input datas/pts_oublie_24/Data/pts_oublie_P.th2
      join pts_oublie_SP1 SP-amont-1@Arcelin_22-23-tot
 
@@ -82,3 +84,4 @@ input datas/pts_oublie_24/Data/pts_oublie_P.th2
 
 
 endsurvey
+
