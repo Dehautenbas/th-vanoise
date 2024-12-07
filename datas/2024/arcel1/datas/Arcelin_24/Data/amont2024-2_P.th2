@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -286.74 -206.74099999999996 2725.16 1122.0
-##XTHERION## xth_me_area_zoom_to 400
+##XTHERION## xth_me_area_adjust 96.0 84.0 2682.0 1130.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {234.96000000000004 1 1.0} {314.958 0} ../Arcelin_24_2_P.xvi 0 {}
 
 
@@ -260,26 +260,31 @@ endline
 line contour
   611.75 725.75
   611.75 725.75 615.5 717.75 616.5 708.0
+  smooth off
 endline
 
 line contour
   601.0 717.75
   601.0 717.75 609.75 709.75 608.5 702.5
+  smooth off
 endline
 
 line contour
   588.75 708.0
   588.75 708.0 601.0 701.5 600.0 694.25
+  smooth off
 endline
 
 line contour
   579.25 700.5
   579.25 700.5 594.25 696.25 591.75 687.25
+  smooth off
 endline
 
 line contour
   571.25 695.0
   571.25 695.0 586.25 686.25 582.5 678.5
+  smooth off
 endline
 
 line wall -close on
@@ -300,26 +305,31 @@ endline
 line contour
   967.5 597.5
   967.5 597.5 965.0 612.5 975.5 612.75
+  smooth off
 endline
 
 line contour
   955.5 604.0
   955.5 604.0 950.25 617.25 960.75 619.0
+  smooth off
 endline
 
 line contour
   943.75 612.5
   943.75 612.5 943.75 626.5 951.25 626.25
+  smooth off
 endline
 
 line contour
   933.25 619.0
   933.25 619.0 931.25 631.25 940.75 631.25
+  smooth off
 endline
 
 line contour
   922.0 627.5
   922.0 627.5 920.5 638.75 928.0 638.75
+  smooth off
 endline
 
 line arrow
@@ -330,6 +340,7 @@ endline
 line contour
   560.5 685.75
   560.5 685.75 572.0 680.75 573.25 670.5
+  smooth off
 endline
 
 area water
@@ -393,46 +404,55 @@ endline
 line contour
   1162.0 623.75
   1162.0 623.75 1173.0 620.5 1171.25 614.75
+  smooth off
 endline
 
 line contour
   1152.75 650.75
   1152.75 650.75 1159.25 643.25 1155.5 633.75
+  smooth off
 endline
 
 line contour
   1213.5 667.75
   1213.5 667.75 1224.25 649.25 1218.5 642.25
+  smooth off
 endline
 
 line contour
   1195.5 666.0
   1195.5 666.0 1206.75 639.25 1203.5 631.0
+  smooth off
 endline
 
 line contour
   1183.25 663.5
   1183.25 663.5 1190.75 629.5 1187.5 622.75
+  smooth off
 endline
 
 line contour
   1107.75 636.0
   1107.75 636.0 1123.5 613.0 1118.75 601.0
+  smooth off
 endline
 
 line contour
   1089.5 632.5
   1089.5 632.5 1103.0 604.0 1099.5 596.0
+  smooth off
 endline
 
 line contour
   1071.5 627.0
   1071.5 627.0 1087.75 604.5 1084.75 593.25
+  smooth off
 endline
 
 line contour
   1129.25 640.5
   1129.25 640.5 1147.5 614.75 1146.0 606.0
+  smooth off
 endline
 
 point 1455.0 677.0 flute

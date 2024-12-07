@@ -115,8 +115,9 @@ layout my_layout
  endlayout
 
   
-#export map -proj extended -layout xviexport -o Data/XVI/Arcelin_24_1_C.xvi 
+export map -proj extended -layout xviexport -o Exports/Arcelin_24_1_C.xvi 
 #export map -proj plan -layout xviexport -o Arcelin_24_2_P.xvi 
+#export map -proj plan -layout xviexport -o Exports/Arcelin_24_3_P.xvi 
   
 #export map -projection plan -o Exports/Arcelin_24_P.pdf -layout my_layout
 #export map -projection extended -layout my_layout-coupe -o Exports/Arcelin_24_C.pdf

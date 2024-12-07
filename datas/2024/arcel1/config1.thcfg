@@ -4,13 +4,13 @@ input ../../../config3.thcfg
 
 source arcel1_tot.th
 
-source datas/mnt.th
+#source datas/mnt.th
 
 ##########################Selection de la map à exporter #############################
 ######################################################################################
 
-select MP@Arcel1      #uncomment ONLY one
-#select MC@Arcel1      #uncomment ONLY one
+#select MP@Arcel1      #uncomment ONLY one
+select MC@Arcel1      #uncomment ONLY one
 
 
 #select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
@@ -31,7 +31,7 @@ export map \
      -layout plan   \
      -output Exports/arcel1_plan.pdf \
 
-  #export map \
+  export map \
      -projection extended \
      -layout coupe   \
      -output Exports/arcel1_coupe.pdf \
@@ -47,7 +47,7 @@ export map \
      -layout centerline   \
      -output Exports/arcel1_plan-travail.pdf \
 
-#export map \
+export map \
      -projection extended \
      -layout coupe \
      -layout centerline   \
@@ -103,7 +103,7 @@ export map \
 
 
 ######################## MODELE 3D ########################
-    #export model \
+    export model \
      -format loch \
      -o Exports/arcel1-3d.lox \
      #-wall-source maps
@@ -111,13 +111,14 @@ export map \
 
 
 ######################## KML #######################
-#export map \
+export map \
      -projection plan \
      -output Exports/arcel1.kml  ###-> Pour murs
 
-#export model \
+export model \
      -output Exports/arcel1-shots.kml  ###-> pour fil de fer sans station avec splays shots
-
+export model \
+      -output Exports/arcel1-shots.shp
 
 ######################## LISTES ########################
 #export survey-list \

@@ -11,9 +11,25 @@ break
 SP_amont2024-2_1
 break
 SP_amont2024-2_2
+break
+SP_amont2024-3_1
+break
+SP_amont2024-3_2
 endmap
 
 map MC-Arcelin_24 -title "Gouffre de l'Arcelin 2024"
-SC_amont2024-1_1  
+SC_amont2024-1_1
+break
+SC_amont2024-1_2
+break
+SC_amont2024-1_3
+break
+SC_amont2024-2_1
+break
+SC_amont2024-2_2
+break
+SC_amont2024-3_1
+break
+SC_amont2024-3_2  
 endmap
 

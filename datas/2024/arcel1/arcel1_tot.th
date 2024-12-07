@@ -8,6 +8,7 @@ survey Arcel1 -title "Gouffre de l'Arcelin"
 ### import.th 
 
   input datas/Arcelin_22-23/Arcelin_22-23-tot.th
+  
   input datas/Arcelin_24/Arcelin_24-tot.th
         equate 0@amont2024-1.Arcelin_24-tot 40@amont.Arcelin_22-23-tot
         equate 73@amont2024-1.Arcelin_24-tot 0@amont2024-2.Arcelin_24-tot

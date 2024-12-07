@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -671.0399999999997 -38.0 8814.0 2998.0
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -671.0399999999997 -48.0 8820.0 3004.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {368.8800000000001 0 1.0} {1852.16 0} amont_P.xvi 0 {}
 ##XTHERION## xth_me_image_insert {-543.0399999999997 1 1.0} {2248.8153999999995 0} ../puits_remontant/puits_remontant_P.xvi 0 {}
 
@@ -874,11 +874,13 @@ point 5606.0 998.0 label -text R2
 line pit -reverse on
   5315.85 1161.87
   5315.85 1161.87 5411.94 1100.01 5441.94 1062.01
+  smooth off
 endline
 
 line pit -reverse on
   5126.0 1242.0
   5126.0 1242.0 5188.9 1252.46 5204.45 1233.23
+  smooth off
 endline
 
 line border -id SP-amont-1_water_2 -close on -visibility on
@@ -1153,6 +1155,7 @@ line wall
   7737.0 1918.0 7739.0 1921.0 7727.0 1932.0
   7715.0 1943.0 7691.0 1946.0 7696.0 1966.0
   7701.0 1986.0 7697.0 1980.0 7712.0 1975.0
+  smooth off
 endline
 
 line wall
@@ -1164,6 +1167,7 @@ line wall
   7899.0 1723.0 7910.0 1716.0 7927.0 1695.0
   7944.0 1674.0 7962.0 1654.0 7970.0 1650.0
   7978.0 1646.0 8035.0 1626.0 8037.0 1613.0
+  smooth off
 endline
 
 line wall
@@ -1175,6 +1179,7 @@ line wall
   7640.25 2060.53 7585.27 2066.17 7531.02 2060.99
   7503.27 2058.34 7509.82 2022.47 7527.76 2010.43
   7550.65 1995.06 7591.66 1976.57 7619.0 1973.0
+  smooth off
 endline
 
 line wall
@@ -1185,6 +1190,7 @@ line wall
   8040.88 1743.86 8062.25 1744.64 8077.78 1734.51
   8127.2 1702.25 8224.1 1576.44 8213.0 1553.0
   8204.0 1534.0 8104.0 1625.0 8059.0 1653.0
+  smooth off
 endline
 
 line wall

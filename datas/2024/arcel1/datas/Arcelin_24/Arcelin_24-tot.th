@@ -9,17 +9,19 @@ survey Arcelin_24-tot -title "Gouffre de l'Arcelin"
    
 
    ## Plan
-   input Data/amont2024-1_P.th2
-   input Data/amont2024-2_P.th2
+  input Data/amont2024-1_P.th2
+  input Data/amont2024-2_P.th2
+  input Data/amont2024-3_P.th2
     
    join SP_amont2024-1_4 SP_amont2024-2_1
+   join SP_amont2024-2_2 SP_amont2024-3_1
     
    #join 
     
     ## Coupe
-   input Data/amont2024-1_C.th2
-   #input Data/.th2
-   #input Data/.th2
+  input Data/amont2024-1_C.th2
+  input Data/amont2024-2_C.th2
+   input Data/amont2024-3_C.th2
  
    # join  
    
