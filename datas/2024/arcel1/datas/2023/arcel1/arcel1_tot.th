@@ -1,0 +1,10 @@
+survey arcel1_tot
+
+    input arcel1_map.th
+    input arcel1.th
+
+    input datas/2023/arcel1/arcel1_P.th2
+    input datas/2023/arcel1/arcel1_C.th2
+
+
+endsurvey

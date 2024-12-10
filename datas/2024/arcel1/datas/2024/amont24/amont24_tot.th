@@ -1,0 +1,12 @@
+survey amont24_tot
+
+    input amont24_map.th
+
+    input amont2024-1.th
+    input amont2024-2.th
+    input amont2024-3_TC-BU.th
+
+    equate 73@amont2024-1 0@amont2024-2
+    equate 36@amont2024-3_TC-BU 46@amont2024-2
+
+endsurvey

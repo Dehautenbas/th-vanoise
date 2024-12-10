@@ -1,0 +1,14 @@
+map MP_jonction -proj plan
+  SP-jonction-1
+  break
+  SP-jonction-2
+  break
+  SP-jonction-3
+endmap 
+
+map MC_jonction -proj extended
+  jonction_SC1
+  break
+  jonction_SC1
+endmap
+

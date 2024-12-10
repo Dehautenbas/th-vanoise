@@ -1,0 +1,16 @@
+
+map MP_arcel1 -proj plan 
+  arcel1_S1_P
+  break
+  arcel1_S2_P
+  break
+  arcel1_S3_P
+  break
+  arcel1_S4_P
+  break
+  arcel1_S5_P
+endmap
+
+map MC_arcel1 -proj extended 
+  arcel1_S1_C
+endmap

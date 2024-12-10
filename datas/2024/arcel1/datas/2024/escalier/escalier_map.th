@@ -1,0 +1,9 @@
+map MP_escalier -proj plan
+escalier_SP1
+endmap 
+
+map MC_escalier -proj extended 
+  escalier_SC1
+  break
+  escalier_SC2
+endmap

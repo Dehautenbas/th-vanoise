@@ -1,43 +1,28 @@
 
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
 map MP  -proj plan
-  arcel1_S1_P
+  MP_arcel1@arcel1_tot
   break
-  arcel1_S2_P
+  MP_amont-23@amont23_tot
   break
-  arcel1_S3_P
+  MP_escalier@escalier_tot
   break
-  arcel1_S4_P
+  MP_puits-remontant@puits-remontant_tot
   break
-  arcel1_S5_P
+  MP_frequence51@frequence51_tot
   break
-  PR-amont
+  MP_jonction@jonction_tot
   break
-  escalier-SP1
+  MP_tube-de-prechauffage@tube-de-prechauffage_tot
   break
-  SP-amont-1
+  MP_pts_oublie@pts_oublie_tot
   break
-  SP-puits_remontant-1
+  MP_diaclase_MK-SP@diaclase_MK-SP_tot
   break
-  SP-Frequence_51-2
+  MP_escalier@escalier_tot
   break
-  SP-Frequence_51-1
-  break
-  SP-Frequence_51-3
-  break
-  SP-jonction-1
-  break
-  SP-jonction-2
-  break
-  SP-jonction-3
-  break
-  tube-de-prechauffage_SP1
-  break
-  pts_oublie_SP1
-  break
-  diaclase_MK-SP_SP1
-  break
-  diaclase-boucle_SP1
+  MP_diaclase-boucle@diaclase-boucle_tot
+  
 
 
 endmap   
@@ -49,51 +34,39 @@ map MP_murs-et-centerline -proj plan
        MP_pas-encore-dessine
 endmap
         map MP_pas-encore-dessine -proj plan
-          amont2024-1
-          amont2024-2
-          amont2024-3_TC-BU
-          pts-actif-2
-          pts-actif-1
+          MP_amont24@amont24_tot
+          MP_pts-actif@pts-actif_tot
+          MP_pieuvre_PG-FM@pieuvre_PG-FM_tot
 
         endmap
 
-map MP_juste-une-survey -proj plan
-    amont
-endmap
+# map MP_juste-une-survey -proj plan
+#     amont
+# endmap
 
 
 ################################################################################################################
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
 map MC  -proj extended 
-  SC-amont-2
+  MC_amont-23@amont23_tot
   break
-  SC-amont-1
+  MC_arcel1@arcel1_tot
   break
-  arcel1_S1_C
+  MC_frequence51@frequence51_tot
   break
-  arcel1_S2_C
+  MC_jonction@jonction_tot
   break
-  arcel1_S3_C
+  MC_puits-remontant@puits-remontant_tot
   break
-  arcel1_S4_C
+  MC_tube-de-prechauffage@tube-de-prechauffage_tot
   break
-  arcel1_S5_C
+  MC_diaclase_MK-SP@diaclase_MK-SP_tot
   break
-  arcel1_S6_C
+  MC_pts_oublie@pts_oublie_tot
   break
-  arcel1_S7_C
+  MC_diaclase-boucle@diaclase-boucle_tot
   break
-  pr_S1_C
-  break
-  pr_S2_C
-  break
-  tube-de-prechauffage_SC1
-  break
-  diaclase_MK-SP_SC1
-  break
-  pts-oublie_SC1
-  break
-  diaclase-boucle_SC1
+  MC_escalier@escalier_tot
 
 endmap   
 
@@ -102,20 +75,18 @@ endmap
 # Map pour afficher le filaire de la topo pas encore dessinée + la topo déjà dessinée
 map MC_murs-et-centerline -proj extended 
   MC
+  break
   MC_pas-encore-dessine
 endmap
         map MC_pas-encore-dessine -proj extended
-          amont2024-1
-          amont2024-2
-          amont2024-3_TC-BU
-          pts-actif-2
-          pts-actif-1
-          escalier
+          MC_amont24@amont24_tot
+          MC_pts-actif@pts-actif_tot
+          MC_pieuvre_PG-FM@pieuvre_PG-FM_tot
 
         endmap
 
-map MC_juste-une-survey -proj extended
-    amont
-endmap
+# map MC_juste-une-survey -proj extended
+#     amont
+# endmap
 
 

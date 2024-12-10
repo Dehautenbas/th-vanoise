@@ -1,0 +1,20 @@
+map MP_frequence51 -proj plan
+ SP-Frequence_51-2
+  break
+  SP-Frequence_51-1
+  break
+  SP-Frequence_51-3
+endmap
+
+
+map MC_frequence51 -proj extended
+  frequence51_SC4
+  break
+  frequence51_SC1
+  break
+  frequence51_SC2
+  break
+  frequence51_SC3
+  break
+  frequence51_SC5
+endmap

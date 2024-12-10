@@ -1,0 +1,11 @@
+survey diaclase-boucle_tot
+
+    input diaclase-boucle_map.th
+    input diaclase-boucle.th
+
+    input datas/2024/diaclase-boucle/diaclase-boucle_P.th2
+    input datas/2024/diaclase-boucle/diaclase-boucle_C.th2
+
+
+
+endsurvey

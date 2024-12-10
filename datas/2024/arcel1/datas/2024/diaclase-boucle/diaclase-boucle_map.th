@@ -1,0 +1,7 @@
+map MP_diaclase-boucle -proj plan
+diaclase-boucle_SP1
+endmap 
+
+map MC_diaclase-boucle -proj extended 
+ diaclase-boucle_SC1
+endmap

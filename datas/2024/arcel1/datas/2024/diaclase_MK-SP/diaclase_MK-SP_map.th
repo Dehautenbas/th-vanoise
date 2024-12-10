@@ -1,0 +1,7 @@
+map MP_diaclase_MK-SP -proj plan
+diaclase_MK-SP_SP1
+endmap 
+
+map MC_diaclase_MK-SP -proj extended 
+diaclase_MK-SP_SC1
+endmap

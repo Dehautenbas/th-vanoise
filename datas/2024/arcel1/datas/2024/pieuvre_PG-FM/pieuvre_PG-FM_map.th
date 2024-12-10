@@ -1,0 +1,9 @@
+map MP_pieuvre_PG-FM -proj plan
+    pieuvre_PG-FM
+endmap 
+
+map MC_pieuvre_PG-FM -proj extended 
+    pieuvre_PG-FM
+endmap
+
+

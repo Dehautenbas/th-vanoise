@@ -1,0 +1,10 @@
+survey pts-actif_tot
+
+    input pts-actif_map.th
+
+    input pts-actif-1.th
+    input pts-actif-2.th
+
+    equate 16@pts-actif-2 64@pts-actif-1
+
+endsurvey

@@ -1,108 +1,58 @@
 encoding  utf-8
 
-survey Arcel1 -title "Gouffre de l'Arcel1"
+survey arcel1_tot -title "Gouffre de l'Arcel1"
   
 ### import map
   input arcel1_map.th
 
 ### import.th 
-  input datas/arcel1/arcel1.th
-  input datas/jonction23/jonction.th
-        equate PTR_0@jonction PTR_0@frequence51
-        equate 26@arcel1 2@jonction
-  input datas/frequence5123/frequence51.th
-  input datas/amont2023/amont.th
-        equate 0@amont 53@frequence51
-        #???? equate PTR_2@frequence_51.Frequence51 PTR_2@Frequence_51.Frequence51
-  input datas/puits_remontant23/puits_remontant.th
-        equate 43@frequence51 0@puits_remontant
-        equate 4@amont 24@puits_remontant
-          #### 7 pts remontant = 3 amont --> a faire
-  input datas/tube-de-prechauffage24/tube-de-prechauffage.th
-        equate 10@tube-de-prechauffage 27@amont
-  input datas/amont2024/amont2024-1.th
-        equate 0@amont2024-1 40@amont
-  input datas/escalier24/escalier.th
 
-        equate 3c@escalier 15@amont2024-1      
+### 2023
+  input datas/2023/arcel1/arcel1_tot.th
 
-        equate 236@escalier 19@amont
-  input datas/pieuvre_PG-FM24/pieuvre_PG-FM.th
-        equate 21.3@pieuvre_PG-FM 7@puits_remontant
-        equate 0@pieuvre_PG-FM 19@amont
-  input datas/diaclase_MK-SP24/diaclase_MK-SP.th
-        equate 2@diaclase_MK-SP 73@amont2024-1
-  input datas/amont2024/amont2024-2.th
-        equate 73@amont2024-1 0@amont2024-2
-  input datas/pts-actif24/pts-actif-1.th
-        equate 54@pts-actif-1 54@amont2024-1
-  input datas/pts-actif24/pts-actif-2.th
-        equate 16@pts-actif-2 64@pts-actif-1
-  input datas/diaclase-boucle24/diaclase-boucle.th
-        equate 0@diaclase-boucle 30@amont2024-1
-  input datas/pts_oublie24/pts_oublie.th
-        equate 11@pts_oublie 19@amont
-  input datas/amont2024/amont2024-3_TC-BU.th
-        equate 36@amont2024-3_TC-BU 46@amont2024-2
+  input datas/2023/jonction/jonction_tot.th
+      equate PTR_0@jonction.jonction_tot PTR_0@frequence51.frequence51_tot
+      equate 26@arcel1.arcel1_tot 2@jonction.jonction_tot
+
+  input datas/2023/frequence51/frequence51_tot.th
+
+  input datas/2023/amont23/amont23_tot.th
+      equate 0@amont.amont23_tot 53@frequence51.frequence51_tot
+
+  input datas/2023/puits-remontant/puits-remontant_tot.th
+      equate 43@frequence51.frequence51_tot 0@puits-remontant.puits-remontant_tot
+      equate 4@amont.amont23_tot 24@puits-remontant.puits-remontant_tot
+      #### 7 pts remontant = 3 amont --> a faire
 
 
+### 2024
+  input datas/2024/tube-de-prechauffage/tube-de-prechauffage_tot.th
+      equate 10@tube-de-prechauffage.tube-de-prechauffage_tot 27@amont.amont23_tot
 
+  input datas/2024/amont24/amont24_tot.th
+      equate 0@amont2024-1.amont24_tot 40@amont.amont23_tot
 
-################################################################################################################
-################################     PLAN      ################################################################
-################################################################################################################
+  input datas/2024/diaclase_MK-SP/diaclase_MK-SP_tot.th
+      equate 2@diaclase_MK-SP.diaclase_MK-SP_tot 73@amont2024-1.amont24_tot
 
-input datas/arcel1/arcel1_P.th2
-input datas/jonction23/jonction_P.th2
-      join jonction_D:0 arcel1_D:end
-      join jonction_G:end arcel1_G:0
-input datas/amont2023/amont_P.th2
-      join amontG2:0 PR1G:0
-      join amontG:end PR2D:end
-input datas/frequence5123/frequence51_P.th2
-      join jonctionGG:0 F51-GG:end
-      join jonctionGD:end F51-GD:0
-      join jonctionDG:0 F51-GD:end
-      join jonctionDD:end F51-DD:0
-      join fda:0 F51-2D:end
-      join amontG:0 F51-2G:0
-input datas/puits_remontant23/puits_remontant_P.th2
-      join F51-3G:0 PR1G:end
-      join F51-3D:end PR1D:0
-input datas/escalier24/escalier_P.th2
-input datas/tube-de-prechauffage24/tube-de-prechauffage_P.th2
-input datas/pts_oublie24/pts_oublie_P.th2
-      join pts_oublie_SP1 SP-amont-1
-input datas/diaclase_MK-SP24/diaclase_MK-SP_P.th2
-input datas/diaclase-boucle24/diaclase-boucle_P.th2
+  input datas/2024/escalier/escalier_tot.th
+      equate 3c@escalier.escalier_tot 15@amont2024-1.amont24_tot
+      equate 236@escalier.escalier_tot 19@amont.amont23_tot
 
+  input datas/2024/pieuvre_PG-FM/pieuvre_PG-FM_tot.th
+      equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.puits-remontant_tot
+      equate 0@pieuvre_PG-FM.pieuvre_PG-FM_tot 19@amont.amont23_tot
 
+  input datas/2024/diaclase-boucle/diaclase-boucle_tot.th
+      equate 0@diaclase-boucle.diaclase-boucle_tot 30@amont2024-1.amont24_tot
 
-###  !!  AJouter le scrap sur la MAP !!  ###
+  input datas/2024/pts-actif/pts-actif_tot.th
+      equate 54@pts-actif-1.pts-actif_tot 54@amont2024-1.amont24_tot
 
+  input datas/2024/pts_oublie/pts_oublie_tot.th
+      equate 11@pts_oublie.pts_oublie_tot 19@amont.amont23_tot
+      #join pts_oublie_SP1 SP-amont-1
 
-
-################################################################################################################
-################################     COUPE      ################################################################
-################################################################################################################
-
-
-input datas/arcel1/arcel1_C.th2
-      join arcel1_up:end pr_l1_up:0
-      join arcel1_down:end pr_l1_down:end
-input datas/puits_remontant23/puits_remontant_C.th2
-      join SC-amont-1 pr_S1_C
-input datas/amont2023/amont_C.th2
-input datas/tube-de-prechauffage24/tube-de-prechauffage_C.th2
-input datas/pts_oublie24/pts_oublie_C.th2
-      #join pts-oublie_b:end l111-1040-2139:end
-input datas/diaclase_MK-SP24/diaclase_MK-SP_C.th2
-input datas/diaclase-boucle24/diaclase-boucle_C.th2
-
-
-#
-
-###  !!  AJouter le scrap sur la MAP !!  ###
 
 
 

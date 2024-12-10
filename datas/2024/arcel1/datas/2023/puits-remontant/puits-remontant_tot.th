@@ -1,0 +1,11 @@
+survey puits-remontant_tot
+
+    input puits-remontant_map.th
+    input puits-remontant.th
+
+    input datas/2023/puits-remontant/puits_remontant_C.th2
+    
+    input datas/2023/puits-remontant/puits_remontant_P.th2
+
+
+endsurvey

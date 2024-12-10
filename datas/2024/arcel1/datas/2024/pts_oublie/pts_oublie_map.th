@@ -1,0 +1,7 @@
+map MP_pts_oublie -proj plan
+pts_oublie_SP1
+endmap 
+
+map MC_pts_oublie -proj extended 
+  pts-oublie_SC1
+endmap
