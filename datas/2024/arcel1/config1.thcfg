@@ -12,13 +12,13 @@ source ../../mnt.th
 #select MP@Arcel1      #uncomment ONLY one
 #select MC@Arcel1        #uncomment ONLY one
 
-#select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
-#select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
-#select MP_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
+select MP_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
+     #select MP_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
+     #select MP_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
 
-select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
-#select MC_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
-#select MC_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
+#select MC_murs-et-centerline@Arcel1 #Pour le filaire de la topo pas encore dessinée + la topo déjà dessinée
+     #select MC_pas-encore-dessine@Arcel1  #Pour le filaire de la topo pas encore dessinée
+     #select MC_juste-une-survey@Arcel1  #Pour le filaire d'une seul séance
 
 
 
@@ -75,7 +75,7 @@ export map \
      -output Exports/arcel1_coupe.dxf \
      
 ######################### DEBUG ########################
-#export map \
+export map \
      -projection plan \
      -layout plan   \
      -layout-debug all \

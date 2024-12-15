@@ -1,15 +1,37 @@
 
 map MP_amont24 -proj plan
-    amont2024-1
-    amont2024-2
-    amont2024-3_TC-BU
+    SP_amont2024-1_1
+    break
+    SP_amont2024-1_2
+    break
+    SP_amont2024-1_3
+    break
+    SP_amont2024-1_4
+    break
+    SP_amont2024-2_1
+    break
+    SP_amont2024-2_2
+    break
+    SP_amont2024-3_1
+    break
+    SP_amont2024-3_2
 endmap
 
 
 
 map MC_amont24 -proj extended
-    amont2024-1
-    amont2024-2
-    amont2024-3_TC-BU
+    SC_amont2024-1_1
+    break
+    SC_amont2024-1_2
+    break
+    SC_amont2024-1_3
+    break
+    SC_amont2024-2_1
+    break
+    SC_amont2024-2_2
+    break
+    SC_amont2024-3_1
+    break
+    SC_amont2024-3_2 
 endmap
 
