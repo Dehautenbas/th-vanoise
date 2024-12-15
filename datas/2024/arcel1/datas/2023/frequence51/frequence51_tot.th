@@ -1,9 +1,0 @@
-survey frequence51_tot
-
-    input frequence51_map.th
-    input frequence51.th
-
-    input datas/2023/frequence51/frequence51_P.th2
-    input datas/2023/frequence51/frequence51_C.th2
-
-endsurvey

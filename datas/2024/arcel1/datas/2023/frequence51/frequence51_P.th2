@@ -8,7 +8,7 @@ encoding  utf-8
 
 
 
-scrap SP-Frequence_51-1 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP1_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 point 23.0 -414.0 entrance -orientation 120.8
 
@@ -588,13 +588,13 @@ endscrap
 
 
 
-scrap SP-Frequence_51-2 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP2_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 endscrap
 
 
 
-scrap SP-Frequence_51-3 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP3_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
 
 line wall
   2827.72 -1052.8

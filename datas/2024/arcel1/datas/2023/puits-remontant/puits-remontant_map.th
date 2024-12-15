@@ -1,9 +1,0 @@
-map MP_puits-remontant -proj plan 
-    puits-remontant_SP1
-    break
-    puits-remontant_SP2
-endmap
-
-map MC_puits-remontant -proj extended 
-    puits-remontant_SC1
-endmap

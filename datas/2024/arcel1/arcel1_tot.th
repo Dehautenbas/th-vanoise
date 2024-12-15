@@ -1,47 +1,37 @@
 encoding  utf-8
 
-survey arcel1_tot -title "Gouffre de l'Arcel1"
+survey Arcel1 -title "Gouffre de l'Arcel1"
   
 ### import map
+  
   input arcel1_map.th
 
 ### import.th 
 
 ### 2023
-  input datas/2023/arcel1/arcel1_tot.th
-
-  input datas/2023/jonction/jonction_tot.th
-      equate PTR_0@jonction.jonction_tot PTR_0@frequence51.frequence51_tot
-      equate 26@arcel1.arcel1_tot 2@jonction.jonction_tot
-
-  input datas/2023/frequence51/frequence51_tot.th
-
-  input datas/2023/amont23/amont23_tot.th
-      equate 0@amont.amont23_tot 53@frequence51.frequence51_tot
-
-  input datas/2023/puits-remontant/puits-remontant_tot.th
-      equate 43@frequence51.frequence51_tot 0@puits-remontant.puits-remontant_tot
-      equate 4@amont.amont23_tot 24@puits-remontant.puits-remontant_tot
-      #### 7 pts remontant = 3 amont --> a faire
+  input datas/2023/2023_tot.th
 
 
 ### 2024
   input datas/2024/tube-de-prechauffage/tube-de-prechauffage_tot.th
-      equate 10@tube-de-prechauffage.tube-de-prechauffage_tot 27@amont.amont23_tot
+      equate 10@tube-de-prechauffage.tube-de-prechauffage_tot 27@amont.2023_tot
 
   input datas/2024/amont24/amont24_tot.th
-      equate 0@amont2024-1.amont24_tot 40@amont.amont23_tot
+      equate 0@amont2024-1.amont24_tot 40@amont.2023_tot
+      join diaclase-boucle_SP1@diaclase-boucle_tot SP_amont2024-1_2@amont24_tot
+      join amont23_SP1@2023_tot SP_amont2024-1_1@amont24_tot
 
   input datas/2024/diaclase_MK-SP/diaclase_MK-SP_tot.th
       equate 2@diaclase_MK-SP.diaclase_MK-SP_tot 73@amont2024-1.amont24_tot
+      join diaclase_MK-SP_SP1@diaclase_MK-SP_tot SP_amont2024-1_4@amont24_tot
 
   input datas/2024/escalier/escalier_tot.th
       equate 3c@escalier.escalier_tot 15@amont2024-1.amont24_tot
-      equate 236@escalier.escalier_tot 19@amont.amont23_tot
+      equate 236@escalier.escalier_tot 19@amont.2023_tot
 
   input datas/2024/pieuvre_PG-FM/pieuvre_PG-FM_tot.th
-      equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.puits-remontant_tot
-      equate 0@pieuvre_PG-FM.pieuvre_PG-FM_tot 19@amont.amont23_tot
+      equate 21.3@pieuvre_PG-FM.pieuvre_PG-FM_tot 7@puits-remontant.2023_tot
+      equate 0@pieuvre_PG-FM.pieuvre_PG-FM_tot 19@amont.2023_tot
 
   input datas/2024/diaclase-boucle/diaclase-boucle_tot.th
       equate 0@diaclase-boucle.diaclase-boucle_tot 30@amont2024-1.amont24_tot
@@ -50,8 +40,8 @@ survey arcel1_tot -title "Gouffre de l'Arcel1"
       equate 54@pts-actif-1.pts-actif_tot 54@amont2024-1.amont24_tot
 
   input datas/2024/pts_oublie/pts_oublie_tot.th
-      equate 11@pts_oublie.pts_oublie_tot 19@amont.amont23_tot
-      #join pts_oublie_SP1 SP-amont-1
+      equate 11@pts_oublie.pts_oublie_tot 19@amont.2023_tot
+      join pts_oublie_SP1@pts_oublie_tot amont23_SP1@2023_tot
 
 
 

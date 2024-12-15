@@ -1,17 +1,11 @@
 
+
+
 ######################## définition des scraps à faire apparaitre sur le plan  ################################
 map MP  -proj plan
-  MP_arcel1@arcel1_tot
-  break
-  MP_amont-23@amont23_tot
-  break
   MP_escalier@escalier_tot
   break
-  MP_puits-remontant@puits-remontant_tot
-  break
-  MP_frequence51@frequence51_tot
-  break
-  MP_jonction@jonction_tot
+  MP_2023@2023_tot
   break
   MP_tube-de-prechauffage@tube-de-prechauffage_tot
   break
@@ -19,9 +13,9 @@ map MP  -proj plan
   break
   MP_diaclase_MK-SP@diaclase_MK-SP_tot
   break
-  MP_escalier@escalier_tot
-  break
   MP_diaclase-boucle@diaclase-boucle_tot
+  break
+  MP_amont24@amont24_tot
   
 
 
@@ -34,9 +28,7 @@ map MP_murs-et-centerline -proj plan
        MP_pas-encore-dessine
 endmap
         map MP_pas-encore-dessine -proj plan
-          MP_amont24@amont24_tot
-          MP_pts-actif@pts-actif_tot
-          MP_pieuvre_PG-FM@pieuvre_PG-FM_tot
+              MP_pieuvre_PG-FM@pieuvre_PG-FM_tot
 
         endmap
 
@@ -48,15 +40,7 @@ endmap
 ################################################################################################################
 ######################## définition des scraps à faire apparaitre sur la COUPE  ################################
 map MC  -proj extended 
-  MC_amont-23@amont23_tot
-  break
-  MC_arcel1@arcel1_tot
-  break
-  MC_frequence51@frequence51_tot
-  break
-  MC_jonction@jonction_tot
-  break
-  MC_puits-remontant@puits-remontant_tot
+  MC_2023@2023_tot
   break
   MC_tube-de-prechauffage@tube-de-prechauffage_tot
   break
@@ -67,6 +51,8 @@ map MC  -proj extended
   MC_diaclase-boucle@diaclase-boucle_tot
   break
   MC_escalier@escalier_tot
+  break
+  MC_amont24@amont24_tot
 
 endmap   
 
@@ -79,8 +65,6 @@ map MC_murs-et-centerline -proj extended
   MC_pas-encore-dessine
 endmap
         map MC_pas-encore-dessine -proj extended
-          MC_amont24@amont24_tot
-          MC_pts-actif@pts-actif_tot
           MC_pieuvre_PG-FM@pieuvre_PG-FM_tot
 
         endmap
