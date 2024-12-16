@@ -20,8 +20,10 @@ input jonction/jonction_P.th2
       join jonction_D:0 arcel1_D:end
       join jonction_G:end arcel1_G:0
 input amont23/amont_P.th2
-      join amontG2:0 PR1G:0
-      join amontG:end PR2D:end
+      join PR1G:0 amontG2:0
+      join PR2D:end amontG:0
+      join F51-2G:0 amontG:end
+      join F51-2D:end fda:0
 input frequence51/frequence51_P.th2
       join jonctionGG:0 F51-GG:end
       join jonctionGD:end F51-GD:0
@@ -32,6 +34,7 @@ input frequence51/frequence51_P.th2
 input puits_remontant/puits_remontant_P.th2
       join F51-3G:0 PR1G:end
       join F51-3D:end PR1D:0
+            
 
 
 

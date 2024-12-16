@@ -1,0 +1,222 @@
+
+
+
+layout layoutcontinuation
+# Si vous voulez écrire sur la carte le texte qui est donnée dans chaque définition 
+#     de point d'interrogation de continuation
+
+  code metapost
+    def p_continuation(expr pos,theta,sc,al) =
+      % draw default continuation symbol
+      p_continuation_UIS(pos,theta,sc,al);
+      % if text attribute is set
+      if known(ATTR__text) and picture(ATTR__text):
+        % set labeling color to light orange
+        push_label_fill_color(1.0, 0.9, 0.8);
+        % draw filled label with text next to ?
+        p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
+        % restore original labeling color
+        pop_label_fill_color;
+      fi;
+    enddef;
+  endcode
+  
+endlayout 
+
+
+
+
+layout header
+
+### Pour définir une nouvelle flèche du nord
+  code metapost
+    def s_northarrow (expr rot) =
+      begingroup
+        interim defaultscale:=0.5; % scale your north arrow here ; 0.5 is the best value for atlas
+        T:=identity scaled defaultscale rotated -rot;
+        interim linecap:=squared;
+        interim linejoin:=rounded;
+        thfill (-.5cm,-.1cm)--(0,2.5cm)--(.5cm,-.1cm)--cycle;
+        pickup pencircle scaled (0.08cm * defaultscale);
+        thdraw (0,0)--(0,-2.5cm);
+        pickup pencircle scaled (0.16cm * defaultscale);
+        p:=(0.4cm,0.6cm);
+        thdraw ((p--(p yscaled -1)--(p xscaled -1)--(p scaled -1)) shifted (0,-1.0cm));
+        label.rt(thTEX("mg") scaled 1.6, (.6cm,-1.6cm)) transformed T;
+      endgroup;
+    enddef;
+  endcode
+
+
+### Change Scale bar type
+  code metapost
+    def s_scalebar (expr l, units, txt) =
+      begingroup
+        interim warningcheck:=0;
+        tmpl:=l / Scale * cm * units / 2;
+        tmpx:=l / Scale * cm * units / 5;
+        tmph:=3.5bp; % bar height
+      endgroup;
+      pickup PenC;
+      draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+      p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+      for i:=-2.5 step 2 until 2:
+        fill p shifted (i * tmpx,0);
+      endfor;
+      begingroup
+        interim labeloffset:=3.5bp;
+        for i:=0 step (l/5) until (l-1):
+          tmpx:=tmpl * (i * 2 / l - 1);
+          label.bot(thTEX(decimal (i)),(tmpx,-tmph));
+        endfor;
+        label.bot(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,-tmph));
+        % Pour écrire l'échelle "1:scale" au dessus de la barre décommenter la ligne suivante :
+        label.top(thTEX("Echelle 1 : " & decimal (Scale*100)),(0,0));
+      endgroup;
+    enddef;
+  endcode
+
+
+
+### Utiliser la fonction vskip pour espacer les éléments du header
+### eg: \vskip6mm
+### Language is latex
+# Ceci ne touche que les maps (plans)
+
+code tex-map
+    \legendcontent={
+      \hsize=\legendwidth
+      \color[0 0 0]\the\legendtextcolor
+      %\parskip=0bp
+      %\everypar{\hangindent=0em\hangafter=0/}
+
+      
+      %print northarrow
+      \ifnortharrow\vbox to 25pt{\line{\hfil\northarrow}\vss}
+      
+
+      \fi
+      %print cave map name
+      \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+        {\the\legendtextheadersize\the\cavename}
+      \vskip9mm %Distance between title and scalebar
+      \fi
+      %print scalebar
+      \ifscalebar\scalebar
+      \vskip6mm
+      \fi
+      %print cavelength and depth
+      \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par}
+      \fi
+      \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      \fi
+       %print comment
+      \edef\tmp{\the\comment} \ifx\tmp\empty \else
+        {\the\legendtextsize\the\comment}
+      \vskip-1mm
+      \fi
+      ## %      altitude
+      #\edef\tmp{\the\cavemaxz} \ifx\tmp\empty \else
+      #  {\the\legendtextsize\si\the\depthrangetitle \ss\the\cavemaxz m to}
+      #\fi
+      #\edef\tmp{\the\caveminz} \ifx\tmp\empty \else
+      #  {\the\legendtextsize\ss\the\caveminz m \par} %above mean sea level
+      #\fi
+      %print explorers names
+      \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+      \fi
+      %print surveyors names
+      \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+     \vskip3mm
+      \fi
+      %%print the guides
+      \edef\tmp{\the\guide} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\thguide: \ss\the\guide\par}
+      \fi
+      %print cartographers names
+      \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+      \fi
+      %print synthesys name !!!  !!! with newtoks\synth \synth={Synth Name} in the thconfig
+      \edef\tmp{\the\synth} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\thsynth: \ss\the\synth\par}
+      \fi
+      %print the club
+      \edef\tmp{\the\club} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\thclub: \ss\the\club\par}
+      \fi
+      %%print the expedition
+      \edef\tmp{\the\expe} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\thexpe: \ss\the\expe\par}
+      \fi
+      %%print the web page
+      \edef\tmp{\the\wpage} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\thwpage: \ss\the\wpage\par}
+      \fi
+      # % start bruces addition (compilation version and date modified to use built-in 5.3.15 variables)
+      \edef\tmp{\the\thversion} \ifx\tmp\empty \else  %only write version and date if version is not emplty
+        {\the\legendtextsize\si\the\thversiontitleA: \ss\the\thversiontitleB \ss\the\thversion}
+      % \fi
+      % \edef\tmp{\the\currentdate} \ifx\tmp\empty \else
+        {\the\legendtextsize\si\the\datetitle \ss\the\currentdate\par}
+      \fi
+      # % end bruces addition
+      %print copyrights
+      \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+        {\the\legendtextsize\ss\the\copyrights\par}
+      \fi
+      \bigskip
+      \edef\tmp{\the\thanksto} \ifx\tmp\empty \else
+          {\the\legendtextsize\si\the\ththanksto: \ss\the\thanksto\par}
+          %\def\ththankstotitle{Nos remerciements : }
+          %{\everypar{\hangindent=7.2em\hangafter=1}
+          %\size[\thsizem]\si\ththankstotitle \ss\ththanksto\par}
+      \fi
+      \vskip-9mm
+      %print legend
+      \formattedlegend
+    }
+
+  endcode
+endlayout
+
+
+layout langue-fr
+  # Définit la langue française
+  language fr
+  
+  code tex-map
+    % Definition of variables for the tuned headers :
+    \newtoks\thversiontitleB \thversiontitleB={Therion }
+
+    \newtoks\thversiontitleA \thversiontitleA={Compilation }
+    \newtoks\datetitle \datetitle={le }
+    \newtoks\thproj \thproj={Projection }
+    \newtoks\thclub \thclub={Club(s) }
+    \newtoks\thsynth \thsynth={Synthèse }
+    \newtoks\thwpage \thwpage={Page internet }
+    \newtoks\thexpe \thexpe={Expedition }
+    \newtoks\thguide \thguide={Guide(s) }
+    \newtoks\thdatat \thdatat={Données topographiques }
+    \newtoks\depthrangetitle \depthrangetitle={Depth range from }
+    \newtoks\ththanksto \ththanksto{Nos remerciements }
+    \newtoks\thcoords \thcoords{Coordonnées GPS (WGS84) }
+    \newtoks\explolengthtitle \explolengthtitle{Longueur explorée }
+    \newtoks\explodepthtitle \explodepthtitle{\thinspace{}---\thinspace{}\thinspace{}\thinspace{}\thinspace{}Profondeur explorée }
+
+    # Initiate variables
+    \newtoks\club \club={}
+    \newtoks\synth \synth={}
+    \newtoks\wpage \wpage={}
+    \newtoks\expe \expe={}
+    \newtoks\guide \guide={}
+    \newtoks\datat \datat={}
+    \newtoks\thanksto \thanksto={}
+    \newtoks\ECoordinates \ECoordinates={}
+    
+  endcode
+endlayout

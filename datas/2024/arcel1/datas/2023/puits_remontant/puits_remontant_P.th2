@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -373.5 -643.0 524.5 234.0
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 
 # 2023.10.08 created by TopoDroid v. 6.2.13
 
@@ -14,6 +14,7 @@ line pit
   -217.0 -48.0 -194.0 1.0 -175.0 -7.0
   -156.0 -15.0 -124.0 29.0 -122.0 42.0
   -120.0 55.0 -126.0 92.0 -97.0 87.0
+  smooth off
 endline
 
 line wall -id PR1D

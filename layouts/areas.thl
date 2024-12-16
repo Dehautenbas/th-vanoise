@@ -1,0 +1,166 @@
+layout custom_areas
+    code metapost
+
+    ### redefinitions of existing points
+
+         ## initialise the symbols here
+
+         ## redefine the symbols here
+
+               # Pour modifier la taille des blocs dans l'aire blocks
+               def a_blocks (expr p) =
+                    T:=identity;
+                    pickup PenC;
+                    path q, qq; q = bbox p;
+                    picture tmp_pic;
+                    uu := max(u, (xpart urcorner q - xpart llcorner q)/100, (ypart urcorner q - ypart     llcorner q)/100);
+                    tmp_pic := image(
+                    for i = xpart llcorner q step 1.0uu until xpart urcorner q:
+                    for j = ypart llcorner q step 1.0uu until ypart urcorner q:
+                         qq := punked (((-.3uu,-.3uu)--(.3uu,-.3uu)--(.3uu,.3uu)--(-.3uu,.3uu)--cycle)
+                         randomized (uu/2))
+                         rotated uniformdeviate(360)
+                         shifted ((i,j) randomized 1.0uu);
+                         if xpart (p intersectiontimes qq) < 0:
+                         thclean qq;
+                         thdraw qq;
+                         fi;
+                    endfor;
+                    endfor;
+                    );
+                    clip tmp_pic to p;
+                    draw tmp_pic;
+               enddef;
+
+                    # Pour modifier les aspects du sable dans l'aire associée
+                    def a_sands (expr p) =
+                    T:=identity;
+                    pickup PenC;
+                    path q; q = bbox p;
+                    picture tmp_pic;
+                    tmp_pic := image(
+                    for i = xpart llcorner q step 0.1u until xpart urcorner q:
+                    for j = ypart llcorner q step 0.1u until ypart urcorner q:
+                         draw origin shifted ((i,j) randomized 0.1u) withpen PenC;
+                    endfor;
+                    endfor;
+                    );
+                    #clip tmp_pic to p;
+                    draw tmp_pic;
+               enddef;
+
+                    # Pour modifier l'aspects de l'aire pebbles (galets)
+                    def a_pebbles_SKBB (expr p) =
+                    T:=identity;
+                    pickup PenC;
+                    path q, qq; q = bbox p;
+                    picture tmp_pic;
+                    tmp_pic := image(
+                    for i = xpart llcorner q step .1u until xpart urcorner q:
+                    for j = ypart llcorner q step .5u until ypart urcorner q:
+                         qq := (superellipse((.07u,0),(0,.03u), (-.07u,0),(0,.-.03u),.75))
+                         %randomized (u/25)
+                         rotated uniformdeviate(360)
+                         shifted ((i,j) randomized 0.27u);
+                         if xpart (p intersectiontimes qq) < 0:
+                         thdraw qq;
+                         fi;
+                    endfor;
+                    endfor;
+                    );
+                    clip tmp_pic to p;
+                    draw tmp_pic;
+               enddef;
+
+               ### To change color of Mud area
+               def a_u_boue (expr p) =
+                    T:=identity;
+                    #thfill p withcolor (0.22, 0.22, 0.95);
+                    #126, 51, 0
+                    thfill p withcolor (0.49, 0.20, 0.00);
+               enddef;
+
+               ### To change color of Sump
+               def a_sump (expr p) =
+                    T:=identity;
+                    #thfill p withcolor (0.22, 0.22, 0.95);
+                    thfill p withcolor (0.06, 0.20, 0.65);
+               enddef;
+
+               # To change color of guano
+               def a_u_guano (expr p) =
+                    T:=identity;
+                    thfill p withcolor (0.53, 0.26, 0.11);
+               enddef;
+               
+               # To change color of a tree-trunk
+               #     I advise to use a line "border" to delimit the area
+               #    If used with tree-leaves, add the option -place top
+               # Pour modifier la couleur de l'aire tronc
+               #    Je suggère d'utiliser une ligne "border/bord" pour délimiter l'aire
+               #    Si utilisé conjointement avec l'aire feuilles d'arbres, utiliser l'option -place top
+               def a_u_tronc (expr p) =
+                    T:=identity;
+                    thfill p withcolor (0.62, 0.24, 0.05);
+               enddef;
+
+               # To change color of a tree-leaves
+               # Pour modifier la couleur de l'aire feuilles d'arbre/feuillage
+               def a_u_feuilles (expr p) =
+                    T:=identity;
+                    thfill p withcolor (0.0, 1.0, 0.0);
+               enddef;
+
+               # To change color of Water area
+               def a_water (expr p) =
+                    T:=identity;
+                    #thfill p withcolor (0.60, 0.8, 1);
+                    thfill p withcolor (0.17, 0.46, 1);
+               enddef;
+
+               def a_ice (expr p) =
+                    T:=identity;
+                    thfill p withcolor (0.7, 0.7, 0.9);
+               enddef;
+
+               # To change Clay area (#Tanguy Racine)
+               initsymbol("a_clay_MY");
+               symbol-assign area clay MY
+
+                    # define a clay pattern 
+                    beginpattern(pattern_clay_MY);
+                         pickup PenC;
+                         p:= (-.015u,0)--(.015u,0);
+                         draw p;
+                         draw p rotated 25 shifted(.2u,0.2u);
+                         patternxstep(0.3u);
+                         patternystep(0.3u);
+                         patterncolor(0.65,0.55,0.1);
+                    endpattern;
+
+                    # fill clay areas with clay pattern
+                    def a_clay_MY (expr Path) =
+                         T:=identity;
+                         thclean Path;
+                         thfill Path withpattern pattern_clay_MY;
+                    enddef;
+                    
+
+                         def p_stalactite_MY (expr P,R,S,A)=
+                         U:=(.2u,.2u);
+                         T:=identity aligned A rotated R scaled S shifted P;
+                         pickup PenC;
+                         thdraw (-.1u,-.1u)..(-.1u,.1u)..(.1u,.1u)..(.1u,-.1u)..cycle withcolor(1,0.5,0.1);
+                    enddef;
+
+    ### new definitions
+
+         ## add legend names for each new symbol definition
+
+         ## initialise the symbols here
+
+         ## redefine the symbols here
+
+
+    endcode
+endlayout

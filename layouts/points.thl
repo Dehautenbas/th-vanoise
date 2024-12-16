@@ -1,0 +1,27 @@
+layout custom_points
+    code metapost
+
+    ### redefinitions of existing points
+
+         # initialise the symbols here
+
+         # redefine the symbols here
+
+
+
+    ### new definitions
+
+         # add legend names for each new symbol definition
+
+         # initialise the symbols here
+
+         # redefine the symbols here
+     
+
+    endcode
+
+    
+
+
+
+endlayout
