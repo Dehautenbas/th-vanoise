@@ -78,7 +78,8 @@ line slope
   l-size 40.0
 endline
 
-point -92.0 -512.5 continuation
+point -92.0 -512.5 continuation -attr Code "A" -attr cavite "Arcel1" -attr Reseau "2023" -attr CA "?" -text "Une 20aine de m non topo. Enlever le baudar (Martin)"
+
 
 line slope
   -103.5 -421.0

@@ -177,7 +177,7 @@ layout my_layout-coupe
    # Titre  
    doc-title perte-des-copains
    # Auteur
-   doc-author Benoit Urruty
+   doc-author Benoît Urruty
 
    # Pour faire la topo dans le system UTM  
    # Decommenter la ligne, et remplacer xx par la zone UTM

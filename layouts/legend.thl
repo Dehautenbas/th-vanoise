@@ -26,7 +26,7 @@ endlayout
 
 
 
-layout header
+layout legend
 
 ### Pour définir une nouvelle flèche du nord
   code metapost
@@ -103,7 +103,6 @@ code tex-map
       \fi
       %print scalebar
       \ifscalebar\scalebar
-      \vskip6mm
       \fi
       %print cavelength and depth
       \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
@@ -111,19 +110,20 @@ code tex-map
       \fi
       \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+      %\vskip4mm
       \fi
        %print comment
       \edef\tmp{\the\comment} \ifx\tmp\empty \else
         {\the\legendtextsize\the\comment}
-      \vskip-1mm
+        \vskip4mm
       \fi
-      ## %      altitude
-      #\edef\tmp{\the\cavemaxz} \ifx\tmp\empty \else
-      #  {\the\legendtextsize\si\the\depthrangetitle \ss\the\cavemaxz m to}
-      #\fi
-      #\edef\tmp{\the\caveminz} \ifx\tmp\empty \else
-      #  {\the\legendtextsize\ss\the\caveminz m \par} %above mean sea level
-      #\fi
+                        %%altitude
+                        %\edef\tmp{\the\cavemaxz} \ifx\tmp\empty \else
+                        % {\the\legendtextsize\si\the\depthrangetitle \ss\the\cavemaxz m to}
+                        %\fi
+                        %\edef\tmp{\the\caveminz} \ifx\tmp\empty \else
+                        %{\the\legendtextsize\ss\the\caveminz m \par} %above mean sea level
+                        %\fi
       %print explorers names
       \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
@@ -131,7 +131,7 @@ code tex-map
       %print surveyors names
       \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
-     \vskip3mm
+     \vskip4mm
       \fi
       %%print the guides
       \edef\tmp{\the\guide} \ifx\tmp\empty \else
@@ -157,13 +157,15 @@ code tex-map
       \edef\tmp{\the\wpage} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\thwpage: \ss\the\wpage\par}
       \fi
-      # % start bruces addition (compilation version and date modified to use built-in 5.3.15 variables)
+  
+      % start bruces addition (compilation version and date modified to use built-in 5.3.15 variables)
       \edef\tmp{\the\thversion} \ifx\tmp\empty \else  %only write version and date if version is not emplty
-        {\the\legendtextsize\si\the\thversiontitleA: \ss\the\thversiontitleB \ss\the\thversion}
+        {\the\legendtextsize\si\the\thversiontitleA: \ss\the\thversiontitleB}
       % \fi
       % \edef\tmp{\the\currentdate} \ifx\tmp\empty \else
         {\the\legendtextsize\si\the\datetitle \ss\the\currentdate\par}
       \fi
+
       # % end bruces addition
       %print copyrights
       \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
@@ -191,9 +193,9 @@ layout langue-fr
   
   code tex-map
     % Definition of variables for the tuned headers :
-    \newtoks\thversiontitleB \thversiontitleB={Therion }
+    \newtoks\thversiontitleB \thversiontitleB={Therion}
 
-    \newtoks\thversiontitleA \thversiontitleA={Compilation }
+    \newtoks\thversiontitleA \thversiontitleA={Logiciel }
     \newtoks\datetitle \datetitle={le }
     \newtoks\thproj \thproj={Projection }
     \newtoks\thclub \thclub={Club(s) }

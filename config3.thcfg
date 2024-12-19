@@ -1,5 +1,5 @@
 
-input layouts/legend&header.thl
+input layouts/legend.thl
 
 input layouts/areas.thl
 input layouts/lines.thl

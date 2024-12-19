@@ -5,7 +5,8 @@ encoding  utf-8
 layout general
     copy langue-fr          ### Change the language
     copy drawingconfig      ### Set colors/size of symbols, define new symbols
-    copy header
+    copy legend
+    copy comment
 
     doc-title "Gouffre de l'Arcel1"
     doc-author "Continent8"
@@ -14,7 +15,7 @@ layout general
     opacity 80              ### ... avec une opacité de 80%
     rotate 0                ### rotation du nord géographique (en degré)
     colour map-fg [96 96 86]   ###Couleur Galeries #Gris[80 80 80]#
-    color map-bg 96                         ### couleur du fond (80% blanc / 20% gris => 80)
+    color map-bg 96            ### couleur du fond (80% blanc / 20% gris => 80)
 
     #min-symbol-scale <scale>    ### define minimal <scale>, from which points and lines are displayed on the map. 
                                  ### Ex: for min-symbol-scale M, no points or lines scaled S and XS will be shown on the map. <scale> has the same format, as scale option for points and lines.
@@ -26,30 +27,20 @@ layout general
 endlayout
 
 
-layout header
-    scale-bar 25 m
-    legend on      
-    legend-columns 3
-    #colour-legend off
-    statistics copyright all
-    statistics topo all
-
-    ### To scale NorthArrow, find in config3 with cmd+f : "% scale your north arrow here"
-
-
+layout comment
   code tex-map
       \legendwidth=20cm
-      \legendtextsize={\size[12]}
-      \legendtextheadersize={\size[32]} %%% Taille du titre
-      \legendtextsectionsize={\size[16]} %%% Taille du titre
-      #\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
+      \legendtextsize={\size[13]}
+      \legendtextheadersize={\size[32]} 
+      \legendtextsectionsize={\size[22]}  %Taille mot "Légende"
+      %\legendtextcolor={\color[0 0 110]}      %# RGB values 0--100
    endcode
 
     map-comment "<br>\
 Localisation : Dalles de l'Arcelin, Pralognan la Vanoise, Savoie (73) <br>\
 Coordonnées : (WGS84) 45.378813N  6.772146E  2603m <br>\
 <br>\
-Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol, Benoît Urruty <br>\ 
+Synthèse et dessin : Continent 8 - Martin Kern, Théophile Cailhol <br>\ 
 "
 
 endlayout
@@ -65,12 +56,11 @@ layout plan
   scale 1  200                    
   #base-scale 1 300                
 
-
   cs UTM32
  
-  map-header 0 40 nw              ### positionnement du cartouche 
+  map-header 1 4 sw              ### positionnement du cartouche 
   scale-bar 25 m
- # copy scalebar_horiz
+  #copy scalebar_horiz
   #copy scalebar_vert
   legend on     
   legend-columns 3
@@ -90,7 +80,7 @@ layout coupe
 
   cs UTM32
  
-  map-header 0 20 nw              ### positionnement du cartouche 
+  map-header 2 68 sw             ### positionnement du cartouche  Lower-left corner of the map is 0 0, upper-right corner is 100 100
   scale-bar 25 m
   #copy scalebar_horiz
   #copy scalebar_vert

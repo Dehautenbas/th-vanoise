@@ -29,9 +29,9 @@ point 177.163 460.562 station -name 1
 
 point 177.163 511.812 station -name 0
 
-point 355.0 69.0 continuation -attr Code "P" -attr cavite "Arcel1" -attr Reseau "amont23" -attr CA "?" -text "Pts non descendu par manque de temps"
+point 342.5 141.0 continuation -attr Code "P" -attr cavite "Arcel1" -attr Reseau "amont23" -attr CA "?" -text "Pts non descendu par manque de temps"
 
-point 257.0 116.5 label -text "Puits oublié<br>P7" -scale s
+point 329.5 260.5 label -text "Puits oublié<br>P7 ?"
 
 point 207.0 379.5 label -text "R11" -scale s
 

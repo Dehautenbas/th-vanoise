@@ -5,7 +5,7 @@ encoding  utf-8
 
 
 
-scrap diaclase-boucle_SP1 -projection plan -station-names "" "@diaclase-boucle" -scale [706.0 491.0 1190.99 -128.0 0.0 0.0 33.502345999999996 0.0 m]
+scrap diaclase-boucle_SP1 -projection plan -station-names "" @diaclase-boucle -scale [706.0 491.0 1190.99 -128.0 0.0 0.0 33.502345999999996 0.0 m]
 
 point 2238.0 799.75 debris -orientation 270.4
 

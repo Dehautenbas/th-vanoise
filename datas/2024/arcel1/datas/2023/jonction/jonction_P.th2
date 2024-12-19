@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -350.0 -1433.0 865.0 1046.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {96.17700000000002 1 1.0} {-730.3300000000002 2} ../jonction_P.xvi 0 {}
 
 # 2023.10.08 created by TopoDroid v. 6.2.13
@@ -76,7 +76,17 @@ endscrap
 
 scrap SP-jonction-2 -projection plan -station-names "" "@jonction" -scale [0 0 78.7402 0 0 0 1 0 m]
 
-point 442.93 385.02 label -text "glace fossile" -scale s
+line arrow
+  270.0 312.0
+  114.0 198.0
+endline
+
+line arrow
+  296.0 314.0
+  418.0 290.0
+endline
+
+point 288.93 343.02 label -text "<center>glace fossile<br>2023-2024" -scale s
 
 line wall
   541.48 -1145.22
@@ -301,15 +311,15 @@ line slope -reverse on
 endline
 
 line slope -reverse on
-  94.0 -30.0
-  104.0 -19.0 187.92 -0.38 204.96 -10.19
+  68.0 -38.0
+  78.0 -27.0 220.96 -0.19 238.0 -10.0
   smooth off
   l-size 40.0
 endline
 
 line slope
-  276.39 -310.04
-  250.0 -317.0 238.0 -328.0 203.0 -386.0
+  292.0 -298.0
+  265.61 -304.96 233.0 -332.0 198.0 -390.0
   smooth off
   l-size 40.0
 endline
@@ -380,8 +390,8 @@ line wall -id jonctionGG
 endline
 
 line slope
-  89.0 516.0
-  37.53 512.17
+  112.0 512.0
+  26.0 514.0
   l-size 40.0
 endline
 

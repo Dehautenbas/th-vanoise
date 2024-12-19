@@ -1,24 +1,21 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -864.0 -1822.0 3760.0 144.0
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {215.8499999999999 1 1.0} {-271.2299999999998 F51} ../Frequence51_P.xvi 0 {}
-
-# 2023.10.06 created by TopoDroid v. 6.2.13
+##XTHERION## xth_me_area_zoom_to 100
 
 
 
-
-scrap SP1_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP1_Frequence51 -projection plan -station-names "" @frequence51 -scale [0 0 78.7402 0 0 0 1 0 m]
 
 point 23.0 -414.0 entrance -orientation 120.8
 
-point 48.78 -115.07999999999998 entrance -orientation 120.8
+point 48.78 -115.08 entrance -orientation 120.8
 
-line wall -close on -reverse on
+line wall -close on -outline in
   476.5 -768.25
-  479.5 -768.25 485.75 -766.25 486.75 -772.75
-  487.75 -779.25 479.25 -783.0 474.75 -782.25
-  470.25 -781.5 473.5 -768.25 476.5 -768.25
+  473.5 -768.25 470.25 -781.5 474.75 -782.25
+  479.25 -783.0 487.75 -779.25 486.75 -772.75
+  485.75 -766.25 479.5 -768.25 476.5 -768.25
+  smooth off
 endline
 
 line wall
@@ -29,7 +26,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -outline in
   323.0 -560.0
   322.0 -570.0 324.0 -584.0 338.0 -584.0
   352.0 -584.0 362.0 -577.0 363.0 -573.0
@@ -62,10 +59,42 @@ line wall
   smooth off
 endline
 
-line slope
-  -489.0 -1323.0
-  l-size 40.0
-  -512.22 -1356.0 -502.0 -1372.0 -509.0 -1372.0
+line contour
+  120.0 -1487.0
+  104.0 -1466.0 75.0 -1419.0 49.0 -1413.0
+  smooth off
+endline
+
+point 1305.0 -524.0 label -text "? R15"
+
+line arrow
+  1339.0 -493.0
+  1431.0 -313.0
+endline
+
+point 1438.0 -290.0 continuation -attr Code "D1" -attr cavite "Arcel1" -attr Reseau "2023" -attr CA "?" -text "Un tir à faire dans une diaclase. (Benoît)"
+
+line contour
+  142.0 -1354.0
+  142.0 -1354.0 120.0 -1312.0 66.0 -1326.0
+  smooth off
+endline
+
+line contour
+  243.0 -1146.0
+  243.0 -1146.0 267.0 -1207.0 323.0 -1213.0
+  smooth off
+endline
+
+line contour
+  361.0 -1081.0
+  412.0 -1107.0 446.0 -1134.0 516.0 -1138.0
+  smooth off
+endline
+
+line contour
+  -464.0 -1311.0
+  -515.0 -1361.0 -491.0 -1402.0 -498.0 -1402.0
   smooth off
 endline
 
@@ -82,7 +111,7 @@ line wall
   smooth off
 endline
 
-point 1486.0 -1398.0 label -text "<center>imp.<br>Trémie<br>Jonction probable" -scale xs
+point 1486.0 -1398.0 label -scale xs -text "<center>imp.<br>Trémie<br>Jonction probable"
 
 line wall
   1592.0 -1242.0
@@ -117,7 +146,7 @@ line wall
   smooth off
 endline
 
-point -726.0 -1176.0 label -text "Entrée sup"
+point -726.0 -1176.0 label -scale xl -text "Entrée sup"
 
 line wall
   1076.0 -797.0
@@ -134,20 +163,20 @@ line wall
   smooth off
 endline
 
-line border
+line contour
   986.0 -964.0
-  992.39 -927.82 996.17 -855.11 1027.83 -828.65
-  1066.5 -796.33 1089.77 -807.08 1137.0 -804.0
-  1186.08 -800.8 1277.56 -847.57 1314.0 -889.0
+  992.39 -927.82 1008.04 -868.72 1042.2174 -845.6066
+  1080.89 -819.45 1087.7147 -823.009 1134.9446 -822.4981
+  1184.126 -821.9663 1277.56 -847.57 1314.0 -889.0
   1325.02 -901.53 1399.39 -942.48 1378.0 -1012.0
   smooth off
 endline
 
-point 1389.12 -864.30 blocks
+point 1389.12 -864.3 blocks
 
-point 1404.89 -957.90 blocks
+point 1404.89 -957.9 blocks
 
-point 1462.47 -1032.60 blocks
+point 1462.47 -1032.6 blocks
 
 point 1489.07 -1193.77 blocks
 
@@ -179,7 +208,7 @@ area blocks
   l145-1322-4
 endarea
 
-line label -id l145-1322-4 -close on
+line label -id l145-1322-4 -close on -text ""
   738.0 -56.0
   738.0 -56.0 752.0 -292.0 678.0 -356.0
   604.0 -420.0 690.0 -464.0 808.0 -530.0
@@ -332,7 +361,7 @@ line floor-meander
   smooth off
 endline
 
-point 2914.0 -690.0 label -text "Ressauts" -scale s
+point 2794.0 -682.0 label -orientation 96.2 -scale s -text Ressauts
 
 line wall
   2543.75 -705.52
@@ -370,7 +399,7 @@ line arrow
   2650.0 -1010.0
 endline
 
-point 2492.0 -992.0 label -text "R5" -scale s
+point 2492.0 -992.0 label -scale s -text R5
 
 line wall
   2654.04 -1058.68
@@ -378,21 +407,21 @@ line wall
   smooth off
 endline
 
-line pit -reverse on
-  2536.0 -686.0
-  2536.0 -686.0 2602.0 -740.0 2592.0 -816.0
+line pit
+  2592.0 -816.0
+  2602.0 -740.0 2536.0 -686.0 2536.0 -686.0
   smooth off
 endline
 
-line pit -reverse on
-  2780.0 -810.0
-  2746.0 -814.0 2592.0 -842.0 2580.0 -832.0
+line pit
+  2580.0 -832.0
+  2592.0 -842.0 2746.0 -814.0 2780.0 -810.0
   smooth off
 endline
 
-line pit -reverse on
-  2576.0 -642.0
-  2576.0 -642.0 2730.0 -604.0 2766.0 -656.0
+line pit
+  2766.0 -656.0
+  2730.0 -604.0 2576.0 -642.0 2576.0 -642.0
   smooth off
 endline
 
@@ -416,7 +445,7 @@ area u:galerie
   l60-2705--1022
 endarea
 
-line pit -id l60-2705--1022 -close off
+line pit -id l60-2705--1022 -close on
   2717.0 -978.0
   2702.38 -955.4 2671.16 -974.06 2669.73 -979.9
   2653.0 -1048.0 2774.33 -1021.63 2717.0 -978.0
@@ -437,11 +466,11 @@ area water
   1p-a8
 endarea
 
-point 144.18999999999983 -475.1699999999999 station -name 3EL
+point 144.19 -475.17 station -name 3EL
 
-point 299.30999999999995 -560.2099999999999 station -name 2
+point 299.31 -560.21 station -name 2
 
-point -126.0 -262.0 label -text "<center>Entrée <br>Fréquence 51"
+point -126.0 -262.0 label -scale xl -text "<center>Entrée <br>Fréquence 51"
 
 line wall
   758.0 -122.0
@@ -473,7 +502,7 @@ line pit -close on
   1496.0 -308.0 1482.0 -216.0 1438.0 -238.0
 endline
 
-line wall -close off
+line wall -close on -outline in
   184.0 -378.0
   194.0 -314.0 292.0 -362.0 296.0 -386.0
   302.03 -422.18 272.0 -504.0 261.0 -504.0
@@ -481,26 +510,26 @@ line wall -close off
   smooth off
 endline
 
-point 503.2499999999999 -252.32999999999993 station -name 28
+point 503.25 -252.33 station -name 28
 
-point 361.52 -349.17999999999995 station -name PTR_2
+point 361.52 -349.18 station -name PTR_2
 
-point 215.8499999999999 -271.2299999999999 station -name F51
+point 215.85 -271.23 station -name F51
 
-point 256.78999999999996 -615.3299999999999 station -name 4
+point 256.79 -615.33 station -name 4
 
-point 512.6999999999998 -763.8699999999999 station -name 5
+point 512.7 -763.87 station -name 5
 
 point -659.0 -1302.0 entrance -orientation 110.7
 
 line wall
   447.0 -966.0
   442.0 -986.0 440.0 -1092.0 393.0 -1099.0
-  346.0 -1106.0 297.9 -1137.84 265.4499999999998 -1154.4199999999998
+  346.0 -1106.0 297.9 -1137.84 265.45 -1154.42
   233.0 -1171.0 45.35 -1352.35 53.0 -1377.0
   62.0 -1406.0 145.66 -1411.51 129.0 -1426.0
   106.0 -1446.0 -13.0 -1422.0 -23.0 -1419.0
-  -33.0 -1416.0 -290.58 -1346.4 -313.2900000000002 -1349.6999999999998
+  -33.0 -1416.0 -290.58 -1346.4 -313.29 -1349.7
   -336.0 -1353.0 -352.0 -1374.0 -364.0 -1376.0
   -376.0 -1378.0 -404.0 -1344.0 -428.0 -1337.0
   -469.72 -1324.83 -563.0 -1308.0 -568.0 -1306.0
@@ -508,45 +537,45 @@ line wall
   altitude .
 endline
 
-point 454.42999999999984 -963.8699999999999 station -name 6
+point 454.43 -963.87 station -name 6
 
-point 453.6399999999999 -1133.9499999999998 station -name 7
+point 453.64 -1133.95 station -name 7
 
-point 265.4499999999998 -1154.4199999999998 station -name 8
+point 265.45 -1154.42 station -name 8
 
-point 59.149999999999864 -1377.2599999999998 station -name 9
+point 59.15 -1377.26 station -name 9
 
-point 167.02999999999997 -1436.31 station -name 10
+point 167.03 -1436.31 station -name 10
 
 point -31.4 -1425.55 station -name 11
 
-point -313.2900000000002 -1349.6999999999998 station -name 12
+point -313.29 -1349.7 station -name 12
 
-point -575.4900000000002 -1330.8 station -name 16E
+point -575.49 -1330.8 station -name 16E
 
-point -355.0200000000002 -1386.6999999999998 station -name 13
+point -355.02 -1386.7 station -name 13
 
-point 544.9799999999999 -977.2599999999999 station -name 16b
+point 544.98 -977.26 station -name 16b
 
-point 719.7799999999999 -1020.56 station -name 17
+point 719.78 -1020.56 station -name 17
 
-point 780.4099999999999 -855.9999999999999 station -name 18
+point 780.41 -856.0 station -name 18
 
-point 986.7099999999999 -911.8999999999999 station -name 19
+point 986.71 -911.9 station -name 19
 
-point 1087.5 -798.5199999999999 station -name 20
+point 1087.5 -798.52 station -name 20
 
 point 1247.34 -899.3 station -name 21
 
-point 1263.09 -838.9499999999999 station -name P
+point 1263.09 -838.95 station -name P
 
-point 1449.6999999999998 -1037.8899999999999 station -name 22
+point 1449.7 -1037.89 station -name 22
 
 point 1435.53 -1110.33 station -name 23
 
-point 1534.7399999999998 -1267.3 station -name 24T
+point 1534.74 -1267.3 station -name 24T
 
-point 1610.33 -1333.4399999999998 station -name 25T
+point 1610.33 -1333.44 station -name 25T
 
 point 1014.01 -668.33 station -name 26
 
@@ -558,9 +587,9 @@ point 1389.01 -313.76 station -name 31
 
 point 1616.23 -313.58 station -name 32
 
-point 1679.6299999999999 -327.91999999999985 station -name PTR_0
+point 1679.63 -327.92 station -name PTR_0
 
-point 1984.52 -349.20 station -name 34
+point 1984.52 -349.2 station -name 34
 
 point 2378.09 -284.66 station -name 35
 
@@ -572,7 +601,7 @@ point 2555.47 -753.85 station -name 38
 
 point 2412.11 -792.37 station -name 39
 
-point 2369.33 -842.70 station -name 40
+point 2369.33 -842.7 station -name 40
 
 point 2333.75 -883.29 station -name 41
 
@@ -588,13 +617,8 @@ endscrap
 
 
 
-scrap SP2_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
 
-endscrap
-
-
-
-scrap SP3_Frequence51 -projection plan -station-names "" "@frequence51" -scale [0 0 78.7402 0 0 0 1 0 m]
+scrap SP2_Frequence51 -projection plan -station-names "" @frequence51 -scale [0 0 78.7402 0 0 0 1 0 m]
 
 line wall
   2827.72 -1052.8
@@ -636,21 +660,19 @@ line wall
   2828.41 -1052.15
 endline
 
-line slope
+line contour
   2630.0 -1422.0
   2630.0 -1422.0 2718.0 -1280.0 2882.0 -1284.0
   smooth off
-  l-size 40.0
 endline
 
-line slope
+line contour
   3120.0 -1674.0
   3120.0 -1674.0 3060.0 -1552.0 3182.0 -1416.0
   smooth off
-  l-size 40.0
 endline
 
-line border -id 1p-a3 -close off -subtype invisible
+line border -id 1p-a3 -close on -subtype invisible
   3276.49 -781.64
   3267.65 -787.51 3222.33 -826.25 3215.42 -831.36
   3208.21 -836.69 3201.73 -843.01 3195.68 -849.63
@@ -711,7 +733,7 @@ line wall -id F51-2D
   smooth off
 endline
 
-point 3620.5699999999997 -1566.5099999999998 station -name 53
+point 3620.57 -1566.51 station -name 53
 
 point 3481.2 -1594.07 station -name 52
 
@@ -719,7 +741,7 @@ point 3295.37 -1571.23 station -name 51
 
 point 3247.34 -1584.62 station -name 50
 
-point 3154.43 -1561.7799999999997 station -name 49
+point 3154.43 -1561.78 station -name 49
 
 point 3097.74 -1570.44 station -name 48
 
@@ -736,7 +758,7 @@ endline
 
 point 2721.42 -918.09 station -name 44
 
-point 3051.51 -1063.30 station -name 45
+point 3051.51 -1063.3 station -name 45
 
 point 3300.51 -771.53 station -name 46
 
