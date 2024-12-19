@@ -16,8 +16,8 @@ equate 40 100
     data normal from to length compass clino
 
 
-    #extend ignore 15
-    extend ignore 35 36
+    #extend ignore 35 36
+    extend ignore 25 26
 
 
     extend right
@@ -145,7 +145,7 @@ equate 40 100
   centerline
     date 2024.10.22 
     team "Pierre-Olivier Chabod"
-    team "Benoit Urruty"
+    team "Benoît Urruty"
     team "Charlie Guichebaron"
     team "Théophile Cailhol" 
     units length meters
@@ -195,6 +195,8 @@ equate 40 100
     27 . 4.29 268.0 -6.0
     27 . 6.99 268.0 -6.5
     27 . 2.45 81.2 34.7
+
+    
     27 28 2.52 81.4 34.6
     # extend auto
     28 . 1.58 354.5 23.1
@@ -419,7 +421,6 @@ equate 40 100
     73 . 1.35 351.3 -87.9
     73 . 3.01 25.9 80.3
     73 . 0.92 32.7 57.2
-    extend right
     73 74 5.56 71.4 2.0
   endcenterline
 # input "amontj2-1p.th2"

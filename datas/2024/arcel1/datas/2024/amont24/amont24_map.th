@@ -22,15 +22,15 @@ endmap
 map MC_amont24 -proj extended
     SC_amont2024-1_1
     break
-    SC_amont2024-1_2
-    break
     SC_amont2024-1_3
+    break
+    SC_amont2024-1_4
     break
     SC_amont2024-2_1
     break
     SC_amont2024-2_2
     break
-    SC_amont2024-3_1
+    SC1_amont2024-3
     break
     SC_amont2024-3_2 
 endmap

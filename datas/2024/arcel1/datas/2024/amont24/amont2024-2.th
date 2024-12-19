@@ -16,7 +16,7 @@ survey amont2024-2 -title "amont2024-2"
     
 
     
-    
+    extend right
     # extend auto
     1 . 0.75 188.0 1.4
     1 . 1.28 81.0 86.9
@@ -33,7 +33,6 @@ survey amont2024-2 -title "amont2024-2"
     3 . 0.77 16.3 -4.4
     3 . 2.35 78.1 82.5
     3 . 1.45 211.8 -85.4
-    extend right
     3 4 8.77 77.6 0.1
     # extend auto
     4 . 0.43 351.9 -4.9

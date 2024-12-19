@@ -30,17 +30,20 @@ endline
 line pit
   244.5 118.0
   244.5 118.0 223.25 119.5 221.75 130.0
+  smooth off
 endline
 
 line pit -reverse on
   268.25 160.75
   268.25 160.75 270.75 140.0 280.25 139.25
+  smooth off
 endline
 
 line wall -subtype pit
   284.75 167.25
   275.25 164.75 236.25 140.25 234.5 136.0
   232.75 131.75 215.0 108.5 207.0 114.75
+  smooth off
 endline
 
 line wall
@@ -48,10 +51,12 @@ line wall
   199.0 121.0 193.5 114.5 193.75 112.75
   194.0 111.0 178.25 103.25 176.75 101.0
   175.25 98.75 174.75 96.0 181.75 92.5
+  altitude .
   188.75 89.0 248.25 66.75 242.0 71.75
   235.75 76.75 225.5 89.0 220.5 91.0
   215.5 93.0 191.25 95.75 193.25 99.25
   195.25 102.75 197.75 105.5 201.0 102.5
+  smooth off
 endline
 
 line wall -subtype pit
@@ -59,6 +64,8 @@ line wall -subtype pit
   204.25 99.5 210.25 94.0 215.5 99.0
   220.75 104.0 241.25 122.75 243.75 124.5
   246.25 126.25 304.75 159.5 284.75 167.25
+  smooth off
+  altitude .
 endline
 
 point 177.166 98.42999999999999 station -name 0
@@ -70,6 +77,13 @@ point 210.096 102.75 station -name 4
 point 239.046 128.91 station -name 5
 
 point 281.406 162.13 station -name 6
+
+line label -text "Tube de préchauffage"
+  174.75 118.25
+  264.5 178.25
+endline
+
+point 293.0 165.25 map-connection
 
 endscrap
 

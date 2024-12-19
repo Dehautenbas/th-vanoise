@@ -6,16 +6,14 @@ survey escalier -title "escalier"
   centerline
     date 2024.10.21 
     team "Martin Kern"
-    team "Yaël Cheminot"
+    team "Yaël Chemineau"
     team "Thibault Navarette"
     units length meters
     units compass clino degrees
     data normal from to length compass clino
 
 
-    #extend ignore 235
-    extend ignore 3c 3b
-    #extend ignore 16b 16c
+    extend ignore 17 18
 
     extend left
     0 . 3.83 165.3 15.8
@@ -229,6 +227,7 @@ survey escalier -title "escalier"
     3a . 0.96 310.8 2.2
     3a . 3.22 333.3 -4.6
     
+    extend right
     3a 3b 5.05 355.9 -68.9
     # extend auto
     3b . 1.85 256.3 1.7
